@@ -1,4 +1,4 @@
-![Raspberry-Pi-GPIO-Header-with-Photo](https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/b8d83929-4455-4493-91c7-a61701e890d0)Note: Ensure your servo & motor are connected to the **RaspberryPi** and that the **battery** is connected to the ESC (Electric Speed Controller)
+Note: Ensure your servo & motor are connected to the **RaspberryPi** and that the **battery** is connected to the ESC (Electric Speed Controller)
 
 Running servo test:
 `python3 servo_test.py`

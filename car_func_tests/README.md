@@ -5,7 +5,7 @@ Note: Ensure your servo & motor are connected to the **RaspberryPi** and that th
 Running servo test:
 `python3 servo_test.py`
 
-Running servo test:
+Running motor test:
 `python3 motor_test.py`
 
 Some more information about the GPIO pins for input/output. I used the literal board values seen here:

@@ -1,4 +1,4 @@
-Note: Ensure your servo & motor are connected to the RasperryPi and that the battery is connected to the ESC (Electric Speed Controller)
+Note: Ensure your servo & motor are connected to the **RaspberryPi** and that the **battery** is connected to the ESC (Electric Speed Controller)
 
 Running servo test:
 `python3 servo_test.py`

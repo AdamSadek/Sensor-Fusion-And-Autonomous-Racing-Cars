@@ -20,8 +20,10 @@ servo = GPIO.PWM(11,50)
 
 # this func steers the servo depending on the angle we provide it
 def update_pos(angle):
+    # these two values below are commanly used to calculate the duty cycle
     common_scale_factor = 18.0
     min_duty_cycle = 2.5
+    # calulating duty cycle and then moving the servo based on it's value
     duty_cycle = min_duty_cycle + (angle / common_scale_factor)
     servo.ChangeDutyCycle(duty_cycle)
     time.sleep(0.5)

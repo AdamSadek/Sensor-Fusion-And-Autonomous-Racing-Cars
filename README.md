@@ -1,1 +1,1 @@
-# Sensor-Fusion-And-Autonomous-Racing-Cars
+# Sensor Fusion And Autonomous Racing Cars

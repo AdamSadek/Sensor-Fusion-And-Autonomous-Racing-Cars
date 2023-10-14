@@ -12,7 +12,7 @@ export WORKON_HOME=~/.env
 VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 
 # note this path below might be different for you!
-source /home/adam/.local/bin/virtualenvwrapper.sh
+source /home/$USER/.local/bin/virtualenvwrapper.sh
 
 # creating a new python virtual environment and then activing it with workon for the py development
 mkvirtualenv cv

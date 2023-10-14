@@ -2,12 +2,10 @@
 
 # installing some build essentials
 sudo apt update
-sudo apt install python3-pip python3-dev build-essential
-sudo pip3 install PyQt5
-sudo pip3 install opencv-python
+sudo apt install -y python3-pip python3-dev build-essential
 
 # for workon cv setup 
-sudo apt install virtualenv virtualenvwrapper
+sudo apt install -y virtualenv virtualenvwrapper
 
 # setting some env vars to make sure workon works
 export WORKON_HOME=~/.env

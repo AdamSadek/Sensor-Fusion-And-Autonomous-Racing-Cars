@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # IMPORTANT: make sure you dont have opencv-python-headless installed as it will affect setting up opencv
-sudo pip3 uninstall opencv-python-headless
+sudo pip3 uninstall -y opencv-python-headless
 
 # making sure packages are up to date
 sudo apt update

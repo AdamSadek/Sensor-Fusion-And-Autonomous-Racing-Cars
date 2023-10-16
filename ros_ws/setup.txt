@@ -1,0 +1,14 @@
+# Command used to create ros2 package
+ros2 pkg create --build-type ament_python --node-name camera_node camera_sensor
+
+# After that is done I go to my workspace directory and do a colcon build
+colcon build
+
+# And then source install
+source install/setup.bash
+
+# To test, I run the node like so:
+ros2 run camera_sensor camera_node 
+
+I see:
+Hi from camera_sensor.

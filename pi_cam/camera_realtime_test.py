@@ -11,7 +11,7 @@ video_capture = cv2.VideoCapture(0)
 
 while True:
     # storing frame data in the frame variable
-    ret, frame = video_capture.read()
+    frame = video_capture.read()
 
     # displaying the frame
     cv2.imshow("Pi-Cam View", frame)

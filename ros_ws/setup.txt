@@ -9,6 +9,4 @@ source install/setup.bash
 
 # To test, I run the node like so:
 ros2 run camera_sensor camera_node 
-
-I see:
-Hi from camera_sensor.
+  - Output should be the pi camera frame.

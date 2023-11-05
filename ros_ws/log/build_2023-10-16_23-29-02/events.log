@@ -1,0 +1,104 @@
+[0.000000] (-) TimerEvent: {}
+[0.001059] (-) JobUnselected: {'identifier': 'camera_sensor'}
+[0.001411] (motor_controller) JobQueued: {'identifier': 'motor_controller', 'dependencies': OrderedDict()}
+[0.002206] (motor_controller) JobStarted: {'identifier': 'motor_controller'}
+[0.099104] (-) TimerEvent: {}
+[0.200650] (-) TimerEvent: {}
+[0.301592] (-) TimerEvent: {}
+[0.404036] (-) TimerEvent: {}
+[0.505845] (-) TimerEvent: {}
+[0.607746] (-) TimerEvent: {}
+[0.709871] (-) TimerEvent: {}
+[0.811362] (-) TimerEvent: {}
+[0.912577] (-) TimerEvent: {}
+[1.014348] (-) TimerEvent: {}
+[1.115365] (-) TimerEvent: {}
+[1.216096] (-) TimerEvent: {}
+[1.316864] (-) TimerEvent: {}
+[1.417532] (-) TimerEvent: {}
+[1.518296] (-) TimerEvent: {}
+[1.619004] (-) TimerEvent: {}
+[1.719750] (-) TimerEvent: {}
+[1.820476] (-) TimerEvent: {}
+[1.922737] (-) TimerEvent: {}
+[2.023778] (-) TimerEvent: {}
+[2.125341] (-) TimerEvent: {}
+[2.226335] (-) TimerEvent: {}
+[2.330229] (-) TimerEvent: {}
+[2.431837] (-) TimerEvent: {}
+[2.533889] (-) TimerEvent: {}
+[2.635022] (-) TimerEvent: {}
+[2.736250] (-) TimerEvent: {}
+[2.837195] (-) TimerEvent: {}
+[2.938018] (-) TimerEvent: {}
+[3.038690] (-) TimerEvent: {}
+[3.139384] (-) TimerEvent: {}
+[3.240136] (-) TimerEvent: {}
+[3.340807] (-) TimerEvent: {}
+[3.441464] (-) TimerEvent: {}
+[3.542172] (-) TimerEvent: {}
+[3.642912] (-) TimerEvent: {}
+[3.743728] (-) TimerEvent: {}
+[3.844599] (-) TimerEvent: {}
+[3.945354] (-) TimerEvent: {}
+[4.046129] (-) TimerEvent: {}
+[4.147099] (-) TimerEvent: {}
+[4.248480] (-) TimerEvent: {}
+[4.287457] (motor_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/motor_controller', 'build', '--build-base', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/motor_controller/build', 'install', '--record', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/motor_controller/install.log', '--install-scripts', '$base/lib/motor_controller', '--single-version-externally-managed'], 'cwd': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/motor_controller', 'env': {'VIRTUALENVWRAPPER_WORKON_CD': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'WORKON_HOME': '/home/adam/.virtualenvs', 'USER': 'adam', 'SSH_CLIENT': '192.168.0.247 55168 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/adam/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/adam/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/adam', 'VIRTUALENVWRAPPER_PYTHON': '/usr/bin/python3', 'OLDPWD': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src', 'TERM_PROGRAM_VERSION': '1.83.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-184434f2-a3f9-4c7c-8ee4-891d60870599.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/adam/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/adam/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'adam', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/adam/.vscode-server/bin/e7e037083ff4455cf320e344325dacb480062c3c/bin/remote-cli:/home/adam/.local/bin:/opt/ros/foxy/bin:/home/adam/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-1f9311a5e8.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUALENVWRAPPER_PROJECT_FILENAME': '.project', 'VIRTUALENVWRAPPER_HOOK_DIR': '/home/adam/.virtualenvs', 'VIRTUALENVWRAPPER_SCRIPT': '/usr/share/virtualenvwrapper/virtualenvwrapper.sh', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/motor_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.247 55168 192.168.0.174 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/motor_controller/prefix_override:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[4.348689] (-) TimerEvent: {}
+[4.449632] (-) TimerEvent: {}
+[4.550438] (-) TimerEvent: {}
+[4.651273] (-) TimerEvent: {}
+[4.752316] (-) TimerEvent: {}
+[4.853071] (-) TimerEvent: {}
+[4.953865] (-) TimerEvent: {}
+[5.054555] (-) TimerEvent: {}
+[5.155312] (-) TimerEvent: {}
+[5.256131] (-) TimerEvent: {}
+[5.275290] (motor_controller) StdoutLine: {'line': b'running egg_info\n'}
+[5.277338] (motor_controller) StdoutLine: {'line': b'creating ../../build/motor_controller/motor_controller.egg-info\n'}
+[5.278154] (motor_controller) StdoutLine: {'line': b'writing ../../build/motor_controller/motor_controller.egg-info/PKG-INFO\n'}
+[5.279291] (motor_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/motor_controller/motor_controller.egg-info/dependency_links.txt\n'}
+[5.279913] (motor_controller) StdoutLine: {'line': b'writing entry points to ../../build/motor_controller/motor_controller.egg-info/entry_points.txt\n'}
+[5.280456] (motor_controller) StdoutLine: {'line': b'writing requirements to ../../build/motor_controller/motor_controller.egg-info/requires.txt\n'}
+[5.280988] (motor_controller) StdoutLine: {'line': b'writing top-level names to ../../build/motor_controller/motor_controller.egg-info/top_level.txt\n'}
+[5.286650] (motor_controller) StdoutLine: {'line': b"writing manifest file '../../build/motor_controller/motor_controller.egg-info/SOURCES.txt'\n"}
+[5.356385] (-) TimerEvent: {}
+[5.409945] (motor_controller) StdoutLine: {'line': b"reading manifest file '../../build/motor_controller/motor_controller.egg-info/SOURCES.txt'\n"}
+[5.413272] (motor_controller) StdoutLine: {'line': b"writing manifest file '../../build/motor_controller/motor_controller.egg-info/SOURCES.txt'\n"}
+[5.422225] (motor_controller) StdoutLine: {'line': b'running build\n'}
+[5.423070] (motor_controller) StdoutLine: {'line': b'running build_py\n'}
+[5.423828] (motor_controller) StdoutLine: {'line': b'creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/motor_controller/build\n'}
+[5.424652] (motor_controller) StdoutLine: {'line': b'creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/motor_controller/build/lib\n'}
+[5.425356] (motor_controller) StdoutLine: {'line': b'creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/motor_controller/build/lib/motor_controller\n'}
+[5.426291] (motor_controller) StdoutLine: {'line': b'copying motor_controller/motor_node.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/motor_controller/build/lib/motor_controller\n'}
+[5.426990] (motor_controller) StdoutLine: {'line': b'copying motor_controller/__init__.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/motor_controller/build/lib/motor_controller\n'}
+[5.434567] (motor_controller) StdoutLine: {'line': b'running install\n'}
+[5.435507] (motor_controller) StdoutLine: {'line': b'running install_lib\n'}
+[5.435903] (motor_controller) StdoutLine: {'line': b'creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages/motor_controller\n'}
+[5.436304] (motor_controller) StdoutLine: {'line': b'copying /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/motor_controller/build/lib/motor_controller/motor_node.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages/motor_controller\n'}
+[5.436713] (motor_controller) StdoutLine: {'line': b'copying /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/motor_controller/build/lib/motor_controller/__init__.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages/motor_controller\n'}
+[5.437117] (motor_controller) StdoutLine: {'line': b'byte-compiling /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages/motor_controller/motor_node.py to motor_node.cpython-38.pyc\n'}
+[5.438001] (motor_controller) StdoutLine: {'line': b'byte-compiling /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages/motor_controller/__init__.py to __init__.cpython-38.pyc\n'}
+[5.439062] (motor_controller) StdoutLine: {'line': b'running install_data\n'}
+[5.441216] (motor_controller) StdoutLine: {'line': b'creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/share/ament_index\n'}
+[5.441853] (motor_controller) StdoutLine: {'line': b'creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/share/ament_index/resource_index\n'}
+[5.442383] (motor_controller) StdoutLine: {'line': b'creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/share/ament_index/resource_index/packages\n'}
+[5.442886] (motor_controller) StdoutLine: {'line': b'copying resource/motor_controller -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/share/ament_index/resource_index/packages\n'}
+[5.443375] (motor_controller) StdoutLine: {'line': b'copying package.xml -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/share/motor_controller\n'}
+[5.443818] (motor_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.449460] (motor_controller) StdoutLine: {'line': b'Copying ../../build/motor_controller/motor_controller.egg-info to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages/motor_controller-0.0.0-py3.8.egg-info\n'}
+[5.454202] (motor_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[5.456579] (-) TimerEvent: {}
+[5.516743] (motor_controller) StdoutLine: {'line': b'Installing motor_node script to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/motor_controller\n'}
+[5.518315] (motor_controller) StdoutLine: {'line': b"writing list of installed files to '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/motor_controller/install.log'\n"}
+[5.556894] (-) TimerEvent: {}
+[5.617394] (motor_controller) CommandEnded: {'returncode': 0}
+[5.657611] (-) TimerEvent: {}
+[5.760153] (-) TimerEvent: {}
+[5.861892] (-) TimerEvent: {}
+[5.963393] (-) TimerEvent: {}
+[6.065348] (-) TimerEvent: {}
+[6.167178] (-) TimerEvent: {}
+[6.203224] (motor_controller) JobEnded: {'identifier': 'motor_controller', 'rc': 0}
+[6.206092] (-) EventReactorShutdown: {}

@@ -12,19 +12,13 @@ This project merges sensors such as LiDAR and cameras to provide racing cars wit
 # Hardware
 | Hardware  |
 | ------------- |
-| Raspberry Pi 4B 
-8GB RAM  |
+| Raspberry Pi 4B 8GB RAM  |
 | 20kg Servo Steer  |
-| TT-02 Type-S 
-Chassis  |
-| Type 540 Torque 
-Tuned Motor  |
-| Electric Speed 
-Controller (ESC)  |
-| Enrich Power 
-3000mah 7.2v  |
+| TT-02 Type-S Chassis  |
+| Type 540 Torque Tuned Motor  |
+| Electric Speed Controller (ESC)  |
+| Enrich Power 3000mah 7.2v  |
 | RPi UPS Power  |
-| Pi Camera 
-Module v2.1  |
+| Pi Camera Module v2.1  |
 | 2D LiDAR  |
 # Demos

@@ -25,4 +25,4 @@ This project merges sensors such as LiDAR and cameras to provide racing cars wit
 # Demos
 | Clips  | Description |
 | ------------- | ------------- |
-| [Car Build Video] (![Car Build-Thumbnail](https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/816f9a1b-d270-4861-b4b7-f9fd493d564b))] (https://youtu.be/HKNmzNzHUgk "RC Car build - draft")  | Car Build |
+| [![Car Build Video] (![Car Build-Thumbnail](https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/816f9a1b-d270-4861-b4b7-f9fd493d564b))] [(https://youtu.be/HKNmzNzHUgk "RC Car build - draft")]  | Car Build |

@@ -7,7 +7,7 @@ This project merges sensors such as LiDAR and cameras to provide racing cars wit
 | ------------- | ------------- 
 | Ubuntu 20.04  | Operating System for both the on-board (RPi) and off-board(laptop) machines  |
 | ROS2 Foxy  |  Acts as middleware for communication and development |
-| Gazebo  | |
+| Gazebo  |  Realistic environment for testing and simulating sensors used in the racing cars. Also tests racing strategies, decision-making, and algorithms |
 
 # Hardware
 | Hardware  | Purpose |
@@ -23,3 +23,6 @@ This project merges sensors such as LiDAR and cameras to provide racing cars wit
 | 2D LiDAR  | Scans surroundings, detecting obstacles, navigation support, and path planning |
 
 # Demos
+| Clips  | Description |
+| ------------- | ------------- |
+| [![Car Build] (![mqdefault](https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/81bc9811-0c74-4377-8aef-1f853f246a00))](https://youtu.be/HKNmzNzHUgk "RC Car build - draft")  | Car Build |

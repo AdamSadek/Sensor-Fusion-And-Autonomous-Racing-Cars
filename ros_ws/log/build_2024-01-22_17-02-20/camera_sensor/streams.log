@@ -1,0 +1,25 @@
+[7.716s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_sensor': PYTHONPATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_sensor/prefix_override:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_sensor build --build-base /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_sensor/build install --record /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_sensor/install.log --install-scripts $base/lib/camera_sensor --single-version-externally-managed
+[8.805s] running egg_info
+[8.807s] writing ../../build/camera_sensor/camera_sensor.egg-info/PKG-INFO
+[8.808s] writing dependency_links to ../../build/camera_sensor/camera_sensor.egg-info/dependency_links.txt
+[8.810s] writing entry points to ../../build/camera_sensor/camera_sensor.egg-info/entry_points.txt
+[8.811s] writing requirements to ../../build/camera_sensor/camera_sensor.egg-info/requires.txt
+[8.812s] writing top-level names to ../../build/camera_sensor/camera_sensor.egg-info/top_level.txt
+[8.955s] reading manifest file '../../build/camera_sensor/camera_sensor.egg-info/SOURCES.txt'
+[8.963s] writing manifest file '../../build/camera_sensor/camera_sensor.egg-info/SOURCES.txt'
+[8.964s] running build
+[8.965s] running build_py
+[8.966s] copying camera_sensor/camera_node.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_sensor/build/lib/camera_sensor
+[8.970s] running install
+[8.982s] running install_lib
+[8.983s] copying /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_sensor/build/lib/camera_sensor/camera_node.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages/camera_sensor
+[8.986s] byte-compiling /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages/camera_sensor/camera_node.py to camera_node.cpython-38.pyc
+[8.991s] running install_data
+[8.994s] copying resource/camera_sensor -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/share/ament_index/resource_index/packages
+[8.995s] running install_egg_info
+[9.001s] removing '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages/camera_sensor-0.0.0-py3.8.egg-info' (and everything under it)
+[9.003s] Copying ../../build/camera_sensor/camera_sensor.egg-info to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages/camera_sensor-0.0.0-py3.8.egg-info
+[9.014s] running install_scripts
+[9.098s] Installing camera_node script to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/camera_sensor
+[9.100s] writing list of installed files to '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_sensor/install.log'
+[9.876s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_sensor' returned '0': PYTHONPATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_sensor/prefix_override:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_sensor build --build-base /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_sensor/build install --record /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_sensor/install.log --install-scripts $base/lib/camera_sensor --single-version-externally-managed

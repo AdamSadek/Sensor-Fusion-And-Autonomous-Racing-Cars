@@ -15,6 +15,7 @@ class CameraNode(Node):
 
     # creating a ROS2 node and naming it 'camera_node'
     def __init__(self):
+        # creating the node with the name camera_node
         Node.__init__(self, 'camera_node')
 
     # function to launch the camera. It's done the same way as my test script.
@@ -28,7 +29,7 @@ class CameraNode(Node):
             # displaying the frame
             cv2.imshow("Pi-Cam View", frame)
 
-            # Press the 'q' key to exit the loop
+            # Press the 'q' key to exit the loop - uses ASCII value of the key
             if cv2.waitKey(1) == ord("q"):
                 break
 
@@ -36,7 +37,7 @@ def main():
     # initilizing ROS2, no arguments for now
     rclpy.init(args=None)
 
-    # here we're just creating an object of the class above "CameraNode".
+    # here we're just creating an object of the class above "CameraNode" so we can call it later.
     camera_node = CameraNode()
 
     # calling the function launch_cam to launch the pi-cam

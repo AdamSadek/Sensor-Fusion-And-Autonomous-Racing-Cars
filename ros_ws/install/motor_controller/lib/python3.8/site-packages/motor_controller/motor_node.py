@@ -32,7 +32,7 @@ class MotorControlNode(Node):
         test_count = 1
         while test_count != 3:
             print("----- Test #{} -----".format(test_count))
-            min_speed = 5
+            min_speed = 0
             max_speed = 10
 
             # going from low to high speed

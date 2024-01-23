@@ -1,0 +1,37 @@
+[10.443s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/servo_controller': PYTHONPATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/build/servo_controller/prefix_override:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/install/servo_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/servo_controller build --build-base /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/build/servo_controller/build install --record /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/build/servo_controller/install.log --install-scripts $base/lib/servo_controller --single-version-externally-managed
+[12.160s] running egg_info
+[12.162s] creating ../build/servo_controller/servo_controller.egg-info
+[12.163s] writing ../build/servo_controller/servo_controller.egg-info/PKG-INFO
+[12.165s] writing dependency_links to ../build/servo_controller/servo_controller.egg-info/dependency_links.txt
+[12.167s] writing entry points to ../build/servo_controller/servo_controller.egg-info/entry_points.txt
+[12.169s] writing requirements to ../build/servo_controller/servo_controller.egg-info/requires.txt
+[12.171s] writing top-level names to ../build/servo_controller/servo_controller.egg-info/top_level.txt
+[12.178s] writing manifest file '../build/servo_controller/servo_controller.egg-info/SOURCES.txt'
+[12.353s] reading manifest file '../build/servo_controller/servo_controller.egg-info/SOURCES.txt'
+[12.357s] writing manifest file '../build/servo_controller/servo_controller.egg-info/SOURCES.txt'
+[12.359s] running build
+[12.360s] running build_py
+[12.361s] creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/build/servo_controller/build
+[12.362s] creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/build/servo_controller/build/lib
+[12.362s] creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/build/servo_controller/build/lib/servo_controller
+[12.364s] copying servo_controller/servo_node.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/build/servo_controller/build/lib/servo_controller
+[12.366s] copying servo_controller/__init__.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/build/servo_controller/build/lib/servo_controller
+[12.369s] running install
+[12.373s] running install_lib
+[12.378s] creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/install/servo_controller/lib/python3.8/site-packages/servo_controller
+[12.380s] copying /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/build/servo_controller/build/lib/servo_controller/servo_node.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/install/servo_controller/lib/python3.8/site-packages/servo_controller
+[12.385s] copying /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/build/servo_controller/build/lib/servo_controller/__init__.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/install/servo_controller/lib/python3.8/site-packages/servo_controller
+[12.389s] byte-compiling /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/install/servo_controller/lib/python3.8/site-packages/servo_controller/servo_node.py to servo_node.cpython-38.pyc
+[12.400s] byte-compiling /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/install/servo_controller/lib/python3.8/site-packages/servo_controller/__init__.py to __init__.cpython-38.pyc
+[12.404s] running install_data
+[12.407s] creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/install/servo_controller/share/ament_index
+[12.407s] creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/install/servo_controller/share/ament_index/resource_index
+[12.408s] creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/install/servo_controller/share/ament_index/resource_index/packages
+[12.409s] copying resource/servo_controller -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/install/servo_controller/share/ament_index/resource_index/packages
+[12.409s] copying package.xml -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/install/servo_controller/share/servo_controller
+[12.410s] running install_egg_info
+[12.419s] Copying ../build/servo_controller/servo_controller.egg-info to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/install/servo_controller/lib/python3.8/site-packages/servo_controller-0.0.0-py3.8.egg-info
+[12.445s] running install_scripts
+[12.539s] Installing servo_node script to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/install/servo_controller/lib/servo_controller
+[12.543s] writing list of installed files to '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/build/servo_controller/install.log'
+[12.718s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/servo_controller' returned '0': PYTHONPATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/build/servo_controller/prefix_override:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/install/servo_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/servo_controller build --build-base /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/build/servo_controller/build install --record /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/build/servo_controller/install.log --install-scripts $base/lib/servo_controller --single-version-externally-managed

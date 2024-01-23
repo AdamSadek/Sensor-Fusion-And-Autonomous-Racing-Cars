@@ -1,0 +1,633 @@
+[0.000000] (-) TimerEvent: {}
+[0.001122] (camera_sensor) JobQueued: {'identifier': 'camera_sensor', 'dependencies': OrderedDict()}
+[0.001480] (ldlidar_ros2) JobQueued: {'identifier': 'ldlidar_ros2', 'dependencies': OrderedDict()}
+[0.002350] (motor_controller) JobQueued: {'identifier': 'motor_controller', 'dependencies': OrderedDict()}
+[0.002979] (servo_controller) JobQueued: {'identifier': 'servo_controller', 'dependencies': OrderedDict()}
+[0.003293] (camera_sensor) JobStarted: {'identifier': 'camera_sensor'}
+[0.099119] (-) TimerEvent: {}
+[0.200710] (-) TimerEvent: {}
+[0.301692] (-) TimerEvent: {}
+[0.404626] (-) TimerEvent: {}
+[0.505855] (-) TimerEvent: {}
+[0.607503] (-) TimerEvent: {}
+[0.709340] (-) TimerEvent: {}
+[0.815173] (-) TimerEvent: {}
+[0.916928] (-) TimerEvent: {}
+[0.956109] (ldlidar_ros2) JobStarted: {'identifier': 'ldlidar_ros2'}
+[1.017181] (-) TimerEvent: {}
+[1.118608] (-) TimerEvent: {}
+[1.221045] (-) TimerEvent: {}
+[1.323249] (-) TimerEvent: {}
+[1.424704] (-) TimerEvent: {}
+[1.526398] (-) TimerEvent: {}
+[1.628151] (-) TimerEvent: {}
+[1.730268] (-) TimerEvent: {}
+[1.761353] (motor_controller) JobStarted: {'identifier': 'motor_controller'}
+[1.831052] (-) TimerEvent: {}
+[1.933232] (-) TimerEvent: {}
+[2.034923] (-) TimerEvent: {}
+[2.137317] (-) TimerEvent: {}
+[2.239299] (-) TimerEvent: {}
+[2.343223] (-) TimerEvent: {}
+[2.444472] (-) TimerEvent: {}
+[2.547019] (-) TimerEvent: {}
+[2.648677] (-) TimerEvent: {}
+[2.749812] (-) TimerEvent: {}
+[2.762357] (servo_controller) JobStarted: {'identifier': 'servo_controller'}
+[2.850063] (-) TimerEvent: {}
+[2.951984] (-) TimerEvent: {}
+[3.053419] (-) TimerEvent: {}
+[3.155024] (-) TimerEvent: {}
+[3.256493] (-) TimerEvent: {}
+[3.358736] (-) TimerEvent: {}
+[3.459527] (-) TimerEvent: {}
+[3.562101] (-) TimerEvent: {}
+[3.663964] (-) TimerEvent: {}
+[3.765900] (-) TimerEvent: {}
+[3.867172] (-) TimerEvent: {}
+[3.968113] (-) TimerEvent: {}
+[4.068872] (-) TimerEvent: {}
+[4.169630] (-) TimerEvent: {}
+[4.270445] (-) TimerEvent: {}
+[4.371211] (-) TimerEvent: {}
+[4.471952] (-) TimerEvent: {}
+[4.572740] (-) TimerEvent: {}
+[4.673596] (-) TimerEvent: {}
+[4.774478] (-) TimerEvent: {}
+[4.875753] (-) TimerEvent: {}
+[4.979383] (-) TimerEvent: {}
+[5.082451] (-) TimerEvent: {}
+[5.184584] (-) TimerEvent: {}
+[5.286563] (-) TimerEvent: {}
+[5.388833] (-) TimerEvent: {}
+[5.490768] (-) TimerEvent: {}
+[5.549473] (ldlidar_ros2) JobProgress: {'identifier': 'ldlidar_ros2', 'progress': 'cmake'}
+[5.550975] (ldlidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller', '-DCMAKE_INSTALL_PREFIX=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2'], 'cwd': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2', 'env': OrderedDict([('VIRTUALENVWRAPPER_WORKON_CD', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('WORKON_HOME', '/home/adam/.virtualenvs'), ('USER', 'adam'), ('SSH_CLIENT', '192.168.0.150 61279 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/adam'), ('VIRTUALENVWRAPPER_PYTHON', '/usr/bin/python3'), ('OLDPWD', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src'), ('TERM_PROGRAM_VERSION', '1.84.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-8345db7c-028a-4cf7-ad11-88280867a48c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adam'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '63'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/remote-cli:/home/adam/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9756b562c9.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VIRTUALENVWRAPPER_PROJECT_FILENAME', '.project'), ('VIRTUALENVWRAPPER_HOOK_DIR', '/home/adam/.virtualenvs'), ('VIRTUALENVWRAPPER_SCRIPT', '/usr/share/virtualenvwrapper/virtualenvwrapper.sh'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.150 61279 192.168.0.174 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy')]), 'shell': False}
+[5.591139] (-) TimerEvent: {}
+[5.692404] (-) TimerEvent: {}
+[5.793184] (-) TimerEvent: {}
+[5.894000] (-) TimerEvent: {}
+[5.994864] (-) TimerEvent: {}
+[6.095728] (-) TimerEvent: {}
+[6.196584] (-) TimerEvent: {}
+[6.297334] (-) TimerEvent: {}
+[6.398053] (-) TimerEvent: {}
+[6.498829] (-) TimerEvent: {}
+[6.599983] (-) TimerEvent: {}
+[6.702229] (-) TimerEvent: {}
+[6.803963] (-) TimerEvent: {}
+[6.906276] (-) TimerEvent: {}
+[7.009533] (-) TimerEvent: {}
+[7.112059] (-) TimerEvent: {}
+[7.215152] (-) TimerEvent: {}
+[7.317020] (-) TimerEvent: {}
+[7.417878] (-) TimerEvent: {}
+[7.519796] (-) TimerEvent: {}
+[7.620689] (-) TimerEvent: {}
+[7.675732] (ldlidar_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[7.721015] (-) TimerEvent: {}
+[7.822263] (-) TimerEvent: {}
+[7.923410] (-) TimerEvent: {}
+[7.985195] (ldlidar_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[8.023661] (-) TimerEvent: {}
+[8.038365] (ldlidar_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[8.123849] (-) TimerEvent: {}
+[8.224617] (-) TimerEvent: {}
+[8.325518] (-) TimerEvent: {}
+[8.366728] (ldlidar_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[8.396608] (ldlidar_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[8.425681] (-) TimerEvent: {}
+[8.526502] (-) TimerEvent: {}
+[8.627861] (-) TimerEvent: {}
+[8.706742] (ldlidar_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[8.728028] (-) TimerEvent: {}
+[8.752326] (ldlidar_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[8.754343] (ldlidar_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.767786] (ldlidar_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[8.828276] (-) TimerEvent: {}
+[8.929796] (-) TimerEvent: {}
+[9.032298] (-) TimerEvent: {}
+[9.133236] (-) TimerEvent: {}
+[9.140104] (ldlidar_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[9.147815] (ldlidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[9.233880] (-) TimerEvent: {}
+[9.336579] (-) TimerEvent: {}
+[9.439302] (-) TimerEvent: {}
+[9.501602] (ldlidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.539463] (-) TimerEvent: {}
+[9.543356] (ldlidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.545343] (ldlidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.616592] (ldlidar_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[9.640621] (-) TimerEvent: {}
+[9.743791] (-) TimerEvent: {}
+[9.809728] (ldlidar_ros2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[9.812883] (ldlidar_ros2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.844100] (-) TimerEvent: {}
+[9.945331] (-) TimerEvent: {}
+[10.047168] (-) TimerEvent: {}
+[10.149507] (-) TimerEvent: {}
+[10.257612] (-) TimerEvent: {}
+[10.359350] (-) TimerEvent: {}
+[10.460973] (-) TimerEvent: {}
+[10.562560] (-) TimerEvent: {}
+[10.664946] (-) TimerEvent: {}
+[10.767647] (-) TimerEvent: {}
+[10.870020] (-) TimerEvent: {}
+[10.972507] (-) TimerEvent: {}
+[11.075379] (-) TimerEvent: {}
+[11.177115] (-) TimerEvent: {}
+[11.278495] (-) TimerEvent: {}
+[11.380759] (-) TimerEvent: {}
+[11.482518] (-) TimerEvent: {}
+[11.584660] (-) TimerEvent: {}
+[11.628111] (ldlidar_ros2) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[11.684978] (-) TimerEvent: {}
+[11.785977] (-) TimerEvent: {}
+[11.886901] (-) TimerEvent: {}
+[11.987779] (-) TimerEvent: {}
+[12.088805] (-) TimerEvent: {}
+[12.187077] (ldlidar_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[12.188948] (-) TimerEvent: {}
+[12.289769] (-) TimerEvent: {}
+[12.295843] (ldlidar_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[12.389983] (-) TimerEvent: {}
+[12.491628] (-) TimerEvent: {}
+[12.593855] (-) TimerEvent: {}
+[12.698036] (-) TimerEvent: {}
+[12.804853] (-) TimerEvent: {}
+[12.891514] (camera_sensor) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/camera_sensor', 'build', '--build-base', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_sensor/build', 'install', '--record', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_sensor/install.log', '--install-scripts', '$base/lib/camera_sensor', '--single-version-externally-managed'], 'cwd': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_sensor', 'env': {'VIRTUALENVWRAPPER_WORKON_CD': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'WORKON_HOME': '/home/adam/.virtualenvs', 'USER': 'adam', 'SSH_CLIENT': '192.168.0.150 61279 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/adam', 'VIRTUALENVWRAPPER_PYTHON': '/usr/bin/python3', 'OLDPWD': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src', 'TERM_PROGRAM_VERSION': '1.84.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-8345db7c-028a-4cf7-ad11-88280867a48c.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'adam', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '63', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/remote-cli:/home/adam/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-9756b562c9.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUALENVWRAPPER_PROJECT_FILENAME': '.project', 'VIRTUALENVWRAPPER_HOOK_DIR': '/home/adam/.virtualenvs', 'VIRTUALENVWRAPPER_SCRIPT': '/usr/share/virtualenvwrapper/virtualenvwrapper.sh', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_sensor', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.150 61279 192.168.0.174 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_sensor/prefix_override:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[12.917644] (-) TimerEvent: {}
+[13.016560] (motor_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/motor_controller', 'build', '--build-base', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/motor_controller/build', 'install', '--record', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/motor_controller/install.log', '--install-scripts', '$base/lib/motor_controller', '--single-version-externally-managed'], 'cwd': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/motor_controller', 'env': {'VIRTUALENVWRAPPER_WORKON_CD': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'WORKON_HOME': '/home/adam/.virtualenvs', 'USER': 'adam', 'SSH_CLIENT': '192.168.0.150 61279 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/adam', 'VIRTUALENVWRAPPER_PYTHON': '/usr/bin/python3', 'OLDPWD': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src', 'TERM_PROGRAM_VERSION': '1.84.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-8345db7c-028a-4cf7-ad11-88280867a48c.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'adam', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '63', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/remote-cli:/home/adam/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-9756b562c9.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUALENVWRAPPER_PROJECT_FILENAME': '.project', 'VIRTUALENVWRAPPER_HOOK_DIR': '/home/adam/.virtualenvs', 'VIRTUALENVWRAPPER_SCRIPT': '/usr/share/virtualenvwrapper/virtualenvwrapper.sh', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/motor_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.150 61279 192.168.0.174 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/motor_controller/prefix_override:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[13.030576] (-) TimerEvent: {}
+[13.052261] (servo_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/servo_controller', 'build', '--build-base', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/servo_controller/build', 'install', '--record', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/servo_controller/install.log', '--install-scripts', '$base/lib/servo_controller', '--single-version-externally-managed'], 'cwd': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/servo_controller', 'env': {'VIRTUALENVWRAPPER_WORKON_CD': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'WORKON_HOME': '/home/adam/.virtualenvs', 'USER': 'adam', 'SSH_CLIENT': '192.168.0.150 61279 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/adam', 'VIRTUALENVWRAPPER_PYTHON': '/usr/bin/python3', 'OLDPWD': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src', 'TERM_PROGRAM_VERSION': '1.84.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-8345db7c-028a-4cf7-ad11-88280867a48c.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'adam', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '63', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/remote-cli:/home/adam/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-9756b562c9.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUALENVWRAPPER_PROJECT_FILENAME': '.project', 'VIRTUALENVWRAPPER_HOOK_DIR': '/home/adam/.virtualenvs', 'VIRTUALENVWRAPPER_SCRIPT': '/usr/share/virtualenvwrapper/virtualenvwrapper.sh', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/servo_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.150 61279 192.168.0.174 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/servo_controller/prefix_override:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1'}, 'shell': False}
+[13.130809] (-) TimerEvent: {}
+[13.232116] (-) TimerEvent: {}
+[13.333480] (-) TimerEvent: {}
+[13.353545] (ldlidar_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[13.433634] (-) TimerEvent: {}
+[13.534547] (-) TimerEvent: {}
+[13.635447] (-) TimerEvent: {}
+[13.685634] (ldlidar_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[13.735648] (-) TimerEvent: {}
+[13.838321] (-) TimerEvent: {}
+[13.940877] (-) TimerEvent: {}
+[14.043407] (-) TimerEvent: {}
+[14.145620] (-) TimerEvent: {}
+[14.248190] (-) TimerEvent: {}
+[14.350845] (-) TimerEvent: {}
+[14.452521] (-) TimerEvent: {}
+[14.455858] (camera_sensor) StdoutLine: {'line': b'running egg_info\n'}
+[14.461126] (camera_sensor) StdoutLine: {'line': b'writing ../../build/camera_sensor/camera_sensor.egg-info/PKG-INFO\n'}
+[14.464639] (camera_sensor) StdoutLine: {'line': b'writing dependency_links to ../../build/camera_sensor/camera_sensor.egg-info/dependency_links.txt\n'}
+[14.467519] (camera_sensor) StdoutLine: {'line': b'writing entry points to ../../build/camera_sensor/camera_sensor.egg-info/entry_points.txt\n'}
+[14.470227] (camera_sensor) StdoutLine: {'line': b'writing requirements to ../../build/camera_sensor/camera_sensor.egg-info/requires.txt\n'}
+[14.473043] (camera_sensor) StdoutLine: {'line': b'writing top-level names to ../../build/camera_sensor/camera_sensor.egg-info/top_level.txt\n'}
+[14.524469] (servo_controller) StdoutLine: {'line': b'running egg_info\n'}
+[14.527712] (servo_controller) StdoutLine: {'line': b'writing ../../build/servo_controller/servo_controller.egg-info/PKG-INFO\n'}
+[14.528958] (servo_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/servo_controller/servo_controller.egg-info/dependency_links.txt\n'}
+[14.530155] (servo_controller) StdoutLine: {'line': b'writing entry points to ../../build/servo_controller/servo_controller.egg-info/entry_points.txt\n'}
+[14.531246] (servo_controller) StdoutLine: {'line': b'writing requirements to ../../build/servo_controller/servo_controller.egg-info/requires.txt\n'}
+[14.532198] (servo_controller) StdoutLine: {'line': b'writing top-level names to ../../build/servo_controller/servo_controller.egg-info/top_level.txt\n'}
+[14.544228] (ldlidar_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[14.552772] (-) TimerEvent: {}
+[14.572508] (motor_controller) StdoutLine: {'line': b'running egg_info\n'}
+[14.575967] (motor_controller) StdoutLine: {'line': b'writing ../../build/motor_controller/motor_controller.egg-info/PKG-INFO\n'}
+[14.577288] (motor_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/motor_controller/motor_controller.egg-info/dependency_links.txt\n'}
+[14.578377] (motor_controller) StdoutLine: {'line': b'writing entry points to ../../build/motor_controller/motor_controller.egg-info/entry_points.txt\n'}
+[14.579303] (motor_controller) StdoutLine: {'line': b'writing requirements to ../../build/motor_controller/motor_controller.egg-info/requires.txt\n'}
+[14.580318] (motor_controller) StdoutLine: {'line': b'writing top-level names to ../../build/motor_controller/motor_controller.egg-info/top_level.txt\n'}
+[14.652999] (-) TimerEvent: {}
+[14.669677] (camera_sensor) StdoutLine: {'line': b"reading manifest file '../../build/camera_sensor/camera_sensor.egg-info/SOURCES.txt'\n"}
+[14.677327] (camera_sensor) StdoutLine: {'line': b"writing manifest file '../../build/camera_sensor/camera_sensor.egg-info/SOURCES.txt'\n"}
+[14.680645] (camera_sensor) StdoutLine: {'line': b'running build\n'}
+[14.682269] (camera_sensor) StdoutLine: {'line': b'running build_py\n'}
+[14.685543] (camera_sensor) StdoutLine: {'line': b'running install\n'}
+[14.690417] (camera_sensor) StdoutLine: {'line': b'running install_lib\n'}
+[14.699320] (camera_sensor) StdoutLine: {'line': b'running install_data\n'}
+[14.700072] (servo_controller) StdoutLine: {'line': b"reading manifest file '../../build/servo_controller/servo_controller.egg-info/SOURCES.txt'\n"}
+[14.704119] (camera_sensor) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.704997] (servo_controller) StdoutLine: {'line': b"writing manifest file '../../build/servo_controller/servo_controller.egg-info/SOURCES.txt'\n"}
+[14.705901] (servo_controller) StdoutLine: {'line': b'running build\n'}
+[14.706659] (servo_controller) StdoutLine: {'line': b'running build_py\n'}
+[14.707611] (servo_controller) StdoutLine: {'line': b'running install\n'}
+[14.713223] (servo_controller) StdoutLine: {'line': b'running install_lib\n'}
+[14.718298] (servo_controller) StdoutLine: {'line': b'copying /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/servo_controller/build/lib/servo_controller/servo_node.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages/servo_controller\n'}
+[14.722107] (camera_sensor) StdoutLine: {'line': b"removing '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages/camera_sensor-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[14.722859] (servo_controller) StdoutLine: {'line': b'byte-compiling /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages/servo_controller/servo_node.py to servo_node.cpython-38.pyc\n'}
+[14.730271] (servo_controller) StdoutLine: {'line': b'running install_data\n'}
+[14.733383] (servo_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.735705] (camera_sensor) StdoutLine: {'line': b'Copying ../../build/camera_sensor/camera_sensor.egg-info to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages/camera_sensor-0.0.0-py3.8.egg-info\n'}
+[14.743231] (servo_controller) StdoutLine: {'line': b"removing '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages/servo_controller-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[14.749036] (servo_controller) StdoutLine: {'line': b'Copying ../../build/servo_controller/servo_controller.egg-info to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages/servo_controller-0.0.0-py3.8.egg-info\n'}
+[14.753171] (-) TimerEvent: {}
+[14.756952] (camera_sensor) StdoutLine: {'line': b'running install_scripts\n'}
+[14.757831] (motor_controller) StdoutLine: {'line': b"reading manifest file '../../build/motor_controller/motor_controller.egg-info/SOURCES.txt'\n"}
+[14.763392] (motor_controller) StdoutLine: {'line': b"writing manifest file '../../build/motor_controller/motor_controller.egg-info/SOURCES.txt'\n"}
+[14.764303] (motor_controller) StdoutLine: {'line': b'running build\n'}
+[14.765189] (motor_controller) StdoutLine: {'line': b'running build_py\n'}
+[14.765978] (motor_controller) StdoutLine: {'line': b'running install\n'}
+[14.769473] (servo_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[14.770378] (motor_controller) StdoutLine: {'line': b'running install_lib\n'}
+[14.779595] (motor_controller) StdoutLine: {'line': b'running install_data\n'}
+[14.782611] (motor_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.792721] (motor_controller) StdoutLine: {'line': b"removing '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages/motor_controller-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[14.794876] (motor_controller) StdoutLine: {'line': b'Copying ../../build/motor_controller/motor_controller.egg-info to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages/motor_controller-0.0.0-py3.8.egg-info\n'}
+[14.802963] (motor_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[14.853498] (-) TimerEvent: {}
+[14.871155] (camera_sensor) StdoutLine: {'line': b'Installing camera_node script to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/camera_sensor\n'}
+[14.873923] (camera_sensor) StdoutLine: {'line': b"writing list of installed files to '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_sensor/install.log'\n"}
+[14.881190] (servo_controller) StdoutLine: {'line': b'Installing servo_node script to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/servo_controller\n'}
+[14.888775] (servo_controller) StdoutLine: {'line': b"writing list of installed files to '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/servo_controller/install.log'\n"}
+[14.930128] (motor_controller) StdoutLine: {'line': b'Installing motor_node script to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/motor_controller\n'}
+[14.934829] (motor_controller) StdoutLine: {'line': b"writing list of installed files to '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/motor_controller/install.log'\n"}
+[14.954007] (-) TimerEvent: {}
+[15.055941] (-) TimerEvent: {}
+[15.118449] (camera_sensor) CommandEnded: {'returncode': 0}
+[15.156467] (-) TimerEvent: {}
+[15.258818] (-) TimerEvent: {}
+[15.271630] (ldlidar_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[15.282006] (ldlidar_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[15.290584] (ldlidar_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[15.359091] (-) TimerEvent: {}
+[15.461367] (-) TimerEvent: {}
+[15.565092] (-) TimerEvent: {}
+[15.648448] (ldlidar_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[15.651250] (ldlidar_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[15.665930] (-) TimerEvent: {}
+[15.769194] (-) TimerEvent: {}
+[15.871079] (-) TimerEvent: {}
+[15.972776] (-) TimerEvent: {}
+[15.981751] (ldlidar_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[15.983031] (ldlidar_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[15.997208] (camera_sensor) JobEnded: {'identifier': 'camera_sensor', 'rc': 0}
+[16.006298] (servo_controller) CommandEnded: {'returncode': 0}
+[16.073884] (-) TimerEvent: {}
+[16.178310] (-) TimerEvent: {}
+[16.269893] (ldlidar_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[16.271168] (ldlidar_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[16.278505] (-) TimerEvent: {}
+[16.397509] (-) TimerEvent: {}
+[16.499005] (-) TimerEvent: {}
+[16.602775] (-) TimerEvent: {}
+[16.604642] (ldlidar_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[16.610382] (ldlidar_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[16.704942] (-) TimerEvent: {}
+[16.806809] (-) TimerEvent: {}
+[16.884591] (servo_controller) JobEnded: {'identifier': 'servo_controller', 'rc': 0}
+[16.886939] (motor_controller) CommandEnded: {'returncode': 0}
+[16.907329] (-) TimerEvent: {}
+[17.008396] (-) TimerEvent: {}
+[17.110010] (-) TimerEvent: {}
+[17.212983] (-) TimerEvent: {}
+[17.314846] (-) TimerEvent: {}
+[17.416960] (-) TimerEvent: {}
+[17.419001] (ldlidar_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[17.517615] (-) TimerEvent: {}
+[17.603507] (motor_controller) JobEnded: {'identifier': 'motor_controller', 'rc': 0}
+[17.617804] (-) TimerEvent: {}
+[17.718598] (-) TimerEvent: {}
+[17.819366] (-) TimerEvent: {}
+[17.898094] (ldlidar_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[17.919558] (-) TimerEvent: {}
+[18.020562] (-) TimerEvent: {}
+[18.121439] (-) TimerEvent: {}
+[18.222866] (-) TimerEvent: {}
+[18.323721] (-) TimerEvent: {}
+[18.334845] (ldlidar_ros2) StdoutLine: {'line': b'-- operation system is Linux-5.4.0-1100-raspi\n'}
+[18.335807] (ldlidar_ros2) StdoutLine: {'line': b'-- current platform: Linux \n'}
+[18.363988] (ldlidar_ros2) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[18.423885] (-) TimerEvent: {}
+[18.454886] (ldlidar_ros2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[18.456118] (ldlidar_ros2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/include;/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/include\n'}
+[18.456695] (ldlidar_ros2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[18.524054] (-) TimerEvent: {}
+[18.546661] (ldlidar_ros2) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[18.547416] (ldlidar_ros2) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[18.560922] (ldlidar_ros2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[18.585900] (ldlidar_ros2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[18.600725] (ldlidar_ros2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[18.624221] (-) TimerEvent: {}
+[18.690742] (ldlidar_ros2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[18.691410] (ldlidar_ros2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[18.704958] (ldlidar_ros2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[18.724448] (-) TimerEvent: {}
+[18.731457] (ldlidar_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[18.780831] (ldlidar_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[18.788028] (ldlidar_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2\n'}
+[18.822034] (ldlidar_ros2) CommandEnded: {'returncode': 0}
+[18.824044] (ldlidar_ros2) JobProgress: {'identifier': 'ldlidar_ros2', 'progress': 'build'}
+[18.826650] (ldlidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2', '--', '-j4', '-l4'], 'cwd': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2', 'env': OrderedDict([('VIRTUALENVWRAPPER_WORKON_CD', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('WORKON_HOME', '/home/adam/.virtualenvs'), ('USER', 'adam'), ('SSH_CLIENT', '192.168.0.150 61279 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/adam'), ('VIRTUALENVWRAPPER_PYTHON', '/usr/bin/python3'), ('OLDPWD', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src'), ('TERM_PROGRAM_VERSION', '1.84.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-8345db7c-028a-4cf7-ad11-88280867a48c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adam'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '63'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/remote-cli:/home/adam/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9756b562c9.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VIRTUALENVWRAPPER_PROJECT_FILENAME', '.project'), ('VIRTUALENVWRAPPER_HOOK_DIR', '/home/adam/.virtualenvs'), ('VIRTUALENVWRAPPER_SCRIPT', '/usr/share/virtualenvwrapper/virtualenvwrapper.sh'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.150 61279 192.168.0.174 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy')]), 'shell': False}
+[18.836725] (-) TimerEvent: {}
+[18.938134] (-) TimerEvent: {}
+[19.008331] (ldlidar_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ldlidar_driver\x1b[0m\n'}
+[19.038321] (-) TimerEvent: {}
+[19.075882] (ldlidar_ros2) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver.cpp.o\x1b[0m\n'}
+[19.080090] (ldlidar_ros2) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver_linux.cpp.o\x1b[0m\n'}
+[19.081373] (ldlidar_ros2) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_dataprocess.cpp.o\x1b[0m\n'}
+[19.091464] (ldlidar_ros2) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_protocol.cpp.o\x1b[0m\n'}
+[19.138553] (-) TimerEvent: {}
+[19.240286] (-) TimerEvent: {}
+[19.320269] (ldlidar_ros2) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/log_module.cpp.o\x1b[0m\n'}
+[19.340503] (-) TimerEvent: {}
+[19.441918] (-) TimerEvent: {}
+[19.543477] (-) TimerEvent: {}
+[19.644605] (-) TimerEvent: {}
+[19.746790] (-) TimerEvent: {}
+[19.849212] (-) TimerEvent: {}
+[19.951479] (-) TimerEvent: {}
+[20.052555] (-) TimerEvent: {}
+[20.154544] (-) TimerEvent: {}
+[20.255574] (-) TimerEvent: {}
+[20.356650] (-) TimerEvent: {}
+[20.457888] (-) TimerEvent: {}
+[20.559108] (-) TimerEvent: {}
+[20.660390] (-) TimerEvent: {}
+[20.754060] (ldlidar_ros2) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/network_socket_interface_linux.cpp.o\x1b[0m\n'}
+[20.760628] (-) TimerEvent: {}
+[20.861647] (-) TimerEvent: {}
+[20.962721] (-) TimerEvent: {}
+[21.063858] (-) TimerEvent: {}
+[21.164848] (-) TimerEvent: {}
+[21.265955] (-) TimerEvent: {}
+[21.367045] (-) TimerEvent: {}
+[21.468130] (-) TimerEvent: {}
+[21.530088] (ldlidar_ros2) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/serial_interface_linux.cpp.o\x1b[0m\n'}
+[21.568375] (-) TimerEvent: {}
+[21.669405] (-) TimerEvent: {}
+[21.770456] (-) TimerEvent: {}
+[21.871562] (-) TimerEvent: {}
+[21.972601] (-) TimerEvent: {}
+[22.073664] (-) TimerEvent: {}
+[22.174814] (-) TimerEvent: {}
+[22.276019] (-) TimerEvent: {}
+[22.377137] (-) TimerEvent: {}
+[22.478446] (-) TimerEvent: {}
+[22.579733] (-) TimerEvent: {}
+[22.681151] (-) TimerEvent: {}
+[22.782566] (-) TimerEvent: {}
+[22.883660] (-) TimerEvent: {}
+[22.984909] (-) TimerEvent: {}
+[23.085972] (-) TimerEvent: {}
+[23.181051] (ldlidar_ros2) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/sl_transform.cpp.o\x1b[0m\n'}
+[23.186347] (-) TimerEvent: {}
+[23.289597] (-) TimerEvent: {}
+[23.390779] (-) TimerEvent: {}
+[23.492010] (-) TimerEvent: {}
+[23.593272] (-) TimerEvent: {}
+[23.694372] (-) TimerEvent: {}
+[23.795430] (-) TimerEvent: {}
+[23.847038] (ldlidar_ros2) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/slbf.cpp.o\x1b[0m\n'}
+[23.895682] (-) TimerEvent: {}
+[23.996720] (-) TimerEvent: {}
+[24.097943] (-) TimerEvent: {}
+[24.199032] (-) TimerEvent: {}
+[24.300039] (-) TimerEvent: {}
+[24.401127] (-) TimerEvent: {}
+[24.499502] (ldlidar_ros2) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/tofbf.cpp.o\x1b[0m\n'}
+[24.501435] (-) TimerEvent: {}
+[24.602870] (-) TimerEvent: {}
+[24.703972] (-) TimerEvent: {}
+[24.805154] (-) TimerEvent: {}
+[24.906251] (-) TimerEvent: {}
+[25.007450] (-) TimerEvent: {}
+[25.108553] (-) TimerEvent: {}
+[25.209633] (-) TimerEvent: {}
+[25.310665] (-) TimerEvent: {}
+[25.413339] (-) TimerEvent: {}
+[25.515333] (-) TimerEvent: {}
+[25.616779] (-) TimerEvent: {}
+[25.720550] (-) TimerEvent: {}
+[25.821571] (-) TimerEvent: {}
+[25.922529] (-) TimerEvent: {}
+[26.023747] (-) TimerEvent: {}
+[26.125641] (-) TimerEvent: {}
+[26.228454] (-) TimerEvent: {}
+[26.329506] (-) TimerEvent: {}
+[26.430586] (-) TimerEvent: {}
+[26.531655] (-) TimerEvent: {}
+[26.632783] (-) TimerEvent: {}
+[26.733870] (-) TimerEvent: {}
+[26.834827] (-) TimerEvent: {}
+[26.935928] (-) TimerEvent: {}
+[27.036781] (-) TimerEvent: {}
+[27.137633] (-) TimerEvent: {}
+[27.238650] (-) TimerEvent: {}
+[27.316386] (ldlidar_ros2) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX static library libldlidar_driver.a\x1b[0m\n'}
+[27.338829] (-) TimerEvent: {}
+[27.439794] (-) TimerEvent: {}
+[27.540661] (-) TimerEvent: {}
+[27.543502] (ldlidar_ros2) StdoutLine: {'line': b'[ 84%] Built target ldlidar_driver\n'}
+[27.586821] (ldlidar_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ldlidar_ros2_node\x1b[0m\n'}
+[27.640860] (-) TimerEvent: {}
+[27.741770] (-) TimerEvent: {}
+[27.842629] (-) TimerEvent: {}
+[27.943655] (-) TimerEvent: {}
+[28.023819] (ldlidar_ros2) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_ros2_node.dir/src/demo.cpp.o\x1b[0m\n'}
+[28.043827] (-) TimerEvent: {}
+[28.144564] (-) TimerEvent: {}
+[28.245394] (-) TimerEvent: {}
+[28.346261] (-) TimerEvent: {}
+[28.447032] (-) TimerEvent: {}
+[28.547812] (-) TimerEvent: {}
+[28.648599] (-) TimerEvent: {}
+[28.749473] (-) TimerEvent: {}
+[28.850310] (-) TimerEvent: {}
+[28.951155] (-) TimerEvent: {}
+[29.052039] (-) TimerEvent: {}
+[29.152911] (-) TimerEvent: {}
+[29.253778] (-) TimerEvent: {}
+[29.354613] (-) TimerEvent: {}
+[29.455477] (-) TimerEvent: {}
+[29.556391] (-) TimerEvent: {}
+[29.657320] (-) TimerEvent: {}
+[29.758212] (-) TimerEvent: {}
+[29.859073] (-) TimerEvent: {}
+[29.959931] (-) TimerEvent: {}
+[30.060778] (-) TimerEvent: {}
+[30.161615] (-) TimerEvent: {}
+[30.262483] (-) TimerEvent: {}
+[30.363360] (-) TimerEvent: {}
+[30.464202] (-) TimerEvent: {}
+[30.565007] (-) TimerEvent: {}
+[30.665860] (-) TimerEvent: {}
+[30.766732] (-) TimerEvent: {}
+[30.867621] (-) TimerEvent: {}
+[30.968486] (-) TimerEvent: {}
+[31.069384] (-) TimerEvent: {}
+[31.171122] (-) TimerEvent: {}
+[31.272084] (-) TimerEvent: {}
+[31.372914] (-) TimerEvent: {}
+[31.473771] (-) TimerEvent: {}
+[31.574620] (-) TimerEvent: {}
+[31.675529] (-) TimerEvent: {}
+[31.776367] (-) TimerEvent: {}
+[31.877185] (-) TimerEvent: {}
+[31.978056] (-) TimerEvent: {}
+[32.078984] (-) TimerEvent: {}
+[32.179893] (-) TimerEvent: {}
+[32.280771] (-) TimerEvent: {}
+[32.381635] (-) TimerEvent: {}
+[32.482526] (-) TimerEvent: {}
+[32.583466] (-) TimerEvent: {}
+[32.684313] (-) TimerEvent: {}
+[32.785214] (-) TimerEvent: {}
+[32.886115] (-) TimerEvent: {}
+[32.986975] (-) TimerEvent: {}
+[33.087906] (-) TimerEvent: {}
+[33.188732] (-) TimerEvent: {}
+[33.289578] (-) TimerEvent: {}
+[33.390715] (-) TimerEvent: {}
+[33.491585] (-) TimerEvent: {}
+[33.592419] (-) TimerEvent: {}
+[33.693272] (-) TimerEvent: {}
+[33.794114] (-) TimerEvent: {}
+[33.895006] (-) TimerEvent: {}
+[33.995902] (-) TimerEvent: {}
+[34.096723] (-) TimerEvent: {}
+[34.197547] (-) TimerEvent: {}
+[34.298410] (-) TimerEvent: {}
+[34.399323] (-) TimerEvent: {}
+[34.500129] (-) TimerEvent: {}
+[34.600987] (-) TimerEvent: {}
+[34.701910] (-) TimerEvent: {}
+[34.802805] (-) TimerEvent: {}
+[34.903829] (-) TimerEvent: {}
+[35.004661] (-) TimerEvent: {}
+[35.105599] (-) TimerEvent: {}
+[35.206464] (-) TimerEvent: {}
+[35.307346] (-) TimerEvent: {}
+[35.408228] (-) TimerEvent: {}
+[35.509079] (-) TimerEvent: {}
+[35.609989] (-) TimerEvent: {}
+[35.710869] (-) TimerEvent: {}
+[35.811730] (-) TimerEvent: {}
+[35.912588] (-) TimerEvent: {}
+[36.013494] (-) TimerEvent: {}
+[36.114542] (-) TimerEvent: {}
+[36.215443] (-) TimerEvent: {}
+[36.316267] (-) TimerEvent: {}
+[36.417163] (-) TimerEvent: {}
+[36.518064] (-) TimerEvent: {}
+[36.619035] (-) TimerEvent: {}
+[36.720153] (-) TimerEvent: {}
+[36.820986] (-) TimerEvent: {}
+[36.921831] (-) TimerEvent: {}
+[37.022661] (-) TimerEvent: {}
+[37.123577] (-) TimerEvent: {}
+[37.224590] (-) TimerEvent: {}
+[37.325452] (-) TimerEvent: {}
+[37.426465] (-) TimerEvent: {}
+[37.527334] (-) TimerEvent: {}
+[37.628239] (-) TimerEvent: {}
+[37.729298] (-) TimerEvent: {}
+[37.830074] (-) TimerEvent: {}
+[37.930811] (-) TimerEvent: {}
+[38.031631] (-) TimerEvent: {}
+[38.132514] (-) TimerEvent: {}
+[38.233363] (-) TimerEvent: {}
+[38.334213] (-) TimerEvent: {}
+[38.435045] (-) TimerEvent: {}
+[38.535961] (-) TimerEvent: {}
+[38.636824] (-) TimerEvent: {}
+[38.737663] (-) TimerEvent: {}
+[38.838490] (-) TimerEvent: {}
+[38.939470] (-) TimerEvent: {}
+[39.040319] (-) TimerEvent: {}
+[39.141184] (-) TimerEvent: {}
+[39.242027] (-) TimerEvent: {}
+[39.342864] (-) TimerEvent: {}
+[39.443817] (-) TimerEvent: {}
+[39.544675] (-) TimerEvent: {}
+[39.645530] (-) TimerEvent: {}
+[39.746392] (-) TimerEvent: {}
+[39.847344] (-) TimerEvent: {}
+[39.948193] (-) TimerEvent: {}
+[40.049052] (-) TimerEvent: {}
+[40.149919] (-) TimerEvent: {}
+[40.250802] (-) TimerEvent: {}
+[40.351671] (-) TimerEvent: {}
+[40.452536] (-) TimerEvent: {}
+[40.553454] (-) TimerEvent: {}
+[40.654282] (-) TimerEvent: {}
+[40.755161] (-) TimerEvent: {}
+[40.856013] (-) TimerEvent: {}
+[40.956860] (-) TimerEvent: {}
+[41.057781] (-) TimerEvent: {}
+[41.158779] (-) TimerEvent: {}
+[41.259655] (-) TimerEvent: {}
+[41.360545] (-) TimerEvent: {}
+[41.461395] (-) TimerEvent: {}
+[41.562351] (-) TimerEvent: {}
+[41.663557] (-) TimerEvent: {}
+[41.765530] (-) TimerEvent: {}
+[41.866688] (-) TimerEvent: {}
+[41.889944] (ldlidar_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ldlidar_ros2_node\x1b[0m\n'}
+[41.966873] (-) TimerEvent: {}
+[42.067696] (-) TimerEvent: {}
+[42.168721] (-) TimerEvent: {}
+[42.269913] (-) TimerEvent: {}
+[42.371400] (-) TimerEvent: {}
+[42.472604] (-) TimerEvent: {}
+[42.573706] (-) TimerEvent: {}
+[42.674717] (-) TimerEvent: {}
+[42.775586] (-) TimerEvent: {}
+[42.876427] (-) TimerEvent: {}
+[42.977347] (-) TimerEvent: {}
+[43.007500] (ldlidar_ros2) StdoutLine: {'line': b'[100%] Built target ldlidar_ros2_node\n'}
+[43.047962] (ldlidar_ros2) CommandEnded: {'returncode': 0}
+[43.077612] (-) TimerEvent: {}
+[43.178766] (-) TimerEvent: {}
+[43.181441] (ldlidar_ros2) JobProgress: {'identifier': 'ldlidar_ros2', 'progress': 'install'}
+[43.224393] (ldlidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2'], 'cwd': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2', 'env': OrderedDict([('VIRTUALENVWRAPPER_WORKON_CD', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('WORKON_HOME', '/home/adam/.virtualenvs'), ('USER', 'adam'), ('SSH_CLIENT', '192.168.0.150 61279 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/adam'), ('VIRTUALENVWRAPPER_PYTHON', '/usr/bin/python3'), ('OLDPWD', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src'), ('TERM_PROGRAM_VERSION', '1.84.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-8345db7c-028a-4cf7-ad11-88280867a48c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adam'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '63'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/remote-cli:/home/adam/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9756b562c9.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VIRTUALENVWRAPPER_PROJECT_FILENAME', '.project'), ('VIRTUALENVWRAPPER_HOOK_DIR', '/home/adam/.virtualenvs'), ('VIRTUALENVWRAPPER_SCRIPT', '/usr/share/virtualenvwrapper/virtualenvwrapper.sh'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.150 61279 192.168.0.174 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy')]), 'shell': False}
+[43.267391] (ldlidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[43.268330] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/lib/ldlidar_ros2/ldlidar_ros2_node\n'}
+[43.277626] (ldlidar_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/lib/ldlidar_ros2/ldlidar_ros2_node" to ""\n'}
+[43.278312] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch\n'}
+[43.278774] (-) TimerEvent: {}
+[43.279339] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/viewer_ld14p.launch.py\n'}
+[43.280043] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/ld19.launch.py\n'}
+[43.280813] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/ld06.launch.py\n'}
+[43.281686] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/ld14.launch.py\n'}
+[43.282690] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/viewer_ld06.launch.py\n'}
+[43.283621] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/ld14p.launch.py\n'}
+[43.284498] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/viewer_ld14.launch.py\n'}
+[43.285568] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/viewer_ld19.launch.py\n'}
+[43.286581] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//rviz2\n'}
+[43.287573] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//rviz2/ldlidar.rviz\n'}
+[43.288549] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//scripts\n'}
+[43.289155] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//scripts/create_udev_rules.sh\n'}
+[43.289860] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//scripts/ldlidar.rules\n'}
+[43.290711] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//scripts/delete_udev_rules.sh\n'}
+[43.301319] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ament_index/resource_index/package_run_dependencies/ldlidar_ros2\n'}
+[43.303483] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ament_index/resource_index/parent_prefix_path/ldlidar_ros2\n'}
+[43.305725] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/environment/ament_prefix_path.sh\n'}
+[43.307515] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/environment/ament_prefix_path.dsv\n'}
+[43.309248] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/environment/path.sh\n'}
+[43.310927] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/environment/path.dsv\n'}
+[43.312734] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/local_setup.bash\n'}
+[43.313961] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/local_setup.sh\n'}
+[43.315093] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/local_setup.zsh\n'}
+[43.316272] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/local_setup.dsv\n'}
+[43.317424] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/package.dsv\n'}
+[43.318852] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ament_index/resource_index/packages/ldlidar_ros2\n'}
+[43.320300] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/cmake/ldlidar_ros2Config.cmake\n'}
+[43.321233] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/cmake/ldlidar_ros2Config-version.cmake\n'}
+[43.322409] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/package.xml\n'}
+[43.328696] (ldlidar_ros2) CommandEnded: {'returncode': 0}
+[43.380377] (-) TimerEvent: {}
+[43.482234] (-) TimerEvent: {}
+[43.583614] (-) TimerEvent: {}
+[43.685220] (-) TimerEvent: {}
+[43.786766] (-) TimerEvent: {}
+[43.888281] (-) TimerEvent: {}
+[43.991441] (-) TimerEvent: {}
+[44.093151] (-) TimerEvent: {}
+[44.194433] (-) TimerEvent: {}
+[44.296270] (-) TimerEvent: {}
+[44.398205] (-) TimerEvent: {}
+[44.500989] (-) TimerEvent: {}
+[44.602726] (-) TimerEvent: {}
+[44.704968] (-) TimerEvent: {}
+[44.805630] (-) TimerEvent: {}
+[44.809938] (ldlidar_ros2) JobEnded: {'identifier': 'ldlidar_ros2', 'rc': 0}
+[44.814746] (-) EventReactorShutdown: {}

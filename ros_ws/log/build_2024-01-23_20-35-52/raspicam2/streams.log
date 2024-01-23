@@ -1,0 +1,39 @@
+[2.932s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/raspicam2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy /usr/bin/cmake /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller -DCMAKE_INSTALL_PREFIX=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2
+[3.219s] -- The C compiler identification is GNU 9.4.0
+[3.572s] -- The CXX compiler identification is GNU 9.4.0
+[3.660s] -- Check for working C compiler: /usr/bin/cc
+[4.265s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.273s] -- Detecting C compiler ABI info
+[4.623s] -- Detecting C compiler ABI info - done
+[4.688s] -- Detecting C compile features
+[4.689s] -- Detecting C compile features - done
+[4.703s] -- Check for working CXX compiler: /usr/bin/c++
+[5.231s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.234s] -- Detecting CXX compiler ABI info
+[5.559s] -- Detecting CXX compiler ABI info - done
+[5.599s] -- Detecting CXX compile features
+[5.602s] -- Detecting CXX compile features - done
+[5.605s] CMake Warning at CMakeLists.txt:4 (message):
+[5.605s]   The 'raspicam2' package is deprecated.  Use 'camera_ros'
+[5.606s]   (https://github.com/christianrauch/camera_ros) instead.
+[5.606s] 
+[5.606s] 
+[5.702s] CMake Error at CMakeLists.txt:22 (find_package):
+[5.703s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[5.703s]   has asked CMake to find a package configuration file provided by
+[5.703s]   "ament_cmake", but CMake did not find one.
+[5.704s] 
+[5.704s]   Could not find a package configuration file provided by "ament_cmake" with
+[5.704s]   any of the following names:
+[5.705s] 
+[5.705s]     ament_cmakeConfig.cmake
+[5.706s]     ament_cmake-config.cmake
+[5.706s] 
+[5.706s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[5.707s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[5.708s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[5.709s]   has been installed.
+[5.710s] 
+[5.711s] 
+[5.711s] -- Configuring incomplete, errors occurred!
+[5.712s] See also "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/raspicam2/CMakeFiles/CMakeOutput.log".

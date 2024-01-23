@@ -1,0 +1,150 @@
+[9.960s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'servo_controller']
+[9.960s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa0529190>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['servo_controller'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa0529190>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa0525a90>)
+[10.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[10.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[10.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[10.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[10.423s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[10.423s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[10.423s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws'
+[10.423s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[10.424s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[10.424s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[10.424s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[10.424s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[10.425s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[10.425s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[10.425s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[10.425s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[10.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[10.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[10.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[10.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[10.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[10.468s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[10.469s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[10.469s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[10.470s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[10.470s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[10.470s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[10.471s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[10.472s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[10.472s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[10.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[10.473s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[10.473s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[10.473s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[10.473s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[10.473s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[10.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[10.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[10.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[10.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[10.474s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[10.475s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[10.475s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[10.475s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[10.475s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_sensor) by extensions ['ignore', 'ignore_ament_install']
+[10.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_sensor) by extension 'ignore'
+[10.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_sensor) by extension 'ignore_ament_install'
+[10.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_sensor) by extensions ['colcon_pkg']
+[10.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_sensor) by extension 'colcon_pkg'
+[10.476s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_sensor) by extensions ['colcon_meta']
+[10.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_sensor) by extension 'colcon_meta'
+[10.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_sensor) by extensions ['ros']
+[10.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_sensor) by extension 'ros'
+[10.485s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_sensor' with type 'ros.ament_python' and name 'camera_sensor'
+[10.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extensions ['ignore', 'ignore_ament_install']
+[10.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extension 'ignore'
+[10.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extension 'ignore_ament_install'
+[10.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extensions ['colcon_pkg']
+[10.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extension 'colcon_pkg'
+[10.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extensions ['colcon_meta']
+[10.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extension 'colcon_meta'
+[10.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extensions ['ros']
+[10.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extension 'ros'
+[10.490s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_controller' with type 'ros.ament_python' and name 'motor_controller'
+[10.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_controller) by extensions ['ignore', 'ignore_ament_install']
+[10.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_controller) by extension 'ignore'
+[10.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_controller) by extension 'ignore_ament_install'
+[10.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_controller) by extensions ['colcon_pkg']
+[10.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_controller) by extension 'colcon_pkg'
+[10.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_controller) by extensions ['colcon_meta']
+[10.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_controller) by extension 'colcon_meta'
+[10.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_controller) by extensions ['ros']
+[10.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_controller) by extension 'ros'
+[10.494s] DEBUG:colcon.colcon_core.package_identification:Package 'src/servo_controller' with type 'ros.ament_python' and name 'servo_controller'
+[10.495s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[10.495s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[10.495s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[10.495s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[10.495s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[11.058s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'camera_sensor' in 'src/camera_sensor'
+[11.058s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'motor_controller' in 'src/motor_controller'
+[11.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[11.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[11.734s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install
+[11.909s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[11.916s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[12.587s] Level 5:colcon.colcon_core.verb:set package 'servo_controller' build argument 'cmake_args' from command line to 'None'
+[12.588s] Level 5:colcon.colcon_core.verb:set package 'servo_controller' build argument 'cmake_target' from command line to 'None'
+[12.588s] Level 5:colcon.colcon_core.verb:set package 'servo_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[12.588s] Level 5:colcon.colcon_core.verb:set package 'servo_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[12.588s] Level 5:colcon.colcon_core.verb:set package 'servo_controller' build argument 'cmake_clean_first' from command line to 'False'
+[12.588s] Level 5:colcon.colcon_core.verb:set package 'servo_controller' build argument 'cmake_force_configure' from command line to 'False'
+[12.588s] Level 5:colcon.colcon_core.verb:set package 'servo_controller' build argument 'ament_cmake_args' from command line to 'None'
+[12.588s] Level 5:colcon.colcon_core.verb:set package 'servo_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[12.589s] Level 5:colcon.colcon_core.verb:set package 'servo_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[12.589s] DEBUG:colcon.colcon_core.verb:Building package 'servo_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/servo_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller', 'merge_install': False, 'path': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/servo_controller', 'symlink_install': False, 'test_result_base': None}
+[12.759s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[12.934s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[12.935s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/servo_controller' with build type 'ament_python'
+[12.936s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_controller', 'ament_prefix_path')
+[13.121s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[13.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/share/servo_controller/hook/ament_prefix_path.ps1'
+[13.125s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/share/servo_controller/hook/ament_prefix_path.dsv'
+[13.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/share/servo_controller/hook/ament_prefix_path.sh'
+[13.311s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.311s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.920s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/servo_controller'
+[15.118s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.119s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/servo_controller': PYTHONPATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/servo_controller/prefix_override:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/servo_controller build --build-base /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/servo_controller/build install --record /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/servo_controller/install.log --install-scripts $base/lib/servo_controller --single-version-externally-managed
+[18.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/servo_controller' returned '0': PYTHONPATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/servo_controller/prefix_override:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/servo_controller build --build-base /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/servo_controller/build install --record /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/servo_controller/install.log --install-scripts $base/lib/servo_controller --single-version-externally-managed
+[18.855s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller' for CMake module files
+[18.857s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller' for CMake config files
+[18.860s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib'
+[18.861s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/bin'
+[18.862s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/pkgconfig/servo_controller.pc'
+[18.862s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages'
+[18.863s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_controller', 'pythonpath')
+[19.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/share/servo_controller/hook/pythonpath.ps1'
+[19.079s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/share/servo_controller/hook/pythonpath.dsv'
+[19.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/share/servo_controller/hook/pythonpath.sh'
+[19.082s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/bin'
+[19.082s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(servo_controller)
+[19.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/share/servo_controller/package.ps1'
+[19.273s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/share/servo_controller/package.dsv'
+[19.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/share/servo_controller/package.sh'
+[19.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/share/servo_controller/package.bash'
+[19.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/share/servo_controller/package.zsh'
+[19.284s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/share/colcon-core/packages/servo_controller)
+[19.285s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[19.286s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[19.286s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[19.287s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[19.484s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[19.485s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[19.485s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[19.489s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[19.490s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[19.668s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/local_setup.ps1'
+[19.672s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/_local_setup_util_ps1.py'
+[19.677s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/setup.ps1'
+[19.853s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/local_setup.sh'
+[19.856s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/_local_setup_util_sh.py'
+[19.858s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/setup.sh'
+[20.040s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/local_setup.bash'
+[20.043s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/setup.bash'
+[20.219s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/local_setup.zsh'
+[20.221s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/setup.zsh'

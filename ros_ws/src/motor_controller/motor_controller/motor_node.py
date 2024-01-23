@@ -1,7 +1,7 @@
 """
 Adam Sadek
 
-Motor node for controlling a motor's speed using PWM on a Raspberry Pi. It publishes motor throttle values on the "/motor_throttle" topic, creating a test scenario with speed ramps. 
+Motor node for controlling a motor's speed using PWM on a RaspberryPi. It publishes motor throttle values on the "/motor_throttle" topic, creating a test scenario with speed ramps. 
 The script utilizes RPi.GPIO for GPIO control and std_msgs/Float64 messages in ROS 2, providing a simple example of motor control integration with ROS 2 on a Raspberry Pi.
 """
 
@@ -13,18 +13,18 @@ import time
 class MotorControlNode:
 
     def __init__(self):
-        # Initialize the ROS 2 node
+        # Creating the ROS node
         self.node = rclpy.create_node('motor_control_node')
 
-        # Set up ROS 2 publisher for motor control on the '/motor_throttle' topic
+        # This is the ROS publisher for motor control on the '/motor_throttle' topic
         self.motor_pub = self.node.create_publisher(Float64, '/motor_throttle', 10)
 
-        # Set up GPIO for motor control
+        # Setting up GPIO for motor control
         GPIO.setmode(GPIO.BOARD)
         GPIO.setup(13, GPIO.OUT)
-        # Create PWM instance for GPIO pin 13 with frequency 100 Hz (not working when on 50hz - need to investigate a bit)
+        # Creating PWM instance for GPIO pin 13 with frequency 100 Hz (not working when on 50hz - need to investigate a bit)
         self.motor = GPIO.PWM(13, 100)
-        # Start PWM with initial duty cycle of 0
+        # Starting PWM with initial duty cycle '0'
         self.motor.start(0)
 
     # Same as my test script
@@ -51,24 +51,25 @@ class MotorControlNode:
 
             test_count += 1
 
-    # Publish motor throttle value to the '/motor_throttle' topic
+    # Publishing motor throttle value to the '/motor_throttle' topic
     def publish_motor_throttle(self, throttle):
         print("Publishing motor throttle:", throttle)
         msg = Float64()
         msg.data = float(throttle)
         self.motor_pub.publish(msg)
 
-        # Set the PWM duty cycle to control the motor speed
+        # Setting the PWM duty cycle to control the motor speed
         print("Changing duty cycle to:", throttle)
         self.motor.ChangeDutyCycle(throttle)
 
     def cleanup(self):
-        # Stop the motor and clean up GPIO
+        # Stopping the motor and clean up GPIO
         self.motor.stop()
         GPIO.cleanup()
 
     def spin(self):
-        # Run the motor test, cleanup, and stop the ROS 2 node
+        # Running the motor test, cleanup, and stop the ROS 2 node
+        # Extra logging - logging important information with ROS2 loggers
         self.node.get_logger().info("Motor control node is running.")
         self.run_motor_test()
         self.cleanup()
@@ -76,13 +77,11 @@ class MotorControlNode:
         self.node.destroy_node()
 
 def main():
-    # Initialize ROS 2
+    # Initialize ROS
     rclpy.init()
-
     # Create and run the MotorControlNode
     motor_node = MotorControlNode()
     motor_node.spin()
-
     # Shutdown ROS 2
     rclpy.shutdown()
 

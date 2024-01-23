@@ -1,8 +1,8 @@
 """
 Adam Sadek
 
-This code tests a servo motor's steering by moving it between two angles (0 and 150 degrees) with a delay,
-and it returns the servo to a neutral position when it completes the test 10 times.
+Servo node for controlling a servo motor's movement. It publishes servo angles on '/servo_movement' topic and Includes functions for servo updates, neutral position, 
+and a test moving between 0 and 150 degrees. 
 """
 
 import rclpy

@@ -1,0 +1,387 @@
+CMake Warning at CMakeLists.txt:4 (message):
+  The 'raspicam2' package is deprecated.  Use 'camera_ros'
+  (https://github.com/christianrauch/camera_ros) instead.
+
+
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiPreview.c:210:2:[m[K [01;35m[Kwarning: [m[KISO C does not allow extra ‘[01m[K;[m[K’ outside of a function [[01;35m[K-Wpedantic[m[K]
+  210 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiPreview.c:[m[K In function ‘[01m[Kraspipreview_parse_cmdline[m[K’:
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiPreview.c:262:26:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%u[m[K’ expects argument of type ‘[01m[Kunsigned int *[m[K’, but argument 3 has type ‘[01m[Kint *[m[K’ [[01;35m[K-Wformat=[m[K]
+  262 |       if (sscanf(arg2, "[01;35m[K%u[m[K", [32m[K&params->opacity[m[K) != 1)
+      |                         [01;35m[K~^[m[K   [32m[K~~~~~~~~~~~~~~~~[m[K
+      |                          [01;35m[K|[m[K   [32m[K|[m[K
+      |                          [01;35m[K|[m[K   [32m[Kint *[m[K
+      |                          [01;35m[Kunsigned int *[m[K
+      |                         [32m[K%u[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:207:4:[m[K [01;35m[Kwarning: [m[Kmissing initializer for field ‘[01m[Knum_parameters[m[K’ of ‘[01m[KCOMMAND_LIST[m[K’ {aka ‘[01m[Kstruct <anonymous>[m[K’} [[01;35m[K-Wmissing-field-initializers[m[K]
+  207 |    [01;35m[K{[m[KCommandStatsPass,   "-stats",     "st", "Force recomputation of statistics on stills capture pass"},
+      |    [01;35m[K^[m[K
+In file included from [01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:44[m[K:
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/RaspiCLI.h:38:8:[m[K [01;36m[Knote: [m[K‘[01m[Knum_parameters[m[K’ declared here
+   38 |    int [01;36m[Knum_parameters[m[K;
+      |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:210:4:[m[K [01;35m[Kwarning: [m[Kmissing initializer for field ‘[01m[Knum_parameters[m[K’ of ‘[01m[KCOMMAND_LIST[m[K’ {aka ‘[01m[Kstruct <anonymous>[m[K’} [[01;35m[K-Wmissing-field-initializers[m[K]
+  210 |    [01;35m[K{[m[KCommandStereoDecimate,"-decimate","dec", "Half width/height of stereo image"},
+      |    [01;35m[K^[m[K
+In file included from [01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:44[m[K:
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/RaspiCLI.h:38:8:[m[K [01;36m[Knote: [m[K‘[01m[Knum_parameters[m[K’ declared here
+   38 |    int [01;36m[Knum_parameters[m[K;
+      |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:211:4:[m[K [01;35m[Kwarning: [m[Kmissing initializer for field ‘[01m[Knum_parameters[m[K’ of ‘[01m[KCOMMAND_LIST[m[K’ {aka ‘[01m[Kstruct <anonymous>[m[K’} [[01;35m[K-Wmissing-field-initializers[m[K]
+  211 |    [01;35m[K{[m[KCommandStereoSwap,  "-3dswap",    "3dswap", "Swap camera order for stereoscopic"},
+      |    [01;35m[K^[m[K
+In file included from [01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:44[m[K:
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/RaspiCLI.h:38:8:[m[K [01;36m[Knote: [m[K‘[01m[Knum_parameters[m[K’ declared here
+   38 |    int [01;36m[Knum_parameters[m[K;
+      |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:[m[K In function ‘[01m[Kraspicamcontrol_parse_cmdline[m[K’:
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:776:22:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%u[m[K’ expects argument of type ‘[01m[Kunsigned int *[m[K’, but argument 3 has type ‘[01m[Kint *[m[K’ [[01;35m[K-Wformat=[m[K]
+  776 |       sscanf(arg2, "[01;35m[K%u[m[K,%X,%X,%u,%u,%u", [32m[K&params->annotate_text_size[m[K,
+      |                     [01;35m[K~^[m[K                  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                      [01;35m[K|[m[K                  [32m[K|[m[K
+      |                      [01;35m[Kunsigned int *[m[K     [32m[Kint *[m[K
+      |                     [32m[K%u[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:776:25:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int *[m[K’, but argument 4 has type ‘[01m[Kint *[m[K’ [[01;35m[K-Wformat=[m[K]
+  776 |       sscanf(arg2, "%u,[01;35m[K%X[m[K,%X,%u,%u,%u", &params->annotate_text_size,
+      |                        [01;35m[K~^[m[K
+      |                         [01;35m[K|[m[K
+      |                         [01;35m[Kunsigned int *[m[K
+      |                        [32m[K%X[m[K
+  777 |              [32m[K&params->annotate_text_colour[m[K,
+      |              [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |              [32m[K|[m[K
+      |              [32m[Kint *[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:776:28:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%X[m[K’ expects argument of type ‘[01m[Kunsigned int *[m[K’, but argument 5 has type ‘[01m[Kint *[m[K’ [[01;35m[K-Wformat=[m[K]
+  776 |       sscanf(arg2, "%u,%X,[01;35m[K%X[m[K,%u,%u,%u", &params->annotate_text_size,
+      |                           [01;35m[K~^[m[K
+      |                            [01;35m[K|[m[K
+      |                            [01;35m[Kunsigned int *[m[K
+      |                           [32m[K%X[m[K
+  777 |              &params->annotate_text_colour,
+  778 |              [32m[K&params->annotate_bg_colour[m[K,
+      |              [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |              [32m[K|[m[K
+      |              [32m[Kint *[m[K
+In file included from [01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/libgps_loader.h:31[m[K,
+                 from [01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/RaspiGPS.h:34[m[K,
+                 from [01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCommonSettings.c:58[m[K:
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:290:6:[m[K [01;35m[Kwarning: [m[KISO C99 doesn’t support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+  290 |     }[01;35m[K;[m[K
+      |      [01;35m[K^[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:871:6:[m[K [01;35m[Kwarning: [m[KISO C99 doesn’t support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+  871 |     }[01;35m[K;[m[K
+      |      [01;35m[K^[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1216:8:[m[K [01;35m[Kwarning: [m[KISO C99 doesn’t support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+ 1216 |       }[01;35m[K;[m[K
+      |        [01;35m[K^[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1255:7:[m[K [01;35m[Kwarning: [m[KISO C99 doesn’t support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+ 1255 |      }[01;35m[K;[m[K
+      |       [01;35m[K^[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1563:7:[m[K [01;35m[Kwarning: [m[KISO C99 doesn’t support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+ 1563 |      }[01;35m[K;[m[K
+      |       [01;35m[K^[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:[m[K In function ‘[01m[Kraspicamcontrol_set_ROI[m[K’:
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:1455:4:[m[K [01;35m[Kwarning: [m[Kmissing initializer for field ‘[01m[Krect[m[K’ of ‘[01m[KMMAL_PARAMETER_INPUT_CROP_T[m[K’ {aka ‘[01m[Kstruct MMAL_PARAMETER_INPUT_CROP_T[m[K’} [[01;35m[K-Wmissing-field-initializers[m[K]
+ 1455 |    [01;35m[KMMAL_PARAMETER_INPUT_CROP_T[m[K crop = {{MMAL_PARAMETER_INPUT_CROP, sizeof(MMAL_PARAMETER_INPUT_CROP_T)}};
+      |    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/interface/mmal/mmal_parameters.h:32[m[K,
+                 from [01m[K/usr/include/interface/mmal/mmal_port.h:42[m[K,
+                 from [01m[K/usr/include/interface/mmal/mmal.h:357[m[K,
+                 from [01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:36[m[K:
+[01m[K/usr/include/interface/mmal/mmal_parameters_camera.h:587:28:[m[K [01;36m[Knote: [m[K‘[01m[Krect[m[K’ declared here
+  587 |    MMAL_RECT_T             [01;36m[Krect[m[K;    /**< Crop rectangle as 16P16 fixed point values */
+      |                            [01;36m[K^~~~[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1746:7:[m[K [01;35m[Kwarning: [m[KISO C99 doesn’t support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+ 1746 |      }[01;35m[K;[m[K
+      |       [01;35m[K^[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1788:7:[m[K [01;35m[Kwarning: [m[KISO C99 doesn’t support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+ 1788 |      }[01;35m[K;[m[K
+      |       [01;35m[K^[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:[m[K In function ‘[01m[Kraspicamcontrol_zoom_in_zoom_out[m[K’:
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:1485:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint32_t[m[K’ {aka ‘[01m[Kint[m[K’} and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+ 1485 |       if (crop.rect.width [01;35m[K<=[m[K (zoom_full_16P16 + zoom_increment_16P16))
+      |                           [01;35m[K^~[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1827:6:[m[K [01;35m[Kwarning: [m[KISO C99 doesn’t support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+ 1827 |     }[01;35m[K;[m[K
+      |      [01;35m[K^[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:1499:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint32_t[m[K’ {aka ‘[01m[Kint[m[K’} [[01;35m[K-Wsign-compare[m[K]
+ 1499 |       if (increased_size [01;35m[K<[m[K crop.rect.width) //overflow
+      |                          [01;35m[K^[m[K
+In file included from [01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/libgps_loader.h:31[m[K,
+                 from [01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/RaspiGPS.h:34[m[K,
+                 from [01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCommonSettings.c:58[m[K:
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:2080:6:[m[K [01;35m[Kwarning: [m[KISO C99 doesn’t support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+ 2080 |     }[01;35m[K;[m[K
+      |      [01;35m[K^[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:[m[K In function ‘[01m[Kraspicamcontrol_set_annotate[m[K’:
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:1598:4:[m[K [01;35m[Kwarning: [m[Kmissing initializer for field ‘[01m[Kenable[m[K’ of ‘[01m[KMMAL_PARAMETER_CAMERA_ANNOTATE_V4_T[m[K’ {aka ‘[01m[Kstruct MMAL_PARAMETER_CAMERA_ANNOTATE_V4_T[m[K’} [[01;35m[K-Wmissing-field-initializers[m[K]
+ 1598 |    [01;35m[K{[m[K{MMAL_PARAMETER_ANNOTATE, sizeof(MMAL_PARAMETER_CAMERA_ANNOTATE_V4_T)}};
+      |    [01;35m[K^[m[K
+In file included from [01m[K/usr/include/interface/mmal/mmal_parameters.h:32[m[K,
+                 from [01m[K/usr/include/interface/mmal/mmal_port.h:42[m[K,
+                 from [01m[K/usr/include/interface/mmal/mmal.h:357[m[K,
+                 from [01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:36[m[K:
+[01m[K/usr/include/interface/mmal/mmal_parameters_camera.h:791:16:[m[K [01;36m[Knote: [m[K‘[01m[Kenable[m[K’ declared here
+  791 |    MMAL_BOOL_T [01;36m[Kenable[m[K;
+      |                [01;36m[K^~~~~~[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCommonSettings.c:99:2:[m[K [01;35m[Kwarning: [m[KISO C does not allow extra ‘[01m[K;[m[K’ outside of a function [[01;35m[K-Wpedantic[m[K]
+   99 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCommonSettings.c:114:2:[m[K [01;35m[Kwarning: [m[KISO C does not allow extra ‘[01m[K;[m[K’ outside of a function [[01;35m[K-Wpedantic[m[K]
+  114 | }[01;35m[K;[m[K
+      |  [01;35m[K^[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCommonSettings.c:[m[K In function ‘[01m[Kraspicommonsettings_parse_cmdline[m[K’:
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCommonSettings.c:149:32:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kbasename[m[K’; did you mean ‘[01m[Krename[m[K’? [[01;35m[K-Wimplicit-function-declaration[m[K]
+  149 |       display_valid_parameters([01;35m[Kbasename[m[K(get_app_name()), app_help);
+      |                                [01;35m[K^~~~~~~~[m[K
+      |                                [32m[Krename[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCommonSettings.c:149:32:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Kdisplay_valid_parameters[m[K’ makes pointer from integer without a cast [[01;35m[K-Wint-conversion[m[K]
+  149 |       display_valid_parameters([01;35m[Kbasename(get_app_name())[m[K, app_help);
+      |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                [01;35m[K|[m[K
+      |                                [01;35m[Kint[m[K
+In file included from [01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCommonSettings.c:57[m[K:
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/RaspiHelpers.h:32:37:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kchar *[m[K’ but argument is of type ‘[01m[Kint[m[K’
+   32 | void display_valid_parameters([01;36m[Kchar *name[m[K, void (*app_help)(char*));
+      |                               [01;36m[K~~~~~~^~~~[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCommonSettings.c:154:26:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%u[m[K’ expects argument of type ‘[01m[Kunsigned int *[m[K’, but argument 3 has type ‘[01m[Kint *[m[K’ [[01;35m[K-Wformat=[m[K]
+  154 |       if (sscanf(arg2, "[01;35m[K%u[m[K", [32m[K&state->width[m[K) == 1)
+      |                         [01;35m[K~^[m[K   [32m[K~~~~~~~~~~~~~[m[K
+      |                          [01;35m[K|[m[K   [32m[K|[m[K
+      |                          [01;35m[K|[m[K   [32m[Kint *[m[K
+      |                          [01;35m[Kunsigned int *[m[K
+      |                         [32m[K%u[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:[m[K In function ‘[01m[Kdefault_camera_control_callback[m[K’:
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCommonSettings.c:159:26:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%u[m[K’ expects argument of type ‘[01m[Kunsigned int *[m[K’, but argument 3 has type ‘[01m[Kint *[m[K’ [[01;35m[K-Wformat=[m[K]
+  159 |       if (sscanf(arg2, "[01;35m[K%u[m[K", [32m[K&state->height[m[K) == 1)
+      |                         [01;35m[K~^[m[K   [32m[K~~~~~~~~~~~~~~[m[K
+      |                          [01;35m[K|[m[K   [32m[K|[m[K
+      |                          [01;35m[K|[m[K   [32m[Kint *[m[K
+      |                          [01;35m[Kunsigned int *[m[K
+      |                         [32m[K%u[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:1793:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kport[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+ 1793 | void default_camera_control_callback([01;35m[KMMAL_PORT_T *port[m[K, MMAL_BUFFER_HEADER_T *buffer)
+      |                                      [01;35m[K~~~~~~~~~~~~~^~~~[m[K
+In file included from [01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/libgps_loader.h:31[m[K,
+                 from [01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/RaspiGPS.h:34[m[K,
+                 from [01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiGPS.c:35[m[K:
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:290:6:[m[K [01;35m[Kwarning: [m[KISO C99 doesn’t support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+  290 |     }[01;35m[K;[m[K
+      |      [01;35m[K^[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiHelpers.c:[m[K In function ‘[01m[Kprint_app_details[m[K’:
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiHelpers.c:66:57:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kbasename[m[K’; did you mean ‘[01m[Krename[m[K’? [[01;35m[K-Wimplicit-function-declaration[m[K]
+   66 |    fprintf(fd, "\n\"%s\" Camera App (commit %s%s)\n\n", [01;35m[Kbasename[m[K(app_name), GIT_COMMIT_ID, TAINTED);
+      |                                                         [01;35m[K^~~~~~~~[m[K
+      |                                                         [32m[Krename[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiHelpers.c:66:22:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar *[m[K’, but argument 3 has type ‘[01m[Kint[m[K’ [[01;35m[K-Wformat=[m[K]
+   66 |    fprintf(fd, "\n\"[01;35m[K%s[m[K\" Camera App (commit %s%s)\n\n", [32m[Kbasename(app_name)[m[K, GIT_COMMIT_ID, TAINTED);
+      |                     [01;35m[K~^[m[K                                  [32m[K~~~~~~~~~~~~~~~~~~[m[K
+      |                      [01;35m[K|[m[K                                  [32m[K|[m[K
+      |                      [01;35m[Kchar *[m[K                             [32m[Kint[m[K
+      |                     [32m[K%d[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiHelpers.c:[m[K In function ‘[01m[Kget_sensor_defaults[m[K’:
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiHelpers.c:112:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  112 |          if (status == MMAL_SUCCESS && param.num_cameras [01;35m[K>[m[K camera_num)
+      |                                                          [01;35m[K^[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCommonSettings.c:207:26:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%u[m[K’ expects argument of type ‘[01m[Kunsigned int *[m[K’, but argument 3 has type ‘[01m[Kint *[m[K’ [[01;35m[K-Wformat=[m[K]
+  207 |       if (sscanf(arg2, "[01;35m[K%u[m[K", [32m[K&state->cameraNum[m[K) == 1)
+      |                         [01;35m[K~^[m[K   [32m[K~~~~~~~~~~~~~~~~~[m[K
+      |                          [01;35m[K|[m[K   [32m[K|[m[K
+      |                          [01;35m[K|[m[K   [32m[Kint *[m[K
+      |                          [01;35m[Kunsigned int *[m[K
+      |                         [32m[K%u[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCommonSettings.c:214:26:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%u[m[K’ expects argument of type ‘[01m[Kunsigned int *[m[K’, but argument 3 has type ‘[01m[Kint *[m[K’ [[01;35m[K-Wformat=[m[K]
+  214 |       if (sscanf(arg2, "[01;35m[K%u[m[K", [32m[K&state->sensor_mode[m[K) == 1)
+      |                         [01;35m[K~^[m[K   [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+      |                          [01;35m[K|[m[K   [32m[K|[m[K
+      |                          [01;35m[K|[m[K   [32m[Kint *[m[K
+      |                          [01;35m[Kunsigned int *[m[K
+      |                         [32m[K%u[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:871:6:[m[K [01;35m[Kwarning: [m[KISO C99 doesn’t support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+  871 |     }[01;35m[K;[m[K
+      |      [01;35m[K^[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1216:8:[m[K [01;35m[Kwarning: [m[KISO C99 doesn’t support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+ 1216 |       }[01;35m[K;[m[K
+      |        [01;35m[K^[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1255:7:[m[K [01;35m[Kwarning: [m[KISO C99 doesn’t support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+ 1255 |      }[01;35m[K;[m[K
+      |       [01;35m[K^[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1563:7:[m[K [01;35m[Kwarning: [m[KISO C99 doesn’t support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+ 1563 |      }[01;35m[K;[m[K
+      |       [01;35m[K^[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1746:7:[m[K [01;35m[Kwarning: [m[KISO C99 doesn’t support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+ 1746 |      }[01;35m[K;[m[K
+      |       [01;35m[K^[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1788:7:[m[K [01;35m[Kwarning: [m[KISO C99 doesn’t support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+ 1788 |      }[01;35m[K;[m[K
+      |       [01;35m[K^[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1827:6:[m[K [01;35m[Kwarning: [m[KISO C99 doesn’t support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+ 1827 |     }[01;35m[K;[m[K
+      |      [01;35m[K^[m[K
+In file included from [01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/libgps_loader.h:31[m[K,
+                 from [01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/RaspiGPS.h:34[m[K,
+                 from [01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiGPS.c:35[m[K:
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:2080:6:[m[K [01;35m[Kwarning: [m[KISO C99 doesn’t support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+ 2080 |     }[01;35m[K;[m[K
+      |      [01;35m[K^[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiGPS.c:[m[K In function ‘[01m[Kgps_reader_process[m[K’:
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiGPS.c:63:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgps_reader_data_ptr[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   63 | static void *gps_reader_process([01;35m[Kvoid *gps_reader_data_ptr[m[K)
+      |                                 [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiGPS.c:[m[K In function ‘[01m[Kraspi_gps_location_string[m[K’:
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiGPS.c:238:4:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Kasprintf[m[K’; did you mean ‘[01m[Kvsprintf[m[K’? [[01;35m[K-Wimplicit-function-declaration[m[K]
+  238 |    [01;35m[Kasprintf[m[K(&text,  "%s Lat %s Long %s %s %s %s", datetime, lat, lon, alt, speed, track);
+      |    [01;35m[K^~~~~~~~[m[K
+      |    [32m[Kvsprintf[m[K
+In file included from [01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/libgps_loader.h:31[m[K,
+                 from [01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/libgps_loader.c:34[m[K:
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:290:6:[m[K [01;35m[Kwarning: [m[KISO C99 doesn’t support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+  290 |     }[01;35m[K;[m[K
+      |      [01;35m[K^[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:871:6:[m[K [01;35m[Kwarning: [m[KISO C99 doesn’t support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+  871 |     }[01;35m[K;[m[K
+      |      [01;35m[K^[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1216:8:[m[K [01;35m[Kwarning: [m[KISO C99 doesn’t support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+ 1216 |       }[01;35m[K;[m[K
+      |        [01;35m[K^[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1255:7:[m[K [01;35m[Kwarning: [m[KISO C99 doesn’t support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+ 1255 |      }[01;35m[K;[m[K
+      |       [01;35m[K^[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1563:7:[m[K [01;35m[Kwarning: [m[KISO C99 doesn’t support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+ 1563 |      }[01;35m[K;[m[K
+      |       [01;35m[K^[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1746:7:[m[K [01;35m[Kwarning: [m[KISO C99 doesn’t support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+ 1746 |      }[01;35m[K;[m[K
+      |       [01;35m[K^[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1788:7:[m[K [01;35m[Kwarning: [m[KISO C99 doesn’t support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+ 1788 |      }[01;35m[K;[m[K
+      |       [01;35m[K^[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1827:6:[m[K [01;35m[Kwarning: [m[KISO C99 doesn’t support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+ 1827 |     }[01;35m[K;[m[K
+      |      [01;35m[K^[m[K
+In file included from [01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/libgps_loader.h:31[m[K,
+                 from [01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/libgps_loader.c:34[m[K:
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:2080:6:[m[K [01;35m[Kwarning: [m[KISO C99 doesn’t support unnamed structs/unions [[01;35m[K-Wpedantic[m[K]
+ 2080 |     }[01;35m[K;[m[K
+      |      [01;35m[K^[m[K
+In file included from [01m[K/usr/include/interface/vcos/vcos.h:144[m[K,
+                 from [01m[K/usr/include/interface/vmcs_host/vc_dispmanx.h:33[m[K,
+                 from [01m[K/usr/include/bcm_host.h:50[m[K,
+                 from [01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/raspicam.cpp:32[m[K:
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/raspicam.cpp:[m[K In function ‘[01m[Kvoid image_encoder_buffer_callback(MMAL_PORT_T*, MMAL_BUFFER_HEADER_T*)[m[K’:
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/raspicam.cpp:117:22:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 4 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  117 |       vcos_log_error([01;35m[K"Failed to write buffer data (%d from %d)- aborting"[m[K, [32m[Kbytes_written[m[K, buffer->length);
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~[m[K
+      |                                                                            [32m[K|[m[K
+      |                                                                            [32m[Ksize_t {aka long unsigned int}[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/raspicam.cpp:117:53:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  117 |       vcos_log_error("Failed to write buffer data ([01;36m[K%d[m[K from %d)- aborting", bytes_written, buffer->length);
+      |                                                    [01;36m[K~^[m[K
+      |                                                     [01;36m[K|[m[K
+      |                                                     [01;36m[Kint[m[K
+      |                                                    [32m[K%ld[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/raspicam.cpp:118:17:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 3 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  118 |       ROS_ERROR([01;35m[K"Failed to write buffer data (%d from %d)- aborting"[m[K, [32m[Kbytes_written[m[K, buffer->length);
+      |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~[m[K
+      |                                                                       [32m[K|[m[K
+      |                                                                       [32m[Ksize_t {aka long unsigned int}[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/raspicam.cpp:45:40:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROS_ERROR[m[K’
+   45 | #define ROS_ERROR(...) fprintf(stderr, [01;36m[K__VA_ARGS__[m[K);
+      |                                        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/raspicam.cpp:118:48:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  118 |       ROS_ERROR("Failed to write buffer data ([01;36m[K%d[m[K from %d)- aborting", bytes_written, buffer->length);
+      |                                               [01;36m[K~^[m[K
+      |                                                [01;36m[K|[m[K
+      |                                                [01;36m[Kint[m[K
+      |                                               [32m[K%ld[m[K
+In file included from [01m[K/usr/include/interface/vcos/vcos.h:144[m[K,
+                 from [01m[K/usr/include/interface/vmcs_host/vc_dispmanx.h:33[m[K,
+                 from [01m[K/usr/include/bcm_host.h:50[m[K,
+                 from [01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/raspicam.cpp:32[m[K:
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/raspicam.cpp:[m[K In function ‘[01m[Kvoid splitter_buffer_callback(MMAL_PORT_T*, MMAL_BUFFER_HEADER_T*)[m[K’:
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/raspicam.cpp:268:22:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 4 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  268 |       vcos_log_error([01;35m[K"Failed to write buffer data (%d from %d)- aborting"[m[K, [32m[Kbytes_written[m[K, buffer->length);
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~[m[K
+      |                                                                            [32m[K|[m[K
+      |                                                                            [32m[Ksize_t {aka long unsigned int}[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/raspicam.cpp:268:53:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  268 |       vcos_log_error("Failed to write buffer data ([01;36m[K%d[m[K from %d)- aborting", bytes_written, buffer->length);
+      |                                                    [01;36m[K~^[m[K
+      |                                                     [01;36m[K|[m[K
+      |                                                     [01;36m[Kint[m[K
+      |                                                    [32m[K%ld[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/raspicam.cpp:269:17:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 3 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  269 |       ROS_ERROR([01;35m[K"Failed to write buffer data (%d from %d)- aborting"[m[K, [32m[Kbytes_written[m[K, buffer->length);
+      |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~[m[K
+      |                                                                       [32m[K|[m[K
+      |                                                                       [32m[Ksize_t {aka long unsigned int}[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/raspicam.cpp:45:40:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROS_ERROR[m[K’
+   45 | #define ROS_ERROR(...) fprintf(stderr, [01;36m[K__VA_ARGS__[m[K);
+      |                                        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/raspicam.cpp:269:48:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  269 |       ROS_ERROR("Failed to write buffer data ([01;36m[K%d[m[K from %d)- aborting", bytes_written, buffer->length);
+      |                                               [01;36m[K~^[m[K
+      |                                                [01;36m[K|[m[K
+      |                                                [01;36m[Kint[m[K
+      |                                               [32m[K%ld[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RasPiCamPublisherNode.cpp:[m[K In member function ‘[01m[Kvoid RasPiCamPublisher::onMotion(const uint8_t*, const uint8_t*)[m[K’:
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RasPiCamPublisherNode.cpp:177:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstart[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  177 | void RasPiCamPublisher::onMotion([01;35m[Kconst uint8_t* start[m[K, const uint8_t* end) { }
+      |                                  [01;35m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RasPiCamPublisherNode.cpp:177:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kend[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  177 | void RasPiCamPublisher::onMotion(const uint8_t* start, [01;35m[Kconst uint8_t* end[m[K) { }
+      |                                                        [01;35m[K~~~~~~~~~~~~~~~^~~[m[K
+In file included from [01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/RasPiCamPublisherNode.hpp:9[m[K,
+                 from [01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RasPiCamPublisherNode.cpp:1[m[K:
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:[m[K At global scope:
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:96:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid image_encoder_buffer_callback(MMAL_PORT_T*, MMAL_BUFFER_HEADER_T*)[m[K’ declared ‘[01m[Kstatic[m[K’ but never defined [[01;35m[K-Wunused-function[m[K]
+   96 | static void [01;35m[Kimage_encoder_buffer_callback[m[K(MMAL_PORT_T* port, MMAL_BUFFER_HEADER_T* buffer);
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:106:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid video_encoder_buffer_callback(MMAL_PORT_T*, MMAL_BUFFER_HEADER_T*)[m[K’ declared ‘[01m[Kstatic[m[K’ but never defined [[01;35m[K-Wunused-function[m[K]
+  106 | static void [01;35m[Kvideo_encoder_buffer_callback[m[K(MMAL_PORT_T* port, MMAL_BUFFER_HEADER_T* buffer);
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:108:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid splitter_buffer_callback(MMAL_PORT_T*, MMAL_BUFFER_HEADER_T*)[m[K’ declared ‘[01m[Kstatic[m[K’ but never defined [[01;35m[K-Wunused-function[m[K]
+  108 | static void [01;35m[Ksplitter_buffer_callback[m[K(MMAL_PORT_T* port, MMAL_BUFFER_HEADER_T* buffer);
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:118:26:[m[K [01;35m[Kwarning: [m[K‘[01m[KMMAL_COMPONENT_T* create_camera_component(RASPIVID_STATE&)[m[K’ declared ‘[01m[Kstatic[m[K’ but never defined [[01;35m[K-Wunused-function[m[K]
+  118 | static MMAL_COMPONENT_T* [01;35m[Kcreate_camera_component[m[K(RASPIVID_STATE& state);
+      |                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:128:22:[m[K [01;35m[Kwarning: [m[K‘[01m[KMMAL_STATUS_T create_image_encoder_component(RASPIVID_STATE&)[m[K’ declared ‘[01m[Kstatic[m[K’ but never defined [[01;35m[K-Wunused-function[m[K]
+  128 | static MMAL_STATUS_T [01;35m[Kcreate_image_encoder_component[m[K(RASPIVID_STATE& state);
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:138:22:[m[K [01;35m[Kwarning: [m[K‘[01m[KMMAL_STATUS_T create_video_encoder_component(RASPIVID_STATE&)[m[K’ declared ‘[01m[Kstatic[m[K’ but never defined [[01;35m[K-Wunused-function[m[K]
+  138 | static MMAL_STATUS_T [01;35m[Kcreate_video_encoder_component[m[K(RASPIVID_STATE& state);
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:148:22:[m[K [01;35m[Kwarning: [m[K‘[01m[KMMAL_STATUS_T create_splitter_component(RASPIVID_STATE&)[m[K’ declared ‘[01m[Kstatic[m[K’ but never defined [[01;35m[K-Wunused-function[m[K]
+  148 | static MMAL_STATUS_T [01;35m[Kcreate_splitter_component[m[K(RASPIVID_STATE& state);
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:160:22:[m[K [01;35m[Kwarning: [m[K‘[01m[KMMAL_STATUS_T connect_ports(MMAL_PORT_T*, MMAL_PORT_T*, mmal::connection_ptr&)[m[K’ declared ‘[01m[Kstatic[m[K’ but never defined [[01;35m[K-Wunused-function[m[K]
+  160 | static MMAL_STATUS_T [01;35m[Kconnect_ports[m[K(MMAL_PORT_T* output_port, MMAL_PORT_T* input_port,
+      |                      [01;35m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/RasPiCamPublisherNode.hpp:9[m[K,
+                 from [01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/raspicam2_node.cpp:1[m[K:
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:96:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid image_encoder_buffer_callback(MMAL_PORT_T*, MMAL_BUFFER_HEADER_T*)[m[K’ declared ‘[01m[Kstatic[m[K’ but never defined [[01;35m[K-Wunused-function[m[K]
+   96 | static void [01;35m[Kimage_encoder_buffer_callback[m[K(MMAL_PORT_T* port, MMAL_BUFFER_HEADER_T* buffer);
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:106:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid video_encoder_buffer_callback(MMAL_PORT_T*, MMAL_BUFFER_HEADER_T*)[m[K’ declared ‘[01m[Kstatic[m[K’ but never defined [[01;35m[K-Wunused-function[m[K]
+  106 | static void [01;35m[Kvideo_encoder_buffer_callback[m[K(MMAL_PORT_T* port, MMAL_BUFFER_HEADER_T* buffer);
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:108:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid splitter_buffer_callback(MMAL_PORT_T*, MMAL_BUFFER_HEADER_T*)[m[K’ declared ‘[01m[Kstatic[m[K’ but never defined [[01;35m[K-Wunused-function[m[K]
+  108 | static void [01;35m[Ksplitter_buffer_callback[m[K(MMAL_PORT_T* port, MMAL_BUFFER_HEADER_T* buffer);
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:118:26:[m[K [01;35m[Kwarning: [m[K‘[01m[KMMAL_COMPONENT_T* create_camera_component(RASPIVID_STATE&)[m[K’ declared ‘[01m[Kstatic[m[K’ but never defined [[01;35m[K-Wunused-function[m[K]
+  118 | static MMAL_COMPONENT_T* [01;35m[Kcreate_camera_component[m[K(RASPIVID_STATE& state);
+      |                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:128:22:[m[K [01;35m[Kwarning: [m[K‘[01m[KMMAL_STATUS_T create_image_encoder_component(RASPIVID_STATE&)[m[K’ declared ‘[01m[Kstatic[m[K’ but never defined [[01;35m[K-Wunused-function[m[K]
+  128 | static MMAL_STATUS_T [01;35m[Kcreate_image_encoder_component[m[K(RASPIVID_STATE& state);
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:138:22:[m[K [01;35m[Kwarning: [m[K‘[01m[KMMAL_STATUS_T create_video_encoder_component(RASPIVID_STATE&)[m[K’ declared ‘[01m[Kstatic[m[K’ but never defined [[01;35m[K-Wunused-function[m[K]
+  138 | static MMAL_STATUS_T [01;35m[Kcreate_video_encoder_component[m[K(RASPIVID_STATE& state);
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:148:22:[m[K [01;35m[Kwarning: [m[K‘[01m[KMMAL_STATUS_T create_splitter_component(RASPIVID_STATE&)[m[K’ declared ‘[01m[Kstatic[m[K’ but never defined [[01;35m[K-Wunused-function[m[K]
+  148 | static MMAL_STATUS_T [01;35m[Kcreate_splitter_component[m[K(RASPIVID_STATE& state);
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:160:22:[m[K [01;35m[Kwarning: [m[K‘[01m[KMMAL_STATUS_T connect_ports(MMAL_PORT_T*, MMAL_PORT_T*, mmal::connection_ptr&)[m[K’ declared ‘[01m[Kstatic[m[K’ but never defined [[01;35m[K-Wunused-function[m[K]
+  160 | static MMAL_STATUS_T [01;35m[Kconnect_ports[m[K(MMAL_PORT_T* output_port, MMAL_PORT_T* input_port,
+      |                      [01;35m[K^~~~~~~~~~~~~[m[K

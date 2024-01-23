@@ -1,0 +1,23 @@
+[2.509s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy /usr/bin/cmake --build /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2 -- -j4 -l4
+[3.775s] -- Configuring incomplete, errors occurred!
+[3.776s] See also "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/CMakeFiles/CMakeOutput.log".
+[3.777s] See also "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/CMakeFiles/CMakeError.log".
+[3.785s] CMake Error at CMakeLists.txt:19 (find_package):
+[3.788s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[3.789s]   has asked CMake to find a package configuration file provided by
+[3.790s]   "ament_cmake", but CMake did not find one.
+[3.791s] 
+[3.793s]   Could not find a package configuration file provided by "ament_cmake" with
+[3.794s]   any of the following names:
+[3.795s] 
+[3.797s]     ament_cmakeConfig.cmake
+[3.798s]     ament_cmake-config.cmake
+[3.798s] 
+[3.799s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[3.801s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[3.804s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[3.805s]   has been installed.
+[3.806s] 
+[3.808s] 
+[3.822s] make: *** [Makefile:280: cmake_check_build_system] Error 1
+[3.833s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy /usr/bin/cmake --build /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2 -- -j4 -l4

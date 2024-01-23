@@ -1,0 +1,1124 @@
+[0.000000] (-) TimerEvent: {}
+[0.001062] (camera_sensor) JobQueued: {'identifier': 'camera_sensor', 'dependencies': OrderedDict()}
+[0.001399] (ldlidar_ros2) JobQueued: {'identifier': 'ldlidar_ros2', 'dependencies': OrderedDict()}
+[0.002324] (motor_controller) JobQueued: {'identifier': 'motor_controller', 'dependencies': OrderedDict()}
+[0.002964] (raspicam2) JobQueued: {'identifier': 'raspicam2', 'dependencies': OrderedDict()}
+[0.003266] (servo_controller) JobQueued: {'identifier': 'servo_controller', 'dependencies': OrderedDict()}
+[0.003409] (camera_sensor) JobStarted: {'identifier': 'camera_sensor'}
+[0.099227] (-) TimerEvent: {}
+[0.200345] (-) TimerEvent: {}
+[0.301352] (-) TimerEvent: {}
+[0.402669] (-) TimerEvent: {}
+[0.503666] (-) TimerEvent: {}
+[0.606157] (-) TimerEvent: {}
+[0.707893] (-) TimerEvent: {}
+[0.809050] (-) TimerEvent: {}
+[0.910771] (-) TimerEvent: {}
+[0.949163] (ldlidar_ros2) JobStarted: {'identifier': 'ldlidar_ros2'}
+[1.011060] (-) TimerEvent: {}
+[1.112314] (-) TimerEvent: {}
+[1.214437] (-) TimerEvent: {}
+[1.315930] (-) TimerEvent: {}
+[1.418862] (-) TimerEvent: {}
+[1.521114] (-) TimerEvent: {}
+[1.622295] (-) TimerEvent: {}
+[1.722989] (-) TimerEvent: {}
+[1.736843] (motor_controller) JobStarted: {'identifier': 'motor_controller'}
+[1.823164] (-) TimerEvent: {}
+[1.925328] (-) TimerEvent: {}
+[2.026701] (-) TimerEvent: {}
+[2.128325] (-) TimerEvent: {}
+[2.229133] (-) TimerEvent: {}
+[2.331564] (-) TimerEvent: {}
+[2.433142] (-) TimerEvent: {}
+[2.534623] (-) TimerEvent: {}
+[2.635993] (-) TimerEvent: {}
+[2.695830] (raspicam2) JobStarted: {'identifier': 'raspicam2'}
+[2.736148] (-) TimerEvent: {}
+[2.837751] (-) TimerEvent: {}
+[2.939697] (-) TimerEvent: {}
+[3.041449] (-) TimerEvent: {}
+[3.143558] (-) TimerEvent: {}
+[3.245602] (-) TimerEvent: {}
+[3.347575] (-) TimerEvent: {}
+[3.449766] (-) TimerEvent: {}
+[3.551172] (-) TimerEvent: {}
+[3.652287] (-) TimerEvent: {}
+[3.753098] (-) TimerEvent: {}
+[3.853968] (-) TimerEvent: {}
+[3.954812] (-) TimerEvent: {}
+[4.055603] (-) TimerEvent: {}
+[4.156390] (-) TimerEvent: {}
+[4.257137] (-) TimerEvent: {}
+[4.357879] (-) TimerEvent: {}
+[4.458655] (-) TimerEvent: {}
+[4.559400] (-) TimerEvent: {}
+[4.660353] (-) TimerEvent: {}
+[4.761909] (-) TimerEvent: {}
+[4.862617] (-) TimerEvent: {}
+[4.964768] (-) TimerEvent: {}
+[5.067504] (-) TimerEvent: {}
+[5.169203] (-) TimerEvent: {}
+[5.270618] (-) TimerEvent: {}
+[5.309652] (ldlidar_ros2) JobProgress: {'identifier': 'ldlidar_ros2', 'progress': 'cmake'}
+[5.313829] (ldlidar_ros2) JobProgress: {'identifier': 'ldlidar_ros2', 'progress': 'build'}
+[5.317085] (ldlidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2', '--', '-j4', '-l4'], 'cwd': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2', 'env': OrderedDict([('VIRTUALENVWRAPPER_WORKON_CD', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('WORKON_HOME', '/home/adam/.virtualenvs'), ('USER', 'adam'), ('SSH_CLIENT', '192.168.0.150 61279 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/adam'), ('VIRTUALENVWRAPPER_PYTHON', '/usr/bin/python3'), ('OLDPWD', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src'), ('TERM_PROGRAM_VERSION', '1.84.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-8345db7c-028a-4cf7-ad11-88280867a48c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adam'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '63'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/remote-cli:/home/adam/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9756b562c9.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VIRTUALENVWRAPPER_PROJECT_FILENAME', '.project'), ('VIRTUALENVWRAPPER_HOOK_DIR', '/home/adam/.virtualenvs'), ('VIRTUALENVWRAPPER_SCRIPT', '/usr/share/virtualenvwrapper/virtualenvwrapper.sh'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.150 61279 192.168.0.174 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy')]), 'shell': False}
+[5.370904] (-) TimerEvent: {}
+[5.472085] (-) TimerEvent: {}
+[5.573119] (-) TimerEvent: {}
+[5.674237] (-) TimerEvent: {}
+[5.775136] (-) TimerEvent: {}
+[5.876123] (-) TimerEvent: {}
+[5.977089] (-) TimerEvent: {}
+[6.078457] (-) TimerEvent: {}
+[6.179753] (-) TimerEvent: {}
+[6.280584] (-) TimerEvent: {}
+[6.381498] (-) TimerEvent: {}
+[6.482643] (-) TimerEvent: {}
+[6.583779] (-) TimerEvent: {}
+[6.686037] (-) TimerEvent: {}
+[6.788306] (-) TimerEvent: {}
+[6.891440] (-) TimerEvent: {}
+[6.993281] (-) TimerEvent: {}
+[7.095886] (-) TimerEvent: {}
+[7.198004] (-) TimerEvent: {}
+[7.300216] (-) TimerEvent: {}
+[7.401086] (-) TimerEvent: {}
+[7.503874] (-) TimerEvent: {}
+[7.511564] (ldlidar_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[7.515047] (ldlidar_ros2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.517184] (ldlidar_ros2) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[7.518032] (ldlidar_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.518939] (ldlidar_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[7.519489] (raspicam2) JobProgress: {'identifier': 'raspicam2', 'progress': 'cmake'}
+[7.521497] (raspicam2) Command: {'cmd': ['/usr/bin/cmake', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller', '-DCMAKE_INSTALL_PREFIX=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2'], 'cwd': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/raspicam2', 'env': OrderedDict([('VIRTUALENVWRAPPER_WORKON_CD', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('WORKON_HOME', '/home/adam/.virtualenvs'), ('USER', 'adam'), ('SSH_CLIENT', '192.168.0.150 61279 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/adam'), ('VIRTUALENVWRAPPER_PYTHON', '/usr/bin/python3'), ('OLDPWD', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src'), ('TERM_PROGRAM_VERSION', '1.84.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-8345db7c-028a-4cf7-ad11-88280867a48c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adam'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '63'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/remote-cli:/home/adam/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9756b562c9.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VIRTUALENVWRAPPER_PROJECT_FILENAME', '.project'), ('VIRTUALENVWRAPPER_HOOK_DIR', '/home/adam/.virtualenvs'), ('VIRTUALENVWRAPPER_SCRIPT', '/usr/share/virtualenvwrapper/virtualenvwrapper.sh'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/raspicam2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.150 61279 192.168.0.174 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy')]), 'shell': False}
+[7.595497] (raspicam2) StderrLine: {'line': b'CMake Warning at CMakeLists.txt:4 (message):\n'}
+[7.597561] (raspicam2) StderrLine: {'line': b"  The 'raspicam2' package is deprecated.  Use 'camera_ros'\n"}
+[7.598116] (raspicam2) StderrLine: {'line': b'  (https://github.com/christianrauch/camera_ros) instead.\n'}
+[7.598462] (raspicam2) StderrLine: {'line': b'\n'}
+[7.598810] (raspicam2) StderrLine: {'line': b'\n'}
+[7.604111] (-) TimerEvent: {}
+[7.619651] (raspicam2) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[7.704389] (-) TimerEvent: {}
+[7.806186] (-) TimerEvent: {}
+[7.868138] (raspicam2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[7.870660] (raspicam2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.906438] (-) TimerEvent: {}
+[8.007459] (-) TimerEvent: {}
+[8.026354] (ldlidar_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.107677] (-) TimerEvent: {}
+[8.208619] (-) TimerEvent: {}
+[8.305911] (ldlidar_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[8.308833] (-) TimerEvent: {}
+[8.315700] (ldlidar_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.409071] (-) TimerEvent: {}
+[8.510037] (-) TimerEvent: {}
+[8.610919] (-) TimerEvent: {}
+[8.712350] (-) TimerEvent: {}
+[8.813202] (-) TimerEvent: {}
+[8.914230] (-) TimerEvent: {}
+[9.015316] (-) TimerEvent: {}
+[9.035956] (ldlidar_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[9.115541] (-) TimerEvent: {}
+[9.216555] (-) TimerEvent: {}
+[9.317702] (-) TimerEvent: {}
+[9.418970] (-) TimerEvent: {}
+[9.520028] (-) TimerEvent: {}
+[9.604073] (ldlidar_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[9.620288] (-) TimerEvent: {}
+[9.721194] (-) TimerEvent: {}
+[9.770756] (raspicam2) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[9.821513] (-) TimerEvent: {}
+[9.922755] (-) TimerEvent: {}
+[10.024559] (-) TimerEvent: {}
+[10.073065] (ldlidar_ros2) StdoutLine: {'line': b'-- operation system is Linux-5.4.0-1100-raspi\n'}
+[10.075096] (ldlidar_ros2) StdoutLine: {'line': b'-- current platform: Linux \n'}
+[10.111762] (ldlidar_ros2) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[10.124771] (-) TimerEvent: {}
+[10.132679] (camera_sensor) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/camera_sensor', 'build', '--build-base', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_sensor/build', 'install', '--record', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_sensor/install.log', '--install-scripts', '$base/lib/camera_sensor', '--single-version-externally-managed'], 'cwd': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_sensor', 'env': {'VIRTUALENVWRAPPER_WORKON_CD': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'WORKON_HOME': '/home/adam/.virtualenvs', 'USER': 'adam', 'SSH_CLIENT': '192.168.0.150 61279 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/adam', 'VIRTUALENVWRAPPER_PYTHON': '/usr/bin/python3', 'OLDPWD': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src', 'TERM_PROGRAM_VERSION': '1.84.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-8345db7c-028a-4cf7-ad11-88280867a48c.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'adam', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '63', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/remote-cli:/home/adam/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-9756b562c9.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUALENVWRAPPER_PROJECT_FILENAME': '.project', 'VIRTUALENVWRAPPER_HOOK_DIR': '/home/adam/.virtualenvs', 'VIRTUALENVWRAPPER_SCRIPT': '/usr/share/virtualenvwrapper/virtualenvwrapper.sh', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_sensor', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.150 61279 192.168.0.174 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_sensor/prefix_override:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2'}, 'shell': False}
+[10.225215] (-) TimerEvent: {}
+[10.242584] (ldlidar_ros2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[10.244908] (ldlidar_ros2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/include;/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/include\n'}
+[10.246234] (ldlidar_ros2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[10.325463] (-) TimerEvent: {}
+[10.327389] (raspicam2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.345047] (motor_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/motor_controller', 'build', '--build-base', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/motor_controller/build', 'install', '--record', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/motor_controller/install.log', '--install-scripts', '$base/lib/motor_controller', '--single-version-externally-managed'], 'cwd': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/motor_controller', 'env': {'VIRTUALENVWRAPPER_WORKON_CD': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'WORKON_HOME': '/home/adam/.virtualenvs', 'USER': 'adam', 'SSH_CLIENT': '192.168.0.150 61279 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/adam', 'VIRTUALENVWRAPPER_PYTHON': '/usr/bin/python3', 'OLDPWD': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src', 'TERM_PROGRAM_VERSION': '1.84.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-8345db7c-028a-4cf7-ad11-88280867a48c.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'adam', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '63', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/remote-cli:/home/adam/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-9756b562c9.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUALENVWRAPPER_PROJECT_FILENAME': '.project', 'VIRTUALENVWRAPPER_HOOK_DIR': '/home/adam/.virtualenvs', 'VIRTUALENVWRAPPER_SCRIPT': '/usr/share/virtualenvwrapper/virtualenvwrapper.sh', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/motor_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.150 61279 192.168.0.174 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/motor_controller/prefix_override:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2'}, 'shell': False}
+[10.360676] (ldlidar_ros2) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[10.362267] (ldlidar_ros2) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[10.376161] (ldlidar_ros2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[10.401321] (raspicam2) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[10.404833] (ldlidar_ros2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.419315] (ldlidar_ros2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[10.425645] (-) TimerEvent: {}
+[10.522870] (ldlidar_ros2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[10.523678] (ldlidar_ros2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[10.526136] (-) TimerEvent: {}
+[10.539829] (ldlidar_ros2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.565374] (ldlidar_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.627404] (-) TimerEvent: {}
+[10.638203] (ldlidar_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[10.650468] (ldlidar_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2\n'}
+[10.727916] (-) TimerEvent: {}
+[10.832616] (-) TimerEvent: {}
+[10.874986] (ldlidar_ros2) StdoutLine: {'line': b'[ 84%] Built target ldlidar_driver\n'}
+[10.932844] (-) TimerEvent: {}
+[11.033842] (-) TimerEvent: {}
+[11.120411] (ldlidar_ros2) StdoutLine: {'line': b'[100%] Built target ldlidar_ros2_node\n'}
+[11.134057] (-) TimerEvent: {}
+[11.203682] (ldlidar_ros2) CommandEnded: {'returncode': 0}
+[11.234491] (-) TimerEvent: {}
+[11.274836] (raspicam2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[11.334646] (-) TimerEvent: {}
+[11.378537] (ldlidar_ros2) JobProgress: {'identifier': 'ldlidar_ros2', 'progress': 'install'}
+[11.428267] (ldlidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2'], 'cwd': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2', 'env': OrderedDict([('VIRTUALENVWRAPPER_WORKON_CD', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('WORKON_HOME', '/home/adam/.virtualenvs'), ('USER', 'adam'), ('SSH_CLIENT', '192.168.0.150 61279 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/adam'), ('VIRTUALENVWRAPPER_PYTHON', '/usr/bin/python3'), ('OLDPWD', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src'), ('TERM_PROGRAM_VERSION', '1.84.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-8345db7c-028a-4cf7-ad11-88280867a48c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adam'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '63'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/remote-cli:/home/adam/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9756b562c9.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VIRTUALENVWRAPPER_PROJECT_FILENAME', '.project'), ('VIRTUALENVWRAPPER_HOOK_DIR', '/home/adam/.virtualenvs'), ('VIRTUALENVWRAPPER_SCRIPT', '/usr/share/virtualenvwrapper/virtualenvwrapper.sh'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.150 61279 192.168.0.174 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy')]), 'shell': False}
+[11.435952] (-) TimerEvent: {}
+[11.485644] (ldlidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.488831] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/lib/ldlidar_ros2/ldlidar_ros2_node\n'}
+[11.491677] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch\n'}
+[11.493362] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/viewer_ld14p.launch.py\n'}
+[11.494755] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/ld19.launch.py\n'}
+[11.496215] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/ld06.launch.py\n'}
+[11.497486] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/ld14.launch.py\n'}
+[11.498981] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/viewer_ld06.launch.py\n'}
+[11.500509] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/ld14p.launch.py\n'}
+[11.501951] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/viewer_ld14.launch.py\n'}
+[11.503514] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/viewer_ld19.launch.py\n'}
+[11.504661] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//rviz2\n'}
+[11.505860] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//rviz2/ldlidar.rviz\n'}
+[11.506918] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//scripts\n'}
+[11.508462] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//scripts/create_udev_rules.sh\n'}
+[11.509673] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//scripts/ldlidar.rules\n'}
+[11.510860] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//scripts/delete_udev_rules.sh\n'}
+[11.512856] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ament_index/resource_index/package_run_dependencies/ldlidar_ros2\n'}
+[11.514882] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ament_index/resource_index/parent_prefix_path/ldlidar_ros2\n'}
+[11.517928] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/environment/ament_prefix_path.sh\n'}
+[11.519903] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/environment/ament_prefix_path.dsv\n'}
+[11.522548] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/environment/path.sh\n'}
+[11.524405] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/environment/path.dsv\n'}
+[11.526930] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/local_setup.bash\n'}
+[11.528669] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/local_setup.sh\n'}
+[11.530334] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/local_setup.zsh\n'}
+[11.532207] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/local_setup.dsv\n'}
+[11.534965] (ldlidar_ros2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/package.dsv\n'}
+[11.535849] (-) TimerEvent: {}
+[11.539274] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ament_index/resource_index/packages/ldlidar_ros2\n'}
+[11.541223] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/cmake/ldlidar_ros2Config.cmake\n'}
+[11.543190] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/cmake/ldlidar_ros2Config-version.cmake\n'}
+[11.545545] (ldlidar_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/package.xml\n'}
+[11.563507] (ldlidar_ros2) CommandEnded: {'returncode': 0}
+[11.617441] (raspicam2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[11.636455] (-) TimerEvent: {}
+[11.738554] (-) TimerEvent: {}
+[11.767848] (camera_sensor) StdoutLine: {'line': b'running egg_info\n'}
+[11.771357] (camera_sensor) StdoutLine: {'line': b'writing ../../build/camera_sensor/camera_sensor.egg-info/PKG-INFO\n'}
+[11.773092] (camera_sensor) StdoutLine: {'line': b'writing dependency_links to ../../build/camera_sensor/camera_sensor.egg-info/dependency_links.txt\n'}
+[11.773975] (camera_sensor) StdoutLine: {'line': b'writing entry points to ../../build/camera_sensor/camera_sensor.egg-info/entry_points.txt\n'}
+[11.775605] (camera_sensor) StdoutLine: {'line': b'writing requirements to ../../build/camera_sensor/camera_sensor.egg-info/requires.txt\n'}
+[11.776502] (camera_sensor) StdoutLine: {'line': b'writing top-level names to ../../build/camera_sensor/camera_sensor.egg-info/top_level.txt\n'}
+[11.839428] (-) TimerEvent: {}
+[11.940333] (-) TimerEvent: {}
+[11.945923] (motor_controller) StdoutLine: {'line': b'running egg_info\n'}
+[11.949951] (camera_sensor) StdoutLine: {'line': b"reading manifest file '../../build/camera_sensor/camera_sensor.egg-info/SOURCES.txt'\n"}
+[11.952373] (motor_controller) StdoutLine: {'line': b'writing ../../build/motor_controller/motor_controller.egg-info/PKG-INFO\n'}
+[11.953296] (motor_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/motor_controller/motor_controller.egg-info/dependency_links.txt\n'}
+[11.954162] (motor_controller) StdoutLine: {'line': b'writing entry points to ../../build/motor_controller/motor_controller.egg-info/entry_points.txt\n'}
+[11.955162] (camera_sensor) StdoutLine: {'line': b"writing manifest file '../../build/camera_sensor/camera_sensor.egg-info/SOURCES.txt'\n"}
+[11.955872] (motor_controller) StdoutLine: {'line': b'writing requirements to ../../build/motor_controller/motor_controller.egg-info/requires.txt\n'}
+[11.958024] (motor_controller) StdoutLine: {'line': b'writing top-level names to ../../build/motor_controller/motor_controller.egg-info/top_level.txt\n'}
+[11.958641] (camera_sensor) StdoutLine: {'line': b'running build\n'}
+[11.959145] (camera_sensor) StdoutLine: {'line': b'running build_py\n'}
+[11.960885] (camera_sensor) StdoutLine: {'line': b'running install\n'}
+[11.966189] (camera_sensor) StdoutLine: {'line': b'running install_lib\n'}
+[11.974614] (camera_sensor) StdoutLine: {'line': b'running install_data\n'}
+[11.977998] (camera_sensor) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.987820] (camera_sensor) StdoutLine: {'line': b"removing '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages/camera_sensor-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[11.990063] (camera_sensor) StdoutLine: {'line': b'Copying ../../build/camera_sensor/camera_sensor.egg-info to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages/camera_sensor-0.0.0-py3.8.egg-info\n'}
+[11.999405] (camera_sensor) StdoutLine: {'line': b'running install_scripts\n'}
+[12.041022] (-) TimerEvent: {}
+[12.083607] (camera_sensor) StdoutLine: {'line': b'Installing camera_node script to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/camera_sensor\n'}
+[12.086432] (camera_sensor) StdoutLine: {'line': b"writing list of installed files to '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_sensor/install.log'\n"}
+[12.142246] (-) TimerEvent: {}
+[12.143628] (motor_controller) StdoutLine: {'line': b"reading manifest file '../../build/motor_controller/motor_controller.egg-info/SOURCES.txt'\n"}
+[12.151641] (motor_controller) StdoutLine: {'line': b"writing manifest file '../../build/motor_controller/motor_controller.egg-info/SOURCES.txt'\n"}
+[12.154804] (motor_controller) StdoutLine: {'line': b'running build\n'}
+[12.156374] (motor_controller) StdoutLine: {'line': b'running build_py\n'}
+[12.158094] (motor_controller) StdoutLine: {'line': b'running install\n'}
+[12.163806] (motor_controller) StdoutLine: {'line': b'running install_lib\n'}
+[12.174359] (motor_controller) StdoutLine: {'line': b'running install_data\n'}
+[12.178902] (motor_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.191162] (motor_controller) StdoutLine: {'line': b"removing '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages/motor_controller-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[12.193922] (motor_controller) StdoutLine: {'line': b'Copying ../../build/motor_controller/motor_controller.egg-info to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages/motor_controller-0.0.0-py3.8.egg-info\n'}
+[12.211139] (motor_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[12.243493] (-) TimerEvent: {}
+[12.308331] (motor_controller) StdoutLine: {'line': b'Installing motor_node script to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/motor_controller\n'}
+[12.310369] (motor_controller) StdoutLine: {'line': b"writing list of installed files to '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/motor_controller/install.log'\n"}
+[12.344310] (-) TimerEvent: {}
+[12.448890] (-) TimerEvent: {}
+[12.459410] (raspicam2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.549125] (-) TimerEvent: {}
+[12.640816] (camera_sensor) CommandEnded: {'returncode': 0}
+[12.649336] (-) TimerEvent: {}
+[12.751385] (-) TimerEvent: {}
+[12.779434] (raspicam2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[12.785597] (raspicam2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[12.789478] (raspicam2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[12.851881] (-) TimerEvent: {}
+[12.953993] (-) TimerEvent: {}
+[13.056113] (-) TimerEvent: {}
+[13.117807] (raspicam2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[13.120623] (raspicam2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[13.156286] (-) TimerEvent: {}
+[13.258806] (-) TimerEvent: {}
+[13.362104] (-) TimerEvent: {}
+[13.446533] (raspicam2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[13.447814] (raspicam2) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[13.462930] (-) TimerEvent: {}
+[13.494370] (camera_sensor) JobEnded: {'identifier': 'camera_sensor', 'rc': 0}
+[13.496802] (motor_controller) CommandEnded: {'returncode': 0}
+[13.563110] (-) TimerEvent: {}
+[13.664090] (-) TimerEvent: {}
+[13.712524] (raspicam2) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[13.715432] (raspicam2) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[13.764322] (-) TimerEvent: {}
+[13.865386] (-) TimerEvent: {}
+[13.967499] (-) TimerEvent: {}
+[14.038221] (raspicam2) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[14.043984] (raspicam2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[14.067768] (-) TimerEvent: {}
+[14.168485] (-) TimerEvent: {}
+[14.271125] (-) TimerEvent: {}
+[14.302739] (motor_controller) JobEnded: {'identifier': 'motor_controller', 'rc': 0}
+[14.307361] (servo_controller) JobStarted: {'identifier': 'servo_controller'}
+[14.371702] (-) TimerEvent: {}
+[14.473494] (-) TimerEvent: {}
+[14.578487] (-) TimerEvent: {}
+[14.680662] (-) TimerEvent: {}
+[14.744717] (raspicam2) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[14.780865] (-) TimerEvent: {}
+[14.881786] (-) TimerEvent: {}
+[14.985477] (-) TimerEvent: {}
+[15.033416] (raspicam2) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[15.085903] (-) TimerEvent: {}
+[15.188288] (-) TimerEvent: {}
+[15.291367] (-) TimerEvent: {}
+[15.393396] (-) TimerEvent: {}
+[15.496042] (-) TimerEvent: {}
+[15.598408] (-) TimerEvent: {}
+[15.703575] (-) TimerEvent: {}
+[15.807455] (-) TimerEvent: {}
+[15.860359] (raspicam2) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.907942] (-) TimerEvent: {}
+[15.964407] (raspicam2) StdoutLine: {'line': b'-- Generating done\n'}
+[15.971499] (raspicam2) StdoutLine: {'line': b'-- Build files have been written to: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/raspicam2\n'}
+[16.008167] (-) TimerEvent: {}
+[16.110113] (-) TimerEvent: {}
+[16.212361] (-) TimerEvent: {}
+[16.313995] (-) TimerEvent: {}
+[16.415819] (-) TimerEvent: {}
+[16.447347] (ldlidar_ros2) JobEnded: {'identifier': 'ldlidar_ros2', 'rc': 0}
+[16.451671] (raspicam2) CommandEnded: {'returncode': 0}
+[16.454098] (raspicam2) JobProgress: {'identifier': 'raspicam2', 'progress': 'build'}
+[16.455351] (raspicam2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/raspicam2', '--', '-j4', '-l4'], 'cwd': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/raspicam2', 'env': OrderedDict([('VIRTUALENVWRAPPER_WORKON_CD', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('WORKON_HOME', '/home/adam/.virtualenvs'), ('USER', 'adam'), ('SSH_CLIENT', '192.168.0.150 61279 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/adam'), ('VIRTUALENVWRAPPER_PYTHON', '/usr/bin/python3'), ('OLDPWD', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src'), ('TERM_PROGRAM_VERSION', '1.84.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-8345db7c-028a-4cf7-ad11-88280867a48c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adam'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '63'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/remote-cli:/home/adam/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9756b562c9.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VIRTUALENVWRAPPER_PROJECT_FILENAME', '.project'), ('VIRTUALENVWRAPPER_HOOK_DIR', '/home/adam/.virtualenvs'), ('VIRTUALENVWRAPPER_SCRIPT', '/usr/share/virtualenvwrapper/virtualenvwrapper.sh'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/raspicam2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.150 61279 192.168.0.174 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy')]), 'shell': False}
+[16.516176] (-) TimerEvent: {}
+[16.617338] (-) TimerEvent: {}
+[16.718376] (-) TimerEvent: {}
+[16.819429] (-) TimerEvent: {}
+[16.920476] (-) TimerEvent: {}
+[17.022632] (-) TimerEvent: {}
+[17.125034] (-) TimerEvent: {}
+[17.227403] (-) TimerEvent: {}
+[17.328930] (-) TimerEvent: {}
+[17.429656] (-) TimerEvent: {}
+[17.530368] (-) TimerEvent: {}
+[17.631121] (-) TimerEvent: {}
+[17.731933] (-) TimerEvent: {}
+[17.832716] (-) TimerEvent: {}
+[17.933505] (-) TimerEvent: {}
+[18.035843] (-) TimerEvent: {}
+[18.137714] (-) TimerEvent: {}
+[18.240649] (-) TimerEvent: {}
+[18.342422] (-) TimerEvent: {}
+[18.443487] (-) TimerEvent: {}
+[18.544851] (-) TimerEvent: {}
+[18.582496] (raspicam2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target raspicam_common\x1b[0m\n'}
+[18.584961] (raspicam2) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/raspicam_common.dir/src/RaspiCamControl.c.o\x1b[0m\n'}
+[18.585744] (raspicam2) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/raspicam_common.dir/src/RaspiCLI.c.o\x1b[0m\n'}
+[18.586278] (raspicam2) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/raspicam_common.dir/src/RaspiPreview.c.o\x1b[0m\n'}
+[18.586745] (raspicam2) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object CMakeFiles/raspicam_common.dir/src/RaspiCommonSettings.c.o\x1b[0m\n'}
+[18.587314] (raspicam2) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/raspicam_common.dir/src/RaspiHelpers.c.o\x1b[0m\n'}
+[18.589124] (raspicam2) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/raspicam_common.dir/src/RaspiGPS.c.o\x1b[0m\n'}
+[18.591695] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiPreview.c:210:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C does not allow extra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 outside of a function [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[18.593154] (raspicam2) StderrLine: {'line': b'  210 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[18.593939] (raspicam2) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[18.594690] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiPreview.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kraspipreview_parse_cmdline\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.595522] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiPreview.c:262:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%u\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kunsigned int *\x1b[m\x1b[K\xe2\x80\x99, but argument 3 has type \xe2\x80\x98\x1b[01m\x1b[Kint *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[18.596368] (raspicam2) StderrLine: {'line': b'  262 |       if (sscanf(arg2, "\x1b[01;35m\x1b[K%u\x1b[m\x1b[K", \x1b[32m\x1b[K&params->opacity\x1b[m\x1b[K) != 1)\n'}
+[18.597099] (raspicam2) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~^\x1b[m\x1b[K   \x1b[32m\x1b[K~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.597747] (raspicam2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K|\x1b[m\x1b[K   \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[18.605551] (raspicam2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K|\x1b[m\x1b[K   \x1b[32m\x1b[Kint *\x1b[m\x1b[K\n'}
+[18.616087] (raspicam2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[Kunsigned int *\x1b[m\x1b[K\n'}
+[18.617038] (raspicam2) StderrLine: {'line': b'      |                         \x1b[32m\x1b[K%u\x1b[m\x1b[K\n'}
+[18.617749] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:207:4:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for field \xe2\x80\x98\x1b[01m\x1b[Knum_parameters\x1b[m\x1b[K\xe2\x80\x99 of \xe2\x80\x98\x1b[01m\x1b[KCOMMAND_LIST\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct <anonymous>\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[18.618506] (raspicam2) StderrLine: {'line': b'  207 |    \x1b[01;35m\x1b[K{\x1b[m\x1b[KCommandStatsPass,   "-stats",     "st", "Force recomputation of statistics on stills capture pass"},\n'}
+[18.619108] (raspicam2) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[18.640226] (raspicam2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:44\x1b[m\x1b[K:\n'}
+[18.641425] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/RaspiCLI.h:38:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knum_parameters\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[18.642203] (raspicam2) StderrLine: {'line': b'   38 |    int \x1b[01;36m\x1b[Knum_parameters\x1b[m\x1b[K;\n'}
+[18.643003] (raspicam2) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.643813] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:210:4:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for field \xe2\x80\x98\x1b[01m\x1b[Knum_parameters\x1b[m\x1b[K\xe2\x80\x99 of \xe2\x80\x98\x1b[01m\x1b[KCOMMAND_LIST\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct <anonymous>\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[18.656102] (-) TimerEvent: {}
+[18.658651] (raspicam2) StderrLine: {'line': b'  210 |    \x1b[01;35m\x1b[K{\x1b[m\x1b[KCommandStereoDecimate,"-decimate","dec", "Half width/height of stereo image"},\n'}
+[18.659919] (raspicam2) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[18.660658] (raspicam2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:44\x1b[m\x1b[K:\n'}
+[18.661323] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/RaspiCLI.h:38:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knum_parameters\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[18.662025] (raspicam2) StderrLine: {'line': b'   38 |    int \x1b[01;36m\x1b[Knum_parameters\x1b[m\x1b[K;\n'}
+[18.662870] (raspicam2) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.665518] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:211:4:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for field \xe2\x80\x98\x1b[01m\x1b[Knum_parameters\x1b[m\x1b[K\xe2\x80\x99 of \xe2\x80\x98\x1b[01m\x1b[KCOMMAND_LIST\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct <anonymous>\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[18.666584] (raspicam2) StderrLine: {'line': b'  211 |    \x1b[01;35m\x1b[K{\x1b[m\x1b[KCommandStereoSwap,  "-3dswap",    "3dswap", "Swap camera order for stereoscopic"},\n'}
+[18.680640] (raspicam2) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[18.682100] (raspicam2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:44\x1b[m\x1b[K:\n'}
+[18.683416] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/RaspiCLI.h:38:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knum_parameters\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[18.684500] (raspicam2) StderrLine: {'line': b'   38 |    int \x1b[01;36m\x1b[Knum_parameters\x1b[m\x1b[K;\n'}
+[18.685758] (raspicam2) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.687396] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kraspicamcontrol_parse_cmdline\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.692496] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:776:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%u\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kunsigned int *\x1b[m\x1b[K\xe2\x80\x99, but argument 3 has type \xe2\x80\x98\x1b[01m\x1b[Kint *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[18.693516] (raspicam2) StderrLine: {'line': b'  776 |       sscanf(arg2, "\x1b[01;35m\x1b[K%u\x1b[m\x1b[K,%X,%X,%u,%u,%u", \x1b[32m\x1b[K&params->annotate_text_size\x1b[m\x1b[K,\n'}
+[18.694654] (raspicam2) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~^\x1b[m\x1b[K                  \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.696010] (raspicam2) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K|\x1b[m\x1b[K                  \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[18.697395] (raspicam2) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[Kunsigned int *\x1b[m\x1b[K     \x1b[32m\x1b[Kint *\x1b[m\x1b[K\n'}
+[18.715663] (raspicam2) StderrLine: {'line': b'      |                     \x1b[32m\x1b[K%u\x1b[m\x1b[K\n'}
+[18.716813] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:776:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%X\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kunsigned int *\x1b[m\x1b[K\xe2\x80\x99, but argument 4 has type \xe2\x80\x98\x1b[01m\x1b[Kint *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[18.717803] (raspicam2) StderrLine: {'line': b'  776 |       sscanf(arg2, "%u,\x1b[01;35m\x1b[K%X\x1b[m\x1b[K,%X,%u,%u,%u", &params->annotate_text_size,\n'}
+[18.718540] (raspicam2) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~^\x1b[m\x1b[K\n'}
+[18.719212] (raspicam2) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K|\x1b[m\x1b[K\n'}
+[18.720168] (raspicam2) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[Kunsigned int *\x1b[m\x1b[K\n'}
+[18.720708] (raspicam2) StderrLine: {'line': b'      |                        \x1b[32m\x1b[K%X\x1b[m\x1b[K\n'}
+[18.721425] (raspicam2) StderrLine: {'line': b'  777 |              \x1b[32m\x1b[K&params->annotate_text_colour\x1b[m\x1b[K,\n'}
+[18.722060] (raspicam2) StderrLine: {'line': b'      |              \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.722753] (raspicam2) StderrLine: {'line': b'      |              \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[18.723553] (raspicam2) StderrLine: {'line': b'      |              \x1b[32m\x1b[Kint *\x1b[m\x1b[K\n'}
+[18.724189] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:776:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%X\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kunsigned int *\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kint *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[18.724791] (raspicam2) StderrLine: {'line': b'  776 |       sscanf(arg2, "%u,%X,\x1b[01;35m\x1b[K%X\x1b[m\x1b[K,%u,%u,%u", &params->annotate_text_size,\n'}
+[18.725298] (raspicam2) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K~^\x1b[m\x1b[K\n'}
+[18.725857] (raspicam2) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K|\x1b[m\x1b[K\n'}
+[18.726558] (raspicam2) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[Kunsigned int *\x1b[m\x1b[K\n'}
+[18.727209] (raspicam2) StderrLine: {'line': b'      |                           \x1b[32m\x1b[K%X\x1b[m\x1b[K\n'}
+[18.728010] (raspicam2) StderrLine: {'line': b'  777 |              &params->annotate_text_colour,\n'}
+[18.728699] (raspicam2) StderrLine: {'line': b'  778 |              \x1b[32m\x1b[K&params->annotate_bg_colour\x1b[m\x1b[K,\n'}
+[18.729397] (raspicam2) StderrLine: {'line': b'      |              \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.729968] (raspicam2) StderrLine: {'line': b'      |              \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[18.730576] (raspicam2) StderrLine: {'line': b'      |              \x1b[32m\x1b[Kint *\x1b[m\x1b[K\n'}
+[18.746766] (raspicam2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/libgps_loader.h:31\x1b[m\x1b[K,\n'}
+[18.748762] (raspicam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/RaspiGPS.h:34\x1b[m\x1b[K,\n'}
+[18.750246] (raspicam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCommonSettings.c:58\x1b[m\x1b[K:\n'}
+[18.751737] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:290:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C99 doesn\xe2\x80\x99t support unnamed structs/unions [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[18.753450] (raspicam2) StderrLine: {'line': b'  290 |     }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[18.755058] (raspicam2) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[18.756893] (-) TimerEvent: {}
+[18.758724] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:871:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C99 doesn\xe2\x80\x99t support unnamed structs/unions [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[18.761801] (raspicam2) StderrLine: {'line': b'  871 |     }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[18.767040] (raspicam2) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[18.770386] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1216:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C99 doesn\xe2\x80\x99t support unnamed structs/unions [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[18.772897] (raspicam2) StderrLine: {'line': b' 1216 |       }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[18.776196] (raspicam2) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[18.778939] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1255:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C99 doesn\xe2\x80\x99t support unnamed structs/unions [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[18.783715] (raspicam2) StderrLine: {'line': b' 1255 |      }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[18.788603] (raspicam2) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[18.793639] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1563:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C99 doesn\xe2\x80\x99t support unnamed structs/unions [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[18.796778] (raspicam2) StderrLine: {'line': b' 1563 |      }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[18.800308] (raspicam2) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[18.805719] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kraspicamcontrol_set_ROI\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.811429] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:1455:4:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for field \xe2\x80\x98\x1b[01m\x1b[Krect\x1b[m\x1b[K\xe2\x80\x99 of \xe2\x80\x98\x1b[01m\x1b[KMMAL_PARAMETER_INPUT_CROP_T\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct MMAL_PARAMETER_INPUT_CROP_T\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[18.815444] (raspicam2) StderrLine: {'line': b' 1455 |    \x1b[01;35m\x1b[KMMAL_PARAMETER_INPUT_CROP_T\x1b[m\x1b[K crop = {{MMAL_PARAMETER_INPUT_CROP, sizeof(MMAL_PARAMETER_INPUT_CROP_T)}};\n'}
+[18.820640] (raspicam2) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.824563] (raspicam2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/interface/mmal/mmal_parameters.h:32\x1b[m\x1b[K,\n'}
+[18.828011] (raspicam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/interface/mmal/mmal_port.h:42\x1b[m\x1b[K,\n'}
+[18.830839] (raspicam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/interface/mmal/mmal.h:357\x1b[m\x1b[K,\n'}
+[18.833575] (raspicam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:36\x1b[m\x1b[K:\n'}
+[18.838241] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/interface/mmal/mmal_parameters_camera.h:587:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krect\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[18.841722] (raspicam2) StderrLine: {'line': b'  587 |    MMAL_RECT_T             \x1b[01;36m\x1b[Krect\x1b[m\x1b[K;    /**< Crop rectangle as 16P16 fixed point values */\n'}
+[18.844562] (raspicam2) StderrLine: {'line': b'      |                            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[18.847693] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1746:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C99 doesn\xe2\x80\x99t support unnamed structs/unions [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[18.851153] (raspicam2) StderrLine: {'line': b' 1746 |      }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[18.854430] (raspicam2) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[18.857589] (-) TimerEvent: {}
+[18.859008] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1788:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C99 doesn\xe2\x80\x99t support unnamed structs/unions [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[18.862386] (raspicam2) StderrLine: {'line': b' 1788 |      }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[18.866603] (raspicam2) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[18.870906] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kraspicamcontrol_zoom_in_zoom_out\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.873765] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:1485:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint32_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[18.876292] (raspicam2) StderrLine: {'line': b' 1485 |       if (crop.rect.width \x1b[01;35m\x1b[K<=\x1b[m\x1b[K (zoom_full_16P16 + zoom_increment_16P16))\n'}
+[18.878840] (raspicam2) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[18.881825] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1827:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C99 doesn\xe2\x80\x99t support unnamed structs/unions [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[18.884667] (raspicam2) StderrLine: {'line': b' 1827 |     }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[18.887652] (raspicam2) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[18.890274] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:1499:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint32_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[18.893439] (raspicam2) StderrLine: {'line': b' 1499 |       if (increased_size \x1b[01;35m\x1b[K<\x1b[m\x1b[K crop.rect.width) //overflow\n'}
+[18.896583] (raspicam2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[18.900878] (raspicam2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/libgps_loader.h:31\x1b[m\x1b[K,\n'}
+[18.903712] (raspicam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/RaspiGPS.h:34\x1b[m\x1b[K,\n'}
+[18.906619] (raspicam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCommonSettings.c:58\x1b[m\x1b[K:\n'}
+[18.909616] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:2080:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C99 doesn\xe2\x80\x99t support unnamed structs/unions [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[18.912647] (raspicam2) StderrLine: {'line': b' 2080 |     }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[18.915478] (raspicam2) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[18.918586] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kraspicamcontrol_set_annotate\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.921180] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:1598:4:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing initializer for field \xe2\x80\x98\x1b[01m\x1b[Kenable\x1b[m\x1b[K\xe2\x80\x99 of \xe2\x80\x98\x1b[01m\x1b[KMMAL_PARAMETER_CAMERA_ANNOTATE_V4_T\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct MMAL_PARAMETER_CAMERA_ANNOTATE_V4_T\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wmissing-field-initializers\x1b[m\x1b[K]\n'}
+[18.922052] (raspicam2) StderrLine: {'line': b' 1598 |    \x1b[01;35m\x1b[K{\x1b[m\x1b[K{MMAL_PARAMETER_ANNOTATE, sizeof(MMAL_PARAMETER_CAMERA_ANNOTATE_V4_T)}};\n'}
+[18.922833] (raspicam2) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[18.923661] (raspicam2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/interface/mmal/mmal_parameters.h:32\x1b[m\x1b[K,\n'}
+[18.924363] (raspicam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/interface/mmal/mmal_port.h:42\x1b[m\x1b[K,\n'}
+[18.925012] (raspicam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/interface/mmal/mmal.h:357\x1b[m\x1b[K,\n'}
+[18.925879] (raspicam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:36\x1b[m\x1b[K:\n'}
+[18.926588] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/interface/mmal/mmal_parameters_camera.h:791:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kenable\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[18.934099] (raspicam2) StderrLine: {'line': b'  791 |    MMAL_BOOL_T \x1b[01;36m\x1b[Kenable\x1b[m\x1b[K;\n'}
+[18.937332] (raspicam2) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[18.939958] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCommonSettings.c:99:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C does not allow extra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 outside of a function [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[18.940992] (raspicam2) StderrLine: {'line': b'   99 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[18.942138] (raspicam2) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[18.943004] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCommonSettings.c:114:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C does not allow extra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 outside of a function [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[18.943904] (raspicam2) StderrLine: {'line': b'  114 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[18.944472] (raspicam2) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[18.945023] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCommonSettings.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kraspicommonsettings_parse_cmdline\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.945512] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCommonSettings.c:149:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicit declaration of function \xe2\x80\x98\x1b[01m\x1b[Kbasename\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Krename\x1b[m\x1b[K\xe2\x80\x99? [\x1b[01;35m\x1b[K-Wimplicit-function-declaration\x1b[m\x1b[K]\n'}
+[18.946145] (raspicam2) StderrLine: {'line': b'  149 |       display_valid_parameters(\x1b[01;35m\x1b[Kbasename\x1b[m\x1b[K(get_app_name()), app_help);\n'}
+[18.946776] (raspicam2) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[18.956646] (raspicam2) StderrLine: {'line': b'      |                                \x1b[32m\x1b[Krename\x1b[m\x1b[K\n'}
+[18.958303] (-) TimerEvent: {}
+[18.959457] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCommonSettings.c:149:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kpassing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kdisplay_valid_parameters\x1b[m\x1b[K\xe2\x80\x99 makes pointer from integer without a cast [\x1b[01;35m\x1b[K-Wint-conversion\x1b[m\x1b[K]\n'}
+[18.960944] (raspicam2) StderrLine: {'line': b'  149 |       display_valid_parameters(\x1b[01;35m\x1b[Kbasename(get_app_name())\x1b[m\x1b[K, app_help);\n'}
+[18.961981] (raspicam2) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.963187] (raspicam2) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K|\x1b[m\x1b[K\n'}
+[18.964494] (raspicam2) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[Kint\x1b[m\x1b[K\n'}
+[18.965709] (raspicam2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCommonSettings.c:57\x1b[m\x1b[K:\n'}
+[18.975289] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/RaspiHelpers.h:32:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[Kchar *\x1b[m\x1b[K\xe2\x80\x99 but argument is of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.978298] (raspicam2) StderrLine: {'line': b'   32 | void display_valid_parameters(\x1b[01;36m\x1b[Kchar *name\x1b[m\x1b[K, void (*app_help)(char*));\n'}
+[18.981434] (raspicam2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K~~~~~~^~~~\x1b[m\x1b[K\n'}
+[18.984350] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCommonSettings.c:154:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%u\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kunsigned int *\x1b[m\x1b[K\xe2\x80\x99, but argument 3 has type \xe2\x80\x98\x1b[01m\x1b[Kint *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[18.987316] (raspicam2) StderrLine: {'line': b'  154 |       if (sscanf(arg2, "\x1b[01;35m\x1b[K%u\x1b[m\x1b[K", \x1b[32m\x1b[K&state->width\x1b[m\x1b[K) == 1)\n'}
+[18.990157] (raspicam2) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~^\x1b[m\x1b[K   \x1b[32m\x1b[K~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.992998] (raspicam2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K|\x1b[m\x1b[K   \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[18.995987] (raspicam2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K|\x1b[m\x1b[K   \x1b[32m\x1b[Kint *\x1b[m\x1b[K\n'}
+[18.998985] (raspicam2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[Kunsigned int *\x1b[m\x1b[K\n'}
+[19.002055] (raspicam2) StderrLine: {'line': b'      |                         \x1b[32m\x1b[K%u\x1b[m\x1b[K\n'}
+[19.008141] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kdefault_camera_control_callback\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.011908] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCommonSettings.c:159:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%u\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kunsigned int *\x1b[m\x1b[K\xe2\x80\x99, but argument 3 has type \xe2\x80\x98\x1b[01m\x1b[Kint *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[19.014958] (raspicam2) StderrLine: {'line': b'  159 |       if (sscanf(arg2, "\x1b[01;35m\x1b[K%u\x1b[m\x1b[K", \x1b[32m\x1b[K&state->height\x1b[m\x1b[K) == 1)\n'}
+[19.017963] (raspicam2) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~^\x1b[m\x1b[K   \x1b[32m\x1b[K~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.021967] (raspicam2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K|\x1b[m\x1b[K   \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[19.026706] (raspicam2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K|\x1b[m\x1b[K   \x1b[32m\x1b[Kint *\x1b[m\x1b[K\n'}
+[19.029098] (raspicam2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[Kunsigned int *\x1b[m\x1b[K\n'}
+[19.029834] (raspicam2) StderrLine: {'line': b'      |                         \x1b[32m\x1b[K%u\x1b[m\x1b[K\n'}
+[19.030534] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCamControl.c:1793:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kport\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[19.031047] (raspicam2) StderrLine: {'line': b' 1793 | void default_camera_control_callback(\x1b[01;35m\x1b[KMMAL_PORT_T *port\x1b[m\x1b[K, MMAL_BUFFER_HEADER_T *buffer)\n'}
+[19.031681] (raspicam2) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[19.032215] (raspicam2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/libgps_loader.h:31\x1b[m\x1b[K,\n'}
+[19.032796] (raspicam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/RaspiGPS.h:34\x1b[m\x1b[K,\n'}
+[19.033382] (raspicam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiGPS.c:35\x1b[m\x1b[K:\n'}
+[19.033895] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:290:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C99 doesn\xe2\x80\x99t support unnamed structs/unions [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[19.034565] (raspicam2) StderrLine: {'line': b'  290 |     }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[19.035288] (raspicam2) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[19.036018] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiHelpers.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kprint_app_details\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.036871] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiHelpers.c:66:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicit declaration of function \xe2\x80\x98\x1b[01m\x1b[Kbasename\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Krename\x1b[m\x1b[K\xe2\x80\x99? [\x1b[01;35m\x1b[K-Wimplicit-function-declaration\x1b[m\x1b[K]\n'}
+[19.037667] (raspicam2) StderrLine: {'line': b'   66 |    fprintf(fd, "\\n\\"%s\\" Camera App (commit %s%s)\\n\\n", \x1b[01;35m\x1b[Kbasename\x1b[m\x1b[K(app_name), GIT_COMMIT_ID, TAINTED);\n'}
+[19.038338] (raspicam2) StderrLine: {'line': b'      |                                                         \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[19.039040] (raspicam2) StderrLine: {'line': b'      |                                                         \x1b[32m\x1b[Krename\x1b[m\x1b[K\n'}
+[19.039888] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiHelpers.c:66:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%s\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kchar *\x1b[m\x1b[K\xe2\x80\x99, but argument 3 has type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[19.040626] (raspicam2) StderrLine: {'line': b'   66 |    fprintf(fd, "\\n\\"\x1b[01;35m\x1b[K%s\x1b[m\x1b[K\\" Camera App (commit %s%s)\\n\\n", \x1b[32m\x1b[Kbasename(app_name)\x1b[m\x1b[K, GIT_COMMIT_ID, TAINTED);\n'}
+[19.041214] (raspicam2) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~^\x1b[m\x1b[K                                  \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.041827] (raspicam2) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K|\x1b[m\x1b[K                                  \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[19.042401] (raspicam2) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[Kchar *\x1b[m\x1b[K                             \x1b[32m\x1b[Kint\x1b[m\x1b[K\n'}
+[19.042944] (raspicam2) StderrLine: {'line': b'      |                     \x1b[32m\x1b[K%d\x1b[m\x1b[K\n'}
+[19.043635] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiHelpers.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kget_sensor_defaults\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.044318] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiHelpers.c:112:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kuint32_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[19.044917] (raspicam2) StderrLine: {'line': b'  112 |          if (status == MMAL_SUCCESS && param.num_cameras \x1b[01;35m\x1b[K>\x1b[m\x1b[K camera_num)\n'}
+[19.045477] (raspicam2) StderrLine: {'line': b'      |                                                          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[19.045987] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCommonSettings.c:207:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%u\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kunsigned int *\x1b[m\x1b[K\xe2\x80\x99, but argument 3 has type \xe2\x80\x98\x1b[01m\x1b[Kint *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[19.046588] (raspicam2) StderrLine: {'line': b'  207 |       if (sscanf(arg2, "\x1b[01;35m\x1b[K%u\x1b[m\x1b[K", \x1b[32m\x1b[K&state->cameraNum\x1b[m\x1b[K) == 1)\n'}
+[19.047148] (raspicam2) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~^\x1b[m\x1b[K   \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.047857] (raspicam2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K|\x1b[m\x1b[K   \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[19.048454] (raspicam2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K|\x1b[m\x1b[K   \x1b[32m\x1b[Kint *\x1b[m\x1b[K\n'}
+[19.049112] (raspicam2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[Kunsigned int *\x1b[m\x1b[K\n'}
+[19.049691] (raspicam2) StderrLine: {'line': b'      |                         \x1b[32m\x1b[K%u\x1b[m\x1b[K\n'}
+[19.050206] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiCommonSettings.c:214:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%u\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kunsigned int *\x1b[m\x1b[K\xe2\x80\x99, but argument 3 has type \xe2\x80\x98\x1b[01m\x1b[Kint *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[19.051024] (raspicam2) StderrLine: {'line': b'  214 |       if (sscanf(arg2, "\x1b[01;35m\x1b[K%u\x1b[m\x1b[K", \x1b[32m\x1b[K&state->sensor_mode\x1b[m\x1b[K) == 1)\n'}
+[19.051810] (raspicam2) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~^\x1b[m\x1b[K   \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.052450] (raspicam2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K|\x1b[m\x1b[K   \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[19.053073] (raspicam2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K|\x1b[m\x1b[K   \x1b[32m\x1b[Kint *\x1b[m\x1b[K\n'}
+[19.053727] (raspicam2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[Kunsigned int *\x1b[m\x1b[K\n'}
+[19.054375] (raspicam2) StderrLine: {'line': b'      |                         \x1b[32m\x1b[K%u\x1b[m\x1b[K\n'}
+[19.054934] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:871:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C99 doesn\xe2\x80\x99t support unnamed structs/unions [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[19.055542] (raspicam2) StderrLine: {'line': b'  871 |     }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[19.056180] (raspicam2) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[19.056788] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1216:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C99 doesn\xe2\x80\x99t support unnamed structs/unions [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[19.057475] (raspicam2) StderrLine: {'line': b' 1216 |       }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[19.058188] (raspicam2) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[19.058794] (-) TimerEvent: {}
+[19.059653] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1255:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C99 doesn\xe2\x80\x99t support unnamed structs/unions [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[19.060483] (raspicam2) StderrLine: {'line': b' 1255 |      }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[19.061144] (raspicam2) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[19.061586] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1563:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C99 doesn\xe2\x80\x99t support unnamed structs/unions [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[19.062024] (raspicam2) StderrLine: {'line': b' 1563 |      }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[19.062449] (raspicam2) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[19.062914] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1746:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C99 doesn\xe2\x80\x99t support unnamed structs/unions [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[19.063537] (raspicam2) StderrLine: {'line': b' 1746 |      }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[19.064056] (raspicam2) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[19.064520] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1788:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C99 doesn\xe2\x80\x99t support unnamed structs/unions [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[19.065195] (raspicam2) StderrLine: {'line': b' 1788 |      }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[19.065949] (raspicam2) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[19.066551] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1827:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C99 doesn\xe2\x80\x99t support unnamed structs/unions [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[19.067207] (raspicam2) StderrLine: {'line': b' 1827 |     }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[19.067964] (raspicam2) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[19.068605] (raspicam2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/libgps_loader.h:31\x1b[m\x1b[K,\n'}
+[19.069303] (raspicam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/RaspiGPS.h:34\x1b[m\x1b[K,\n'}
+[19.070326] (raspicam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiGPS.c:35\x1b[m\x1b[K:\n'}
+[19.071023] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:2080:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C99 doesn\xe2\x80\x99t support unnamed structs/unions [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[19.071682] (raspicam2) StderrLine: {'line': b' 2080 |     }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[19.072324] (raspicam2) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[19.073464] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiGPS.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kgps_reader_process\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.074194] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiGPS.c:63:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kgps_reader_data_ptr\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[19.075091] (raspicam2) StderrLine: {'line': b'   63 | static void *gps_reader_process(\x1b[01;35m\x1b[Kvoid *gps_reader_data_ptr\x1b[m\x1b[K)\n'}
+[19.075752] (raspicam2) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.076511] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiGPS.c:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kraspi_gps_location_string\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.077409] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RaspiGPS.c:238:4:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kimplicit declaration of function \xe2\x80\x98\x1b[01m\x1b[Kasprintf\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kvsprintf\x1b[m\x1b[K\xe2\x80\x99? [\x1b[01;35m\x1b[K-Wimplicit-function-declaration\x1b[m\x1b[K]\n'}
+[19.078287] (raspicam2) StderrLine: {'line': b'  238 |    \x1b[01;35m\x1b[Kasprintf\x1b[m\x1b[K(&text,  "%s Lat %s Long %s %s %s %s", datetime, lat, lon, alt, speed, track);\n'}
+[19.079434] (raspicam2) StderrLine: {'line': b'      |    \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[19.080170] (raspicam2) StderrLine: {'line': b'      |    \x1b[32m\x1b[Kvsprintf\x1b[m\x1b[K\n'}
+[19.081032] (raspicam2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/raspicam_common.dir/src/libgps_loader.c.o\x1b[0m\n'}
+[19.082084] (raspicam2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/libgps_loader.h:31\x1b[m\x1b[K,\n'}
+[19.082800] (raspicam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/libgps_loader.c:34\x1b[m\x1b[K:\n'}
+[19.083648] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:290:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C99 doesn\xe2\x80\x99t support unnamed structs/unions [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[19.084540] (raspicam2) StderrLine: {'line': b'  290 |     }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[19.085373] (raspicam2) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[19.086002] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:871:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C99 doesn\xe2\x80\x99t support unnamed structs/unions [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[19.086701] (raspicam2) StderrLine: {'line': b'  871 |     }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[19.087396] (raspicam2) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[19.088260] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1216:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C99 doesn\xe2\x80\x99t support unnamed structs/unions [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[19.088893] (raspicam2) StderrLine: {'line': b' 1216 |       }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[19.089493] (raspicam2) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[19.090111] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1255:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C99 doesn\xe2\x80\x99t support unnamed structs/unions [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[19.091068] (raspicam2) StderrLine: {'line': b' 1255 |      }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[19.091987] (raspicam2) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[19.092740] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1563:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C99 doesn\xe2\x80\x99t support unnamed structs/unions [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[19.093869] (raspicam2) StderrLine: {'line': b' 1563 |      }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[19.094787] (raspicam2) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[19.095791] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1746:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C99 doesn\xe2\x80\x99t support unnamed structs/unions [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[19.096769] (raspicam2) StderrLine: {'line': b' 1746 |      }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[19.097646] (raspicam2) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[19.098621] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1788:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C99 doesn\xe2\x80\x99t support unnamed structs/unions [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[19.100139] (raspicam2) StderrLine: {'line': b' 1788 |      }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[19.101165] (raspicam2) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[19.101823] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:1827:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C99 doesn\xe2\x80\x99t support unnamed structs/unions [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[19.102513] (raspicam2) StderrLine: {'line': b' 1827 |     }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[19.103078] (raspicam2) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[19.103577] (raspicam2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/libgps_loader.h:31\x1b[m\x1b[K,\n'}
+[19.104000] (raspicam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/libgps_loader.c:34\x1b[m\x1b[K:\n'}
+[19.104443] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/gps.h:2080:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C99 doesn\xe2\x80\x99t support unnamed structs/unions [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[19.104883] (raspicam2) StderrLine: {'line': b' 2080 |     }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[19.105306] (raspicam2) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[19.151118] (raspicam2) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking C static library libraspicam_common.a\x1b[0m\n'}
+[19.158955] (-) TimerEvent: {}
+[19.259861] (-) TimerEvent: {}
+[19.283320] (raspicam2) StdoutLine: {'line': b'[ 57%] Built target raspicam_common\n'}
+[19.326893] (raspicam2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target raspicam\x1b[0m\n'}
+[19.360061] (-) TimerEvent: {}
+[19.376938] (raspicam2) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/raspicam.dir/src/raspicam.cpp.o\x1b[0m\n'}
+[19.460245] (-) TimerEvent: {}
+[19.561202] (-) TimerEvent: {}
+[19.662078] (-) TimerEvent: {}
+[19.763005] (-) TimerEvent: {}
+[19.864048] (-) TimerEvent: {}
+[19.964982] (-) TimerEvent: {}
+[20.065904] (-) TimerEvent: {}
+[20.166892] (-) TimerEvent: {}
+[20.267914] (-) TimerEvent: {}
+[20.368839] (-) TimerEvent: {}
+[20.469755] (-) TimerEvent: {}
+[20.570833] (-) TimerEvent: {}
+[20.650028] (raspicam2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/interface/vcos/vcos.h:144\x1b[m\x1b[K,\n'}
+[20.650999] (raspicam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/interface/vmcs_host/vc_dispmanx.h:33\x1b[m\x1b[K,\n'}
+[20.651735] (raspicam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/bcm_host.h:50\x1b[m\x1b[K,\n'}
+[20.652351] (raspicam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/raspicam.cpp:32\x1b[m\x1b[K:\n'}
+[20.652948] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/raspicam.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid image_encoder_buffer_callback(MMAL_PORT_T*, MMAL_BUFFER_HEADER_T*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.653557] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/raspicam.cpp:117:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 4 has type \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[20.654346] (raspicam2) StderrLine: {'line': b'  117 |       vcos_log_error(\x1b[01;35m\x1b[K"Failed to write buffer data (%d from %d)- aborting"\x1b[m\x1b[K, \x1b[32m\x1b[Kbytes_written\x1b[m\x1b[K, buffer->length);\n'}
+[20.655819] (raspicam2) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.657155] (raspicam2) StderrLine: {'line': b'      |                                                                            \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[20.658489] (raspicam2) StderrLine: {'line': b'      |                                                                            \x1b[32m\x1b[Ksize_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[20.659228] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/raspicam.cpp:117:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[20.659916] (raspicam2) StderrLine: {'line': b'  117 |       vcos_log_error("Failed to write buffer data (\x1b[01;36m\x1b[K%d\x1b[m\x1b[K from %d)- aborting", bytes_written, buffer->length);\n'}
+[20.660536] (raspicam2) StderrLine: {'line': b'      |                                                    \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[20.661164] (raspicam2) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[20.661932] (raspicam2) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[20.663886] (raspicam2) StderrLine: {'line': b'      |                                                    \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[20.664519] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/raspicam.cpp:118:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 3 has type \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[20.665146] (raspicam2) StderrLine: {'line': b'  118 |       ROS_ERROR(\x1b[01;35m\x1b[K"Failed to write buffer data (%d from %d)- aborting"\x1b[m\x1b[K, \x1b[32m\x1b[Kbytes_written\x1b[m\x1b[K, buffer->length);\n'}
+[20.665862] (raspicam2) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.666540] (raspicam2) StderrLine: {'line': b'      |                                                                       \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[20.667237] (raspicam2) StderrLine: {'line': b'      |                                                                       \x1b[32m\x1b[Ksize_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[20.668093] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/raspicam.cpp:45:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KROS_ERROR\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.668748] (raspicam2) StderrLine: {'line': b'   45 | #define ROS_ERROR(...) fprintf(stderr, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K);\n'}
+[20.669356] (raspicam2) StderrLine: {'line': b'      |                                        \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.669946] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/raspicam.cpp:118:48:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[20.670555] (raspicam2) StderrLine: {'line': b'  118 |       ROS_ERROR("Failed to write buffer data (\x1b[01;36m\x1b[K%d\x1b[m\x1b[K from %d)- aborting", bytes_written, buffer->length);\n'}
+[20.671108] (-) TimerEvent: {}
+[20.671716] (raspicam2) StderrLine: {'line': b'      |                                               \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[20.672461] (raspicam2) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[20.673000] (raspicam2) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[20.673598] (raspicam2) StderrLine: {'line': b'      |                                               \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[20.674185] (raspicam2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/interface/vcos/vcos.h:144\x1b[m\x1b[K,\n'}
+[20.674676] (raspicam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/interface/vmcs_host/vc_dispmanx.h:33\x1b[m\x1b[K,\n'}
+[20.675179] (raspicam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/bcm_host.h:50\x1b[m\x1b[K,\n'}
+[20.675833] (raspicam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/raspicam.cpp:32\x1b[m\x1b[K:\n'}
+[20.676470] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/raspicam.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid splitter_buffer_callback(MMAL_PORT_T*, MMAL_BUFFER_HEADER_T*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.677197] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/raspicam.cpp:268:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 4 has type \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[20.678008] (raspicam2) StderrLine: {'line': b'  268 |       vcos_log_error(\x1b[01;35m\x1b[K"Failed to write buffer data (%d from %d)- aborting"\x1b[m\x1b[K, \x1b[32m\x1b[Kbytes_written\x1b[m\x1b[K, buffer->length);\n'}
+[20.678768] (raspicam2) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.679320] (raspicam2) StderrLine: {'line': b'      |                                                                            \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[20.680272] (raspicam2) StderrLine: {'line': b'      |                                                                            \x1b[32m\x1b[Ksize_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[20.681300] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/raspicam.cpp:268:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[20.682118] (raspicam2) StderrLine: {'line': b'  268 |       vcos_log_error("Failed to write buffer data (\x1b[01;36m\x1b[K%d\x1b[m\x1b[K from %d)- aborting", bytes_written, buffer->length);\n'}
+[20.682898] (raspicam2) StderrLine: {'line': b'      |                                                    \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[20.683761] (raspicam2) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[20.684379] (raspicam2) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[20.684995] (raspicam2) StderrLine: {'line': b'      |                                                    \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[20.685638] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/raspicam.cpp:269:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 3 has type \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[20.686288] (raspicam2) StderrLine: {'line': b'  269 |       ROS_ERROR(\x1b[01;35m\x1b[K"Failed to write buffer data (%d from %d)- aborting"\x1b[m\x1b[K, \x1b[32m\x1b[Kbytes_written\x1b[m\x1b[K, buffer->length);\n'}
+[20.686878] (raspicam2) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.687538] (raspicam2) StderrLine: {'line': b'      |                                                                       \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[20.688195] (raspicam2) StderrLine: {'line': b'      |                                                                       \x1b[32m\x1b[Ksize_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[20.689011] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/raspicam.cpp:45:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KROS_ERROR\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.689667] (raspicam2) StderrLine: {'line': b'   45 | #define ROS_ERROR(...) fprintf(stderr, \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K);\n'}
+[20.690375] (raspicam2) StderrLine: {'line': b'      |                                        \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.690995] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/raspicam.cpp:269:48:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[20.691689] (raspicam2) StderrLine: {'line': b'  269 |       ROS_ERROR("Failed to write buffer data (\x1b[01;36m\x1b[K%d\x1b[m\x1b[K from %d)- aborting", bytes_written, buffer->length);\n'}
+[20.692339] (raspicam2) StderrLine: {'line': b'      |                                               \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[20.693023] (raspicam2) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[20.694028] (raspicam2) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[20.694615] (raspicam2) StderrLine: {'line': b'      |                                               \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[20.771504] (-) TimerEvent: {}
+[20.873345] (-) TimerEvent: {}
+[20.895699] (servo_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/servo_controller', 'build', '--build-base', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/servo_controller/build', 'install', '--record', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/servo_controller/install.log', '--install-scripts', '$base/lib/servo_controller', '--single-version-externally-managed'], 'cwd': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/servo_controller', 'env': {'VIRTUALENVWRAPPER_WORKON_CD': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'WORKON_HOME': '/home/adam/.virtualenvs', 'USER': 'adam', 'SSH_CLIENT': '192.168.0.150 61279 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/adam', 'VIRTUALENVWRAPPER_PYTHON': '/usr/bin/python3', 'OLDPWD': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src', 'TERM_PROGRAM_VERSION': '1.84.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-8345db7c-028a-4cf7-ad11-88280867a48c.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'adam', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '63', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/remote-cli:/home/adam/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-9756b562c9.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUALENVWRAPPER_PROJECT_FILENAME': '.project', 'VIRTUALENVWRAPPER_HOOK_DIR': '/home/adam/.virtualenvs', 'VIRTUALENVWRAPPER_SCRIPT': '/usr/share/virtualenvwrapper/virtualenvwrapper.sh', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/servo_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.150 61279 192.168.0.174 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/servo_controller/prefix_override:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2'}, 'shell': False}
+[20.973821] (-) TimerEvent: {}
+[21.075543] (-) TimerEvent: {}
+[21.177046] (-) TimerEvent: {}
+[21.278276] (-) TimerEvent: {}
+[21.379369] (-) TimerEvent: {}
+[21.480245] (-) TimerEvent: {}
+[21.581146] (-) TimerEvent: {}
+[21.682069] (-) TimerEvent: {}
+[21.776012] (raspicam2) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libraspicam.so\x1b[0m\n'}
+[21.782240] (-) TimerEvent: {}
+[21.883476] (-) TimerEvent: {}
+[21.984635] (-) TimerEvent: {}
+[22.046869] (raspicam2) StdoutLine: {'line': b'[ 71%] Built target raspicam\n'}
+[22.084813] (-) TimerEvent: {}
+[22.092072] (raspicam2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target RasPiCamPublisherNode\x1b[0m\n'}
+[22.186102] (-) TimerEvent: {}
+[22.236813] (servo_controller) StdoutLine: {'line': b'running egg_info\n'}
+[22.240512] (servo_controller) StdoutLine: {'line': b'writing ../../build/servo_controller/servo_controller.egg-info/PKG-INFO\n'}
+[22.242102] (servo_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/servo_controller/servo_controller.egg-info/dependency_links.txt\n'}
+[22.243389] (servo_controller) StdoutLine: {'line': b'writing entry points to ../../build/servo_controller/servo_controller.egg-info/entry_points.txt\n'}
+[22.244148] (servo_controller) StdoutLine: {'line': b'writing requirements to ../../build/servo_controller/servo_controller.egg-info/requires.txt\n'}
+[22.245069] (servo_controller) StdoutLine: {'line': b'writing top-level names to ../../build/servo_controller/servo_controller.egg-info/top_level.txt\n'}
+[22.286317] (-) TimerEvent: {}
+[22.320004] (raspicam2) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/RasPiCamPublisherNode.dir/src/RasPiCamPublisherNode.cpp.o\x1b[0m\n'}
+[22.386503] (-) TimerEvent: {}
+[22.390014] (servo_controller) StdoutLine: {'line': b"reading manifest file '../../build/servo_controller/servo_controller.egg-info/SOURCES.txt'\n"}
+[22.394589] (servo_controller) StdoutLine: {'line': b"writing manifest file '../../build/servo_controller/servo_controller.egg-info/SOURCES.txt'\n"}
+[22.395581] (servo_controller) StdoutLine: {'line': b'running build\n'}
+[22.396320] (servo_controller) StdoutLine: {'line': b'running build_py\n'}
+[22.397010] (servo_controller) StdoutLine: {'line': b'running install\n'}
+[22.400169] (servo_controller) StdoutLine: {'line': b'running install_lib\n'}
+[22.406545] (servo_controller) StdoutLine: {'line': b'running install_data\n'}
+[22.408940] (servo_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[22.416349] (servo_controller) StdoutLine: {'line': b"removing '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages/servo_controller-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[22.418168] (servo_controller) StdoutLine: {'line': b'Copying ../../build/servo_controller/servo_controller.egg-info to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages/servo_controller-0.0.0-py3.8.egg-info\n'}
+[22.425439] (servo_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[22.486676] (-) TimerEvent: {}
+[22.497791] (servo_controller) StdoutLine: {'line': b'Installing servo_node script to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/servo_controller\n'}
+[22.500197] (servo_controller) StdoutLine: {'line': b"writing list of installed files to '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/servo_controller/install.log'\n"}
+[22.587049] (-) TimerEvent: {}
+[22.615525] (servo_controller) CommandEnded: {'returncode': 0}
+[22.687508] (-) TimerEvent: {}
+[22.790926] (-) TimerEvent: {}
+[22.893102] (-) TimerEvent: {}
+[22.994790] (-) TimerEvent: {}
+[23.097670] (-) TimerEvent: {}
+[23.199859] (-) TimerEvent: {}
+[23.301755] (-) TimerEvent: {}
+[23.405146] (-) TimerEvent: {}
+[23.434523] (servo_controller) JobEnded: {'identifier': 'servo_controller', 'rc': 0}
+[23.505355] (-) TimerEvent: {}
+[23.606237] (-) TimerEvent: {}
+[23.707090] (-) TimerEvent: {}
+[23.808094] (-) TimerEvent: {}
+[23.908931] (-) TimerEvent: {}
+[24.009764] (-) TimerEvent: {}
+[24.110628] (-) TimerEvent: {}
+[24.211518] (-) TimerEvent: {}
+[24.312407] (-) TimerEvent: {}
+[24.413224] (-) TimerEvent: {}
+[24.514059] (-) TimerEvent: {}
+[24.614873] (-) TimerEvent: {}
+[24.715827] (-) TimerEvent: {}
+[24.816634] (-) TimerEvent: {}
+[24.917499] (-) TimerEvent: {}
+[25.018393] (-) TimerEvent: {}
+[25.119302] (-) TimerEvent: {}
+[25.220127] (-) TimerEvent: {}
+[25.320929] (-) TimerEvent: {}
+[25.421740] (-) TimerEvent: {}
+[25.522580] (-) TimerEvent: {}
+[25.623483] (-) TimerEvent: {}
+[25.724312] (-) TimerEvent: {}
+[25.825136] (-) TimerEvent: {}
+[25.925978] (-) TimerEvent: {}
+[26.026895] (-) TimerEvent: {}
+[26.127873] (-) TimerEvent: {}
+[26.228692] (-) TimerEvent: {}
+[26.329557] (-) TimerEvent: {}
+[26.430389] (-) TimerEvent: {}
+[26.531197] (-) TimerEvent: {}
+[26.632126] (-) TimerEvent: {}
+[26.733182] (-) TimerEvent: {}
+[26.834039] (-) TimerEvent: {}
+[26.934969] (-) TimerEvent: {}
+[27.035846] (-) TimerEvent: {}
+[27.136667] (-) TimerEvent: {}
+[27.237589] (-) TimerEvent: {}
+[27.338474] (-) TimerEvent: {}
+[27.439322] (-) TimerEvent: {}
+[27.540141] (-) TimerEvent: {}
+[27.640979] (-) TimerEvent: {}
+[27.741827] (-) TimerEvent: {}
+[27.842699] (-) TimerEvent: {}
+[27.943533] (-) TimerEvent: {}
+[28.044404] (-) TimerEvent: {}
+[28.048534] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RasPiCamPublisherNode.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RasPiCamPublisher::onMotion(const uint8_t*, const uint8_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[28.049400] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RasPiCamPublisherNode.cpp:177:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kstart\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[28.049949] (raspicam2) StderrLine: {'line': b'  177 | void RasPiCamPublisher::onMotion(\x1b[01;35m\x1b[Kconst uint8_t* start\x1b[m\x1b[K, const uint8_t* end) { }\n'}
+[28.050423] (raspicam2) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[28.051035] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RasPiCamPublisherNode.cpp:177:71:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kend\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[28.051635] (raspicam2) StderrLine: {'line': b'  177 | void RasPiCamPublisher::onMotion(const uint8_t* start, \x1b[01;35m\x1b[Kconst uint8_t* end\x1b[m\x1b[K) { }\n'}
+[28.052189] (raspicam2) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[28.144603] (-) TimerEvent: {}
+[28.245461] (-) TimerEvent: {}
+[28.346355] (-) TimerEvent: {}
+[28.447191] (-) TimerEvent: {}
+[28.548046] (-) TimerEvent: {}
+[28.648907] (-) TimerEvent: {}
+[28.749780] (-) TimerEvent: {}
+[28.850617] (-) TimerEvent: {}
+[28.951471] (-) TimerEvent: {}
+[29.052283] (-) TimerEvent: {}
+[29.153108] (-) TimerEvent: {}
+[29.253974] (-) TimerEvent: {}
+[29.354790] (-) TimerEvent: {}
+[29.455714] (-) TimerEvent: {}
+[29.556610] (-) TimerEvent: {}
+[29.657636] (-) TimerEvent: {}
+[29.758515] (-) TimerEvent: {}
+[29.859392] (-) TimerEvent: {}
+[29.960231] (-) TimerEvent: {}
+[30.061039] (-) TimerEvent: {}
+[30.161917] (-) TimerEvent: {}
+[30.262775] (-) TimerEvent: {}
+[30.363628] (-) TimerEvent: {}
+[30.464451] (-) TimerEvent: {}
+[30.565291] (-) TimerEvent: {}
+[30.666170] (-) TimerEvent: {}
+[30.767031] (-) TimerEvent: {}
+[30.867896] (-) TimerEvent: {}
+[30.968714] (-) TimerEvent: {}
+[31.069670] (-) TimerEvent: {}
+[31.170694] (-) TimerEvent: {}
+[31.271528] (-) TimerEvent: {}
+[31.372329] (-) TimerEvent: {}
+[31.473238] (-) TimerEvent: {}
+[31.574070] (-) TimerEvent: {}
+[31.669958] (raspicam2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/RasPiCamPublisherNode.hpp:9\x1b[m\x1b[K,\n'}
+[31.673044] (raspicam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/RasPiCamPublisherNode.cpp:1\x1b[m\x1b[K:\n'}
+[31.673621] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:\x1b[m\x1b[K At global scope:\n'}
+[31.674125] (-) TimerEvent: {}
+[31.674646] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:96:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid image_encoder_buffer_callback(MMAL_PORT_T*, MMAL_BUFFER_HEADER_T*)\x1b[m\x1b[K\xe2\x80\x99 declared \xe2\x80\x98\x1b[01m\x1b[Kstatic\x1b[m\x1b[K\xe2\x80\x99 but never defined [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[31.675397] (raspicam2) StderrLine: {'line': b'   96 | static void \x1b[01;35m\x1b[Kimage_encoder_buffer_callback\x1b[m\x1b[K(MMAL_PORT_T* port, MMAL_BUFFER_HEADER_T* buffer);\n'}
+[31.676009] (raspicam2) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.676484] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:106:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid video_encoder_buffer_callback(MMAL_PORT_T*, MMAL_BUFFER_HEADER_T*)\x1b[m\x1b[K\xe2\x80\x99 declared \xe2\x80\x98\x1b[01m\x1b[Kstatic\x1b[m\x1b[K\xe2\x80\x99 but never defined [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[31.676950] (raspicam2) StderrLine: {'line': b'  106 | static void \x1b[01;35m\x1b[Kvideo_encoder_buffer_callback\x1b[m\x1b[K(MMAL_PORT_T* port, MMAL_BUFFER_HEADER_T* buffer);\n'}
+[31.677404] (raspicam2) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.677843] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:108:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid splitter_buffer_callback(MMAL_PORT_T*, MMAL_BUFFER_HEADER_T*)\x1b[m\x1b[K\xe2\x80\x99 declared \xe2\x80\x98\x1b[01m\x1b[Kstatic\x1b[m\x1b[K\xe2\x80\x99 but never defined [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[31.678300] (raspicam2) StderrLine: {'line': b'  108 | static void \x1b[01;35m\x1b[Ksplitter_buffer_callback\x1b[m\x1b[K(MMAL_PORT_T* port, MMAL_BUFFER_HEADER_T* buffer);\n'}
+[31.678869] (raspicam2) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.679416] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:118:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMMAL_COMPONENT_T* create_camera_component(RASPIVID_STATE&)\x1b[m\x1b[K\xe2\x80\x99 declared \xe2\x80\x98\x1b[01m\x1b[Kstatic\x1b[m\x1b[K\xe2\x80\x99 but never defined [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[31.679962] (raspicam2) StderrLine: {'line': b'  118 | static MMAL_COMPONENT_T* \x1b[01;35m\x1b[Kcreate_camera_component\x1b[m\x1b[K(RASPIVID_STATE& state);\n'}
+[31.681220] (raspicam2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.681805] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:128:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMMAL_STATUS_T create_image_encoder_component(RASPIVID_STATE&)\x1b[m\x1b[K\xe2\x80\x99 declared \xe2\x80\x98\x1b[01m\x1b[Kstatic\x1b[m\x1b[K\xe2\x80\x99 but never defined [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[31.682502] (raspicam2) StderrLine: {'line': b'  128 | static MMAL_STATUS_T \x1b[01;35m\x1b[Kcreate_image_encoder_component\x1b[m\x1b[K(RASPIVID_STATE& state);\n'}
+[31.683177] (raspicam2) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.683810] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:138:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMMAL_STATUS_T create_video_encoder_component(RASPIVID_STATE&)\x1b[m\x1b[K\xe2\x80\x99 declared \xe2\x80\x98\x1b[01m\x1b[Kstatic\x1b[m\x1b[K\xe2\x80\x99 but never defined [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[31.684297] (raspicam2) StderrLine: {'line': b'  138 | static MMAL_STATUS_T \x1b[01;35m\x1b[Kcreate_video_encoder_component\x1b[m\x1b[K(RASPIVID_STATE& state);\n'}
+[31.684897] (raspicam2) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.685398] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:148:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMMAL_STATUS_T create_splitter_component(RASPIVID_STATE&)\x1b[m\x1b[K\xe2\x80\x99 declared \xe2\x80\x98\x1b[01m\x1b[Kstatic\x1b[m\x1b[K\xe2\x80\x99 but never defined [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[31.685918] (raspicam2) StderrLine: {'line': b'  148 | static MMAL_STATUS_T \x1b[01;35m\x1b[Kcreate_splitter_component\x1b[m\x1b[K(RASPIVID_STATE& state);\n'}
+[31.686367] (raspicam2) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.686809] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:160:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMMAL_STATUS_T connect_ports(MMAL_PORT_T*, MMAL_PORT_T*, mmal::connection_ptr&)\x1b[m\x1b[K\xe2\x80\x99 declared \xe2\x80\x98\x1b[01m\x1b[Kstatic\x1b[m\x1b[K\xe2\x80\x99 but never defined [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[31.687325] (raspicam2) StderrLine: {'line': b'  160 | static MMAL_STATUS_T \x1b[01;35m\x1b[Kconnect_ports\x1b[m\x1b[K(MMAL_PORT_T* output_port, MMAL_PORT_T* input_port,\n'}
+[31.687837] (raspicam2) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.774349] (-) TimerEvent: {}
+[31.875339] (-) TimerEvent: {}
+[31.976275] (-) TimerEvent: {}
+[32.077141] (-) TimerEvent: {}
+[32.177966] (-) TimerEvent: {}
+[32.278805] (-) TimerEvent: {}
+[32.379660] (-) TimerEvent: {}
+[32.480488] (-) TimerEvent: {}
+[32.581362] (-) TimerEvent: {}
+[32.682279] (-) TimerEvent: {}
+[32.783126] (-) TimerEvent: {}
+[32.883990] (-) TimerEvent: {}
+[32.984864] (-) TimerEvent: {}
+[33.085903] (-) TimerEvent: {}
+[33.186728] (-) TimerEvent: {}
+[33.287596] (-) TimerEvent: {}
+[33.388504] (-) TimerEvent: {}
+[33.489404] (-) TimerEvent: {}
+[33.590240] (-) TimerEvent: {}
+[33.691050] (-) TimerEvent: {}
+[33.792749] (-) TimerEvent: {}
+[33.893616] (-) TimerEvent: {}
+[33.994452] (-) TimerEvent: {}
+[34.095380] (-) TimerEvent: {}
+[34.196265] (-) TimerEvent: {}
+[34.297122] (-) TimerEvent: {}
+[34.397959] (-) TimerEvent: {}
+[34.498795] (-) TimerEvent: {}
+[34.599680] (-) TimerEvent: {}
+[34.700510] (-) TimerEvent: {}
+[34.801361] (-) TimerEvent: {}
+[34.902447] (-) TimerEvent: {}
+[35.003315] (-) TimerEvent: {}
+[35.104157] (-) TimerEvent: {}
+[35.204982] (-) TimerEvent: {}
+[35.305855] (-) TimerEvent: {}
+[35.406671] (-) TimerEvent: {}
+[35.507558] (-) TimerEvent: {}
+[35.608372] (-) TimerEvent: {}
+[35.709222] (-) TimerEvent: {}
+[35.810103] (-) TimerEvent: {}
+[35.910934] (-) TimerEvent: {}
+[36.012065] (-) TimerEvent: {}
+[36.113242] (-) TimerEvent: {}
+[36.214726] (-) TimerEvent: {}
+[36.315676] (-) TimerEvent: {}
+[36.416517] (-) TimerEvent: {}
+[36.517340] (-) TimerEvent: {}
+[36.618185] (-) TimerEvent: {}
+[36.719009] (-) TimerEvent: {}
+[36.819894] (-) TimerEvent: {}
+[36.920723] (-) TimerEvent: {}
+[37.021590] (-) TimerEvent: {}
+[37.122490] (-) TimerEvent: {}
+[37.223373] (-) TimerEvent: {}
+[37.324161] (-) TimerEvent: {}
+[37.424997] (-) TimerEvent: {}
+[37.525845] (-) TimerEvent: {}
+[37.626739] (-) TimerEvent: {}
+[37.727592] (-) TimerEvent: {}
+[37.828412] (-) TimerEvent: {}
+[37.929242] (-) TimerEvent: {}
+[38.030121] (-) TimerEvent: {}
+[38.131007] (-) TimerEvent: {}
+[38.231996] (-) TimerEvent: {}
+[38.333030] (-) TimerEvent: {}
+[38.433949] (-) TimerEvent: {}
+[38.534839] (-) TimerEvent: {}
+[38.635756] (-) TimerEvent: {}
+[38.736595] (-) TimerEvent: {}
+[38.837438] (-) TimerEvent: {}
+[38.938296] (-) TimerEvent: {}
+[39.039162] (-) TimerEvent: {}
+[39.140181] (-) TimerEvent: {}
+[39.241425] (-) TimerEvent: {}
+[39.342708] (-) TimerEvent: {}
+[39.409883] (raspicam2) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX shared library libRasPiCamPublisherNode.so\x1b[0m\n'}
+[39.442889] (-) TimerEvent: {}
+[39.543774] (-) TimerEvent: {}
+[39.644830] (-) TimerEvent: {}
+[39.745809] (-) TimerEvent: {}
+[39.846825] (-) TimerEvent: {}
+[39.948032] (-) TimerEvent: {}
+[40.049528] (-) TimerEvent: {}
+[40.104444] (raspicam2) StdoutLine: {'line': b'[ 85%] Built target RasPiCamPublisherNode\n'}
+[40.147603] (raspicam2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target raspicam2_node\x1b[0m\n'}
+[40.149666] (-) TimerEvent: {}
+[40.250343] (-) TimerEvent: {}
+[40.338458] (raspicam2) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/raspicam2_node.dir/src/raspicam2_node.cpp.o\x1b[0m\n'}
+[40.350532] (-) TimerEvent: {}
+[40.451333] (-) TimerEvent: {}
+[40.552107] (-) TimerEvent: {}
+[40.652931] (-) TimerEvent: {}
+[40.753803] (-) TimerEvent: {}
+[40.854642] (-) TimerEvent: {}
+[40.955513] (-) TimerEvent: {}
+[41.056413] (-) TimerEvent: {}
+[41.157766] (-) TimerEvent: {}
+[41.258652] (-) TimerEvent: {}
+[41.359544] (-) TimerEvent: {}
+[41.460386] (-) TimerEvent: {}
+[41.561277] (-) TimerEvent: {}
+[41.662201] (-) TimerEvent: {}
+[41.763068] (-) TimerEvent: {}
+[41.864208] (-) TimerEvent: {}
+[41.965035] (-) TimerEvent: {}
+[42.065938] (-) TimerEvent: {}
+[42.166896] (-) TimerEvent: {}
+[42.268016] (-) TimerEvent: {}
+[42.368911] (-) TimerEvent: {}
+[42.469711] (-) TimerEvent: {}
+[42.570542] (-) TimerEvent: {}
+[42.671394] (-) TimerEvent: {}
+[42.772172] (-) TimerEvent: {}
+[42.873007] (-) TimerEvent: {}
+[42.973871] (-) TimerEvent: {}
+[43.074707] (-) TimerEvent: {}
+[43.175584] (-) TimerEvent: {}
+[43.276419] (-) TimerEvent: {}
+[43.377269] (-) TimerEvent: {}
+[43.478156] (-) TimerEvent: {}
+[43.579019] (-) TimerEvent: {}
+[43.679933] (-) TimerEvent: {}
+[43.780758] (-) TimerEvent: {}
+[43.881603] (-) TimerEvent: {}
+[43.982429] (-) TimerEvent: {}
+[44.083351] (-) TimerEvent: {}
+[44.184157] (-) TimerEvent: {}
+[44.284969] (-) TimerEvent: {}
+[44.385807] (-) TimerEvent: {}
+[44.486646] (-) TimerEvent: {}
+[44.587482] (-) TimerEvent: {}
+[44.688288] (-) TimerEvent: {}
+[44.789102] (-) TimerEvent: {}
+[44.889944] (-) TimerEvent: {}
+[44.990800] (-) TimerEvent: {}
+[45.091662] (-) TimerEvent: {}
+[45.192476] (-) TimerEvent: {}
+[45.293307] (-) TimerEvent: {}
+[45.394167] (-) TimerEvent: {}
+[45.495061] (-) TimerEvent: {}
+[45.595913] (-) TimerEvent: {}
+[45.696727] (-) TimerEvent: {}
+[45.797519] (-) TimerEvent: {}
+[45.898371] (-) TimerEvent: {}
+[45.999363] (-) TimerEvent: {}
+[46.100193] (-) TimerEvent: {}
+[46.201123] (-) TimerEvent: {}
+[46.302030] (-) TimerEvent: {}
+[46.402901] (-) TimerEvent: {}
+[46.503758] (-) TimerEvent: {}
+[46.604580] (-) TimerEvent: {}
+[46.705383] (-) TimerEvent: {}
+[46.806346] (-) TimerEvent: {}
+[46.907178] (-) TimerEvent: {}
+[47.008204] (-) TimerEvent: {}
+[47.109031] (-) TimerEvent: {}
+[47.209870] (-) TimerEvent: {}
+[47.310780] (-) TimerEvent: {}
+[47.411625] (-) TimerEvent: {}
+[47.512449] (-) TimerEvent: {}
+[47.613393] (-) TimerEvent: {}
+[47.615540] (raspicam2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/RasPiCamPublisherNode.hpp:9\x1b[m\x1b[K,\n'}
+[47.617240] (raspicam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/src/raspicam2_node.cpp:1\x1b[m\x1b[K:\n'}
+[47.617787] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:96:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid image_encoder_buffer_callback(MMAL_PORT_T*, MMAL_BUFFER_HEADER_T*)\x1b[m\x1b[K\xe2\x80\x99 declared \xe2\x80\x98\x1b[01m\x1b[Kstatic\x1b[m\x1b[K\xe2\x80\x99 but never defined [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[47.618287] (raspicam2) StderrLine: {'line': b'   96 | static void \x1b[01;35m\x1b[Kimage_encoder_buffer_callback\x1b[m\x1b[K(MMAL_PORT_T* port, MMAL_BUFFER_HEADER_T* buffer);\n'}
+[47.618727] (raspicam2) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[47.619148] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:106:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid video_encoder_buffer_callback(MMAL_PORT_T*, MMAL_BUFFER_HEADER_T*)\x1b[m\x1b[K\xe2\x80\x99 declared \xe2\x80\x98\x1b[01m\x1b[Kstatic\x1b[m\x1b[K\xe2\x80\x99 but never defined [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[47.619946] (raspicam2) StderrLine: {'line': b'  106 | static void \x1b[01;35m\x1b[Kvideo_encoder_buffer_callback\x1b[m\x1b[K(MMAL_PORT_T* port, MMAL_BUFFER_HEADER_T* buffer);\n'}
+[47.620565] (raspicam2) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[47.621024] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:108:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid splitter_buffer_callback(MMAL_PORT_T*, MMAL_BUFFER_HEADER_T*)\x1b[m\x1b[K\xe2\x80\x99 declared \xe2\x80\x98\x1b[01m\x1b[Kstatic\x1b[m\x1b[K\xe2\x80\x99 but never defined [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[47.621647] (raspicam2) StderrLine: {'line': b'  108 | static void \x1b[01;35m\x1b[Ksplitter_buffer_callback\x1b[m\x1b[K(MMAL_PORT_T* port, MMAL_BUFFER_HEADER_T* buffer);\n'}
+[47.622120] (raspicam2) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[47.622559] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:118:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMMAL_COMPONENT_T* create_camera_component(RASPIVID_STATE&)\x1b[m\x1b[K\xe2\x80\x99 declared \xe2\x80\x98\x1b[01m\x1b[Kstatic\x1b[m\x1b[K\xe2\x80\x99 but never defined [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[47.623031] (raspicam2) StderrLine: {'line': b'  118 | static MMAL_COMPONENT_T* \x1b[01;35m\x1b[Kcreate_camera_component\x1b[m\x1b[K(RASPIVID_STATE& state);\n'}
+[47.623562] (raspicam2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[47.624025] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:128:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMMAL_STATUS_T create_image_encoder_component(RASPIVID_STATE&)\x1b[m\x1b[K\xe2\x80\x99 declared \xe2\x80\x98\x1b[01m\x1b[Kstatic\x1b[m\x1b[K\xe2\x80\x99 but never defined [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[47.624474] (raspicam2) StderrLine: {'line': b'  128 | static MMAL_STATUS_T \x1b[01;35m\x1b[Kcreate_image_encoder_component\x1b[m\x1b[K(RASPIVID_STATE& state);\n'}
+[47.624955] (raspicam2) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[47.625384] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:138:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMMAL_STATUS_T create_video_encoder_component(RASPIVID_STATE&)\x1b[m\x1b[K\xe2\x80\x99 declared \xe2\x80\x98\x1b[01m\x1b[Kstatic\x1b[m\x1b[K\xe2\x80\x99 but never defined [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[47.625846] (raspicam2) StderrLine: {'line': b'  138 | static MMAL_STATUS_T \x1b[01;35m\x1b[Kcreate_video_encoder_component\x1b[m\x1b[K(RASPIVID_STATE& state);\n'}
+[47.626335] (raspicam2) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[47.626765] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:148:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMMAL_STATUS_T create_splitter_component(RASPIVID_STATE&)\x1b[m\x1b[K\xe2\x80\x99 declared \xe2\x80\x98\x1b[01m\x1b[Kstatic\x1b[m\x1b[K\xe2\x80\x99 but never defined [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[47.627330] (raspicam2) StderrLine: {'line': b'  148 | static MMAL_STATUS_T \x1b[01;35m\x1b[Kcreate_splitter_component\x1b[m\x1b[K(RASPIVID_STATE& state);\n'}
+[47.627859] (raspicam2) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[47.628330] (raspicam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_controller/include/raspicam.h:160:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMMAL_STATUS_T connect_ports(MMAL_PORT_T*, MMAL_PORT_T*, mmal::connection_ptr&)\x1b[m\x1b[K\xe2\x80\x99 declared \xe2\x80\x98\x1b[01m\x1b[Kstatic\x1b[m\x1b[K\xe2\x80\x99 but never defined [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[47.628794] (raspicam2) StderrLine: {'line': b'  160 | static MMAL_STATUS_T \x1b[01;35m\x1b[Kconnect_ports\x1b[m\x1b[K(MMAL_PORT_T* output_port, MMAL_PORT_T* input_port,\n'}
+[47.629250] (raspicam2) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[47.713574] (-) TimerEvent: {}
+[47.814474] (-) TimerEvent: {}
+[47.915351] (-) TimerEvent: {}
+[48.016139] (-) TimerEvent: {}
+[48.116986] (-) TimerEvent: {}
+[48.181346] (raspicam2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable raspicam2_node\x1b[0m\n'}
+[48.217175] (-) TimerEvent: {}
+[48.318250] (-) TimerEvent: {}
+[48.419356] (-) TimerEvent: {}
+[48.520392] (-) TimerEvent: {}
+[48.621385] (-) TimerEvent: {}
+[48.722436] (-) TimerEvent: {}
+[48.823468] (-) TimerEvent: {}
+[48.924470] (-) TimerEvent: {}
+[49.025403] (-) TimerEvent: {}
+[49.050819] (raspicam2) StdoutLine: {'line': b'[100%] Built target raspicam2_node\n'}
+[49.095116] (raspicam2) CommandEnded: {'returncode': 0}
+[49.125700] (-) TimerEvent: {}
+[49.226618] (-) TimerEvent: {}
+[49.327475] (-) TimerEvent: {}
+[49.356619] (raspicam2) JobProgress: {'identifier': 'raspicam2', 'progress': 'install'}
+[49.358187] (raspicam2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/raspicam2'], 'cwd': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/raspicam2', 'env': OrderedDict([('VIRTUALENVWRAPPER_WORKON_CD', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('WORKON_HOME', '/home/adam/.virtualenvs'), ('USER', 'adam'), ('SSH_CLIENT', '192.168.0.150 61279 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/adam'), ('VIRTUALENVWRAPPER_PYTHON', '/usr/bin/python3'), ('OLDPWD', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src'), ('TERM_PROGRAM_VERSION', '1.84.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-8345db7c-028a-4cf7-ad11-88280867a48c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adam'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '63'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/remote-cli:/home/adam/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-9756b562c9.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VIRTUALENVWRAPPER_PROJECT_FILENAME', '.project'), ('VIRTUALENVWRAPPER_HOOK_DIR', '/home/adam/.virtualenvs'), ('VIRTUALENVWRAPPER_SCRIPT', '/usr/share/virtualenvwrapper/virtualenvwrapper.sh'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/raspicam2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.150 61279 192.168.0.174 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy')]), 'shell': False}
+[49.401369] (raspicam2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[49.402221] (raspicam2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2/lib/libRasPiCamPublisherNode.so\n'}
+[49.418992] (raspicam2) StdoutLine: {'line': b'-- Set runtime path of "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2/lib/libRasPiCamPublisherNode.so" to ""\n'}
+[49.419736] (raspicam2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2/lib/libraspicam.so\n'}
+[49.422141] (raspicam2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2/lib/raspicam2/raspicam2_node\n'}
+[49.424797] (raspicam2) StdoutLine: {'line': b'-- Set runtime path of "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2/lib/raspicam2/raspicam2_node" to ""\n'}
+[49.425448] (raspicam2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2/share/raspicam2/cfg\n'}
+[49.425944] (raspicam2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2/share/raspicam2/cfg/params.yaml\n'}
+[49.427453] (raspicam2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2/share/ament_index/resource_index/package_run_dependencies/raspicam2\n'}
+[49.428060] (-) TimerEvent: {}
+[49.429090] (raspicam2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2/share/ament_index/resource_index/parent_prefix_path/raspicam2\n'}
+[49.430589] (raspicam2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2/share/raspicam2/environment/ament_prefix_path.sh\n'}
+[49.431779] (raspicam2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2/share/raspicam2/environment/ament_prefix_path.dsv\n'}
+[49.432869] (raspicam2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2/share/raspicam2/environment/path.sh\n'}
+[49.434015] (raspicam2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2/share/raspicam2/environment/path.dsv\n'}
+[49.435554] (raspicam2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2/share/raspicam2/local_setup.bash\n'}
+[49.436773] (raspicam2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2/share/raspicam2/local_setup.sh\n'}
+[49.437923] (raspicam2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2/share/raspicam2/local_setup.zsh\n'}
+[49.439036] (raspicam2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2/share/raspicam2/local_setup.dsv\n'}
+[49.440181] (raspicam2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2/share/raspicam2/package.dsv\n'}
+[49.441635] (raspicam2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2/share/ament_index/resource_index/packages/raspicam2\n'}
+[49.443044] (raspicam2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2/share/ament_index/resource_index/rclcpp_components/raspicam2\n'}
+[49.444514] (raspicam2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2/share/raspicam2/cmake/raspicam2Config.cmake\n'}
+[49.445414] (raspicam2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2/share/raspicam2/cmake/raspicam2Config-version.cmake\n'}
+[49.446618] (raspicam2) StdoutLine: {'line': b'-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2/share/raspicam2/package.xml\n'}
+[49.452481] (raspicam2) CommandEnded: {'returncode': 0}
+[49.528213] (-) TimerEvent: {}
+[49.630386] (-) TimerEvent: {}
+[49.732480] (-) TimerEvent: {}
+[49.833957] (-) TimerEvent: {}
+[49.934872] (-) TimerEvent: {}
+[50.037537] (-) TimerEvent: {}
+[50.138270] (-) TimerEvent: {}
+[50.240378] (-) TimerEvent: {}
+[50.341437] (-) TimerEvent: {}
+[50.442278] (-) TimerEvent: {}
+[50.543866] (-) TimerEvent: {}
+[50.645280] (-) TimerEvent: {}
+[50.748693] (-) TimerEvent: {}
+[50.850291] (-) TimerEvent: {}
+[50.951967] (-) TimerEvent: {}
+[51.054145] (-) TimerEvent: {}
+[51.155534] (-) TimerEvent: {}
+[51.256436] (-) TimerEvent: {}
+[51.358183] (-) TimerEvent: {}
+[51.452959] (raspicam2) JobEnded: {'identifier': 'raspicam2', 'rc': 0}
+[51.459497] (-) TimerEvent: {}
+[51.460032] (-) EventReactorShutdown: {}

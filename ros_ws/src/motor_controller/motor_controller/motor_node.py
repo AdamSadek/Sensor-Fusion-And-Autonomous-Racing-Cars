@@ -1,8 +1,8 @@
 """
 Adam Sadek
 
-Motor node for controlling a motor's speed using PWM on a RaspberryPi. It publishes motor throttle values on the "/motor_throttle" topic, creating a test scenario with speed ramps. 
-The script utilizes RPi.GPIO for GPIO control and std_msgs/Float64 messages in ROS 2, providing a simple example of motor control integration with ROS 2 on a Raspberry Pi.
+Motor node for controlling a motor's speed using PWM on a RaspberryPi. It publishes motor throttle values on the "/motor_throttle" topic.
+The script utilizes RPi.GPIO for GPIO control and std_msgs/Float64 messages in ROS2.
 """
 
 import rclpy

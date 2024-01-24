@@ -1,0 +1,667 @@
+[10.320s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-up-to', 'v4l2_camera', 'image_transport_plugins']
+[10.320s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff936a0850>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=['v4l2_camera', 'image_transport_plugins'], packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff936a0850>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff93aaae50>)
+[10.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[10.751s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[10.751s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[10.751s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[10.751s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[10.752s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[10.752s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws'
+[10.752s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[10.753s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[10.753s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[10.753s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[10.753s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[10.753s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[10.754s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[10.754s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[10.754s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[10.798s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[10.798s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[10.799s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[10.799s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[10.799s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[10.800s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[10.800s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[10.800s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[10.801s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[10.801s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[10.801s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[10.803s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[10.803s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[10.803s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[10.804s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[10.804s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[10.804s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[10.804s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[10.805s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[10.805s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[10.805s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[10.805s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[10.805s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[10.806s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[10.806s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[10.806s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[10.806s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[10.806s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[10.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_sensor) by extensions ['ignore', 'ignore_ament_install']
+[10.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_sensor) by extension 'ignore'
+[10.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_sensor) by extension 'ignore_ament_install'
+[10.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_sensor) by extensions ['colcon_pkg']
+[10.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_sensor) by extension 'colcon_pkg'
+[10.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_sensor) by extensions ['colcon_meta']
+[10.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_sensor) by extension 'colcon_meta'
+[10.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_sensor) by extensions ['ros']
+[10.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_sensor) by extension 'ros'
+[10.816s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_sensor' with type 'ros.ament_python' and name 'camera_sensor'
+[10.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['ignore', 'ignore_ament_install']
+[10.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'ignore'
+[10.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'ignore_ament_install'
+[10.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['colcon_pkg']
+[10.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'colcon_pkg'
+[10.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['colcon_meta']
+[10.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'colcon_meta'
+[10.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['ros']
+[10.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'ros'
+[10.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['cmake', 'python']
+[10.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'cmake'
+[10.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'python'
+[10.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['python_setup_py']
+[10.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'python_setup_py'
+[10.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extensions ['ignore', 'ignore_ament_install']
+[10.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'ignore'
+[10.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'ignore_ament_install'
+[10.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extensions ['colcon_pkg']
+[10.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'colcon_pkg'
+[10.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extensions ['colcon_meta']
+[10.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'colcon_meta'
+[10.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extensions ['ros']
+[10.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'ros'
+[10.826s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/camera_calibration_parsers' with type 'ros.ament_cmake' and name 'camera_calibration_parsers'
+[10.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extensions ['ignore', 'ignore_ament_install']
+[10.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'ignore'
+[10.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'ignore_ament_install'
+[10.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extensions ['colcon_pkg']
+[10.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'colcon_pkg'
+[10.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extensions ['colcon_meta']
+[10.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'colcon_meta'
+[10.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extensions ['ros']
+[10.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'ros'
+[10.832s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/camera_info_manager' with type 'ros.ament_cmake' and name 'camera_info_manager'
+[10.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extensions ['ignore', 'ignore_ament_install']
+[10.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'ignore'
+[10.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'ignore_ament_install'
+[10.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extensions ['colcon_pkg']
+[10.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'colcon_pkg'
+[10.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extensions ['colcon_meta']
+[10.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'colcon_meta'
+[10.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extensions ['ros']
+[10.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'ros'
+[10.836s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/image_common' with type 'ros.ament_cmake' and name 'image_common'
+[10.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extensions ['ignore', 'ignore_ament_install']
+[10.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'ignore'
+[10.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'ignore_ament_install'
+[10.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extensions ['colcon_pkg']
+[10.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'colcon_pkg'
+[10.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extensions ['colcon_meta']
+[10.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'colcon_meta'
+[10.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extensions ['ros']
+[10.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'ros'
+[10.842s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/image_transport' with type 'ros.ament_cmake' and name 'image_transport'
+[10.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/polled_camera) by extensions ['ignore', 'ignore_ament_install']
+[10.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/polled_camera) by extension 'ignore'
+[10.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/polled_camera) ignored
+[10.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extensions ['ignore', 'ignore_ament_install']
+[10.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'ignore'
+[10.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'ignore_ament_install'
+[10.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extensions ['colcon_pkg']
+[10.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'colcon_pkg'
+[10.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extensions ['colcon_meta']
+[10.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'colcon_meta'
+[10.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extensions ['ros']
+[10.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'ros'
+[10.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extensions ['cmake', 'python']
+[10.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'cmake'
+[10.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'python'
+[10.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extensions ['python_setup_py']
+[10.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins) by extension 'python_setup_py'
+[10.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extensions ['ignore', 'ignore_ament_install']
+[10.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extension 'ignore'
+[10.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extension 'ignore_ament_install'
+[10.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extensions ['colcon_pkg']
+[10.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extension 'colcon_pkg'
+[10.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extensions ['colcon_meta']
+[10.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extension 'colcon_meta'
+[10.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extensions ['ros']
+[10.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_depth_image_transport) by extension 'ros'
+[10.852s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_transport_plugins/compressed_depth_image_transport' with type 'ros.ament_cmake' and name 'compressed_depth_image_transport'
+[10.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extensions ['ignore', 'ignore_ament_install']
+[10.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extension 'ignore'
+[10.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extension 'ignore_ament_install'
+[10.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extensions ['colcon_pkg']
+[10.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extension 'colcon_pkg'
+[10.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extensions ['colcon_meta']
+[10.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extension 'colcon_meta'
+[10.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extensions ['ros']
+[10.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/compressed_image_transport) by extension 'ros'
+[10.857s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_transport_plugins/compressed_image_transport' with type 'ros.ament_cmake' and name 'compressed_image_transport'
+[10.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extensions ['ignore', 'ignore_ament_install']
+[10.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extension 'ignore'
+[10.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extension 'ignore_ament_install'
+[10.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extensions ['colcon_pkg']
+[10.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extension 'colcon_pkg'
+[10.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extensions ['colcon_meta']
+[10.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extension 'colcon_meta'
+[10.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extensions ['ros']
+[10.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/image_transport_plugins) by extension 'ros'
+[10.861s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_transport_plugins/image_transport_plugins' with type 'ros.ament_cmake' and name 'image_transport_plugins'
+[10.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extensions ['ignore', 'ignore_ament_install']
+[10.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extension 'ignore'
+[10.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extension 'ignore_ament_install'
+[10.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extensions ['colcon_pkg']
+[10.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extension 'colcon_pkg'
+[10.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extensions ['colcon_meta']
+[10.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extension 'colcon_meta'
+[10.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extensions ['ros']
+[10.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_transport_plugins/theora_image_transport) by extension 'ros'
+[10.868s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_transport_plugins/theora_image_transport' with type 'ros.ament_cmake' and name 'theora_image_transport'
+[10.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_controller) by extensions ['ignore', 'ignore_ament_install']
+[10.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_controller) by extension 'ignore'
+[10.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_controller) by extension 'ignore_ament_install'
+[10.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_controller) by extensions ['colcon_pkg']
+[10.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_controller) by extension 'colcon_pkg'
+[10.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_controller) by extensions ['colcon_meta']
+[10.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_controller) by extension 'colcon_meta'
+[10.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_controller) by extensions ['ros']
+[10.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_controller) by extension 'ros'
+[10.873s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_controller' with type 'ros.ament_cmake' and name 'ldlidar_ros2'
+[10.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extensions ['ignore', 'ignore_ament_install']
+[10.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extension 'ignore'
+[10.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extension 'ignore_ament_install'
+[10.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extensions ['colcon_pkg']
+[10.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extension 'colcon_pkg'
+[10.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extensions ['colcon_meta']
+[10.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extension 'colcon_meta'
+[10.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extensions ['ros']
+[10.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor_controller) by extension 'ros'
+[10.878s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor_controller' with type 'ros.ament_python' and name 'motor_controller'
+[10.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extensions ['ignore', 'ignore_ament_install']
+[10.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'ignore'
+[10.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'ignore_ament_install'
+[10.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extensions ['colcon_pkg']
+[10.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'colcon_pkg'
+[10.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extensions ['colcon_meta']
+[10.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'colcon_meta'
+[10.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extensions ['ros']
+[10.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_v4l2_camera) by extension 'ros'
+[10.883s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_v4l2_camera' with type 'ros.ament_cmake' and name 'v4l2_camera'
+[10.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_controller) by extensions ['ignore', 'ignore_ament_install']
+[10.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_controller) by extension 'ignore'
+[10.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_controller) by extension 'ignore_ament_install'
+[10.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_controller) by extensions ['colcon_pkg']
+[10.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_controller) by extension 'colcon_pkg'
+[10.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_controller) by extensions ['colcon_meta']
+[10.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_controller) by extension 'colcon_meta'
+[10.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_controller) by extensions ['ros']
+[10.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_controller) by extension 'ros'
+[10.888s] DEBUG:colcon.colcon_core.package_identification:Package 'src/servo_controller' with type 'ros.ament_python' and name 'servo_controller'
+[10.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[10.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore'
+[10.889s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore_ament_install'
+[10.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_pkg']
+[10.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_pkg'
+[10.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_meta']
+[10.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_meta'
+[10.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ros']
+[10.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ros'
+[10.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['cmake', 'python']
+[10.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'cmake'
+[10.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python'
+[10.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['python_setup_py']
+[10.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python_setup_py'
+[10.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['ignore', 'ignore_ament_install']
+[10.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ignore'
+[10.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ignore_ament_install'
+[10.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['colcon_pkg']
+[10.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'colcon_pkg'
+[10.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['colcon_meta']
+[10.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'colcon_meta'
+[10.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['ros']
+[10.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ros'
+[10.897s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/cv_bridge' with type 'ros.ament_cmake' and name 'cv_bridge'
+[10.898s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['ignore', 'ignore_ament_install']
+[10.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ignore'
+[10.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ignore_ament_install'
+[10.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['colcon_pkg']
+[10.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'colcon_pkg'
+[10.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['colcon_meta']
+[10.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'colcon_meta'
+[10.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['ros']
+[10.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ros'
+[10.903s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/image_geometry' with type 'ros.ament_cmake' and name 'image_geometry'
+[10.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['ignore', 'ignore_ament_install']
+[10.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ignore'
+[10.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ignore_ament_install'
+[10.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['colcon_pkg']
+[10.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'colcon_pkg'
+[10.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['colcon_meta']
+[10.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'colcon_meta'
+[10.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['ros']
+[10.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ros'
+[10.908s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/opencv_tests' with type 'ros.ament_python' and name 'opencv_tests'
+[10.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[10.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ignore'
+[10.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ignore_ament_install'
+[10.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['colcon_pkg']
+[10.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'colcon_pkg'
+[10.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['colcon_meta']
+[10.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'colcon_meta'
+[10.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['ros']
+[10.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ros'
+[10.912s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/vision_opencv' with type 'ros.ament_cmake' and name 'vision_opencv'
+[10.912s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[10.913s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[10.913s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[10.913s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[10.913s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[11.505s] INFO:colcon.colcon_core.package_selection:Skipping package 'image_common' in 'src/image_common/image_common'
+[11.506s] INFO:colcon.colcon_core.package_selection:Skipping package 'vision_opencv' in 'src/vision_opencv/vision_opencv'
+[11.506s] INFO:colcon.colcon_core.package_selection:Skipping package 'opencv_tests' in 'src/vision_opencv/opencv_tests'
+[11.506s] INFO:colcon.colcon_core.package_selection:Skipping package 'servo_controller' in 'src/servo_controller'
+[11.506s] INFO:colcon.colcon_core.package_selection:Skipping package 'motor_controller' in 'src/motor_controller'
+[11.506s] INFO:colcon.colcon_core.package_selection:Skipping package 'ldlidar_ros2' in 'src/lidar_controller'
+[11.506s] INFO:colcon.colcon_core.package_selection:Skipping package 'image_geometry' in 'src/vision_opencv/image_geometry'
+[11.506s] INFO:colcon.colcon_core.package_selection:Skipping package 'camera_sensor' in 'src/camera_sensor'
+[11.851s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[11.852s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[12.239s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install
+[12.421s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 259 installed packages in /opt/ros/foxy
+[12.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[12.904s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'image_transport' is in: /opt/ros/foxy
+	'cv_bridge' is in: /opt/ros/foxy
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding cv_bridge image_transport
+
+This may be promoted to an error in a future release of colcon-override-check.
+[13.085s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'cmake_args' from command line to 'None'
+[13.086s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'cmake_target' from command line to 'None'
+[13.086s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[13.086s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'cmake_clean_cache' from command line to 'False'
+[13.086s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'cmake_clean_first' from command line to 'False'
+[13.086s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'cmake_force_configure' from command line to 'False'
+[13.086s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'ament_cmake_args' from command line to 'None'
+[13.086s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'catkin_cmake_args' from command line to 'None'
+[13.086s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[13.086s] DEBUG:colcon.colcon_core.verb:Building package 'camera_calibration_parsers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_calibration_parsers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers', 'merge_install': False, 'path': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/image_common/camera_calibration_parsers', 'symlink_install': False, 'test_result_base': None}
+[13.264s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_args' from command line to 'None'
+[13.264s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_target' from command line to 'None'
+[13.264s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[13.265s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[13.265s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[13.265s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[13.265s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[13.265s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[13.265s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[13.265s] DEBUG:colcon.colcon_core.verb:Building package 'cv_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/cv_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge', 'merge_install': False, 'path': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/vision_opencv/cv_bridge', 'symlink_install': False, 'test_result_base': None}
+[13.442s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'cmake_args' from command line to 'None'
+[13.443s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'cmake_target' from command line to 'None'
+[13.443s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[13.443s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'cmake_clean_cache' from command line to 'False'
+[13.443s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'cmake_clean_first' from command line to 'False'
+[13.443s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'cmake_force_configure' from command line to 'False'
+[13.443s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'ament_cmake_args' from command line to 'None'
+[13.443s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'catkin_cmake_args' from command line to 'None'
+[13.444s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'catkin_skip_building_tests' from command line to 'False'
+[13.444s] DEBUG:colcon.colcon_core.verb:Building package 'image_transport' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/image_transport', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport', 'merge_install': False, 'path': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/image_common/image_transport', 'symlink_install': False, 'test_result_base': None}
+[13.620s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'cmake_args' from command line to 'None'
+[13.620s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'cmake_target' from command line to 'None'
+[13.620s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[13.620s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'cmake_clean_cache' from command line to 'False'
+[13.620s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'cmake_clean_first' from command line to 'False'
+[13.621s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'cmake_force_configure' from command line to 'False'
+[13.621s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'ament_cmake_args' from command line to 'None'
+[13.621s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'catkin_cmake_args' from command line to 'None'
+[13.621s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'catkin_skip_building_tests' from command line to 'False'
+[13.621s] DEBUG:colcon.colcon_core.verb:Building package 'camera_info_manager' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_info_manager', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager', 'merge_install': False, 'path': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/image_common/camera_info_manager', 'symlink_install': False, 'test_result_base': None}
+[13.795s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'cmake_args' from command line to 'None'
+[13.796s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'cmake_target' from command line to 'None'
+[13.796s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[13.796s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'cmake_clean_cache' from command line to 'False'
+[13.796s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'cmake_clean_first' from command line to 'False'
+[13.796s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'cmake_force_configure' from command line to 'False'
+[13.796s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'ament_cmake_args' from command line to 'None'
+[13.796s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'catkin_cmake_args' from command line to 'None'
+[13.796s] Level 5:colcon.colcon_core.verb:set package 'compressed_depth_image_transport' build argument 'catkin_skip_building_tests' from command line to 'False'
+[13.796s] DEBUG:colcon.colcon_core.verb:Building package 'compressed_depth_image_transport' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/compressed_depth_image_transport', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport', 'merge_install': False, 'path': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/image_transport_plugins/compressed_depth_image_transport', 'symlink_install': False, 'test_result_base': None}
+[14.005s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'cmake_args' from command line to 'None'
+[14.005s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'cmake_target' from command line to 'None'
+[14.005s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[14.005s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'cmake_clean_cache' from command line to 'False'
+[14.005s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'cmake_clean_first' from command line to 'False'
+[14.005s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'cmake_force_configure' from command line to 'False'
+[14.006s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'ament_cmake_args' from command line to 'None'
+[14.006s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'catkin_cmake_args' from command line to 'None'
+[14.006s] Level 5:colcon.colcon_core.verb:set package 'compressed_image_transport' build argument 'catkin_skip_building_tests' from command line to 'False'
+[14.006s] DEBUG:colcon.colcon_core.verb:Building package 'compressed_image_transport' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/compressed_image_transport', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport', 'merge_install': False, 'path': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/image_transport_plugins/compressed_image_transport', 'symlink_install': False, 'test_result_base': None}
+[14.228s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'cmake_args' from command line to 'None'
+[14.229s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'cmake_target' from command line to 'None'
+[14.229s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[14.229s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'cmake_clean_cache' from command line to 'False'
+[14.229s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'cmake_clean_first' from command line to 'False'
+[14.229s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'cmake_force_configure' from command line to 'False'
+[14.229s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'ament_cmake_args' from command line to 'None'
+[14.229s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'catkin_cmake_args' from command line to 'None'
+[14.229s] Level 5:colcon.colcon_core.verb:set package 'theora_image_transport' build argument 'catkin_skip_building_tests' from command line to 'False'
+[14.230s] DEBUG:colcon.colcon_core.verb:Building package 'theora_image_transport' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/theora_image_transport', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport', 'merge_install': False, 'path': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/image_transport_plugins/theora_image_transport', 'symlink_install': False, 'test_result_base': None}
+[14.404s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'cmake_args' from command line to 'None'
+[14.404s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'cmake_target' from command line to 'None'
+[14.405s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[14.405s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[14.405s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[14.405s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[14.405s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[14.405s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[14.405s] Level 5:colcon.colcon_core.verb:set package 'image_transport_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[14.405s] DEBUG:colcon.colcon_core.verb:Building package 'image_transport_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/image_transport_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport_plugins', 'merge_install': False, 'path': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/image_transport_plugins/image_transport_plugins', 'symlink_install': False, 'test_result_base': None}
+[14.580s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_args' from command line to 'None'
+[14.580s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_target' from command line to 'None'
+[14.580s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[14.580s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[14.580s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_clean_first' from command line to 'False'
+[14.581s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'cmake_force_configure' from command line to 'False'
+[14.581s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'ament_cmake_args' from command line to 'None'
+[14.581s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[14.581s] Level 5:colcon.colcon_core.verb:set package 'v4l2_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[14.581s] DEBUG:colcon.colcon_core.verb:Building package 'v4l2_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera', 'merge_install': False, 'path': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ros2_v4l2_camera', 'symlink_install': False, 'test_result_base': None}
+[14.754s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[14.929s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[14.931s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/image_common/image_transport' with build type 'ament_cmake'
+[14.931s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/image_common/image_transport'
+[15.135s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[15.136s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.136s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.718s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/vision_opencv/cv_bridge' with build type 'ament_cmake'
+[15.719s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/vision_opencv/cv_bridge'
+[15.921s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.921s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.515s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/image_common/camera_calibration_parsers' with build type 'ament_cmake'
+[16.517s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/image_common/camera_calibration_parsers'
+[16.714s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.714s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy /usr/bin/cmake /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/image_common/image_transport -DCMAKE_INSTALL_PREFIX=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport
+[17.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy /usr/bin/cmake /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/vision_opencv/cv_bridge -DCMAKE_INSTALL_PREFIX=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge
+[17.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy /usr/bin/cmake /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/image_common/camera_calibration_parsers -DCMAKE_INSTALL_PREFIX=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers
+[28.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_calibration_parsers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy /usr/bin/cmake /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/image_common/camera_calibration_parsers -DCMAKE_INSTALL_PREFIX=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers
+[28.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy /usr/bin/cmake --build /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_calibration_parsers -- -j4 -l4
+[28.660s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/image_transport' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy /usr/bin/cmake /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/image_common/image_transport -DCMAKE_INSTALL_PREFIX=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport
+[28.664s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy /usr/bin/cmake --build /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/image_transport -- -j4 -l4
+[62.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy /usr/bin/cmake /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/vision_opencv/cv_bridge -DCMAKE_INSTALL_PREFIX=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge
+[62.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy /usr/bin/cmake --build /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/cv_bridge -- -j4 -l4
+[86.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_calibration_parsers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy /usr/bin/cmake --build /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_calibration_parsers -- -j4 -l4
+[87.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy /usr/bin/cmake --install /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_calibration_parsers
+[87.280s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_calibration_parsers)
+[87.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_calibration_parsers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy /usr/bin/cmake --install /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_calibration_parsers
+[87.683s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers' for CMake module files
+[87.687s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers' for CMake config files
+[87.691s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_calibration_parsers', 'cmake_prefix_path')
+[88.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/cmake_prefix_path.ps1'
+[88.056s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/cmake_prefix_path.dsv'
+[88.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/cmake_prefix_path.sh'
+[88.064s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/lib'
+[88.065s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_calibration_parsers', 'ld_library_path_lib')
+[88.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/ld_library_path_lib.ps1'
+[88.416s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/ld_library_path_lib.dsv'
+[88.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/ld_library_path_lib.sh'
+[88.421s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/bin'
+[88.422s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/lib/pkgconfig/camera_calibration_parsers.pc'
+[88.423s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/lib/python3.8/site-packages'
+[88.425s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/bin'
+[88.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.ps1'
+[88.782s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.dsv'
+[88.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.sh'
+[88.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.bash'
+[88.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.zsh'
+[88.799s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/colcon-core/packages/camera_calibration_parsers)
+[89.454s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_calibration_parsers)
+[89.804s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers' for CMake module files
+[89.809s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers' for CMake config files
+[89.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_calibration_parsers', 'cmake_prefix_path')
+[90.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/cmake_prefix_path.ps1'
+[90.190s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/cmake_prefix_path.dsv'
+[90.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/cmake_prefix_path.sh'
+[90.201s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/lib'
+[90.202s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_calibration_parsers', 'ld_library_path_lib')
+[90.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/ld_library_path_lib.ps1'
+[90.650s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/ld_library_path_lib.dsv'
+[90.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/hook/ld_library_path_lib.sh'
+[90.655s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/bin'
+[90.656s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/lib/pkgconfig/camera_calibration_parsers.pc'
+[90.657s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/lib/python3.8/site-packages'
+[90.658s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/bin'
+[91.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.ps1'
+[91.065s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.dsv'
+[91.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.sh'
+[91.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.bash'
+[91.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.zsh'
+[91.085s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/colcon-core/packages/camera_calibration_parsers)
+[91.088s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/image_common/camera_info_manager' with build type 'ament_cmake'
+[91.090s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/image_common/camera_info_manager'
+[91.424s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[91.424s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[92.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_info_manager': AMENT_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy LD_LIBRARY_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/image_common/camera_info_manager -DCMAKE_INSTALL_PREFIX=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager
+[104.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_info_manager' returned '0': AMENT_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy LD_LIBRARY_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/image_common/camera_info_manager -DCMAKE_INSTALL_PREFIX=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager
+[104.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_info_manager': AMENT_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy LD_LIBRARY_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_info_manager -- -j4 -l4
+[119.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_info_manager' returned '0': AMENT_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy LD_LIBRARY_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_info_manager -- -j4 -l4
+[120.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_info_manager': AMENT_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy LD_LIBRARY_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_info_manager
+[120.863s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_info_manager)
+[120.869s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_info_manager' returned '0': AMENT_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy LD_LIBRARY_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_info_manager
+[121.714s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager' for CMake module files
+[121.718s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager' for CMake config files
+[121.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_info_manager', 'cmake_prefix_path')
+[122.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/share/camera_info_manager/hook/cmake_prefix_path.ps1'
+[122.272s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/share/camera_info_manager/hook/cmake_prefix_path.dsv'
+[122.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/share/camera_info_manager/hook/cmake_prefix_path.sh'
+[122.280s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/lib'
+[122.281s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_info_manager', 'ld_library_path_lib')
+[122.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/share/camera_info_manager/hook/ld_library_path_lib.ps1'
+[122.789s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/share/camera_info_manager/hook/ld_library_path_lib.dsv'
+[122.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/share/camera_info_manager/hook/ld_library_path_lib.sh'
+[122.794s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/bin'
+[122.795s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/lib/pkgconfig/camera_info_manager.pc'
+[122.797s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/lib/python3.8/site-packages'
+[122.798s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/bin'
+[123.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/share/camera_info_manager/package.ps1'
+[123.395s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/share/camera_info_manager/package.dsv'
+[123.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/share/camera_info_manager/package.sh'
+[123.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/share/camera_info_manager/package.bash'
+[123.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/share/camera_info_manager/package.zsh'
+[123.414s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/share/colcon-core/packages/camera_info_manager)
+[124.801s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_info_manager)
+[125.280s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager' for CMake module files
+[125.284s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager' for CMake config files
+[125.289s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_info_manager', 'cmake_prefix_path')
+[125.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/share/camera_info_manager/hook/cmake_prefix_path.ps1'
+[125.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/share/camera_info_manager/hook/cmake_prefix_path.dsv'
+[125.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/share/camera_info_manager/hook/cmake_prefix_path.sh'
+[125.844s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/lib'
+[125.856s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_info_manager', 'ld_library_path_lib')
+[126.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/share/camera_info_manager/hook/ld_library_path_lib.ps1'
+[126.443s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/share/camera_info_manager/hook/ld_library_path_lib.dsv'
+[126.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/share/camera_info_manager/hook/ld_library_path_lib.sh'
+[126.450s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/bin'
+[126.452s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/lib/pkgconfig/camera_info_manager.pc'
+[126.454s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/lib/python3.8/site-packages'
+[126.468s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/bin'
+[127.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/share/camera_info_manager/package.ps1'
+[127.067s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/share/camera_info_manager/package.dsv'
+[127.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/share/camera_info_manager/package.sh'
+[127.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/share/camera_info_manager/package.bash'
+[127.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/share/camera_info_manager/package.zsh'
+[127.106s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/share/colcon-core/packages/camera_info_manager)
+[165.355s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy /usr/bin/cmake --build /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/cv_bridge -- -j4 -l4
+[165.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy /usr/bin/cmake --install /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/cv_bridge
+[166.212s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cv_bridge)
+[166.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy /usr/bin/cmake --install /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/cv_bridge
+[166.841s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge' for CMake module files
+[166.847s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge' for CMake config files
+[166.853s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'cmake_prefix_path')
+[167.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.ps1'
+[167.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.dsv'
+[167.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.sh'
+[167.482s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/lib'
+[167.484s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'ld_library_path_lib')
+[168.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.ps1'
+[168.047s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.dsv'
+[168.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.sh'
+[168.058s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/bin'
+[168.060s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/lib/pkgconfig/cv_bridge.pc'
+[168.062s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/lib/python3.8/site-packages'
+[168.063s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'pythonpath')
+[168.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/hook/pythonpath.ps1'
+[168.538s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/hook/pythonpath.dsv'
+[168.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/hook/pythonpath.sh'
+[168.545s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/bin'
+[168.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/package.ps1'
+[168.910s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/package.dsv'
+[168.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/package.sh'
+[168.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/package.bash'
+[168.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/package.zsh'
+[168.927s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/colcon-core/packages/cv_bridge)
+[169.502s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cv_bridge)
+[169.860s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge' for CMake module files
+[169.864s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge' for CMake config files
+[169.868s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'cmake_prefix_path')
+[170.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.ps1'
+[170.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.dsv'
+[170.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.sh'
+[170.265s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/lib'
+[170.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'ld_library_path_lib')
+[170.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.ps1'
+[170.628s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.dsv'
+[170.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.sh'
+[170.634s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/bin'
+[170.635s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/lib/pkgconfig/cv_bridge.pc'
+[170.636s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/lib/python3.8/site-packages'
+[170.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'pythonpath')
+[170.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/hook/pythonpath.ps1'
+[170.990s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/hook/pythonpath.dsv'
+[170.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/hook/pythonpath.sh'
+[170.997s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/bin'
+[171.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/package.ps1'
+[171.383s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/package.dsv'
+[171.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/package.sh'
+[171.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/package.bash'
+[171.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/package.zsh'
+[171.398s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/colcon-core/packages/cv_bridge)
+[213.185s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/image_transport' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy /usr/bin/cmake --build /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/image_transport -- -j4 -l4
+[213.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy /usr/bin/cmake --install /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/image_transport
+[213.823s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_transport)
+[213.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/image_transport' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy /usr/bin/cmake --install /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/image_transport
+[214.086s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport' for CMake module files
+[214.089s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport' for CMake config files
+[214.091s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_transport', 'cmake_prefix_path')
+[214.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/hook/cmake_prefix_path.ps1'
+[214.280s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/hook/cmake_prefix_path.dsv'
+[214.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/hook/cmake_prefix_path.sh'
+[214.283s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/lib'
+[214.284s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_transport', 'ld_library_path_lib')
+[214.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/hook/ld_library_path_lib.ps1'
+[214.471s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/hook/ld_library_path_lib.dsv'
+[214.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/hook/ld_library_path_lib.sh'
+[214.474s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/bin'
+[214.474s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/lib/pkgconfig/image_transport.pc'
+[214.475s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/lib/python3.8/site-packages'
+[214.476s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/bin'
+[214.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/package.ps1'
+[214.659s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/package.dsv'
+[214.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/package.sh'
+[214.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/package.bash'
+[214.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/package.zsh'
+[214.666s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/colcon-core/packages/image_transport)
+[215.279s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_transport)
+[215.471s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport' for CMake module files
+[215.474s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport' for CMake config files
+[215.476s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_transport', 'cmake_prefix_path')
+[215.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/hook/cmake_prefix_path.ps1'
+[215.677s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/hook/cmake_prefix_path.dsv'
+[215.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/hook/cmake_prefix_path.sh'
+[215.681s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/lib'
+[215.681s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_transport', 'ld_library_path_lib')
+[215.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/hook/ld_library_path_lib.ps1'
+[215.867s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/hook/ld_library_path_lib.dsv'
+[215.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/hook/ld_library_path_lib.sh'
+[215.870s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/bin'
+[215.871s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/lib/pkgconfig/image_transport.pc'
+[215.871s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/lib/python3.8/site-packages'
+[215.872s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/bin'
+[216.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/package.ps1'
+[216.060s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/package.dsv'
+[216.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/package.sh'
+[216.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/package.bash'
+[216.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/package.zsh'
+[216.068s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/colcon-core/packages/image_transport)
+[216.070s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/image_transport_plugins/compressed_depth_image_transport' with build type 'ament_cmake'
+[216.071s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/image_transport_plugins/compressed_depth_image_transport'
+[216.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[216.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[216.829s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/image_transport_plugins/compressed_image_transport' with build type 'ament_cmake'
+[216.831s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/image_transport_plugins/compressed_image_transport'
+[217.023s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[217.024s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[217.604s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/image_transport_plugins/theora_image_transport' with build type 'ament_cmake'
+[217.605s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/image_transport_plugins/theora_image_transport'
+[217.799s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[217.799s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[218.366s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ros2_v4l2_camera' with build type 'ament_cmake'
+[218.367s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ros2_v4l2_camera'
+[218.560s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[218.561s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[219.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/compressed_depth_image_transport': AMENT_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy LD_LIBRARY_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/image_transport_plugins/compressed_depth_image_transport -DCMAKE_INSTALL_PREFIX=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport
+[219.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/compressed_image_transport': AMENT_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy LD_LIBRARY_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/image_transport_plugins/compressed_image_transport -DCMAKE_INSTALL_PREFIX=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport
+[219.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/theora_image_transport': AMENT_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy LD_LIBRARY_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/image_transport_plugins/theora_image_transport -DCMAKE_INSTALL_PREFIX=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport
+[219.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera': AMENT_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy LD_LIBRARY_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera -- -j4 -l4
+[219.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera' returned '2': AMENT_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy LD_LIBRARY_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera -- -j4 -l4
+[220.306s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(v4l2_camera)
+[220.728s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera' for CMake module files
+[220.734s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera' for CMake config files
+[220.738s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'cmake_prefix_path')
+[221.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.ps1'
+[221.172s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.dsv'
+[221.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/v4l2_camera/hook/cmake_prefix_path.sh'
+[221.178s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/lib'
+[221.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('v4l2_camera', 'ld_library_path_lib')
+[221.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.ps1'
+[221.641s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.dsv'
+[221.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/v4l2_camera/hook/ld_library_path_lib.sh'
+[221.662s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/bin'
+[221.663s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/lib/pkgconfig/v4l2_camera.pc'
+[221.666s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/lib/python3.8/site-packages'
+[221.668s] Level 1:colcon.colcon_core.environment:checking '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/bin'
+[222.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/v4l2_camera/package.ps1'
+[222.095s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/v4l2_camera/package.dsv'
+[222.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/v4l2_camera/package.sh'
+[222.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/v4l2_camera/package.bash'
+[222.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/v4l2_camera/package.zsh'
+[222.126s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/colcon-core/packages/v4l2_camera)
+[236.724s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[236.725s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[236.725s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[236.726s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[236.951s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[236.952s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[236.952s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[237.029s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[237.314s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/local_setup.ps1'
+[237.319s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/_local_setup_util_ps1.py'
+[237.324s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/setup.ps1'
+[237.513s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/local_setup.sh'
+[237.515s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/_local_setup_util_sh.py'
+[237.518s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/setup.sh'
+[237.698s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/local_setup.bash'
+[237.701s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/setup.bash'
+[237.881s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/local_setup.zsh'
+[237.883s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/setup.zsh'

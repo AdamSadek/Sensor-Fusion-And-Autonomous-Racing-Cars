@@ -1,0 +1,40 @@
+[3.124s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/compressed_depth_image_transport': AMENT_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy LD_LIBRARY_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/image_transport_plugins/compressed_depth_image_transport -DCMAKE_INSTALL_PREFIX=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport
+[3.510s] -- The C compiler identification is GNU 9.4.0
+[3.919s] -- The CXX compiler identification is GNU 9.4.0
+[3.924s] -- Check for working C compiler: /usr/bin/cc
+[4.454s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.459s] -- Detecting C compiler ABI info
+[4.992s] -- Detecting C compiler ABI info - done
+[5.079s] -- Detecting C compile features
+[5.088s] -- Detecting C compile features - done
+[5.089s] -- Check for working CXX compiler: /usr/bin/c++
+[5.644s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.649s] -- Detecting CXX compiler ABI info
+[6.224s] -- Detecting CXX compiler ABI info - done
+[6.270s] -- Detecting CXX compile features
+[6.273s] -- Detecting CXX compile features - done
+[6.301s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.537s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.538s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.044s] -- Found image_transport: 2.4.0 (/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/cmake)
+[8.481s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.553s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[9.223s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.491s] -- Found FastRTPS: /opt/ros/foxy/include  
+[10.134s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.456s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[10.463s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.467s] -- Looking for pthread.h
+[10.904s] -- Looking for pthread.h - found
+[10.907s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.358s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[11.362s] -- Looking for pthread_create in pthreads
+[11.724s] -- Looking for pthread_create in pthreads - not found
+[11.725s] -- Looking for pthread_create in pthread
+[12.173s] -- Looking for pthread_create in pthread - found
+[12.186s] -- Found Threads: TRUE  
+[13.724s] -- Found cv_bridge: 3.0.7 (/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/cmake)
+[13.815s] -- Found OpenCV: /usr/local (found version "4.8.0") 
+[14.274s] -- Configuring done
+[14.389s] -- Generating done
+[14.400s] -- Build files have been written to: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/compressed_depth_image_transport

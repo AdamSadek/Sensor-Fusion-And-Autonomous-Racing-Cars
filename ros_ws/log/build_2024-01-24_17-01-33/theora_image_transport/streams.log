@@ -1,0 +1,66 @@
+[1.624s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/theora_image_transport': AMENT_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy LD_LIBRARY_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/image_transport_plugins/theora_image_transport -DCMAKE_INSTALL_PREFIX=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport
+[2.038s] -- The C compiler identification is GNU 9.4.0
+[2.416s] -- The CXX compiler identification is GNU 9.4.0
+[2.450s] -- Check for working C compiler: /usr/bin/cc
+[2.945s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.948s] -- Detecting C compiler ABI info
+[3.487s] -- Detecting C compiler ABI info - done
+[3.550s] -- Detecting C compile features
+[3.553s] -- Detecting C compile features - done
+[3.562s] -- Check for working CXX compiler: /usr/bin/c++
+[4.071s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.076s] -- Detecting CXX compiler ABI info
+[4.682s] -- Detecting CXX compiler ABI info - done
+[4.725s] -- Detecting CXX compile features
+[4.728s] -- Detecting CXX compile features - done
+[4.757s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.994s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.995s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.507s] -- Found image_transport: 2.4.0 (/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/cmake)
+[6.948s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.019s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.680s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.949s] -- Found FastRTPS: /opt/ros/foxy/include  
+[8.593s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.912s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[8.920s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.928s] -- Looking for pthread.h
+[9.349s] -- Looking for pthread.h - found
+[9.355s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.814s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.816s] -- Looking for pthread_create in pthreads
+[10.162s] -- Looking for pthread_create in pthreads - not found
+[10.163s] -- Looking for pthread_create in pthread
+[10.624s] -- Looking for pthread_create in pthread - found
+[10.631s] -- Found Threads: TRUE  
+[12.167s] -- Found cv_bridge: 3.0.7 (/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/cmake)
+[12.273s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[12.354s] -- Found OpenCV: /usr/local (found version "4.8.0") found components: imgproc 
+[12.371s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[12.378s] -- Checking for module 'ogg'
+[12.512s] --   Found ogg, version 1.3.4
+[12.802s] -- Checking for module 'theora'
+[12.938s] --   Found theora, version 1.1.1
+[13.215s] -- Checking for module 'theoraenc'
+[13.325s] --   Found theoraenc, version 1.1.1
+[13.601s] -- Checking for module 'theoradec'
+[13.711s] --   Found theoradec, version 1.1.1
+[14.183s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[15.063s] -- Found ament_cmake_cppcheck: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)
+[15.086s] -- Found ament_cmake_cpplint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+[15.109s] -- Found ament_cmake_uncrustify: 0.9.8 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)
+[15.135s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[16.936s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[17.581s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[17.738s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[17.762s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[17.915s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[17.916s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[17.917s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[17.917s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[18.043s] -- Found PythonExtra: .so  
+[18.489s] -- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)
+[18.513s] -- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)
+[18.589s] -- Configuring done
+[19.043s] -- Generating done
+[19.060s] -- Build files have been written to: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/theora_image_transport

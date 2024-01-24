@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from theora_image_transport/msg/Packet.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module theora_image_transport {
+  module msg {
+    @verbatim (language="comment", text=
+      " ROS message adaptation of the ogg_packet struct from libogg," "\n"
+      " see http://www.xiph.org/ogg/doc/libogg/ogg_packet.html.")
+    struct Packet {
+      @verbatim (language="comment", text=
+        " Original sensor_msgs/Image header")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " Raw Theora packet data (combines packet and bytes fields from ogg_packet)")
+      sequence<uint8> data;
+
+      @verbatim (language="comment", text=
+        " Flag indicating whether this packet begins a logical bitstream")
+      int32 b_o_s;
+
+      @verbatim (language="comment", text=
+        " Flag indicating whether this packet ends a bitstream")
+      int32 e_o_s;
+
+      @verbatim (language="comment", text=
+        " A number indicating the position of this packet in the decoded data")
+      int64 granulepos;
+
+      @verbatim (language="comment", text=
+        " Sequential number of this packet in the ogg bitstream")
+      int64 packetno;
+    };
+  };
+};

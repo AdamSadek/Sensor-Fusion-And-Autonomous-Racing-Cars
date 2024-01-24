@@ -1,0 +1,35 @@
+[1.620s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/compressed_image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy /usr/bin/cmake --build /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/compressed_image_transport -- -j4 -l4
+[1.891s] [35m[1mScanning dependencies of target compressed_image_transport[0m
+[2.395s] [ 50%] [32mBuilding CXX object CMakeFiles/compressed_image_transport.dir/src/compressed_publisher.cpp.o[0m
+[2.396s] [ 50%] [32mBuilding CXX object CMakeFiles/compressed_image_transport.dir/src/compressed_subscriber.cpp.o[0m
+[2.414s] [ 75%] [32mBuilding CXX object CMakeFiles/compressed_image_transport.dir/src/manifest.cpp.o[0m
+[68.807s] [100%] [32m[1mLinking CXX shared library libcompressed_image_transport.so[0m
+[72.417s] [100%] Built target compressed_image_transport
+[73.804s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/compressed_image_transport' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy /usr/bin/cmake --build /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/compressed_image_transport -- -j4 -l4
+[74.085s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/compressed_image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy /usr/bin/cmake --install /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/compressed_image_transport
+[74.137s] -- Install configuration: ""
+[74.142s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/lib/libcompressed_image_transport.so
+[74.214s] -- Set runtime path of "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/lib/libcompressed_image_transport.so" to ""
+[74.215s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/include
+[74.218s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/include/compressed_image_transport
+[74.228s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/include/compressed_image_transport/compressed_publisher.h
+[74.228s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/include/compressed_image_transport/compressed_subscriber.h
+[74.229s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/include/compressed_image_transport/compression_common.h
+[74.230s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/share/compressed_image_transport/compressed_plugins.xml
+[74.231s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/share/ament_index/resource_index/package_run_dependencies/compressed_image_transport
+[74.235s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/share/ament_index/resource_index/parent_prefix_path/compressed_image_transport
+[74.240s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/share/compressed_image_transport/environment/ament_prefix_path.sh
+[74.241s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/share/compressed_image_transport/environment/ament_prefix_path.dsv
+[74.245s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/share/compressed_image_transport/environment/path.sh
+[74.246s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/share/compressed_image_transport/environment/path.dsv
+[74.251s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/share/compressed_image_transport/local_setup.bash
+[74.252s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/share/compressed_image_transport/local_setup.sh
+[74.255s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/share/compressed_image_transport/local_setup.zsh
+[74.260s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/share/compressed_image_transport/local_setup.dsv
+[74.261s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/share/compressed_image_transport/package.dsv
+[74.267s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/share/ament_index/resource_index/packages/compressed_image_transport
+[74.268s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/share/ament_index/resource_index/image_transport__pluginlib__plugin/compressed_image_transport
+[74.272s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/share/compressed_image_transport/cmake/compressed_image_transportConfig.cmake
+[74.277s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/share/compressed_image_transport/cmake/compressed_image_transportConfig-version.cmake
+[74.278s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/share/compressed_image_transport/package.xml
+[76.028s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/compressed_image_transport' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy /usr/bin/cmake --install /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/compressed_image_transport

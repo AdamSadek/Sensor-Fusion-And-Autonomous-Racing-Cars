@@ -1,0 +1,192 @@
+[0.870s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/theora_image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy /usr/bin/cmake --build /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/theora_image_transport -- -j4 -l4
+[1.167s] [35m[1mScanning dependencies of target theora_image_transport__cpp[0m
+[1.208s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.348s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.526s] [  5%] Built target theora_image_transport__cpp
+[6.621s] [35m[1mScanning dependencies of target theora_image_transport__rosidl_generator_c[0m
+[6.855s] [  8%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.872s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.914s] [ 13%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.100s] [ 16%] [32mBuilding C object CMakeFiles/theora_image_transport__rosidl_generator_c.dir/rosidl_generator_c/theora_image_transport/msg/detail/packet__functions.c.o[0m
+[8.430s] [ 18%] [32m[1mLinking C shared library libtheora_image_transport__rosidl_generator_c.so[0m
+[9.401s] [ 18%] Built target theora_image_transport__rosidl_generator_c
+[9.735s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.614s] [35m[1mScanning dependencies of target theora_image_transport__rosidl_typesupport_cpp[0m
+[13.015s] [ 24%] [32mBuilding CXX object CMakeFiles/theora_image_transport__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/theora_image_transport/msg/packet__type_support.cpp.o[0m
+[13.193s] [35m[1mScanning dependencies of target theora_image_transport__rosidl_typesupport_introspection_cpp[0m
+[13.277s] [35m[1mScanning dependencies of target theora_image_transport__rosidl_typesupport_fastrtps_cpp[0m
+[13.694s] [ 27%] [32mBuilding CXX object CMakeFiles/theora_image_transport__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/theora_image_transport/msg/detail/packet__type_support.cpp.o[0m
+[13.837s] [ 29%] [32mBuilding CXX object CMakeFiles/theora_image_transport__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/theora_image_transport/msg/detail/dds_fastrtps/packet__type_support.cpp.o[0m
+[15.721s] [35m[1mScanning dependencies of target theora_image_transport__rosidl_typesupport_introspection_c[0m
+[16.090s] [ 32%] [32mBuilding C object CMakeFiles/theora_image_transport__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/theora_image_transport/msg/detail/packet__type_support.c.o[0m
+[16.834s] [ 35%] [32m[1mLinking C shared library libtheora_image_transport__rosidl_typesupport_introspection_c.so[0m
+[17.747s] [ 35%] Built target theora_image_transport__rosidl_typesupport_introspection_c
+[17.892s] [ 37%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[18.913s] [ 40%] [32m[1mLinking CXX shared library libtheora_image_transport__rosidl_typesupport_cpp.so[0m
+[19.948s] [ 40%] Built target theora_image_transport__rosidl_typesupport_cpp
+[20.784s] [ 43%] [32m[1mLinking CXX shared library libtheora_image_transport__rosidl_typesupport_introspection_cpp.so[0m
+[22.078s] [ 43%] Built target theora_image_transport__rosidl_typesupport_introspection_cpp
+[22.828s] [35m[1mScanning dependencies of target theora_image_transport__rosidl_typesupport_c[0m
+[23.107s] [ 45%] [32mBuilding CXX object CMakeFiles/theora_image_transport__rosidl_typesupport_c.dir/rosidl_typesupport_c/theora_image_transport/msg/packet__type_support.cpp.o[0m
+[23.734s] [ 48%] [32m[1mLinking CXX shared library libtheora_image_transport__rosidl_typesupport_c.so[0m
+[24.061s] [ 51%] [32m[1mLinking CXX shared library libtheora_image_transport__rosidl_typesupport_fastrtps_cpp.so[0m
+[24.543s] [ 51%] Built target theora_image_transport__rosidl_typesupport_c
+[25.300s] [ 51%] Built target theora_image_transport__rosidl_typesupport_fastrtps_cpp
+[25.536s] [ 54%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[30.091s] [35m[1mScanning dependencies of target theora_image_transport__rosidl_typesupport_fastrtps_c[0m
+[30.455s] [ 56%] [32mBuilding CXX object CMakeFiles/theora_image_transport__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/theora_image_transport/msg/detail/packet__type_support_c.cpp.o[0m
+[35.753s] [ 59%] [32m[1mLinking CXX shared library libtheora_image_transport__rosidl_typesupport_fastrtps_c.so[0m
+[37.114s] [ 59%] Built target theora_image_transport__rosidl_typesupport_fastrtps_c
+[37.333s] [35m[1mScanning dependencies of target theora_image_transport[0m
+[37.538s] [ 59%] Built target theora_image_transport
+[37.761s] [35m[1mScanning dependencies of target theora_image_transport__py[0m
+[37.958s] [ 62%] [34m[1mGenerating Python code for ROS interfaces[0m
+[44.972s] [ 62%] Built target theora_image_transport__py
+[45.186s] [35m[1mScanning dependencies of target ogg_saver[0m
+[45.848s] [ 64%] [32mBuilding CXX object CMakeFiles/ogg_saver.dir/src/ogg_saver.cpp.o[0m
+[79.905s] [ 67%] [32m[1mLinking CXX executable ogg_saver[0m
+[81.271s] [ 67%] Built target ogg_saver
+[81.333s] [35m[1mScanning dependencies of target theora_image_transport__python[0m
+[81.447s] [ 70%] [32mBuilding C object CMakeFiles/theora_image_transport__python.dir/rosidl_generator_py/theora_image_transport/msg/_packet_s.c.o[0m
+[81.932s] [ 72%] [32m[1mLinking C shared library rosidl_generator_py/theora_image_transport/libtheora_image_transport__python.so[0m
+[82.205s] [ 72%] Built target theora_image_transport__python
+[82.263s] [35m[1mScanning dependencies of target theora_image_transport_component[0m
+[82.584s] [ 75%] [32mBuilding CXX object CMakeFiles/theora_image_transport_component.dir/src/theora_publisher.cpp.o[0m
+[97.903s] [ 78%] [32mBuilding CXX object CMakeFiles/theora_image_transport_component.dir/src/theora_subscriber.cpp.o[0m
+[120.267s] [ 81%] [32mBuilding CXX object CMakeFiles/theora_image_transport_component.dir/src/manifest.cpp.o[0m
+[129.642s] [ 83%] [32m[1mLinking CXX shared library libtheora_image_transport_component.so[0m
+[132.402s] [ 83%] Built target theora_image_transport_component
+[132.460s] [35m[1mScanning dependencies of target theora_image_transport__rosidl_typesupport_introspection_c__pyext[0m
+[132.460s] [35m[1mScanning dependencies of target theora_image_transport__rosidl_typesupport_c__pyext[0m
+[132.461s] [35m[1mScanning dependencies of target theora_image_transport__rosidl_typesupport_fastrtps_c__pyext[0m
+[132.579s] [ 86%] [32mBuilding C object CMakeFiles/theora_image_transport__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/theora_image_transport/_theora_image_transport_s.ep.rosidl_typesupport_c.c.o[0m
+[132.600s] [ 89%] [32mBuilding C object CMakeFiles/theora_image_transport__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/theora_image_transport/_theora_image_transport_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[132.639s] [ 91%] [32mBuilding C object CMakeFiles/theora_image_transport__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/theora_image_transport/_theora_image_transport_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[133.021s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/theora_image_transport/theora_image_transport_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[133.028s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/theora_image_transport/theora_image_transport_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[133.107s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/theora_image_transport/theora_image_transport_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[133.368s] [100%] Built target theora_image_transport__rosidl_typesupport_c__pyext
+[133.373s] [100%] Built target theora_image_transport__rosidl_typesupport_introspection_c__pyext
+[133.554s] [100%] Built target theora_image_transport__rosidl_typesupport_fastrtps_c__pyext
+[133.619s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/theora_image_transport' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy /usr/bin/cmake --build /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/theora_image_transport -- -j4 -l4
+[134.153s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/theora_image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy /usr/bin/cmake --install /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/theora_image_transport
+[134.196s] -- Install configuration: ""
+[134.197s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/ament_index/resource_index/rosidl_interfaces/theora_image_transport
+[134.198s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport
+[134.199s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg
+[134.200s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg/packet.h
+[134.201s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg/detail
+[134.202s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg/detail/packet__functions.c
+[134.203s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg/detail/packet__type_support.h
+[134.204s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg/detail/packet__struct.h
+[134.205s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg/detail/packet__functions.h
+[134.206s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg/rosidl_generator_c__visibility_control.h
+[134.208s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/environment/library_path.sh
+[134.209s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/environment/library_path.dsv
+[134.211s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_generator_c.so
+[134.214s] -- Set runtime path of "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_generator_c.so" to ""
+[134.214s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport
+[134.215s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg
+[134.215s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[134.216s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg/detail
+[134.217s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg/detail/packet__rosidl_typesupport_fastrtps_c.h
+[134.219s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_fastrtps_c.so
+[134.221s] -- Set runtime path of "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_fastrtps_c.so" to ""
+[134.222s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport
+[134.222s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg
+[134.223s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[134.223s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg/detail
+[134.224s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg/detail/dds_fastrtps
+[134.225s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg/detail/packet__rosidl_typesupport_fastrtps_cpp.hpp
+[134.226s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_fastrtps_cpp.so
+[134.229s] -- Set runtime path of "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_fastrtps_cpp.so" to ""
+[134.230s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport
+[134.230s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg
+[134.230s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg/detail
+[134.231s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg/detail/packet__type_support.c
+[134.232s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg/detail/packet__rosidl_typesupport_introspection_c.h
+[134.233s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[134.235s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_introspection_c.so
+[134.237s] -- Set runtime path of "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_introspection_c.so" to ""
+[134.238s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_c.so
+[134.240s] -- Set runtime path of "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_c.so" to ""
+[134.241s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport
+[134.241s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg
+[134.241s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg/packet.hpp
+[134.242s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg/detail
+[134.243s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg/detail/packet__builder.hpp
+[134.244s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg/detail/packet__type_support.hpp
+[134.245s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg/detail/packet__traits.hpp
+[134.246s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg/detail/packet__struct.hpp
+[134.247s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg/rosidl_generator_cpp__visibility_control.hpp
+[134.248s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport
+[134.249s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg
+[134.249s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg/detail
+[134.249s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg/detail/packet__rosidl_typesupport_introspection_cpp.hpp
+[134.251s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/msg/detail/packet__type_support.cpp
+[134.252s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_introspection_cpp.so
+[134.255s] -- Set runtime path of "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_introspection_cpp.so" to ""
+[134.256s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_cpp.so
+[134.258s] -- Set runtime path of "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/libtheora_image_transport__rosidl_typesupport_cpp.so" to ""
+[134.259s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/environment/pythonpath.sh
+[134.260s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/environment/pythonpath.dsv
+[134.262s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/python3.8/site-packages/theora_image_transport/__init__.py
+[134.411s] Compiling '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/python3.8/site-packages/theora_image_transport/__init__.py'...
+[134.433s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/python3.8/site-packages/theora_image_transport/msg
+[134.434s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/python3.8/site-packages/theora_image_transport/msg/_packet_s.c
+[134.435s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/python3.8/site-packages/theora_image_transport/msg/__init__.py
+[134.436s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/python3.8/site-packages/theora_image_transport/msg/_packet.py
+[134.438s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/python3.8/site-packages/theora_image_transport/theora_image_transport_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[134.442s] -- Set runtime path of "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/python3.8/site-packages/theora_image_transport/theora_image_transport_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[134.443s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/python3.8/site-packages/theora_image_transport/theora_image_transport_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[134.446s] -- Set runtime path of "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/python3.8/site-packages/theora_image_transport/theora_image_transport_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[134.447s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/python3.8/site-packages/theora_image_transport/theora_image_transport_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[134.450s] -- Set runtime path of "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/python3.8/site-packages/theora_image_transport/theora_image_transport_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[134.451s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/libtheora_image_transport__python.so
+[134.453s] -- Set runtime path of "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/libtheora_image_transport__python.so" to ""
+[134.454s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/msg/Packet.idl
+[134.455s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/msg/Packet.msg
+[134.457s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/theora_image_transport/libtheora_image_transport_component.so
+[134.481s] -- Set runtime path of "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/theora_image_transport/libtheora_image_transport_component.so" to ""
+[134.482s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/bin/ogg_saver
+[134.494s] -- Set runtime path of "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/bin/ogg_saver" to ""
+[134.495s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include
+[134.495s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport
+[134.496s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/theora_subscriber.h
+[134.496s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/include/theora_image_transport/theora_publisher.h
+[134.498s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/theora_plugins.xml
+[134.499s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/ament_index/resource_index/package_run_dependencies/theora_image_transport
+[134.501s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/ament_index/resource_index/parent_prefix_path/theora_image_transport
+[134.502s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/environment/ament_prefix_path.sh
+[134.504s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/environment/ament_prefix_path.dsv
+[134.505s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/environment/path.sh
+[134.506s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/environment/path.dsv
+[134.507s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/local_setup.bash
+[134.509s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/local_setup.sh
+[134.510s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/local_setup.zsh
+[134.511s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/local_setup.dsv
+[134.512s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/package.dsv
+[134.514s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/ament_index/resource_index/packages/theora_image_transport
+[134.516s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/ament_index/resource_index/image_transport__pluginlib__plugin/theora_image_transport
+[134.517s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_generator_cExport.cmake
+[134.519s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_generator_cExport-noconfig.cmake
+[134.521s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_typesupport_introspection_cExport.cmake
+[134.522s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[134.524s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_typesupport_cExport.cmake
+[134.525s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_typesupport_cExport-noconfig.cmake
+[134.527s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_generator_cppExport.cmake
+[134.529s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_typesupport_introspection_cppExport.cmake
+[134.530s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[134.532s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_typesupport_cppExport.cmake
+[134.533s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transport__rosidl_typesupport_cppExport-noconfig.cmake
+[134.535s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/cmake/rosidl_cmake-extras.cmake
+[134.536s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/cmake/ament_cmake_export_dependencies-extras.cmake
+[134.538s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/cmake/ament_cmake_export_libraries-extras.cmake
+[134.539s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/cmake/ament_cmake_export_targets-extras.cmake
+[134.540s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/cmake/ament_cmake_export_include_directories-extras.cmake
+[134.542s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[134.543s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[134.545s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transportConfig.cmake
+[134.546s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/cmake/theora_image_transportConfig-version.cmake
+[134.547s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/share/theora_image_transport/package.xml
+[134.555s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/theora_image_transport' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/opt/ros/foxy /usr/bin/cmake --install /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/theora_image_transport

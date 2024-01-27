@@ -24,7 +24,7 @@ class ServoControlNode(Node):
         GPIO.setup(11, GPIO.OUT)
         # creating PWM instance for GPIO pin 11 with frequency of 50 Hz
         self.servo = GPIO.PWM(11, 50)
-        self.servo.start(7.1)
+        self.servo.start(0)
 
     # publishing servo angle on the '/servo_movement' topic
     def update_servo_movement(self, angle):
@@ -41,7 +41,7 @@ class ServoControlNode(Node):
 
     def servo_to_neutral(self):
         # return servo to neutral position
-        self.servo.ChangeDutyCycle(7.1)
+        self.servo.ChangeDutyCycle(0)
         time.sleep(1)
 
     def run_servo_test(self):
@@ -52,13 +52,11 @@ class ServoControlNode(Node):
             time.sleep(1)
 
             # moving servo to 150 degrees
-            self.update_servo_movement(150)
+            self.update_servo_movement(100)
             time.sleep(1)
 
             test_count += 1
             print("Test #", test_count)
-
-        servo_to_neutral(self)
 
     def cleanup(self):
         self.servo.stop()

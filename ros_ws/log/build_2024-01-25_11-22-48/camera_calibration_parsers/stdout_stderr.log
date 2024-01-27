@@ -1,0 +1,50 @@
+[ 14%] Built target gtest
+[ 28%] Built target gtest_main
+[ 35%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse_ini.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse_yml.cpp.o[0m
+[ 57%] [32m[1mLinking CXX shared library libcamera_calibration_parsers.so[0m
+[ 57%] Built target camera_calibration_parsers
+[ 64%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers-parse_yml.dir/test/test_parse_yml.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers-parse_ini.dir/test/test_parse_ini.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/convert.dir/src/convert.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable convert[0m
+[ 85%] Built target convert
+[ 92%] [32m[1mLinking CXX executable camera_calibration_parsers-parse_yml[0m
+[100%] [32m[1mLinking CXX executable camera_calibration_parsers-parse_ini[0m
+[100%] Built target camera_calibration_parsers-parse_yml
+[100%] Built target camera_calibration_parsers-parse_ini
+-- Install configuration: ""
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/lib/libcamera_calibration_parsers.so
+-- Set runtime path of "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/lib/libcamera_calibration_parsers.so" to ""
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/lib/camera_calibration_parsers/convert
+-- Set runtime path of "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/lib/camera_calibration_parsers/convert" to ""
+-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/include
+-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/include/camera_calibration_parsers
+-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/parse.hpp
+-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/parse_ini.h
+-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/parse_ini.hpp
+-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/parse_yml.h
+-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/parse.h
+-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/visibility_control.hpp
+-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/parse_yml.hpp
+-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/library_path.sh
+-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/library_path.dsv
+-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/ament_index/resource_index/package_run_dependencies/camera_calibration_parsers
+-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/ament_index/resource_index/parent_prefix_path/camera_calibration_parsers
+-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/ament_prefix_path.sh
+-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/path.sh
+-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/path.dsv
+-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.bash
+-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.sh
+-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.zsh
+-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.dsv
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.dsv
+-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/ament_index/resource_index/packages/camera_calibration_parsers
+-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/camera_calibration_parsersConfig.cmake
+-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/camera_calibration_parsersConfig-version.cmake
+-- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.xml

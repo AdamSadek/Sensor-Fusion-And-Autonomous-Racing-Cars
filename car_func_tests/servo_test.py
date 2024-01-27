@@ -29,20 +29,20 @@ def update_pos(angle):
     time.sleep(0.5)
 
 # starting the servo at a neutral pos
-servo.start(7.1)
+servo.start(0)
 
 # a simple while loop to test the movement from two angles 0-150 deg. Testing it 10 times.
 test_count = 0
 while test_count != 10:
     update_pos(0)
     time.sleep(1)
-    update_pos(150)
+    update_pos(90)
     time.sleep(1)
     test_count += 1
     print("Test #", test_count)
 
 # go back to neutral position
-servo.ChangeDutyCycle(7.1)
+servo.ChangeDutyCycle(0)
 time.sleep(1)
 
 # stopping servo motor and cleaning up the GPIO pins

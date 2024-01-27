@@ -1,5 +1,7 @@
-from setuptools import setup
+from glob import glob
+from os.path import join
 
+from setuptools import find_packages, setup
 package_name = 'arc_startup'
 
 setup(
@@ -10,6 +12,8 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        (join('share', package_name, 'config'), glob('config/*.yaml')),
+        (join('share', package_name, 'launch'), glob('launch/*.py')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,

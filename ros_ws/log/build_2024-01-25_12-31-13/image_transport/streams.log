@@ -1,0 +1,80 @@
+[2.536s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/opencv_tests:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy /usr/bin/cmake --build /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/image_transport -- -j4 -l4
+[3.411s] [  6%] Built target gtest
+[3.455s] [ 13%] Built target gtest_main
+[3.586s] [ 40%] Built target image_transport
+[4.124s] [ 46%] Built target list_transports
+[4.151s] [ 53%] Built target image_transport_plugins
+[4.250s] [ 60%] Built target republish
+[4.258s] [ 66%] Built target image_transport-remapping
+[4.470s] [ 73%] Built target image_transport-camera_common
+[4.553s] [ 80%] Built target image_transport-subscriber
+[4.623s] [ 86%] Built target image_transport-publisher
+[4.630s] [ 93%] Built target image_transport-message_passing
+[4.785s] [100%] Built target image_transport-single_subscriber_publisher
+[4.870s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/image_transport' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/opencv_tests:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy /usr/bin/cmake --build /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/image_transport -- -j4 -l4
+[8.144s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/opencv_tests:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy /usr/bin/cmake --install /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/image_transport
+[8.209s] -- Install configuration: ""
+[8.212s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/default_plugins.xml
+[8.213s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/lib/libimage_transport.so
+[8.216s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/lib/libimage_transport_plugins.so
+[8.217s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/lib/image_transport/list_transports
+[8.220s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/lib/image_transport/republish
+[8.236s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include
+[8.244s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport
+[8.245s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/camera_subscriber.h
+[8.246s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/simple_publisher_plugin.hpp
+[8.247s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/simple_subscriber_plugin.hpp
+[8.250s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/simple_subscriber_plugin.h
+[8.252s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/single_subscriber_publisher.h
+[8.253s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/subscriber_plugin.h
+[8.253s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/publisher_plugin.h
+[8.254s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/subscriber_filter.h
+[8.255s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/publisher.hpp
+[8.256s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/exception.h
+[8.259s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/exception.hpp
+[8.261s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/simple_publisher_plugin.h
+[8.264s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/camera_subscriber.hpp
+[8.266s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/subscriber.h
+[8.267s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/loader_fwds.h
+[8.270s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/camera_common.hpp
+[8.273s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/publisher_plugin.hpp
+[8.277s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/image_transport.h
+[8.278s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/raw_subscriber.hpp
+[8.280s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/camera_publisher.h
+[8.280s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/visibility_control.hpp
+[8.281s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/subscriber_filter.hpp
+[8.282s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/raw_subscriber.h
+[8.285s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/loader_fwds.hpp
+[8.288s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/raw_publisher.hpp
+[8.289s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/publisher.h
+[8.298s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/transport_hints.h
+[8.301s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/transport_hints.hpp
+[8.302s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/single_subscriber_publisher.hpp
+[8.306s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/image_transport.hpp
+[8.319s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/raw_publisher.h
+[8.325s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/subscriber.hpp
+[8.331s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/camera_common.h
+[8.338s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/subscriber_plugin.hpp
+[8.346s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include/image_transport/camera_publisher.hpp
+[8.353s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/environment/library_path.sh
+[8.354s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/environment/library_path.dsv
+[8.354s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/ament_index/resource_index/package_run_dependencies/image_transport
+[8.355s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/ament_index/resource_index/parent_prefix_path/image_transport
+[8.356s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/environment/ament_prefix_path.sh
+[8.357s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/environment/ament_prefix_path.dsv
+[8.358s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/environment/path.sh
+[8.360s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/environment/path.dsv
+[8.362s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/local_setup.bash
+[8.365s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/local_setup.sh
+[8.366s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/local_setup.zsh
+[8.369s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/local_setup.dsv
+[8.371s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/package.dsv
+[8.373s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/ament_index/resource_index/packages/image_transport
+[8.374s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/ament_index/resource_index/image_transport__pluginlib__plugin/image_transport
+[8.376s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.377s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/cmake/ament_cmake_export_libraries-extras.cmake
+[8.378s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.379s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/cmake/image_transportConfig.cmake
+[8.379s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/cmake/image_transportConfig-version.cmake
+[8.379s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/package.xml
+[12.351s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/image_transport' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/opencv_tests:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy /usr/bin/cmake --install /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/image_transport

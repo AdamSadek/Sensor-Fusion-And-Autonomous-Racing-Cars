@@ -7,7 +7,7 @@ This project merges sensors such as LiDAR and cameras to provide racing cars wit
 | ------------- | ------------- 
 | Ubuntu 20.04  | Operating System for both the on-board (RPi) and off-board(laptop) machines  |
 | ROS2 Foxy  |  Acts as middleware for communication and development |
-| Gazebo  |  Realistic environment for testing and simulating sensors used in the racing cars. Also tests racing strategies, decision-making, and algorithms |
+| Gazebo (not implemented yet) |  Realistic environment for testing and simulating sensors used in the racing cars. Also tests racing strategies, decision-making, and algorithms |
 
 # Hardware
 | Hardware  | Purpose |

@@ -1,0 +1,1091 @@
+[0.000000] (-) TimerEvent: {}
+[0.001094] (arc_startup) JobQueued: {'identifier': 'arc_startup', 'dependencies': OrderedDict()}
+[0.001511] (camera_sensor) JobQueued: {'identifier': 'camera_sensor', 'dependencies': OrderedDict()}
+[0.002507] (compressed_depth_image_transport) JobQueued: {'identifier': 'compressed_depth_image_transport', 'dependencies': OrderedDict()}
+[0.003103] (compressed_image_transport) JobQueued: {'identifier': 'compressed_image_transport', 'dependencies': OrderedDict()}
+[0.003404] (ldlidar_ros2) JobQueued: {'identifier': 'ldlidar_ros2', 'dependencies': OrderedDict()}
+[0.003510] (motor_controller) JobQueued: {'identifier': 'motor_controller', 'dependencies': OrderedDict()}
+[0.003585] (servo_controller) JobQueued: {'identifier': 'servo_controller', 'dependencies': OrderedDict()}
+[0.003659] (theora_image_transport) JobQueued: {'identifier': 'theora_image_transport', 'dependencies': OrderedDict()}
+[0.003733] (v4l2_camera) JobQueued: {'identifier': 'v4l2_camera', 'dependencies': OrderedDict()}
+[0.003805] (image_transport_plugins) JobQueued: {'identifier': 'image_transport_plugins', 'dependencies': OrderedDict([('compressed_depth_image_transport', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport'), ('compressed_image_transport', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport'), ('theora_image_transport', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport')])}
+[0.004177] (compressed_depth_image_transport) JobStarted: {'identifier': 'compressed_depth_image_transport'}
+[0.099668] (-) TimerEvent: {}
+[0.201248] (-) TimerEvent: {}
+[0.302115] (-) TimerEvent: {}
+[0.408307] (-) TimerEvent: {}
+[0.509094] (-) TimerEvent: {}
+[0.610475] (-) TimerEvent: {}
+[0.712362] (-) TimerEvent: {}
+[0.789757] (compressed_image_transport) JobStarted: {'identifier': 'compressed_image_transport'}
+[0.813259] (-) TimerEvent: {}
+[0.914405] (-) TimerEvent: {}
+[1.015618] (-) TimerEvent: {}
+[1.116704] (-) TimerEvent: {}
+[1.218252] (-) TimerEvent: {}
+[1.319219] (-) TimerEvent: {}
+[1.422624] (-) TimerEvent: {}
+[1.523739] (-) TimerEvent: {}
+[1.612783] (theora_image_transport) JobStarted: {'identifier': 'theora_image_transport'}
+[1.623925] (-) TimerEvent: {}
+[1.724830] (-) TimerEvent: {}
+[1.826487] (-) TimerEvent: {}
+[1.927499] (-) TimerEvent: {}
+[2.030706] (-) TimerEvent: {}
+[2.131488] (-) TimerEvent: {}
+[2.233016] (-) TimerEvent: {}
+[2.333988] (-) TimerEvent: {}
+[2.418130] (arc_startup) JobStarted: {'identifier': 'arc_startup'}
+[2.434214] (-) TimerEvent: {}
+[2.535194] (-) TimerEvent: {}
+[2.640679] (-) TimerEvent: {}
+[2.741619] (-) TimerEvent: {}
+[2.843636] (-) TimerEvent: {}
+[2.945507] (-) TimerEvent: {}
+[3.046832] (-) TimerEvent: {}
+[3.148399] (-) TimerEvent: {}
+[3.251275] (-) TimerEvent: {}
+[3.353015] (-) TimerEvent: {}
+[3.414917] (compressed_depth_image_transport) JobProgress: {'identifier': 'compressed_depth_image_transport', 'progress': 'cmake'}
+[3.418414] (compressed_depth_image_transport) JobProgress: {'identifier': 'compressed_depth_image_transport', 'progress': 'build'}
+[3.421270] (compressed_depth_image_transport) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/compressed_depth_image_transport', '--', '-j4', '-l4'], 'cwd': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/compressed_depth_image_transport', 'env': OrderedDict([('VIRTUALENVWRAPPER_WORKON_CD', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('WORKON_HOME', '/home/adam/.virtualenvs'), ('USER', 'adam'), ('SSH_CLIENT', '192.168.0.150 54377 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_geometry/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/adam'), ('VIRTUALENVWRAPPER_PYTHON', '/usr/bin/python3'), ('OLDPWD', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src'), ('TERM_PROGRAM_VERSION', '1.84.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-93bd8b36-5581-4799-a76e-80ce54b5ab2e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adam'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/remote-cli:/home/adam/.local/bin:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1f9311a5e8.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vision_opencv:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport_plugins:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/opencv_tests:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_common:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_geometry:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VIRTUALENVWRAPPER_PROJECT_FILENAME', '.project'), ('VIRTUALENVWRAPPER_HOOK_DIR', '/home/adam/.virtualenvs'), ('VIRTUALENVWRAPPER_SCRIPT', '/usr/share/virtualenvwrapper/virtualenvwrapper.sh'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/compressed_depth_image_transport'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.150 54377 192.168.0.174 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/opencv_tests/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_geometry/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vision_opencv:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport_plugins:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_common:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_geometry:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/opencv_tests:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy')]), 'shell': False}
+[3.445766] (compressed_image_transport) JobProgress: {'identifier': 'compressed_image_transport', 'progress': 'cmake'}
+[3.449361] (compressed_image_transport) JobProgress: {'identifier': 'compressed_image_transport', 'progress': 'build'}
+[3.450606] (compressed_image_transport) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/compressed_image_transport', '--', '-j4', '-l4'], 'cwd': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/compressed_image_transport', 'env': OrderedDict([('VIRTUALENVWRAPPER_WORKON_CD', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('WORKON_HOME', '/home/adam/.virtualenvs'), ('USER', 'adam'), ('SSH_CLIENT', '192.168.0.150 54377 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_geometry/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/adam'), ('VIRTUALENVWRAPPER_PYTHON', '/usr/bin/python3'), ('OLDPWD', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src'), ('TERM_PROGRAM_VERSION', '1.84.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-93bd8b36-5581-4799-a76e-80ce54b5ab2e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adam'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/remote-cli:/home/adam/.local/bin:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1f9311a5e8.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vision_opencv:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport_plugins:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/opencv_tests:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_common:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_geometry:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VIRTUALENVWRAPPER_PROJECT_FILENAME', '.project'), ('VIRTUALENVWRAPPER_HOOK_DIR', '/home/adam/.virtualenvs'), ('VIRTUALENVWRAPPER_SCRIPT', '/usr/share/virtualenvwrapper/virtualenvwrapper.sh'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/compressed_image_transport'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.150 54377 192.168.0.174 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/opencv_tests/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_geometry/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vision_opencv:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport_plugins:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_common:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_geometry:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/opencv_tests:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy')]), 'shell': False}
+[3.462645] (-) TimerEvent: {}
+[3.470756] (theora_image_transport) JobProgress: {'identifier': 'theora_image_transport', 'progress': 'cmake'}
+[3.476356] (theora_image_transport) JobProgress: {'identifier': 'theora_image_transport', 'progress': 'build'}
+[3.478515] (theora_image_transport) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/theora_image_transport', '--', '-j4', '-l4'], 'cwd': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/theora_image_transport', 'env': OrderedDict([('VIRTUALENVWRAPPER_WORKON_CD', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('WORKON_HOME', '/home/adam/.virtualenvs'), ('USER', 'adam'), ('SSH_CLIENT', '192.168.0.150 54377 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_geometry/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/adam'), ('VIRTUALENVWRAPPER_PYTHON', '/usr/bin/python3'), ('OLDPWD', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src'), ('TERM_PROGRAM_VERSION', '1.84.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-93bd8b36-5581-4799-a76e-80ce54b5ab2e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adam'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/remote-cli:/home/adam/.local/bin:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1f9311a5e8.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vision_opencv:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport_plugins:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/opencv_tests:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_common:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_geometry:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VIRTUALENVWRAPPER_PROJECT_FILENAME', '.project'), ('VIRTUALENVWRAPPER_HOOK_DIR', '/home/adam/.virtualenvs'), ('VIRTUALENVWRAPPER_SCRIPT', '/usr/share/virtualenvwrapper/virtualenvwrapper.sh'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/theora_image_transport'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.150 54377 192.168.0.174 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/opencv_tests/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_geometry/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vision_opencv:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport_plugins:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_common:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_geometry:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/opencv_tests:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy')]), 'shell': False}
+[3.563059] (-) TimerEvent: {}
+[3.620761] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[3.637620] (compressed_image_transport) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[3.663218] (-) TimerEvent: {}
+[3.698397] (theora_image_transport) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[3.763416] (-) TimerEvent: {}
+[3.858891] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.859853] (compressed_image_transport) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.863658] (-) TimerEvent: {}
+[3.953649] (theora_image_transport) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[3.955177] (theora_image_transport) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.963931] (-) TimerEvent: {}
+[4.064878] (-) TimerEvent: {}
+[4.165967] (-) TimerEvent: {}
+[4.267022] (-) TimerEvent: {}
+[4.368107] (-) TimerEvent: {}
+[4.469142] (-) TimerEvent: {}
+[4.570187] (-) TimerEvent: {}
+[4.671180] (-) TimerEvent: {}
+[4.772172] (-) TimerEvent: {}
+[4.873139] (-) TimerEvent: {}
+[4.974162] (-) TimerEvent: {}
+[5.075185] (-) TimerEvent: {}
+[5.176230] (-) TimerEvent: {}
+[5.277403] (-) TimerEvent: {}
+[5.380283] (-) TimerEvent: {}
+[5.443982] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Found image_transport: 2.4.0 (/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/cmake)\n'}
+[5.481196] (-) TimerEvent: {}
+[5.482800] (compressed_image_transport) StdoutLine: {'line': b'-- Found image_transport: 2.4.0 (/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/cmake)\n'}
+[5.564807] (theora_image_transport) StdoutLine: {'line': b'-- Found image_transport: 2.4.0 (/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/cmake)\n'}
+[5.581456] (-) TimerEvent: {}
+[5.683266] (-) TimerEvent: {}
+[5.754229] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.764976] (compressed_image_transport) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.769107] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[5.783716] (-) TimerEvent: {}
+[5.785820] (compressed_image_transport) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[5.817991] (theora_image_transport) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.834327] (theora_image_transport) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[5.884305] (-) TimerEvent: {}
+[5.986611] (-) TimerEvent: {}
+[6.087514] (-) TimerEvent: {}
+[6.189600] (-) TimerEvent: {}
+[6.290538] (-) TimerEvent: {}
+[6.391585] (-) TimerEvent: {}
+[6.492872] (-) TimerEvent: {}
+[6.593712] (-) TimerEvent: {}
+[6.695649] (-) TimerEvent: {}
+[6.797122] (-) TimerEvent: {}
+[6.898181] (-) TimerEvent: {}
+[6.954040] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.998393] (-) TimerEvent: {}
+[7.009857] (compressed_image_transport) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.058944] (theora_image_transport) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.098633] (-) TimerEvent: {}
+[7.199669] (-) TimerEvent: {}
+[7.212932] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[7.230309] (compressed_depth_image_transport) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.240466] (compressed_image_transport) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[7.250996] (compressed_image_transport) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.299900] (-) TimerEvent: {}
+[7.316740] (theora_image_transport) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[7.327268] (theora_image_transport) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.400120] (-) TimerEvent: {}
+[7.501081] (-) TimerEvent: {}
+[7.602143] (-) TimerEvent: {}
+[7.703173] (-) TimerEvent: {}
+[7.804166] (-) TimerEvent: {}
+[7.905132] (-) TimerEvent: {}
+[8.006047] (-) TimerEvent: {}
+[8.106943] (-) TimerEvent: {}
+[8.207924] (-) TimerEvent: {}
+[8.308856] (-) TimerEvent: {}
+[8.409834] (-) TimerEvent: {}
+[8.510777] (-) TimerEvent: {}
+[8.611690] (-) TimerEvent: {}
+[8.712517] (-) TimerEvent: {}
+[8.736642] (compressed_image_transport) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/cmake)\n'}
+[8.737421] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/cmake)\n'}
+[8.812837] (-) TimerEvent: {}
+[8.832117] (theora_image_transport) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/cmake)\n'}
+[8.912447] (theora_image_transport) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[8.913400] (-) TimerEvent: {}
+[9.014164] (-) TimerEvent: {}
+[9.115116] (-) TimerEvent: {}
+[9.214514] (arc_startup) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/arc_startup', 'build', '--build-base', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_startup/build', 'install', '--record', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_startup/install.log', '--install-scripts', '$base/lib/arc_startup', '--single-version-externally-managed'], 'cwd': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/arc_startup', 'env': {'VIRTUALENVWRAPPER_WORKON_CD': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'WORKON_HOME': '/home/adam/.virtualenvs', 'USER': 'adam', 'SSH_CLIENT': '192.168.0.150 54377 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_geometry/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/adam', 'VIRTUALENVWRAPPER_PYTHON': '/usr/bin/python3', 'OLDPWD': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src', 'TERM_PROGRAM_VERSION': '1.84.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-93bd8b36-5581-4799-a76e-80ce54b5ab2e.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'adam', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/remote-cli:/home/adam/.local/bin:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-1f9311a5e8.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vision_opencv:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport_plugins:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/opencv_tests:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_common:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_geometry:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUALENVWRAPPER_PROJECT_FILENAME': '.project', 'VIRTUALENVWRAPPER_HOOK_DIR': '/home/adam/.virtualenvs', 'VIRTUALENVWRAPPER_SCRIPT': '/usr/share/virtualenvwrapper/virtualenvwrapper.sh', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_startup', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.150 54377 192.168.0.174 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_startup/prefix_override:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/opencv_tests/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_geometry/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vision_opencv:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport_plugins:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_common:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_geometry:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers'}, 'shell': False}
+[9.219394] (-) TimerEvent: {}
+[9.324400] (-) TimerEvent: {}
+[9.428260] (-) TimerEvent: {}
+[9.448470] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.478724] (compressed_image_transport) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.511122] (theora_image_transport) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[9.528515] (-) TimerEvent: {}
+[9.610760] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Generating done\n'}
+[9.622248] (compressed_depth_image_transport) StdoutLine: {'line': b'-- Build files have been written to: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/compressed_depth_image_transport\n'}
+[9.628813] (-) TimerEvent: {}
+[9.688753] (compressed_image_transport) StdoutLine: {'line': b'-- Generating done\n'}
+[9.700437] (compressed_image_transport) StdoutLine: {'line': b'-- Build files have been written to: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/compressed_image_transport\n'}
+[9.729237] (-) TimerEvent: {}
+[9.830671] (-) TimerEvent: {}
+[9.836431] (compressed_depth_image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target compressed_depth_image_transport\x1b[0m\n'}
+[9.930867] (-) TimerEvent: {}
+[9.954507] (compressed_image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target compressed_image_transport\x1b[0m\n'}
+[10.031092] (-) TimerEvent: {}
+[10.131934] (-) TimerEvent: {}
+[10.232744] (-) TimerEvent: {}
+[10.337530] (-) TimerEvent: {}
+[10.357940] (compressed_depth_image_transport) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/compressed_depth_image_transport.dir/src/compressed_depth_publisher.cpp.o\x1b[0m\n'}
+[10.435377] (compressed_depth_image_transport) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/compressed_depth_image_transport.dir/src/compressed_depth_subscriber.cpp.o\x1b[0m\n'}
+[10.437826] (-) TimerEvent: {}
+[10.443745] (compressed_depth_image_transport) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/compressed_depth_image_transport.dir/src/codec.cpp.o\x1b[0m\n'}
+[10.460590] (compressed_depth_image_transport) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/compressed_depth_image_transport.dir/src/manifest.cpp.o\x1b[0m\n'}
+[10.518808] (compressed_image_transport) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/compressed_image_transport.dir/src/compressed_publisher.cpp.o\x1b[0m\n'}
+[10.538004] (-) TimerEvent: {}
+[10.587959] (compressed_image_transport) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/compressed_image_transport.dir/src/manifest.cpp.o\x1b[0m\n'}
+[10.588879] (compressed_image_transport) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/compressed_image_transport.dir/src/compressed_subscriber.cpp.o\x1b[0m\n'}
+[10.638239] (-) TimerEvent: {}
+[10.739386] (-) TimerEvent: {}
+[10.840539] (-) TimerEvent: {}
+[10.942535] (-) TimerEvent: {}
+[11.044126] (-) TimerEvent: {}
+[11.145103] (-) TimerEvent: {}
+[11.246509] (-) TimerEvent: {}
+[11.347502] (-) TimerEvent: {}
+[11.449381] (-) TimerEvent: {}
+[11.551315] (-) TimerEvent: {}
+[11.653116] (-) TimerEvent: {}
+[11.754178] (-) TimerEvent: {}
+[11.846993] (arc_startup) StdoutLine: {'line': b'running egg_info\n'}
+[11.854420] (-) TimerEvent: {}
+[11.865648] (arc_startup) StdoutLine: {'line': b'writing ../../build/arc_startup/arc_startup.egg-info/PKG-INFO\n'}
+[11.874332] (arc_startup) StdoutLine: {'line': b'writing dependency_links to ../../build/arc_startup/arc_startup.egg-info/dependency_links.txt\n'}
+[11.875588] (arc_startup) StdoutLine: {'line': b'writing entry points to ../../build/arc_startup/arc_startup.egg-info/entry_points.txt\n'}
+[11.876562] (arc_startup) StdoutLine: {'line': b'writing requirements to ../../build/arc_startup/arc_startup.egg-info/requires.txt\n'}
+[11.886118] (arc_startup) StdoutLine: {'line': b'writing top-level names to ../../build/arc_startup/arc_startup.egg-info/top_level.txt\n'}
+[11.954631] (-) TimerEvent: {}
+[11.963575] (theora_image_transport) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)\n'}
+[11.970128] (theora_image_transport) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)\n'}
+[12.000215] (theora_image_transport) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.9.8 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)\n'}
+[12.022159] (theora_image_transport) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[12.054841] (-) TimerEvent: {}
+[12.156456] (-) TimerEvent: {}
+[12.258247] (-) TimerEvent: {}
+[12.309170] (arc_startup) StdoutLine: {'line': b"reading manifest file '../../build/arc_startup/arc_startup.egg-info/SOURCES.txt'\n"}
+[12.322839] (arc_startup) StdoutLine: {'line': b"writing manifest file '../../build/arc_startup/arc_startup.egg-info/SOURCES.txt'\n"}
+[12.331246] (arc_startup) StdoutLine: {'line': b'running build\n'}
+[12.332201] (arc_startup) StdoutLine: {'line': b'running build_py\n'}
+[12.335891] (arc_startup) StdoutLine: {'line': b'running install\n'}
+[12.343736] (arc_startup) StdoutLine: {'line': b'running install_lib\n'}
+[12.358581] (-) TimerEvent: {}
+[12.388663] (arc_startup) StdoutLine: {'line': b'running install_data\n'}
+[12.395430] (arc_startup) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.427025] (arc_startup) StdoutLine: {'line': b"removing '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup/lib/python3.8/site-packages/arc_startup-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[12.438144] (arc_startup) StdoutLine: {'line': b'Copying ../../build/arc_startup/arc_startup.egg-info to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup/lib/python3.8/site-packages/arc_startup-0.0.0-py3.8.egg-info\n'}
+[12.459006] (-) TimerEvent: {}
+[12.478050] (arc_startup) StdoutLine: {'line': b'running install_scripts\n'}
+[12.559203] (-) TimerEvent: {}
+[12.660892] (-) TimerEvent: {}
+[12.762118] (-) TimerEvent: {}
+[12.813885] (arc_startup) StdoutLine: {'line': b"writing list of installed files to '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_startup/install.log'\n"}
+[12.862433] (-) TimerEvent: {}
+[12.964574] (-) TimerEvent: {}
+[13.066567] (-) TimerEvent: {}
+[13.168516] (-) TimerEvent: {}
+[13.249503] (arc_startup) CommandEnded: {'returncode': 0}
+[13.268726] (-) TimerEvent: {}
+[13.376161] (-) TimerEvent: {}
+[13.483766] (-) TimerEvent: {}
+[13.590135] (-) TimerEvent: {}
+[13.701273] (-) TimerEvent: {}
+[13.809582] (-) TimerEvent: {}
+[13.912327] (-) TimerEvent: {}
+[14.015334] (-) TimerEvent: {}
+[14.117793] (-) TimerEvent: {}
+[14.225008] (-) TimerEvent: {}
+[14.332881] (-) TimerEvent: {}
+[14.445408] (-) TimerEvent: {}
+[14.557965] (-) TimerEvent: {}
+[14.669614] (-) TimerEvent: {}
+[14.771453] (-) TimerEvent: {}
+[14.873735] (-) TimerEvent: {}
+[14.997629] (-) TimerEvent: {}
+[15.117664] (-) TimerEvent: {}
+[15.229535] (-) TimerEvent: {}
+[15.346268] (-) TimerEvent: {}
+[15.452787] (-) TimerEvent: {}
+[15.555173] (-) TimerEvent: {}
+[15.668028] (-) TimerEvent: {}
+[15.779593] (-) TimerEvent: {}
+[15.880850] (-) TimerEvent: {}
+[15.981946] (-) TimerEvent: {}
+[16.031692] (arc_startup) JobEnded: {'identifier': 'arc_startup', 'rc': 0}
+[16.035812] (camera_sensor) JobStarted: {'identifier': 'camera_sensor'}
+[16.092561] (-) TimerEvent: {}
+[16.194706] (-) TimerEvent: {}
+[16.306089] (-) TimerEvent: {}
+[16.412994] (-) TimerEvent: {}
+[16.515827] (-) TimerEvent: {}
+[16.622371] (-) TimerEvent: {}
+[16.725157] (-) TimerEvent: {}
+[16.837224] (-) TimerEvent: {}
+[16.944114] (-) TimerEvent: {}
+[17.055720] (-) TimerEvent: {}
+[17.158395] (-) TimerEvent: {}
+[17.260829] (-) TimerEvent: {}
+[17.367295] (-) TimerEvent: {}
+[17.468432] (-) TimerEvent: {}
+[17.577603] (-) TimerEvent: {}
+[17.678910] (-) TimerEvent: {}
+[17.780767] (-) TimerEvent: {}
+[17.889646] (-) TimerEvent: {}
+[17.997659] (-) TimerEvent: {}
+[18.100897] (-) TimerEvent: {}
+[18.207341] (-) TimerEvent: {}
+[18.308553] (-) TimerEvent: {}
+[18.412237] (-) TimerEvent: {}
+[18.514760] (-) TimerEvent: {}
+[18.618691] (-) TimerEvent: {}
+[18.726849] (-) TimerEvent: {}
+[18.829047] (-) TimerEvent: {}
+[18.930527] (-) TimerEvent: {}
+[19.033745] (-) TimerEvent: {}
+[19.145646] (-) TimerEvent: {}
+[19.247245] (-) TimerEvent: {}
+[19.338457] (theora_image_transport) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[19.348501] (-) TimerEvent: {}
+[19.449964] (-) TimerEvent: {}
+[19.552059] (-) TimerEvent: {}
+[19.663753] (-) TimerEvent: {}
+[19.765031] (-) TimerEvent: {}
+[19.866450] (-) TimerEvent: {}
+[19.968608] (-) TimerEvent: {}
+[20.073857] (-) TimerEvent: {}
+[20.185591] (-) TimerEvent: {}
+[20.288177] (-) TimerEvent: {}
+[20.397657] (-) TimerEvent: {}
+[20.498830] (-) TimerEvent: {}
+[20.600976] (-) TimerEvent: {}
+[20.703132] (-) TimerEvent: {}
+[20.806037] (-) TimerEvent: {}
+[20.917799] (-) TimerEvent: {}
+[21.022246] (-) TimerEvent: {}
+[21.124086] (-) TimerEvent: {}
+[21.226990] (-) TimerEvent: {}
+[21.328904] (-) TimerEvent: {}
+[21.430213] (-) TimerEvent: {}
+[21.533087] (-) TimerEvent: {}
+[21.635211] (-) TimerEvent: {}
+[21.737504] (-) TimerEvent: {}
+[21.839653] (-) TimerEvent: {}
+[21.942230] (-) TimerEvent: {}
+[22.045239] (-) TimerEvent: {}
+[22.148355] (-) TimerEvent: {}
+[22.251085] (-) TimerEvent: {}
+[22.353032] (-) TimerEvent: {}
+[22.356005] (theora_image_transport) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[22.453367] (-) TimerEvent: {}
+[22.556127] (-) TimerEvent: {}
+[22.659248] (-) TimerEvent: {}
+[22.761905] (-) TimerEvent: {}
+[22.864538] (-) TimerEvent: {}
+[22.966616] (-) TimerEvent: {}
+[23.043155] (theora_image_transport) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[23.047033] (theora_image_transport) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[23.066903] (-) TimerEvent: {}
+[23.167931] (-) TimerEvent: {}
+[23.269051] (-) TimerEvent: {}
+[23.370150] (-) TimerEvent: {}
+[23.472683] (-) TimerEvent: {}
+[23.573757] (-) TimerEvent: {}
+[23.600791] (theora_image_transport) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[23.606495] (theora_image_transport) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[23.613613] (theora_image_transport) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[23.673961] (-) TimerEvent: {}
+[23.775519] (-) TimerEvent: {}
+[23.877458] (-) TimerEvent: {}
+[23.979282] (-) TimerEvent: {}
+[24.081074] (-) TimerEvent: {}
+[24.183831] (-) TimerEvent: {}
+[24.286628] (-) TimerEvent: {}
+[24.389218] (-) TimerEvent: {}
+[24.491448] (-) TimerEvent: {}
+[24.592623] (-) TimerEvent: {}
+[24.693928] (-) TimerEvent: {}
+[24.796502] (-) TimerEvent: {}
+[24.897634] (-) TimerEvent: {}
+[24.999330] (-) TimerEvent: {}
+[25.053600] (theora_image_transport) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)\n'}
+[25.075081] (theora_image_transport) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)\n'}
+[25.099573] (-) TimerEvent: {}
+[25.201351] (-) TimerEvent: {}
+[25.302474] (-) TimerEvent: {}
+[25.328997] (theora_image_transport) StdoutLine: {'line': b'-- Configuring done\n'}
+[25.402727] (-) TimerEvent: {}
+[25.505226] (-) TimerEvent: {}
+[25.606503] (-) TimerEvent: {}
+[25.707513] (-) TimerEvent: {}
+[25.809265] (-) TimerEvent: {}
+[25.911010] (-) TimerEvent: {}
+[26.013761] (-) TimerEvent: {}
+[26.115474] (-) TimerEvent: {}
+[26.217594] (-) TimerEvent: {}
+[26.319684] (-) TimerEvent: {}
+[26.422248] (-) TimerEvent: {}
+[26.524725] (-) TimerEvent: {}
+[26.626818] (-) TimerEvent: {}
+[26.729450] (-) TimerEvent: {}
+[26.831834] (-) TimerEvent: {}
+[26.933661] (-) TimerEvent: {}
+[27.035525] (-) TimerEvent: {}
+[27.062098] (theora_image_transport) StdoutLine: {'line': b'-- Generating done\n'}
+[27.135799] (-) TimerEvent: {}
+[27.166225] (theora_image_transport) StdoutLine: {'line': b'-- Build files have been written to: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/theora_image_transport\n'}
+[27.236084] (-) TimerEvent: {}
+[27.339017] (-) TimerEvent: {}
+[27.449608] (-) TimerEvent: {}
+[27.553253] (-) TimerEvent: {}
+[27.658354] (-) TimerEvent: {}
+[27.760915] (-) TimerEvent: {}
+[27.865912] (-) TimerEvent: {}
+[27.983239] (-) TimerEvent: {}
+[27.984338] (theora_image_transport) StdoutLine: {'line': b'[  2%] Built target theora_image_transport__cpp\n'}
+[28.083937] (-) TimerEvent: {}
+[28.113158] (theora_image_transport) StdoutLine: {'line': b'[ 10%] Built target theora_image_transport__rosidl_generator_c\n'}
+[28.184157] (-) TimerEvent: {}
+[28.301086] (-) TimerEvent: {}
+[28.402171] (-) TimerEvent: {}
+[28.430723] (theora_image_transport) StdoutLine: {'line': b'[ 18%] Built target theora_image_transport__rosidl_typesupport_introspection_cpp\n'}
+[28.507805] (-) TimerEvent: {}
+[28.624381] (-) TimerEvent: {}
+[28.730663] (-) TimerEvent: {}
+[28.814330] (theora_image_transport) StdoutLine: {'line': b'[ 27%] Built target theora_image_transport__rosidl_typesupport_cpp\n'}
+[28.836197] (-) TimerEvent: {}
+[28.884057] (theora_image_transport) StdoutLine: {'line': b'[ 35%] Built target theora_image_transport__rosidl_typesupport_introspection_c\n'}
+[28.893889] (theora_image_transport) StdoutLine: {'line': b'[ 43%] Built target theora_image_transport__rosidl_typesupport_fastrtps_cpp\n'}
+[28.938414] (-) TimerEvent: {}
+[29.040117] (-) TimerEvent: {}
+[29.153561] (-) TimerEvent: {}
+[29.174297] (theora_image_transport) StdoutLine: {'line': b'[ 51%] Built target theora_image_transport__rosidl_typesupport_c\n'}
+[29.254877] (-) TimerEvent: {}
+[29.381546] (-) TimerEvent: {}
+[29.482713] (-) TimerEvent: {}
+[29.569062] (theora_image_transport) StdoutLine: {'line': b'[ 59%] Built target theora_image_transport__rosidl_typesupport_fastrtps_c\n'}
+[29.593274] (-) TimerEvent: {}
+[29.699620] (-) TimerEvent: {}
+[29.805981] (-) TimerEvent: {}
+[29.907477] (-) TimerEvent: {}
+[30.013847] (-) TimerEvent: {}
+[30.084616] (theora_image_transport) StdoutLine: {'line': b'[ 59%] Built target theora_image_transport\n'}
+[30.114105] (-) TimerEvent: {}
+[30.221114] (-) TimerEvent: {}
+[30.324233] (-) TimerEvent: {}
+[30.426122] (-) TimerEvent: {}
+[30.488845] (theora_image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ogg_saver\x1b[0m\n'}
+[30.515754] (theora_image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target theora_image_transport_component\x1b[0m\n'}
+[30.546988] (-) TimerEvent: {}
+[30.672964] (-) TimerEvent: {}
+[30.710093] (theora_image_transport) StdoutLine: {'line': b'[ 62%] Built target theora_image_transport__py\n'}
+[30.777925] (-) TimerEvent: {}
+[30.893867] (-) TimerEvent: {}
+[31.000156] (-) TimerEvent: {}
+[31.102179] (-) TimerEvent: {}
+[31.203631] (theora_image_transport) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/ogg_saver.dir/src/ogg_saver.cpp.o\x1b[0m\n'}
+[31.204458] (-) TimerEvent: {}
+[31.317765] (-) TimerEvent: {}
+[31.424918] (-) TimerEvent: {}
+[31.508181] (theora_image_transport) StdoutLine: {'line': b'[ 70%] Built target theora_image_transport__python\n'}
+[31.530602] (theora_image_transport) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/theora_image_transport_component.dir/src/theora_publisher.cpp.o\x1b[0m\n'}
+[31.531996] (-) TimerEvent: {}
+[31.532959] (theora_image_transport) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/theora_image_transport_component.dir/src/theora_subscriber.cpp.o\x1b[0m\n'}
+[31.632327] (-) TimerEvent: {}
+[31.733565] (-) TimerEvent: {}
+[31.738020] (theora_image_transport) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/theora_image_transport_component.dir/src/manifest.cpp.o\x1b[0m\n'}
+[31.834320] (-) TimerEvent: {}
+[31.937383] (-) TimerEvent: {}
+[32.039535] (-) TimerEvent: {}
+[32.140963] (-) TimerEvent: {}
+[32.242033] (-) TimerEvent: {}
+[32.343013] (-) TimerEvent: {}
+[32.444145] (-) TimerEvent: {}
+[32.545495] (-) TimerEvent: {}
+[32.646624] (-) TimerEvent: {}
+[32.747612] (-) TimerEvent: {}
+[32.848557] (-) TimerEvent: {}
+[32.949696] (-) TimerEvent: {}
+[33.051543] (-) TimerEvent: {}
+[33.152540] (-) TimerEvent: {}
+[33.253644] (-) TimerEvent: {}
+[33.354728] (-) TimerEvent: {}
+[33.455870] (-) TimerEvent: {}
+[33.557105] (-) TimerEvent: {}
+[33.658260] (-) TimerEvent: {}
+[33.760092] (-) TimerEvent: {}
+[33.861891] (-) TimerEvent: {}
+[33.962963] (-) TimerEvent: {}
+[34.063992] (-) TimerEvent: {}
+[34.165194] (-) TimerEvent: {}
+[34.266379] (-) TimerEvent: {}
+[34.367522] (-) TimerEvent: {}
+[34.468648] (-) TimerEvent: {}
+[34.570430] (-) TimerEvent: {}
+[34.671560] (-) TimerEvent: {}
+[34.772708] (-) TimerEvent: {}
+[34.874937] (-) TimerEvent: {}
+[34.976705] (-) TimerEvent: {}
+[35.077950] (-) TimerEvent: {}
+[35.178969] (-) TimerEvent: {}
+[35.280558] (-) TimerEvent: {}
+[35.381614] (-) TimerEvent: {}
+[35.482733] (-) TimerEvent: {}
+[35.583829] (-) TimerEvent: {}
+[35.684974] (-) TimerEvent: {}
+[35.786168] (-) TimerEvent: {}
+[35.887297] (-) TimerEvent: {}
+[35.988382] (-) TimerEvent: {}
+[36.089554] (-) TimerEvent: {}
+[36.190664] (-) TimerEvent: {}
+[36.291871] (-) TimerEvent: {}
+[36.393116] (-) TimerEvent: {}
+[36.494353] (-) TimerEvent: {}
+[36.595555] (-) TimerEvent: {}
+[36.696656] (-) TimerEvent: {}
+[36.797893] (-) TimerEvent: {}
+[36.898919] (-) TimerEvent: {}
+[36.999975] (-) TimerEvent: {}
+[37.101404] (-) TimerEvent: {}
+[37.203094] (-) TimerEvent: {}
+[37.304288] (-) TimerEvent: {}
+[37.405458] (-) TimerEvent: {}
+[37.506820] (-) TimerEvent: {}
+[37.607906] (-) TimerEvent: {}
+[37.709124] (-) TimerEvent: {}
+[37.810252] (-) TimerEvent: {}
+[37.911300] (-) TimerEvent: {}
+[38.012529] (-) TimerEvent: {}
+[38.113693] (-) TimerEvent: {}
+[38.214836] (-) TimerEvent: {}
+[38.317620] (-) TimerEvent: {}
+[38.418836] (-) TimerEvent: {}
+[38.522162] (-) TimerEvent: {}
+[38.623319] (-) TimerEvent: {}
+[38.725896] (-) TimerEvent: {}
+[38.827103] (-) TimerEvent: {}
+[38.931168] (-) TimerEvent: {}
+[39.032358] (-) TimerEvent: {}
+[39.133516] (-) TimerEvent: {}
+[39.234723] (-) TimerEvent: {}
+[39.335944] (-) TimerEvent: {}
+[39.437201] (-) TimerEvent: {}
+[39.538426] (-) TimerEvent: {}
+[39.639765] (-) TimerEvent: {}
+[39.740936] (-) TimerEvent: {}
+[39.842120] (-) TimerEvent: {}
+[39.943370] (-) TimerEvent: {}
+[40.045941] (-) TimerEvent: {}
+[40.147462] (-) TimerEvent: {}
+[40.248684] (-) TimerEvent: {}
+[40.349903] (-) TimerEvent: {}
+[40.451067] (-) TimerEvent: {}
+[40.552915] (-) TimerEvent: {}
+[40.654237] (-) TimerEvent: {}
+[40.755714] (-) TimerEvent: {}
+[40.860664] (-) TimerEvent: {}
+[40.963645] (-) TimerEvent: {}
+[41.065025] (-) TimerEvent: {}
+[41.166273] (-) TimerEvent: {}
+[41.267587] (-) TimerEvent: {}
+[41.369103] (-) TimerEvent: {}
+[41.470709] (-) TimerEvent: {}
+[41.508622] (camera_sensor) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/camera_sensor', 'build', '--build-base', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_sensor/build', 'install', '--record', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_sensor/install.log', '--install-scripts', '$base/lib/camera_sensor', '--single-version-externally-managed'], 'cwd': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/camera_sensor', 'env': {'VIRTUALENVWRAPPER_WORKON_CD': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'WORKON_HOME': '/home/adam/.virtualenvs', 'USER': 'adam', 'SSH_CLIENT': '192.168.0.150 54377 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_geometry/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/adam', 'VIRTUALENVWRAPPER_PYTHON': '/usr/bin/python3', 'OLDPWD': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src', 'TERM_PROGRAM_VERSION': '1.84.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-93bd8b36-5581-4799-a76e-80ce54b5ab2e.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'adam', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/remote-cli:/home/adam/.local/bin:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-1f9311a5e8.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vision_opencv:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport_plugins:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/opencv_tests:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_common:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_geometry:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUALENVWRAPPER_PROJECT_FILENAME': '.project', 'VIRTUALENVWRAPPER_HOOK_DIR': '/home/adam/.virtualenvs', 'VIRTUALENVWRAPPER_SCRIPT': '/usr/share/virtualenvwrapper/virtualenvwrapper.sh', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_sensor', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.150 54377 192.168.0.174 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_sensor/prefix_override:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/opencv_tests/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_geometry/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vision_opencv:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport_plugins:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_common:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_geometry:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers'}, 'shell': False}
+[41.571180] (-) TimerEvent: {}
+[41.673166] (-) TimerEvent: {}
+[41.775399] (-) TimerEvent: {}
+[41.877876] (-) TimerEvent: {}
+[41.979090] (-) TimerEvent: {}
+[42.081392] (-) TimerEvent: {}
+[42.182647] (-) TimerEvent: {}
+[42.283823] (-) TimerEvent: {}
+[42.385047] (-) TimerEvent: {}
+[42.486788] (-) TimerEvent: {}
+[42.588124] (-) TimerEvent: {}
+[42.689238] (-) TimerEvent: {}
+[42.796332] (-) TimerEvent: {}
+[42.898954] (-) TimerEvent: {}
+[43.001714] (-) TimerEvent: {}
+[43.104196] (-) TimerEvent: {}
+[43.206858] (-) TimerEvent: {}
+[43.309248] (-) TimerEvent: {}
+[43.412050] (-) TimerEvent: {}
+[43.514513] (-) TimerEvent: {}
+[43.617066] (-) TimerEvent: {}
+[43.718676] (-) TimerEvent: {}
+[43.820314] (-) TimerEvent: {}
+[43.922942] (-) TimerEvent: {}
+[44.025604] (-) TimerEvent: {}
+[44.128328] (-) TimerEvent: {}
+[44.230979] (-) TimerEvent: {}
+[44.332155] (-) TimerEvent: {}
+[44.433397] (-) TimerEvent: {}
+[44.535739] (-) TimerEvent: {}
+[44.638935] (-) TimerEvent: {}
+[44.741453] (-) TimerEvent: {}
+[44.844111] (-) TimerEvent: {}
+[44.945791] (-) TimerEvent: {}
+[45.047453] (-) TimerEvent: {}
+[45.149710] (-) TimerEvent: {}
+[45.251737] (-) TimerEvent: {}
+[45.353524] (-) TimerEvent: {}
+[45.455145] (-) TimerEvent: {}
+[45.557003] (-) TimerEvent: {}
+[45.658772] (-) TimerEvent: {}
+[45.760982] (-) TimerEvent: {}
+[45.863191] (-) TimerEvent: {}
+[45.964827] (-) TimerEvent: {}
+[46.066449] (-) TimerEvent: {}
+[46.168493] (-) TimerEvent: {}
+[46.271047] (-) TimerEvent: {}
+[46.372726] (-) TimerEvent: {}
+[46.474554] (-) TimerEvent: {}
+[46.576240] (-) TimerEvent: {}
+[46.678003] (-) TimerEvent: {}
+[46.780137] (-) TimerEvent: {}
+[46.882691] (-) TimerEvent: {}
+[46.985152] (-) TimerEvent: {}
+[47.087716] (-) TimerEvent: {}
+[47.190193] (-) TimerEvent: {}
+[47.292669] (-) TimerEvent: {}
+[47.393791] (-) TimerEvent: {}
+[47.496266] (-) TimerEvent: {}
+[47.598784] (-) TimerEvent: {}
+[47.701090] (-) TimerEvent: {}
+[47.805381] (-) TimerEvent: {}
+[47.877866] (camera_sensor) StdoutLine: {'line': b'running egg_info\n'}
+[47.881570] (camera_sensor) StdoutLine: {'line': b'writing ../../build/camera_sensor/camera_sensor.egg-info/PKG-INFO\n'}
+[47.884567] (camera_sensor) StdoutLine: {'line': b'writing dependency_links to ../../build/camera_sensor/camera_sensor.egg-info/dependency_links.txt\n'}
+[47.886907] (camera_sensor) StdoutLine: {'line': b'writing entry points to ../../build/camera_sensor/camera_sensor.egg-info/entry_points.txt\n'}
+[47.894381] (camera_sensor) StdoutLine: {'line': b'writing requirements to ../../build/camera_sensor/camera_sensor.egg-info/requires.txt\n'}
+[47.902198] (camera_sensor) StdoutLine: {'line': b'writing top-level names to ../../build/camera_sensor/camera_sensor.egg-info/top_level.txt\n'}
+[47.905564] (-) TimerEvent: {}
+[48.007404] (-) TimerEvent: {}
+[48.109850] (-) TimerEvent: {}
+[48.210980] (-) TimerEvent: {}
+[48.312776] (-) TimerEvent: {}
+[48.385456] (camera_sensor) StdoutLine: {'line': b"reading manifest file '../../build/camera_sensor/camera_sensor.egg-info/SOURCES.txt'\n"}
+[48.403610] (camera_sensor) StdoutLine: {'line': b"writing manifest file '../../build/camera_sensor/camera_sensor.egg-info/SOURCES.txt'\n"}
+[48.409646] (camera_sensor) StdoutLine: {'line': b'running build\n'}
+[48.412754] (camera_sensor) StdoutLine: {'line': b'running build_py\n'}
+[48.413762] (-) TimerEvent: {}
+[48.426748] (camera_sensor) StdoutLine: {'line': b'running install\n'}
+[48.445821] (camera_sensor) StdoutLine: {'line': b'running install_lib\n'}
+[48.477706] (camera_sensor) StdoutLine: {'line': b'running install_data\n'}
+[48.484027] (camera_sensor) StdoutLine: {'line': b'running install_egg_info\n'}
+[48.513842] (camera_sensor) StdoutLine: {'line': b"removing '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages/camera_sensor-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[48.514820] (-) TimerEvent: {}
+[48.536390] (camera_sensor) StdoutLine: {'line': b'Copying ../../build/camera_sensor/camera_sensor.egg-info to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages/camera_sensor-0.0.0-py3.8.egg-info\n'}
+[48.575300] (camera_sensor) StdoutLine: {'line': b'running install_scripts\n'}
+[48.615171] (-) TimerEvent: {}
+[48.717210] (-) TimerEvent: {}
+[48.819455] (-) TimerEvent: {}
+[48.921972] (-) TimerEvent: {}
+[49.024154] (-) TimerEvent: {}
+[49.040639] (camera_sensor) StdoutLine: {'line': b'Installing camera_node script to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/camera_sensor\n'}
+[49.060249] (camera_sensor) StdoutLine: {'line': b"writing list of installed files to '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/camera_sensor/install.log'\n"}
+[49.124655] (-) TimerEvent: {}
+[49.226450] (-) TimerEvent: {}
+[49.328152] (-) TimerEvent: {}
+[49.429966] (-) TimerEvent: {}
+[49.525584] (camera_sensor) CommandEnded: {'returncode': 0}
+[49.530201] (-) TimerEvent: {}
+[49.637614] (-) TimerEvent: {}
+[49.741594] (-) TimerEvent: {}
+[49.851975] (-) TimerEvent: {}
+[49.955117] (-) TimerEvent: {}
+[50.058442] (-) TimerEvent: {}
+[50.161422] (-) TimerEvent: {}
+[50.263165] (-) TimerEvent: {}
+[50.370104] (-) TimerEvent: {}
+[50.477582] (-) TimerEvent: {}
+[50.585587] (-) TimerEvent: {}
+[50.688480] (-) TimerEvent: {}
+[50.801853] (-) TimerEvent: {}
+[50.903764] (-) TimerEvent: {}
+[51.006170] (-) TimerEvent: {}
+[51.113601] (-) TimerEvent: {}
+[51.218227] (-) TimerEvent: {}
+[51.329630] (-) TimerEvent: {}
+[51.437602] (-) TimerEvent: {}
+[51.541051] (-) TimerEvent: {}
+[51.659096] (-) TimerEvent: {}
+[51.765586] (-) TimerEvent: {}
+[51.873731] (-) TimerEvent: {}
+[51.983052] (-) TimerEvent: {}
+[52.090051] (-) TimerEvent: {}
+[52.194459] (-) TimerEvent: {}
+[52.303125] (-) TimerEvent: {}
+[52.412020] (-) TimerEvent: {}
+[52.513515] (-) TimerEvent: {}
+[52.621371] (-) TimerEvent: {}
+[52.724901] (-) TimerEvent: {}
+[52.829616] (-) TimerEvent: {}
+[52.933685] (-) TimerEvent: {}
+[53.039901] (-) TimerEvent: {}
+[53.146502] (-) TimerEvent: {}
+[53.254397] (-) TimerEvent: {}
+[53.377667] (-) TimerEvent: {}
+[53.489639] (-) TimerEvent: {}
+[53.593408] (-) TimerEvent: {}
+[53.681655] (camera_sensor) JobEnded: {'identifier': 'camera_sensor', 'rc': 0}
+[53.688224] (ldlidar_ros2) JobStarted: {'identifier': 'ldlidar_ros2'}
+[53.693690] (-) TimerEvent: {}
+[53.795777] (-) TimerEvent: {}
+[53.905957] (-) TimerEvent: {}
+[54.013571] (-) TimerEvent: {}
+[54.117008] (-) TimerEvent: {}
+[54.221032] (-) TimerEvent: {}
+[54.332754] (-) TimerEvent: {}
+[54.439144] (-) TimerEvent: {}
+[54.545592] (-) TimerEvent: {}
+[54.647361] (-) TimerEvent: {}
+[54.753759] (-) TimerEvent: {}
+[54.867500] (-) TimerEvent: {}
+[54.979747] (-) TimerEvent: {}
+[55.089574] (-) TimerEvent: {}
+[55.197541] (-) TimerEvent: {}
+[55.298680] (-) TimerEvent: {}
+[55.405548] (-) TimerEvent: {}
+[55.511414] (-) TimerEvent: {}
+[55.617697] (-) TimerEvent: {}
+[55.724287] (-) TimerEvent: {}
+[55.835845] (-) TimerEvent: {}
+[55.942242] (-) TimerEvent: {}
+[56.049610] (-) TimerEvent: {}
+[56.161049] (-) TimerEvent: {}
+[56.262550] (-) TimerEvent: {}
+[56.374237] (-) TimerEvent: {}
+[56.480526] (-) TimerEvent: {}
+[56.581650] (-) TimerEvent: {}
+[56.682745] (-) TimerEvent: {}
+[56.784251] (-) TimerEvent: {}
+[56.900920] (-) TimerEvent: {}
+[57.009254] (-) TimerEvent: {}
+[57.110769] (-) TimerEvent: {}
+[57.213498] (-) TimerEvent: {}
+[57.314619] (-) TimerEvent: {}
+[57.425588] (-) TimerEvent: {}
+[57.527263] (-) TimerEvent: {}
+[57.628852] (-) TimerEvent: {}
+[57.731390] (-) TimerEvent: {}
+[57.841561] (-) TimerEvent: {}
+[57.943217] (-) TimerEvent: {}
+[58.047109] (-) TimerEvent: {}
+[58.165600] (-) TimerEvent: {}
+[58.272351] (-) TimerEvent: {}
+[58.385581] (-) TimerEvent: {}
+[58.488190] (-) TimerEvent: {}
+[58.601739] (-) TimerEvent: {}
+[58.705109] (-) TimerEvent: {}
+[58.795174] (ldlidar_ros2) JobProgress: {'identifier': 'ldlidar_ros2', 'progress': 'cmake'}
+[58.805425] (ldlidar_ros2) JobProgress: {'identifier': 'ldlidar_ros2', 'progress': 'build'}
+[58.805789] (-) TimerEvent: {}
+[58.811525] (ldlidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2', '--', '-j4', '-l4'], 'cwd': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2', 'env': OrderedDict([('VIRTUALENVWRAPPER_WORKON_CD', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('WORKON_HOME', '/home/adam/.virtualenvs'), ('USER', 'adam'), ('SSH_CLIENT', '192.168.0.150 54377 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_geometry/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/adam'), ('VIRTUALENVWRAPPER_PYTHON', '/usr/bin/python3'), ('OLDPWD', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src'), ('TERM_PROGRAM_VERSION', '1.84.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-93bd8b36-5581-4799-a76e-80ce54b5ab2e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adam'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/adam/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/remote-cli:/home/adam/.local/bin:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-1f9311a5e8.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vision_opencv:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport_plugins:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/opencv_tests:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_common:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_geometry:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VIRTUALENVWRAPPER_PROJECT_FILENAME', '.project'), ('VIRTUALENVWRAPPER_HOOK_DIR', '/home/adam/.virtualenvs'), ('VIRTUALENVWRAPPER_SCRIPT', '/usr/share/virtualenvwrapper/virtualenvwrapper.sh'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.150 54377 192.168.0.174 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/opencv_tests/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_geometry/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vision_opencv:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport_plugins:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/raspicam2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_common:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_geometry:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/opencv_tests:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy')]), 'shell': False}
+[58.906146] (-) TimerEvent: {}
+[59.008753] (-) TimerEvent: {}
+[59.111741] (-) TimerEvent: {}
+[59.213452] (-) TimerEvent: {}
+[59.315088] (-) TimerEvent: {}
+[59.339981] (ldlidar_ros2) StderrLine: {'line': b'CMake Error: The source directory "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller" does not exist.\n'}
+[59.342886] (ldlidar_ros2) StderrLine: {'line': b'Specify --help for usage, or press the help button on the CMake GUI.\n'}
+[59.352110] (ldlidar_ros2) StderrLine: {'line': b'make: *** [Makefile:280: cmake_check_build_system] Error 1\n'}
+[59.366340] (ldlidar_ros2) CommandEnded: {'returncode': 2}
+[59.418724] (-) TimerEvent: {}
+[59.521604] (-) TimerEvent: {}
+[59.622864] (-) TimerEvent: {}
+[59.724626] (-) TimerEvent: {}
+[59.825773] (-) TimerEvent: {}
+[59.927534] (-) TimerEvent: {}
+[60.029242] (-) TimerEvent: {}
+[60.130455] (-) TimerEvent: {}
+[60.231767] (-) TimerEvent: {}
+[60.347331] (-) TimerEvent: {}
+[60.449099] (-) TimerEvent: {}
+[60.557793] (-) TimerEvent: {}
+[60.672598] (-) TimerEvent: {}
+[60.774465] (-) TimerEvent: {}
+[60.877229] (-) TimerEvent: {}
+[60.989572] (-) TimerEvent: {}
+[61.101784] (-) TimerEvent: {}
+[61.216817] (-) TimerEvent: {}
+[61.328456] (-) TimerEvent: {}
+[61.438836] (-) TimerEvent: {}
+[61.541498] (-) TimerEvent: {}
+[61.661024] (-) TimerEvent: {}
+[61.767464] (-) TimerEvent: {}
+[61.883821] (-) TimerEvent: {}
+[61.990170] (-) TimerEvent: {}
+[62.096565] (-) TimerEvent: {}
+[62.203109] (-) TimerEvent: {}
+[62.309500] (-) TimerEvent: {}
+[62.415785] (-) TimerEvent: {}
+[62.528877] (-) TimerEvent: {}
+[62.634821] (-) TimerEvent: {}
+[62.741741] (-) TimerEvent: {}
+[62.848152] (-) TimerEvent: {}
+[62.954432] (-) TimerEvent: {}
+[63.062695] (-) TimerEvent: {}
+[63.170608] (-) TimerEvent: {}
+[63.276998] (-) TimerEvent: {}
+[63.378523] (-) TimerEvent: {}
+[63.489953] (-) TimerEvent: {}
+[63.596301] (-) TimerEvent: {}
+[63.707918] (-) TimerEvent: {}
+[63.809047] (-) TimerEvent: {}
+[63.925574] (-) TimerEvent: {}
+[64.032135] (-) TimerEvent: {}
+[64.278701] (-) TimerEvent: {}
+[64.381957] (-) TimerEvent: {}
+[64.484402] (-) TimerEvent: {}
+[64.586765] (-) TimerEvent: {}
+[64.703495] (-) TimerEvent: {}
+[64.805170] (-) TimerEvent: {}
+[64.911899] (-) TimerEvent: {}
+[65.017277] (-) TimerEvent: {}
+[65.118482] (-) TimerEvent: {}
+[65.224812] (-) TimerEvent: {}
+[65.331914] (-) TimerEvent: {}
+[65.438318] (-) TimerEvent: {}
+[65.547325] (-) TimerEvent: {}
+[65.657542] (-) TimerEvent: {}
+[65.758800] (-) TimerEvent: {}
+[65.811022] (ldlidar_ros2) JobEnded: {'identifier': 'ldlidar_ros2', 'rc': 2}
+[65.859097] (-) TimerEvent: {}
+[65.961126] (-) TimerEvent: {}
+[66.062313] (-) TimerEvent: {}
+[66.163506] (-) TimerEvent: {}
+[66.264662] (-) TimerEvent: {}
+[66.365955] (-) TimerEvent: {}
+[66.467108] (-) TimerEvent: {}
+[66.568229] (-) TimerEvent: {}
+[66.669481] (-) TimerEvent: {}
+[66.770680] (-) TimerEvent: {}
+[66.871873] (-) TimerEvent: {}
+[66.973751] (-) TimerEvent: {}
+[67.074934] (-) TimerEvent: {}
+[67.176433] (-) TimerEvent: {}
+[67.277886] (-) TimerEvent: {}
+[67.379106] (-) TimerEvent: {}
+[67.480795] (-) TimerEvent: {}
+[67.581863] (-) TimerEvent: {}
+[67.683064] (-) TimerEvent: {}
+[67.784286] (-) TimerEvent: {}
+[67.885448] (-) TimerEvent: {}
+[67.986562] (-) TimerEvent: {}
+[68.087791] (-) TimerEvent: {}
+[68.188971] (-) TimerEvent: {}
+[68.290505] (-) TimerEvent: {}
+[68.391743] (-) TimerEvent: {}
+[68.493092] (-) TimerEvent: {}
+[68.595844] (-) TimerEvent: {}
+[68.698310] (-) TimerEvent: {}
+[68.800228] (-) TimerEvent: {}
+[68.901482] (-) TimerEvent: {}
+[69.003565] (-) TimerEvent: {}
+[69.105742] (-) TimerEvent: {}
+[69.208255] (-) TimerEvent: {}
+[69.309466] (-) TimerEvent: {}
+[69.411943] (-) TimerEvent: {}
+[69.513726] (-) TimerEvent: {}
+[69.614992] (-) TimerEvent: {}
+[69.716279] (-) TimerEvent: {}
+[69.817448] (-) TimerEvent: {}
+[69.918764] (-) TimerEvent: {}
+[70.020999] (-) TimerEvent: {}
+[70.122120] (-) TimerEvent: {}
+[70.223325] (-) TimerEvent: {}
+[70.324481] (-) TimerEvent: {}
+[70.425692] (-) TimerEvent: {}
+[70.526889] (-) TimerEvent: {}
+[70.628096] (-) TimerEvent: {}
+[70.729248] (-) TimerEvent: {}
+[70.830465] (-) TimerEvent: {}
+[70.931542] (-) TimerEvent: {}
+[71.032689] (-) TimerEvent: {}
+[71.133936] (-) TimerEvent: {}
+[71.235146] (-) TimerEvent: {}
+[71.336304] (-) TimerEvent: {}
+[71.437515] (-) TimerEvent: {}
+[71.538622] (-) TimerEvent: {}
+[71.639776] (-) TimerEvent: {}
+[71.740979] (-) TimerEvent: {}
+[71.843589] (-) TimerEvent: {}
+[71.944738] (-) TimerEvent: {}
+[72.046496] (-) TimerEvent: {}
+[72.148698] (-) TimerEvent: {}
+[72.249818] (-) TimerEvent: {}
+[72.350931] (-) TimerEvent: {}
+[72.452090] (-) TimerEvent: {}
+[72.553234] (-) TimerEvent: {}
+[72.654387] (-) TimerEvent: {}
+[72.755578] (-) TimerEvent: {}
+[72.856750] (-) TimerEvent: {}
+[72.958277] (-) TimerEvent: {}
+[73.059673] (-) TimerEvent: {}
+[73.161427] (-) TimerEvent: {}
+[73.262656] (-) TimerEvent: {}
+[73.363973] (-) TimerEvent: {}
+[73.465501] (-) TimerEvent: {}
+[73.566639] (-) TimerEvent: {}
+[73.667847] (-) TimerEvent: {}
+[73.769520] (-) TimerEvent: {}
+[73.870657] (-) TimerEvent: {}
+[73.972963] (-) TimerEvent: {}
+[74.074985] (-) TimerEvent: {}
+[74.177145] (-) TimerEvent: {}
+[74.278852] (-) TimerEvent: {}
+[74.379962] (-) TimerEvent: {}
+[74.481090] (-) TimerEvent: {}
+[74.582260] (-) TimerEvent: {}
+[74.683393] (-) TimerEvent: {}
+[74.784642] (-) TimerEvent: {}
+[74.885854] (-) TimerEvent: {}
+[74.987025] (-) TimerEvent: {}
+[75.088225] (-) TimerEvent: {}
+[75.189413] (-) TimerEvent: {}
+[75.290741] (-) TimerEvent: {}
+[75.391884] (-) TimerEvent: {}
+[75.493166] (-) TimerEvent: {}
+[75.594439] (-) TimerEvent: {}
+[75.695566] (-) TimerEvent: {}
+[75.796548] (-) TimerEvent: {}
+[75.898287] (-) TimerEvent: {}
+[75.999449] (-) TimerEvent: {}
+[76.101809] (-) TimerEvent: {}
+[76.204055] (-) TimerEvent: {}
+[76.307335] (-) TimerEvent: {}
+[76.408507] (-) TimerEvent: {}
+[76.511207] (-) TimerEvent: {}
+[76.613675] (-) TimerEvent: {}
+[76.714794] (-) TimerEvent: {}
+[76.815869] (-) TimerEvent: {}
+[76.916922] (-) TimerEvent: {}
+[77.018081] (-) TimerEvent: {}
+[77.119804] (-) TimerEvent: {}
+[77.220925] (-) TimerEvent: {}
+[77.322176] (-) TimerEvent: {}
+[77.423312] (-) TimerEvent: {}
+[77.524450] (-) TimerEvent: {}
+[77.625616] (-) TimerEvent: {}
+[77.726800] (-) TimerEvent: {}
+[77.828093] (-) TimerEvent: {}
+[77.929151] (-) TimerEvent: {}
+[78.033480] (-) TimerEvent: {}
+[78.135096] (-) TimerEvent: {}
+[78.236824] (-) TimerEvent: {}
+[78.337990] (-) TimerEvent: {}
+[78.439138] (-) TimerEvent: {}
+[78.540435] (-) TimerEvent: {}
+[78.643715] (-) TimerEvent: {}
+[78.744905] (-) TimerEvent: {}
+[78.846403] (-) TimerEvent: {}
+[78.947527] (-) TimerEvent: {}
+[79.048890] (-) TimerEvent: {}
+[79.150285] (-) TimerEvent: {}
+[79.252086] (-) TimerEvent: {}
+[79.353557] (-) TimerEvent: {}
+[79.455751] (-) TimerEvent: {}
+[79.557075] (-) TimerEvent: {}
+[79.658541] (-) TimerEvent: {}
+[79.759733] (-) TimerEvent: {}
+[79.862620] (-) TimerEvent: {}
+[79.966621] (-) TimerEvent: {}
+[80.068273] (-) TimerEvent: {}
+[80.169908] (-) TimerEvent: {}
+[80.271664] (-) TimerEvent: {}
+[80.373863] (-) TimerEvent: {}
+[80.475074] (-) TimerEvent: {}
+[80.563689] (compressed_depth_image_transport) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libcompressed_depth_image_transport.so\x1b[0m\n'}
+[80.575289] (-) TimerEvent: {}
+[80.678041] (-) TimerEvent: {}
+[80.779321] (-) TimerEvent: {}
+[80.880443] (-) TimerEvent: {}
+[80.982343] (-) TimerEvent: {}
+[81.083597] (-) TimerEvent: {}
+[81.184935] (-) TimerEvent: {}
+[81.286182] (-) TimerEvent: {}
+[81.388020] (-) TimerEvent: {}
+[81.489214] (-) TimerEvent: {}
+[81.590465] (-) TimerEvent: {}
+[81.691809] (-) TimerEvent: {}
+[81.793001] (-) TimerEvent: {}
+[81.894191] (-) TimerEvent: {}
+[81.995262] (-) TimerEvent: {}
+[82.096421] (-) TimerEvent: {}
+[82.199012] (-) TimerEvent: {}
+[82.300062] (-) TimerEvent: {}
+[82.402057] (-) TimerEvent: {}
+[82.503171] (-) TimerEvent: {}
+[82.604496] (-) TimerEvent: {}
+[82.705754] (-) TimerEvent: {}
+[82.806935] (-) TimerEvent: {}
+[82.908096] (-) TimerEvent: {}
+[83.009172] (-) TimerEvent: {}
+[83.110423] (-) TimerEvent: {}
+[83.211670] (-) TimerEvent: {}
+[83.312786] (-) TimerEvent: {}
+[83.414013] (-) TimerEvent: {}
+[83.515643] (-) TimerEvent: {}
+[83.616675] (-) TimerEvent: {}
+[83.717785] (-) TimerEvent: {}
+[83.819440] (-) TimerEvent: {}
+[83.920509] (-) TimerEvent: {}
+[84.021539] (-) TimerEvent: {}
+[84.122850] (-) TimerEvent: {}
+[84.224571] (-) TimerEvent: {}
+[84.326688] (-) TimerEvent: {}
+[84.428224] (-) TimerEvent: {}
+[84.529276] (-) TimerEvent: {}
+[84.630902] (-) TimerEvent: {}
+[84.682589] (compressed_image_transport) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libcompressed_image_transport.so\x1b[0m\n'}
+[84.726419] (compressed_depth_image_transport) StdoutLine: {'line': b'[100%] Built target compressed_depth_image_transport\n'}
+[84.731273] (-) TimerEvent: {}
+[84.813632] (compressed_depth_image_transport) JobEnded: {'identifier': 'compressed_depth_image_transport', 'rc': 'SIGINT'}
+[84.831501] (-) TimerEvent: {}
+[84.932604] (-) TimerEvent: {}
+[85.035259] (-) TimerEvent: {}
+[85.137956] (-) TimerEvent: {}
+[85.241441] (-) TimerEvent: {}
+[85.346916] (-) TimerEvent: {}
+[85.450406] (-) TimerEvent: {}
+[85.553645] (-) TimerEvent: {}
+[85.656510] (-) TimerEvent: {}
+[85.759912] (-) TimerEvent: {}
+[85.864919] (-) TimerEvent: {}
+[85.967875] (-) TimerEvent: {}
+[86.071046] (-) TimerEvent: {}
+[86.172605] (-) TimerEvent: {}
+[86.276965] (-) TimerEvent: {}
+[86.379743] (-) TimerEvent: {}
+[86.482995] (-) TimerEvent: {}
+[86.584155] (-) TimerEvent: {}
+[86.686464] (-) TimerEvent: {}
+[86.788598] (-) TimerEvent: {}
+[86.890837] (-) TimerEvent: {}
+[86.994649] (-) TimerEvent: {}
+[87.096156] (-) TimerEvent: {}
+[87.198463] (-) TimerEvent: {}
+[87.301536] (-) TimerEvent: {}
+[87.403263] (-) TimerEvent: {}
+[87.504998] (-) TimerEvent: {}
+[87.569617] (compressed_image_transport) StdoutLine: {'line': b'[100%] Built target compressed_image_transport\n'}
+[87.605223] (-) TimerEvent: {}
+[87.637626] (compressed_image_transport) JobEnded: {'identifier': 'compressed_image_transport', 'rc': 'SIGINT'}
+[87.705579] (-) TimerEvent: {}
+[87.806729] (-) TimerEvent: {}
+[87.907804] (-) TimerEvent: {}
+[88.009025] (-) TimerEvent: {}
+[88.110214] (-) TimerEvent: {}
+[88.139774] (theora_image_transport) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX executable ogg_saver\x1b[0m\n'}
+[88.210417] (-) TimerEvent: {}
+[88.311778] (-) TimerEvent: {}
+[88.413153] (-) TimerEvent: {}
+[88.514698] (-) TimerEvent: {}
+[88.616385] (-) TimerEvent: {}
+[88.717907] (-) TimerEvent: {}
+[88.819206] (-) TimerEvent: {}
+[88.920935] (-) TimerEvent: {}
+[89.022245] (-) TimerEvent: {}
+[89.123327] (-) TimerEvent: {}
+[89.224263] (-) TimerEvent: {}
+[89.326240] (-) TimerEvent: {}
+[89.428153] (-) TimerEvent: {}
+[89.500544] (theora_image_transport) StdoutLine: {'line': b'[ 81%] Built target ogg_saver\n'}
+[89.528339] (-) TimerEvent: {}
+[89.629248] (-) TimerEvent: {}
+[89.730119] (-) TimerEvent: {}
+[89.830961] (-) TimerEvent: {}
+[89.931887] (-) TimerEvent: {}
+[90.032871] (-) TimerEvent: {}
+[90.133986] (-) TimerEvent: {}
+[90.234840] (-) TimerEvent: {}
+[90.335709] (-) TimerEvent: {}
+[90.436558] (-) TimerEvent: {}
+[90.537415] (-) TimerEvent: {}
+[90.638241] (-) TimerEvent: {}
+[90.739144] (-) TimerEvent: {}
+[90.840018] (-) TimerEvent: {}
+[90.941084] (-) TimerEvent: {}
+[91.042772] (-) TimerEvent: {}
+[91.143717] (-) TimerEvent: {}
+[91.244881] (-) TimerEvent: {}
+[91.337186] (theora_image_transport) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libtheora_image_transport_component.so\x1b[0m\n'}
+[91.345050] (-) TimerEvent: {}
+[91.445845] (-) TimerEvent: {}
+[91.546671] (-) TimerEvent: {}
+[91.647662] (-) TimerEvent: {}
+[91.748725] (-) TimerEvent: {}
+[91.849976] (-) TimerEvent: {}
+[91.950986] (-) TimerEvent: {}
+[92.052114] (-) TimerEvent: {}
+[92.153313] (-) TimerEvent: {}
+[92.255448] (-) TimerEvent: {}
+[92.356621] (-) TimerEvent: {}
+[92.458045] (-) TimerEvent: {}
+[92.559617] (-) TimerEvent: {}
+[92.661144] (-) TimerEvent: {}
+[92.762241] (-) TimerEvent: {}
+[92.864103] (-) TimerEvent: {}
+[92.965260] (-) TimerEvent: {}
+[93.066355] (-) TimerEvent: {}
+[93.167785] (-) TimerEvent: {}
+[93.268770] (-) TimerEvent: {}
+[93.369771] (-) TimerEvent: {}
+[93.470711] (-) TimerEvent: {}
+[93.571535] (-) TimerEvent: {}
+[93.672694] (-) TimerEvent: {}
+[93.773887] (-) TimerEvent: {}
+[93.875146] (-) TimerEvent: {}
+[93.976052] (-) TimerEvent: {}
+[93.995214] (theora_image_transport) StdoutLine: {'line': b'[ 83%] Built target theora_image_transport_component\n'}
+[94.076242] (-) TimerEvent: {}
+[94.177098] (-) TimerEvent: {}
+[94.179977] (theora_image_transport) StdoutLine: {'line': b'[ 89%] Built target theora_image_transport__rosidl_typesupport_fastrtps_c__pyext\n'}
+[94.277371] (-) TimerEvent: {}
+[94.361722] (theora_image_transport) StdoutLine: {'line': b'[ 94%] Built target theora_image_transport__rosidl_typesupport_introspection_c__pyext\n'}
+[94.377530] (-) TimerEvent: {}
+[94.478337] (-) TimerEvent: {}
+[94.544586] (theora_image_transport) StdoutLine: {'line': b'[100%] Built target theora_image_transport__rosidl_typesupport_c__pyext\n'}
+[94.578529] (-) TimerEvent: {}
+[94.602863] (theora_image_transport) JobEnded: {'identifier': 'theora_image_transport', 'rc': 'SIGINT'}
+[94.616015] (motor_controller) JobSkipped: {'identifier': 'motor_controller'}
+[94.616816] (servo_controller) JobSkipped: {'identifier': 'servo_controller'}
+[94.617079] (v4l2_camera) JobSkipped: {'identifier': 'v4l2_camera'}
+[94.617330] (image_transport_plugins) JobSkipped: {'identifier': 'image_transport_plugins'}
+[94.617456] (-) EventReactorShutdown: {}

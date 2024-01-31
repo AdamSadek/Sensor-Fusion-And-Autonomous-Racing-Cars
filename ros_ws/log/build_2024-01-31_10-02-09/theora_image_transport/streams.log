@@ -1,0 +1,53 @@
+[1.877s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/theora_image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/opencv_tests:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy /usr/bin/cmake --build /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/theora_image_transport -- -j4 -l4
+[2.085s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.341s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.342s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.952s] -- Found image_transport: 2.4.0 (/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/share/image_transport/cmake)
+[4.205s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.221s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.446s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.704s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.714s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.219s] -- Found cv_bridge: 3.0.7 (/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/share/cv_bridge/cmake)
+[7.299s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[7.898s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[10.351s] -- Found ament_cmake_cppcheck: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)
+[10.357s] -- Found ament_cmake_cpplint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+[10.387s] -- Found ament_cmake_uncrustify: 0.9.8 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)
+[10.409s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[17.726s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[20.743s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[21.430s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[21.434s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[21.988s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[21.993s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[22.001s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[23.441s] -- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)
+[23.462s] -- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)
+[23.716s] -- Configuring done
+[25.449s] -- Generating done
+[25.553s] -- Build files have been written to: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/theora_image_transport
+[26.371s] [  2%] Built target theora_image_transport__cpp
+[26.500s] [ 10%] Built target theora_image_transport__rosidl_generator_c
+[26.818s] [ 18%] Built target theora_image_transport__rosidl_typesupport_introspection_cpp
+[27.201s] [ 27%] Built target theora_image_transport__rosidl_typesupport_cpp
+[27.271s] [ 35%] Built target theora_image_transport__rosidl_typesupport_introspection_c
+[27.281s] [ 43%] Built target theora_image_transport__rosidl_typesupport_fastrtps_cpp
+[27.561s] [ 51%] Built target theora_image_transport__rosidl_typesupport_c
+[27.956s] [ 59%] Built target theora_image_transport__rosidl_typesupport_fastrtps_c
+[28.472s] [ 59%] Built target theora_image_transport
+[28.876s] [35m[1mScanning dependencies of target ogg_saver[0m
+[28.903s] [35m[1mScanning dependencies of target theora_image_transport_component[0m
+[29.097s] [ 62%] Built target theora_image_transport__py
+[29.591s] [ 64%] [32mBuilding CXX object CMakeFiles/ogg_saver.dir/src/ogg_saver.cpp.o[0m
+[29.895s] [ 70%] Built target theora_image_transport__python
+[29.918s] [ 72%] [32mBuilding CXX object CMakeFiles/theora_image_transport_component.dir/src/theora_publisher.cpp.o[0m
+[29.920s] [ 75%] [32mBuilding CXX object CMakeFiles/theora_image_transport_component.dir/src/theora_subscriber.cpp.o[0m
+[30.125s] [ 78%] [32mBuilding CXX object CMakeFiles/theora_image_transport_component.dir/src/manifest.cpp.o[0m
+[86.527s] [ 81%] [32m[1mLinking CXX executable ogg_saver[0m
+[87.888s] [ 81%] Built target ogg_saver
+[89.724s] [ 83%] [32m[1mLinking CXX shared library libtheora_image_transport_component.so[0m
+[92.382s] [ 83%] Built target theora_image_transport_component
+[92.567s] [ 89%] Built target theora_image_transport__rosidl_typesupport_fastrtps_c__pyext
+[92.749s] [ 94%] Built target theora_image_transport__rosidl_typesupport_introspection_c__pyext
+[92.931s] [100%] Built target theora_image_transport__rosidl_typesupport_c__pyext

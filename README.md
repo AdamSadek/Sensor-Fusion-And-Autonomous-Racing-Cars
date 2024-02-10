@@ -15,10 +15,10 @@ This project merges sensors such as LiDAR and cameras to provide racing cars wit
 | Raspberry Pi 4B 8GB RAM  | Minicomputer to run nodes, scripts, and etc. |
 | 20kg Servo Steer  | For steering the car |
 | TT-02 Type-S Chassis  | The load-bearing framework of the car |
-| Type 540 Torque Tuned Motor  | Motor of the car for it to accelerate |
+| HOBBYWING Sensored Brushless Motor  | Sensored motor for car, connects to VESC |
 | VESC 6 MkVI | Controls and regulates the speed of the electric motor. Customizable firmware, regenerative braking, and real-time telemetry |
 | Enrich Power 3000mah 7.2v  | Battery to power Servo/Motor and more |
-| RPi UPS Power  | To power RPi when moving |
+| Power Bank  | To power RPi when mobile - stores up to 42800mAh |
 | Pi Camera Module v2.1  | Captures images for obstacle detection, lane following, and AI |
 | 2D LiDAR  | Scans surroundings, detecting obstacles, navigation support, and path planning |
 

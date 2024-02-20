@@ -1,0 +1,142 @@
+[2.258s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/udp_driver': AMENT_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module:/opt/ros/foxy LD_LIBRARY_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/transport_drivers/udp_driver -DCMAKE_INSTALL_PREFIX=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver
+[3.083s] -- The C compiler identification is GNU 9.4.0
+[3.951s] -- The CXX compiler identification is GNU 9.4.0
+[4.000s] -- Check for working C compiler: /usr/bin/cc
+[4.933s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.953s] -- Detecting C compiler ABI info
+[6.058s] -- Detecting C compiler ABI info - done
+[6.262s] -- Detecting C compile features
+[6.269s] -- Detecting C compile features - done
+[6.302s] -- Check for working CXX compiler: /usr/bin/c++
+[7.811s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[7.839s] -- Detecting CXX compiler ABI info
+[9.121s] -- Detecting CXX compiler ABI info - done
+[9.287s] -- Detecting CXX compile features
+[9.295s] -- Detecting CXX compile features - done
+[9.357s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[9.843s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[9.845s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[16.597s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[16.829s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[18.912s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[19.753s] -- Found FastRTPS: /opt/ros/foxy/include  
+[21.978s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[24.982s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[25.001s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[25.013s] -- Looking for pthread.h
+[25.921s] -- Looking for pthread.h - found
+[25.930s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[26.924s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[26.944s] -- Looking for pthread_create in pthreads
+[27.782s] -- Looking for pthread_create in pthreads - not found
+[27.785s] -- Looking for pthread_create in pthread
+[28.723s] -- Looking for pthread_create in pthread - found
+[28.737s] -- Found Threads: TRUE  
+[32.950s] -- Found ASIO: /usr/include  
+[33.898s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[34.493s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[34.519s] -- Check if compiler accepts -pthread
+[35.506s] -- Check if compiler accepts -pthread - yes
+[35.876s] -- Added test 'copyright' to check source files copyright and LICENSE
+[35.943s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[35.953s] -- Configured cppcheck include dirs: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/transport_drivers/udp_driver/include
+[35.955s] -- Configured cppcheck exclude dirs and/or files: 
+[35.978s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[35.978s] -- Configured cpplint exclude dirs and/or files: 
+[35.992s] -- Added test 'lint_cmake' to check CMake code style
+[36.015s] -- Added test 'uncrustify' to check C / C++ code style
+[36.016s] -- Configured uncrustify additional arguments: 
+[36.022s] -- Added test 'xmllint' to check XML markup files
+[36.111s] -- Configuring done
+[38.202s] -- Generating done
+[38.249s] -- Build files have been written to: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/udp_driver
+[38.369s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/udp_driver' returned '0': AMENT_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module:/opt/ros/foxy LD_LIBRARY_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/transport_drivers/udp_driver -DCMAKE_INSTALL_PREFIX=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver
+[38.376s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/udp_driver': AMENT_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module:/opt/ros/foxy LD_LIBRARY_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/udp_driver -- -j4 -l4
+[38.954s] [35m[1mScanning dependencies of target gtest[0m
+[39.193s] [  4%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[78.584s] [  8%] [32m[1mLinking CXX static library libgtest.a[0m
+[79.362s] [  8%] Built target gtest
+[79.499s] [35m[1mScanning dependencies of target udp_receiver_node_exe[0m
+[80.147s] [ 12%] [32mBuilding CXX object CMakeFiles/udp_receiver_node_exe.dir/rclcpp_components/node_main_udp_receiver_node_exe.cpp.o[0m
+[111.082s] [ 16%] [32m[1mLinking CXX executable udp_receiver_node_exe[0m
+[112.593s] [ 16%] Built target udp_receiver_node_exe
+[112.749s] [35m[1mScanning dependencies of target udp_sender_node_exe[0m
+[112.777s] [35m[1mScanning dependencies of target gtest_main[0m
+[112.984s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[113.579s] [ 25%] [32mBuilding CXX object CMakeFiles/udp_sender_node_exe.dir/rclcpp_components/node_main_udp_sender_node_exe.cpp.o[0m
+[123.970s] [ 29%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[124.725s] [ 29%] Built target gtest_main
+[143.472s] [ 33%] [32m[1mLinking CXX executable udp_sender_node_exe[0m
+[145.018s] [ 33%] Built target udp_sender_node_exe
+[145.171s] [35m[1mScanning dependencies of target udp_driver[0m
+[145.686s] [ 37%] [32mBuilding CXX object CMakeFiles/udp_driver.dir/src/udp_socket.cpp.o[0m
+[167.627s] [ 41%] [32mBuilding CXX object CMakeFiles/udp_driver.dir/src/udp_driver.cpp.o[0m
+[183.245s] [ 45%] [32m[1mLinking CXX shared library libudp_driver.so[0m
+[185.341s] [ 45%] Built target udp_driver
+[185.469s] [35m[1mScanning dependencies of target udp_driver_nodes[0m
+[186.425s] [ 50%] [32mBuilding CXX object CMakeFiles/udp_driver_nodes.dir/src/udp_sender_node.cpp.o[0m
+[186.428s] [ 54%] [32mBuilding CXX object CMakeFiles/udp_driver_nodes.dir/src/udp_receiver_node.cpp.o[0m
+[253.986s] [ 58%] [32m[1mLinking CXX shared library libudp_driver_nodes.so[0m
+[258.815s] [ 58%] Built target udp_driver_nodes
+[258.948s] [35m[1mScanning dependencies of target test_udp_driver[0m
+[258.965s] [35m[1mScanning dependencies of target test_udp_data[0m
+[258.966s] [35m[1mScanning dependencies of target udp_bridge_node_exe[0m
+[258.981s] [35m[1mScanning dependencies of target test_udp_socket[0m
+[259.402s] [ 62%] [32mBuilding CXX object CMakeFiles/test_udp_socket.dir/test/test_udp_socket.cpp.o[0m
+[259.484s] [ 66%] [32mBuilding CXX object CMakeFiles/test_udp_data.dir/test/test_udp_data.cpp.o[0m
+[259.819s] [ 70%] [32mBuilding CXX object CMakeFiles/test_udp_driver.dir/test/test_udp_driver.cpp.o[0m
+[259.934s] [ 75%] [32mBuilding CXX object CMakeFiles/udp_bridge_node_exe.dir/src/udp_bridge_node.cpp.o[0m
+[282.669s] [ 79%] [32m[1mLinking CXX executable test_udp_socket[0m
+[286.103s] [ 79%] Built target test_udp_socket
+[286.267s] [35m[1mScanning dependencies of target test_udp_driver_nodes[0m
+[286.493s] [ 83%] [32m[1mLinking CXX executable test_udp_data[0m
+[287.533s] [ 87%] [32mBuilding CXX object CMakeFiles/test_udp_driver_nodes.dir/test/test_udp_driver_nodes.cpp.o[0m
+[289.771s] [ 87%] Built target test_udp_data
+[298.128s] [ 91%] [32m[1mLinking CXX executable udp_bridge_node_exe[0m
+[301.084s] [ 95%] [32m[1mLinking CXX executable test_udp_driver[0m
+[302.297s] [ 95%] Built target udp_bridge_node_exe
+[303.837s] [ 95%] Built target test_udp_driver
+[352.773s] [100%] [32m[1mLinking CXX executable test_udp_driver_nodes[0m
+[358.111s] [100%] Built target test_udp_driver_nodes
+[358.225s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/udp_driver' returned '0': AMENT_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module:/opt/ros/foxy LD_LIBRARY_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/udp_driver -- -j4 -l4
+[358.520s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/udp_driver': AMENT_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module:/opt/ros/foxy LD_LIBRARY_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/udp_driver
+[358.555s] -- Install configuration: ""
+[358.555s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/lib/udp_driver/udp_receiver_node_exe
+[358.560s] -- Set runtime path of "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/lib/udp_driver/udp_receiver_node_exe" to ""
+[358.560s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/lib/udp_driver/udp_sender_node_exe
+[358.564s] -- Set runtime path of "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/lib/udp_driver/udp_sender_node_exe" to ""
+[358.565s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/include
+[358.565s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/include/udp_driver
+[358.565s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/include/udp_driver/udp_sender_node.hpp
+[358.567s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/include/udp_driver/udp_socket.hpp
+[358.567s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/include/udp_driver/visibility_control.hpp
+[358.568s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/include/udp_driver/udp_receiver_node.hpp
+[358.569s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/include/udp_driver/udp_driver.hpp
+[358.571s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/share/udp_driver/environment/library_path.sh
+[358.572s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/share/udp_driver/environment/library_path.dsv
+[358.574s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/lib/libudp_driver.so
+[358.578s] -- Set runtime path of "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/lib/libudp_driver.so" to ""
+[358.579s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/lib/libudp_driver_nodes.so
+[358.601s] -- Set runtime path of "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/lib/libudp_driver_nodes.so" to ""
+[358.602s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/lib/udp_driver/udp_bridge_node_exe
+[358.605s] -- Set runtime path of "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/lib/udp_driver/udp_bridge_node_exe" to ""
+[358.606s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/share/ament_index/resource_index/package_run_dependencies/udp_driver
+[358.608s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/share/ament_index/resource_index/parent_prefix_path/udp_driver
+[358.609s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/share/udp_driver/environment/ament_prefix_path.sh
+[358.610s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/share/udp_driver/environment/ament_prefix_path.dsv
+[358.611s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/share/udp_driver/environment/path.sh
+[358.612s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/share/udp_driver/environment/path.dsv
+[358.613s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/share/udp_driver/local_setup.bash
+[358.614s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/share/udp_driver/local_setup.sh
+[358.616s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/share/udp_driver/local_setup.zsh
+[358.617s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/share/udp_driver/local_setup.dsv
+[358.618s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/share/udp_driver/package.dsv
+[358.619s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/share/ament_index/resource_index/packages/udp_driver
+[358.621s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/share/ament_index/resource_index/rclcpp_components/udp_driver
+[358.622s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/share/udp_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[358.624s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/share/udp_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[358.625s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/share/udp_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[358.626s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/share/udp_driver/cmake/udp_driverConfig.cmake
+[358.627s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/share/udp_driver/cmake/udp_driverConfig-version.cmake
+[358.628s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/share/udp_driver/package.xml
+[358.635s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/udp_driver' returned '0': AMENT_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module:/opt/ros/foxy LD_LIBRARY_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/udp_driver

@@ -128,7 +128,7 @@ libcompressed_depth_image_transport.so: /opt/ros/foxy/lib/libsensor_msgs__rosidl
 libcompressed_depth_image_transport.so: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_c.so
 libcompressed_depth_image_transport.so: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
 libcompressed_depth_image_transport.so: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_cpp.so
-libcompressed_depth_image_transport.so: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/lib/libimage_transport.so
+libcompressed_depth_image_transport.so: /opt/ros/foxy/lib/libimage_transport.so
 libcompressed_depth_image_transport.so: /opt/ros/foxy/lib/libmessage_filters.so
 libcompressed_depth_image_transport.so: /opt/ros/foxy/lib/librclcpp.so
 libcompressed_depth_image_transport.so: /opt/ros/foxy/lib/librosgraph_msgs__rosidl_generator_c.so
@@ -205,7 +205,7 @@ libcompressed_depth_image_transport.so: /opt/ros/foxy/lib/libgeometry_msgs__rosi
 libcompressed_depth_image_transport.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so
 libcompressed_depth_image_transport.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
 libcompressed_depth_image_transport.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
-libcompressed_depth_image_transport.so: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/lib/libcv_bridge.so
+libcompressed_depth_image_transport.so: /opt/ros/foxy/lib/libcv_bridge.so
 libcompressed_depth_image_transport.so: /usr/local/lib/libopencv_imgcodecs.so.4.8.0
 libcompressed_depth_image_transport.so: /usr/local/lib/libopencv_dnn.so.4.8.0
 libcompressed_depth_image_transport.so: /usr/local/lib/libopencv_calib3d.so.4.8.0

@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/motor_controller/motor_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/motor_controller/motor_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/motor_controller/motor_controller.egg-info/entry_points.txt
+writing requirements to ../../build/motor_controller/motor_controller.egg-info/requires.txt
+writing top-level names to ../../build/motor_controller/motor_controller.egg-info/top_level.txt
+reading manifest file '../../build/motor_controller/motor_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/motor_controller/motor_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+copying motor_controller/motor_node.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/motor_controller/build/lib/motor_controller
+running install
+running install_lib
+copying /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/motor_controller/build/lib/motor_controller/motor_node.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages/motor_controller
+byte-compiling /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages/motor_controller/motor_node.py to motor_node.cpython-38.pyc
+running install_data
+  File "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages/motor_controller/motor_node.py", line 12
+    import serial from Serial
+                  ^
+SyntaxError: invalid syntax
+
+running install_egg_info
+removing '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages/motor_controller-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/motor_controller/motor_controller.egg-info to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages/motor_controller-0.0.0-py3.8.egg-info
+running install_scripts
+Installing motor_node script to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/motor_controller
+writing list of installed files to '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/motor_controller/install.log'

@@ -1,0 +1,8 @@
+CMake Error at /usr/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake:146 (message):
+  Could NOT find ASIO (missing: ASIO_INCLUDE_DIRS)
+Call Stack (most recent call first):
+  /usr/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake:393 (_FPHSA_FAILURE_MESSAGE)
+  /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module/share/asio_cmake_module/cmake/Modules/FindASIO.cmake:19 (find_package_handle_standard_args)
+  CMakeLists.txt:34 (find_package)
+
+

@@ -1,0 +1,61 @@
+[1.387s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/opencv_tests:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy /usr/bin/cmake /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller -DCMAKE_INSTALL_PREFIX=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2
+[1.796s] -- The C compiler identification is GNU 9.4.0
+[2.183s] -- The CXX compiler identification is GNU 9.4.0
+[2.218s] -- Check for working C compiler: /usr/bin/cc
+[2.668s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.672s] -- Detecting C compiler ABI info
+[3.168s] -- Detecting C compiler ABI info - done
+[3.232s] -- Detecting C compile features
+[3.237s] -- Detecting C compile features - done
+[3.251s] -- Check for working CXX compiler: /usr/bin/c++
+[3.735s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.741s] -- Detecting CXX compiler ABI info
+[4.230s] -- Detecting CXX compiler ABI info - done
+[4.280s] -- Detecting CXX compile features
+[4.284s] -- Detecting CXX compile features - done
+[4.315s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.516s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.517s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.339s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[6.822s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.902s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.726s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[8.032s] -- Found FastRTPS: /opt/ros/foxy/include  
+[8.801s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.189s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[9.204s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.209s] -- Looking for pthread.h
+[9.708s] -- Looking for pthread.h - found
+[9.724s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.273s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[10.274s] -- Looking for pthread_create in pthreads
+[10.736s] -- Looking for pthread_create in pthreads - not found
+[10.739s] -- Looking for pthread_create in pthread
+[11.274s] -- Looking for pthread_create in pthread - found
+[11.281s] -- Found Threads: TRUE  
+[12.213s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[12.878s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[13.486s] CMake Error at CMakeLists.txt:41 (add_subdirectory):
+[13.486s]   The source directory
+[13.488s] 
+[13.489s]     /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk
+[13.489s] 
+[13.490s]   does not contain a CMakeLists.txt file.
+[13.490s] 
+[13.491s] 
+[13.521s] -- Added test 'copyright' to check source files copyright and LICENSE
+[13.568s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.571s] -- Configured cppcheck include dirs: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/include;/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/include
+[13.572s] -- Configured cppcheck exclude dirs and/or files: 
+[13.624s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[13.625s] -- Configured cpplint exclude dirs and/or files: 
+[13.638s] -- Added test 'flake8' to check Python code syntax and style conventions
+[13.653s] -- Added test 'lint_cmake' to check CMake code style
+[13.664s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[13.708s] -- Added test 'uncrustify' to check C / C++ code style
+[13.708s] -- Configured uncrustify additional arguments: 
+[13.718s] -- Added test 'xmllint' to check XML markup files
+[13.751s] -- Configuring incomplete, errors occurred!
+[13.751s] See also "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/CMakeFiles/CMakeOutput.log".
+[13.752s] See also "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/CMakeFiles/CMakeError.log".
+[13.800s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/opencv_tests:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy /usr/bin/cmake /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller -DCMAKE_INSTALL_PREFIX=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2

@@ -1,0 +1,12 @@
+[1.070s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/vesc_ackermann': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/opencv_tests:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy /usr/bin/cmake --build /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/vesc_ackermann -- -j4 -l4
+[1.811s] [ 28%] Built target vesc_to_odom_node
+[1.825s] [ 57%] Built target ackermann_to_vesc_node
+[1.855s] [ 71%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/ackermann_to_vesc.cpp.o[0m
+[1.906s] In file included from [01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:31[m[K:
+[1.907s] [01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/vesc/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp:34:10:[m[K [01;31m[Kfatal error: [m[Kackermann_msgs/msg/ackermann_drive_stamped.hpp: No such file or directory
+[1.908s]    34 | #include [01;31m[K<ackermann_msgs/msg/ackermann_drive_stamped.hpp>[m[K
+[1.909s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.909s] compilation terminated.
+[1.910s] make[2]: *** [CMakeFiles/vesc_ackermann.dir/build.make:63: CMakeFiles/vesc_ackermann.dir/src/ackermann_to_vesc.cpp.o] Error 1
+[1.914s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/vesc_ackermann.dir/all] Error 2
+[1.915s] make: *** [Makefile:141: all] Error 2

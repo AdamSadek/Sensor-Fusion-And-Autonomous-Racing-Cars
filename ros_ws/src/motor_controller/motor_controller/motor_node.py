@@ -6,83 +6,66 @@ The script utilizes RPi.GPIO for GPIO control and std_msgs/Float64 messages in R
 """
 
 import rclpy
-from std_msgs.msg import Float64
-import RPi.GPIO as GPIO
+from rclpy.node import Node
+from std_msgs.msg import Int32  # For motor speed commands
+import pyvesc
+import serial
 import time
 
-class MotorControlNode:
-
+class VESCMotorController(Node):
     def __init__(self):
-        # Creating the ROS node
-        self.node = rclpy.create_node('motor_control_node')
+        super().__init__('vesc_motor_controller')
+        self.serial_connection = self.init_vesc()
 
-        # This is the ROS publisher for motor control on the '/motor_throttle' topic
-        self.motor_pub = self.node.create_publisher(Float64, '/motor_throttle', 10)
+        # Publisher for motor speed command
+        self.publisher = self.create_publisher(Int32, 'motor_speed_command', 10)
+        
+        # Subscriber to motor speed command topic
+        self.subscription = self.create_subscription(
+            Int32, 
+            'motor_speed_command', 
+            self.motor_speed_callback, 
+            10)
+        self.subscription  # Prevent unused variable warning
 
-        # Setting up GPIO for motor control
-        GPIO.setmode(GPIO.BOARD)
-        GPIO.setup(13, GPIO.OUT)
-        # Creating PWM instance for GPIO pin 13 with frequency 100 Hz (not working when on 50hz - need to investigate a bit)
-        self.motor = GPIO.PWM(13, 100)
-        # Starting PWM with initial duty cycle '0'
-        self.motor.start(0)
+        # Schedule motor command publishing
+        self.timer = self.create_timer(2, self.publish_motor_command)
+        self.speed_to_publish = 3000  # Example speed in RPM
 
-    # Same as my test script
-    def run_motor_test(self):
-        test_count = 1
-        while test_count != 3:
-            print("----- Test #{} -----".format(test_count))
-            min_speed = 5
-            max_speed = 10
+    def init_vesc(self):
+        VESC_SERIAL_PORT = '/dev/ttyACM0'  # Update with your serial port
+        VESC_BAUDRATE = 115200
+        try:
+            ser = serial.Serial(VESC_SERIAL_PORT, VESC_BAUDRATE, timeout=1)
+            self.get_logger().info("VESC serial connection established.")
+            return ser
+        except Exception as e:
+            self.get_logger().error(f"Error establishing serial connection: {e}")
+            return None
 
-            # Going from low to high speed
-            print("* Low to high speed *")
-            for throttle in range(min_speed, max_speed):
-                self.publish_motor_throttle(throttle)
-                time.sleep(1)
-                print("Speed: ", throttle)
+    def publish_motor_command(self):
+        msg = Int32()
+        msg.data = self.speed_to_publish
+        self.publisher.publish(msg)
+        self.get_logger().info(f'Publishing motor speed command: {msg.data}')
 
-            # Going from high to low speed
-            print("* High to low speed *")
-            for throttle in range(max_speed, min_speed, -1):
-                self.publish_motor_throttle(throttle)
-                time.sleep(1)
-                print("Speed: ", throttle)
+    def motor_speed_callback(self, msg):
+        self.set_motor_speed(msg.data)
 
-            test_count += 1
+    def set_motor_speed(self, speed):
+        if self.serial_connection:
+            try:
+                message = pyvesc.SetRPM(speed)
+                self.serial_connection.write(pyvesc.encode(message))
+                self.get_logger().info(f"Motor speed set to: {speed} RPM")
+            except Exception as e:
+                self.get_logger().error(f"Error sending speed command: {e}")
 
-    # Publishing motor throttle value to the '/motor_throttle' topic
-    def publish_motor_throttle(self, throttle):
-        print("Publishing motor throttle:", throttle)
-        msg = Float64()
-        msg.data = float(throttle)
-        self.motor_pub.publish(msg)
-
-        # Setting the PWM duty cycle to control the motor speed
-        print("Changing duty cycle to:", throttle)
-        self.motor.ChangeDutyCycle(throttle)
-
-    def cleanup(self):
-        # Stopping the motor and clean up GPIO
-        self.motor.stop()
-        GPIO.cleanup()
-
-    def spin(self):
-        # Running the motor test, cleanup, and stop the ROS 2 node
-        # Extra logging - logging important information with ROS2 loggers
-        self.node.get_logger().info("Motor control node is running.")
-        self.run_motor_test()
-        self.cleanup()
-        self.node.get_logger().info("Motor control node is stopping.")
-        self.node.destroy_node()
-
-def main():
-    # Initialize ROS
-    rclpy.init()
-    # Create and run the MotorControlNode
-    motor_node = MotorControlNode()
-    motor_node.spin()
-    # Shutdown ROS 2
+def main(args=None):
+    rclpy.init(args=args)
+    vesc_motor_controller = VESCMotorController()
+    rclpy.spin(vesc_motor_controller)
+    vesc_motor_controller.destroy_node()
     rclpy.shutdown()
 
 if __name__ == '__main__':

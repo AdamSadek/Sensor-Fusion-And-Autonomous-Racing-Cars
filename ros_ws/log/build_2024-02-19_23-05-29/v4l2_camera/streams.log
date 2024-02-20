@@ -1,0 +1,41 @@
+[4.372s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy /usr/bin/cmake /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/v4l2_camera -DCMAKE_INSTALL_PREFIX=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera
+[5.577s] -- The C compiler identification is GNU 9.4.0
+[6.471s] -- The CXX compiler identification is GNU 9.4.0
+[6.561s] -- Check for working C compiler: /usr/bin/cc
+[7.860s] -- Check for working C compiler: /usr/bin/cc -- works
+[7.890s] -- Detecting C compiler ABI info
+[9.214s] -- Detecting C compiler ABI info - done
+[9.379s] -- Detecting C compile features
+[9.386s] -- Detecting C compile features - done
+[9.439s] -- Check for working CXX compiler: /usr/bin/c++
+[10.920s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[10.936s] -- Detecting CXX compiler ABI info
+[12.284s] -- Detecting CXX compiler ABI info - done
+[12.458s] -- Detecting CXX compile features
+[12.469s] -- Detecting CXX compile features - done
+[12.600s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[13.262s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[13.269s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[19.156s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[19.650s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[21.429s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[21.819s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[25.752s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[26.930s] -- Found FastRTPS: /opt/ros/foxy/include  
+[29.375s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[31.366s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[31.414s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[31.429s] -- Looking for pthread.h
+[33.972s] -- Looking for pthread.h - found
+[33.993s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[36.015s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[36.025s] -- Looking for pthread_create in pthreads
+[37.505s] -- Looking for pthread_create in pthreads - not found
+[37.520s] -- Looking for pthread_create in pthread
+[39.551s] -- Looking for pthread_create in pthread - found
+[39.575s] -- Found Threads: TRUE  
+[43.138s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[44.773s] -- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+[49.348s] -- Found camera_info_manager: 2.4.0 (/opt/ros/foxy/share/camera_info_manager/cmake)
+[49.738s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[50.984s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)

@@ -1,0 +1,111 @@
+[8.761s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/v4l2_camera -DCMAKE_INSTALL_PREFIX=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera
+[10.521s] -- The C compiler identification is GNU 9.4.0
+[11.916s] -- The CXX compiler identification is GNU 9.4.0
+[12.008s] -- Check for working C compiler: /usr/bin/cc
+[13.683s] -- Check for working C compiler: /usr/bin/cc -- works
+[13.715s] -- Detecting C compiler ABI info
+[15.958s] -- Detecting C compiler ABI info - done
+[16.189s] -- Detecting C compile features
+[16.196s] -- Detecting C compile features - done
+[16.235s] -- Check for working CXX compiler: /usr/bin/c++
+[18.171s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[18.182s] -- Detecting CXX compiler ABI info
+[19.554s] -- Detecting CXX compiler ABI info - done
+[19.624s] -- Detecting CXX compile features
+[19.632s] -- Detecting CXX compile features - done
+[19.719s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[20.175s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[20.177s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[24.796s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[24.989s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[25.944s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[26.063s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[27.634s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[28.395s] -- Found FastRTPS: /opt/ros/foxy/include  
+[29.948s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[30.797s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[30.805s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[30.810s] -- Looking for pthread.h
+[31.702s] -- Looking for pthread.h - found
+[31.703s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[32.609s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[32.611s] -- Looking for pthread_create in pthreads
+[33.366s] -- Looking for pthread_create in pthreads - not found
+[33.382s] -- Looking for pthread_create in pthread
+[34.278s] -- Looking for pthread_create in pthread - found
+[34.284s] -- Found Threads: TRUE  
+[36.224s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[37.160s] -- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+[39.496s] -- Found camera_info_manager: 2.4.0 (/opt/ros/foxy/share/camera_info_manager/cmake)
+[39.815s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[40.920s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[42.508s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[42.513s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/v4l2_camera/include>
+[42.520s] -- Configured cppcheck exclude dirs and/or files: 
+[42.629s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[42.631s] -- Configured cpplint exclude dirs and/or files: 
+[42.680s] -- Added test 'lint_cmake' to check CMake code style
+[42.810s] -- Added test 'uncrustify' to check C / C++ code style
+[42.812s] -- Configured uncrustify additional arguments: 
+[42.830s] -- Added test 'xmllint' to check XML markup files
+[43.052s] -- Configuring done
+[43.717s] -- Generating done
+[43.761s] -- Build files have been written to: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera
+[43.868s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/v4l2_camera -DCMAKE_INSTALL_PREFIX=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera
+[43.892s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera -- -j4 -l4
+[44.722s] [35m[1mScanning dependencies of target v4l2_camera[0m
+[45.759s] [ 14%] [32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o[0m
+[97.883s] [ 28%] [32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o[0m
+[133.975s] [ 42%] [32m[1mLinking CXX shared library libv4l2_camera.so[0m
+[138.350s] [ 42%] Built target v4l2_camera
+[138.556s] [35m[1mScanning dependencies of target v4l2_camera_compose_test[0m
+[139.410s] [ 57%] [32mBuilding CXX object CMakeFiles/v4l2_camera_compose_test.dir/src/v4l2_camera_compose_test.cpp.o[0m
+[201.701s] [ 71%] [32m[1mLinking CXX executable v4l2_camera_compose_test[0m
+[205.782s] [ 71%] Built target v4l2_camera_compose_test
+[205.915s] [35m[1mScanning dependencies of target v4l2_camera_node[0m
+[206.572s] [ 85%] [32mBuilding CXX object CMakeFiles/v4l2_camera_node.dir/src/v4l2_camera_node.cpp.o[0m
+[235.079s] [100%] [32m[1mLinking CXX executable v4l2_camera_node[0m
+[237.912s] [100%] Built target v4l2_camera_node
+[238.056s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera -- -j4 -l4
+[238.643s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera
+[238.771s] -- Install configuration: ""
+[238.775s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/include
+[238.779s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/include/v4l2_camera
+[238.784s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/include/v4l2_camera/pixel_format.hpp
+[238.792s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/include/v4l2_camera/image_format.hpp
+[238.798s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/include/v4l2_camera/v4l2_camera.hpp
+[238.804s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/include/v4l2_camera/control.hpp
+[238.809s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/include/v4l2_camera/visibility_control.h
+[238.815s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp
+[238.821s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/include/v4l2_camera/fourcc.hpp
+[238.828s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/lib/libv4l2_camera.so
+[238.881s] -- Set runtime path of "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/lib/libv4l2_camera.so" to ""
+[238.886s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_node
+[238.900s] -- Set runtime path of "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_node" to ""
+[238.905s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_compose_test
+[238.951s] -- Set runtime path of "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_compose_test" to ""
+[238.956s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/v4l2_camera/environment/library_path.sh
+[238.963s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/v4l2_camera/environment/library_path.dsv
+[238.971s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/ament_index/resource_index/package_run_dependencies/v4l2_camera
+[238.979s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/ament_index/resource_index/parent_prefix_path/v4l2_camera
+[238.987s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.sh
+[238.995s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.dsv
+[239.002s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/v4l2_camera/environment/path.sh
+[239.008s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/v4l2_camera/environment/path.dsv
+[239.014s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/v4l2_camera/local_setup.bash
+[239.021s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/v4l2_camera/local_setup.sh
+[239.027s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/v4l2_camera/local_setup.zsh
+[239.033s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/v4l2_camera/local_setup.dsv
+[239.039s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/v4l2_camera/package.dsv
+[239.046s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/ament_index/resource_index/packages/v4l2_camera
+[239.054s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/ament_index/resource_index/rclcpp_components/v4l2_camera
+[239.061s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport.cmake
+[239.068s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport-noconfig.cmake
+[239.075s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[239.082s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_targets-extras.cmake
+[239.088s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[239.097s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[239.104s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig.cmake
+[239.110s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig-version.cmake
+[239.117s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/share/v4l2_camera/package.xml
+[239.139s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera

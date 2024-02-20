@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_ced8f/fast && /usr/bin/make -f CMakeFiles/cmTC_ced8f.dir/build.make CMakeFiles/cmTC_ced8f.dir/build
+Run Build Command(s):/usr/bin/make cmTC_8060a/fast && /usr/bin/make -f CMakeFiles/cmTC_8060a.dir/build.make CMakeFiles/cmTC_8060a.dir/build
 make[1]: Entering directory '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ced8f.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_ced8f.dir/src.c.o   -c /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_ced8f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ced8f.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_ced8f.dir/src.c.o  -o cmTC_ced8f 
-/usr/bin/ld: CMakeFiles/cmTC_ced8f.dir/src.c.o: in function `main':
+Building C object CMakeFiles/cmTC_8060a.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_8060a.dir/src.c.o   -c /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8060a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8060a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_8060a.dir/src.c.o  -o cmTC_8060a 
+/usr/bin/ld: CMakeFiles/cmTC_8060a.dir/src.c.o: in function `main':
 src.c:(.text+0x48): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x50): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x5c): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_ced8f.dir/build.make:87: cmTC_ced8f] Error 1
+make[1]: *** [CMakeFiles/cmTC_8060a.dir/build.make:87: cmTC_8060a] Error 1
 make[1]: Leaving directory '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_ced8f/fast] Error 2
+make: *** [Makefile:121: cmTC_8060a/fast] Error 2
 
 
 Source file was:
@@ -41,18 +41,76 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_debc5/fast && /usr/bin/make -f CMakeFiles/cmTC_debc5.dir/build.make CMakeFiles/cmTC_debc5.dir/build
+Run Build Command(s):/usr/bin/make cmTC_df3ce/fast && /usr/bin/make -f CMakeFiles/cmTC_df3ce.dir/build.make CMakeFiles/cmTC_df3ce.dir/build
 make[1]: Entering directory '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_debc5.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_debc5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_debc5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_debc5.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_debc5.dir/CheckFunctionExists.c.o  -o cmTC_debc5  -lpthreads 
+Building C object CMakeFiles/cmTC_df3ce.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_df3ce.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_df3ce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df3ce.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_df3ce.dir/CheckFunctionExists.c.o  -o cmTC_df3ce  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_debc5.dir/build.make:87: cmTC_debc5] Error 1
+make[1]: *** [CMakeFiles/cmTC_df3ce.dir/build.make:87: cmTC_df3ce] Error 1
 make[1]: Leaving directory '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_debc5/fast] Error 2
+make: *** [Makefile:121: cmTC_df3ce/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c6d66/fast && /usr/bin/make -f CMakeFiles/cmTC_c6d66.dir/build.make CMakeFiles/cmTC_c6d66.dir/build
+make[1]: Entering directory '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6d66.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_c6d66.dir/src.c.o   -c /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c6d66
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6d66.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_c6d66.dir/src.c.o  -o cmTC_c6d66 
+/usr/bin/ld: CMakeFiles/cmTC_c6d66.dir/src.c.o: in function `main':
+src.c:(.text+0x48): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x50): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x5c): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_c6d66.dir/build.make:87: cmTC_c6d66] Error 1
+make[1]: Leaving directory '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_c6d66/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7ce23/fast && /usr/bin/make -f CMakeFiles/cmTC_7ce23.dir/build.make CMakeFiles/cmTC_7ce23.dir/build
+make[1]: Entering directory '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ce23.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_7ce23.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7ce23
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ce23.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_7ce23.dir/CheckFunctionExists.c.o  -o cmTC_7ce23  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_7ce23.dir/build.make:87: cmTC_7ce23] Error 1
+make[1]: Leaving directory '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_7ce23/fast] Error 2
 
 
 

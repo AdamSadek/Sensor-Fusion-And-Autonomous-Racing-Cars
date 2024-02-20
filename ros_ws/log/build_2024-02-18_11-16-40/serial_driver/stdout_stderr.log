@@ -1,0 +1,29 @@
+[35m[1mScanning dependencies of target serial_driver[0m
+[35m[1mScanning dependencies of target serial_bridge[0m
+[35m[1mScanning dependencies of target gtest[0m
+[35m[1mScanning dependencies of target gtest_main[0m
+[  6%] [32mBuilding CXX object CMakeFiles/serial_driver.dir/src/serial_port.cpp.o[0m
+[ 13%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/serial_bridge.dir/rclcpp_components/node_main_serial_bridge.cpp.o[0m
+[ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 33%] Built target gtest_main
+[ 40%] [32mBuilding CXX object CMakeFiles/serial_driver.dir/src/serial_driver.cpp.o[0m
+[ 46%] [32m[1mLinking CXX shared library libserial_driver.so[0m
+[ 53%] [32m[1mLinking CXX executable serial_bridge[0m
+[ 53%] Built target serial_driver
+[35m[1mScanning dependencies of target serial_driver_nodes[0m
+[ 53%] Built target serial_bridge
+[ 60%] [32mBuilding CXX object CMakeFiles/serial_driver_nodes.dir/src/serial_bridge_node.cpp.o[0m
+[ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 66%] Built target gtest
+[35m[1mScanning dependencies of target test_serial_driver[0m
+[35m[1mScanning dependencies of target test_serial_port[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/test_serial_port.dir/test/test_serial_port.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/test_serial_driver.dir/test/test_serial_driver.cpp.o[0m
+[ 86%] [32m[1mLinking CXX executable test_serial_driver[0m
+[ 93%] [32m[1mLinking CXX executable test_serial_port[0m
+[ 93%] Built target test_serial_driver
+[ 93%] Built target test_serial_port
+[100%] [32m[1mLinking CXX shared library libserial_driver_nodes.so[0m
+[100%] Built target serial_driver_nodes

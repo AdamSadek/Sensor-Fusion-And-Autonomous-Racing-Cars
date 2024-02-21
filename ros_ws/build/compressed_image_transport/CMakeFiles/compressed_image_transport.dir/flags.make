@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC   -Wall -Wextra -Wpedantic -std=gnu++14
 
 CXX_DEFINES = -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -Dcompressed_image_transport_EXPORTS
 
-CXX_INCLUDES = -I/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/image_transport_plugins/compressed_image_transport/include -I/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include -I/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/cv_bridge/include -isystem /usr/local/include/opencv4 -isystem /opt/ros/foxy/include 
+CXX_INCLUDES = -I/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/image_transport_plugins/compressed_image_transport/include -isystem /usr/local/include/opencv4 -isystem /opt/ros/foxy/include 
 

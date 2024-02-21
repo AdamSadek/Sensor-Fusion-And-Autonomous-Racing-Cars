@@ -1,0 +1,11 @@
+[ 28%] Built target vesc_to_odom_node
+[ 57%] Built target ackermann_to_vesc_node
+[ 71%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/ackermann_to_vesc.cpp.o[0m
+In file included from [01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:31[m[K:
+[01m[K/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/vesc/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp:34:10:[m[K [01;31m[Kfatal error: [m[Kackermann_msgs/msg/ackermann_drive_stamped.hpp: No such file or directory
+   34 | #include [01;31m[K<ackermann_msgs/msg/ackermann_drive_stamped.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/vesc_ackermann.dir/build.make:63: CMakeFiles/vesc_ackermann.dir/src/ackermann_to_vesc.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/vesc_ackermann.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

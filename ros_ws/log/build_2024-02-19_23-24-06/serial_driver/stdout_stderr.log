@@ -1,0 +1,53 @@
+[ 13%] Built target gtest
+[ 26%] Built target gtest_main
+[ 33%] [32mBuilding CXX object CMakeFiles/serial_bridge.dir/rclcpp_components/node_main_serial_bridge.cpp.o[0m
+[ 53%] Built target serial_driver
+[35m[1mScanning dependencies of target test_serial_driver[0m
+[35m[1mScanning dependencies of target test_serial_port[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/test_serial_driver.dir/test/test_serial_driver.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/test_serial_port.dir/test/test_serial_port.cpp.o[0m
+[ 80%] Built target serial_driver_nodes
+[ 86%] [32m[1mLinking CXX executable test_serial_driver[0m
+[ 93%] [32m[1mLinking CXX executable test_serial_port[0m
+[ 93%] Built target test_serial_driver
+[ 93%] Built target test_serial_port
+[100%] [32m[1mLinking CXX executable serial_bridge[0m
+[100%] Built target serial_bridge
+-- Install configuration: ""
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/lib/serial_driver/serial_bridge
+-- Set runtime path of "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/lib/serial_driver/serial_bridge" to ""
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/include
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/include/serial_driver
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/include/serial_driver/serial_bridge_node.hpp
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/include/serial_driver/serial_port.hpp
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/include/serial_driver/serial_driver.hpp
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/include/serial_driver/visibility_control.hpp
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/share/serial_driver/environment/library_path.sh
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/share/serial_driver/environment/library_path.dsv
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/lib/libserial_driver.so
+-- Set runtime path of "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/lib/libserial_driver.so" to ""
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/lib/libserial_driver_nodes.so
+-- Set runtime path of "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/lib/libserial_driver_nodes.so" to ""
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/share/serial_driver/launch
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/share/serial_driver/launch/serial_driver_bridge_node.launch.py
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/share/serial_driver/params
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/share/serial_driver/params/example.params.yaml
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/share/ament_index/resource_index/package_run_dependencies/serial_driver
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/share/ament_index/resource_index/parent_prefix_path/serial_driver
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/share/serial_driver/environment/ament_prefix_path.sh
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/share/serial_driver/environment/ament_prefix_path.dsv
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/share/serial_driver/environment/path.sh
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/share/serial_driver/environment/path.dsv
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/share/serial_driver/local_setup.bash
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/share/serial_driver/local_setup.sh
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/share/serial_driver/local_setup.zsh
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/share/serial_driver/local_setup.dsv
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/share/serial_driver/package.dsv
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/share/ament_index/resource_index/packages/serial_driver
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/share/ament_index/resource_index/rclcpp_components/serial_driver
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/share/serial_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/share/serial_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/share/serial_driver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/share/serial_driver/cmake/serial_driverConfig.cmake
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/share/serial_driver/cmake/serial_driverConfig-version.cmake
+-- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/share/serial_driver/package.xml

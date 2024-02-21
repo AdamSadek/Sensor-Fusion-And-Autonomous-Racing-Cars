@@ -1,88 +1,83 @@
 """
 Adam Sadek
 
-Motor node for controlling a motor's speed using PWM on a RaspberryPi. It publishes motor throttle values on the "/motor_throttle" topic.
-The script utilizes RPi.GPIO for GPIO control and std_msgs/Float64 messages in ROS2.
+This motor node manages the motor speed via the VESC protocol. It subscribes to the 'motor_speed_command' topic, receiving and executing speed commands, and also auto-publishes speed settings every one seconds using a timer. 
+It's a compact, efficient way to keep your RC car agile and responsive.
 """
 
 import rclpy
-from std_msgs.msg import Float64
-import RPi.GPIO as GPIO
-import time
+from rclpy.node import Node
+from rclpy.timer import Timer
+from std_msgs.msg import Int32
+import pyvesc
+import serial
 
-class MotorControlNode:
-
+class VESCMotorController(Node):
     def __init__(self):
-        # Creating the ROS node
-        self.node = rclpy.create_node('motor_control_node')
+        super().__init__('vesc_motor_controller')
+        self.serial_connection = self.init_vesc()
 
-        # This is the ROS publisher for motor control on the '/motor_throttle' topic
-        self.motor_pub = self.node.create_publisher(Float64, '/motor_throttle', 10)
+        # publisher for motor speed command node. It will publish messages of type Int32 to the 'motor_speed_command' topic with a queue size of 10.
+        self.publisher = self.create_publisher(Int32, 'motor_speed_command', 10)
+        
+        # subscriber to motor speed command topic. It listens to the 'motor_speed_command' topic and receives Int32 messages.
+        # calls the motor_speed_callback method to handle them.
+        self.subscription = self.create_subscription(Int32, 'motor_speed_command', self.motor_speed_callback, 10)
 
-        # Setting up GPIO for motor control
-        GPIO.setmode(GPIO.BOARD)
-        GPIO.setup(13, GPIO.OUT)
-        # Creating PWM instance for GPIO pin 13 with frequency 100 Hz (not working when on 50hz - need to investigate a bit)
-        self.motor = GPIO.PWM(13, 100)
-        # Starting PWM with initial duty cycle '0'
-        self.motor.start(0)
+        # variable to hold the current speed command.
+        self.current_speed_command = 20000
+        self.set_motor_speed(self.current_speed_command)
 
-    # Same as my test script
-    def run_motor_test(self):
-        test_count = 1
-        while test_count != 3:
-            print("----- Test #{} -----".format(test_count))
-            min_speed = 5
-            max_speed = 10
+        # initialize a timer to continuously update the motor speed
+        self.timer = self.create_timer(1.0, self.timer_callback)
 
-            # Going from low to high speed
-            print("* Low to high speed *")
-            for throttle in range(min_speed, max_speed):
-                self.publish_motor_throttle(throttle)
-                time.sleep(1)
-                print("Speed: ", throttle)
+    # function to establish connection to VESC.
+    def init_vesc(self):
+        # your serial port might be different.
+        VESC_SERIAL_PORT = '/dev/ttyACM0'
+        VESC_BAUDRATE = 115200
+        # error handling if connection was not established to VESC.
+        try:
+            _serial = serial.Serial(VESC_SERIAL_PORT, VESC_BAUDRATE, timeout=1)
+            self.get_logger().info("VESC serial connection established.")
+            return _serial
+        except Exception as e:
+            self.get_logger().error(f"Error establishing serial connection: {e}")
+            return None
 
-            # Going from high to low speed
-            print("* High to low speed *")
-            for throttle in range(max_speed, min_speed, -1):
-                self.publish_motor_throttle(throttle)
-                time.sleep(1)
-                print("Speed: ", throttle)
+    # callback function that is called when a new message is received on the motor_speed_command topic.
+    def motor_speed_callback(self, msg):
+        # update the current speed command and execute it.
+        self.current_speed_command = msg.data
+        self.set_motor_speed(self.current_speed_command)
+    
+    # timer callback to maintain or update the motor speed
+    def timer_callback(self):
+        self.set_motor_speed(self.current_speed_command)
+        self.get_logger().info("Timer callback: Motor speed maintained.")
 
-            test_count += 1
+    # function to send motor commands to VESC.
+    def set_motor_speed(self, speed):
+        # check if there is a connection to VESC.
+        if self.serial_connection:
+            try:
+                # encode and send the RPM command to the VESC.
+                message = pyvesc.SetRPM(speed)
+                self.serial_connection.write(pyvesc.encode(message))
+                self.get_logger().info(f"Motor speed set to: {speed} RPM")
+            except Exception as e:
+                self.get_logger().error(f"Error sending speed command: {e}")
 
-    # Publishing motor throttle value to the '/motor_throttle' topic
-    def publish_motor_throttle(self, throttle):
-        print("Publishing motor throttle:", throttle)
-        msg = Float64()
-        msg.data = float(throttle)
-        self.motor_pub.publish(msg)
-
-        # Setting the PWM duty cycle to control the motor speed
-        print("Changing duty cycle to:", throttle)
-        self.motor.ChangeDutyCycle(throttle)
-
-    def cleanup(self):
-        # Stopping the motor and clean up GPIO
-        self.motor.stop()
-        GPIO.cleanup()
-
-    def spin(self):
-        # Running the motor test, cleanup, and stop the ROS 2 node
-        # Extra logging - logging important information with ROS2 loggers
-        self.node.get_logger().info("Motor control node is running.")
-        self.run_motor_test()
-        self.cleanup()
-        self.node.get_logger().info("Motor control node is stopping.")
-        self.node.destroy_node()
-
-def main():
-    # Initialize ROS
-    rclpy.init()
-    # Create and run the MotorControlNode
-    motor_node = MotorControlNode()
-    motor_node.spin()
-    # Shutdown ROS 2
+def main(args=None):
+    # initializing the ROS2 client
+    rclpy.init(args=args)
+    # creating an instance of the VESCMotorController node
+    vesc_motor_controller = VESCMotorController()
+    # keep the node running, listening for events like incoming messages
+    rclpy.spin(vesc_motor_controller)
+    # clean up the node by destroying it
+    vesc_motor_controller.destroy_node()
+    # shutting down the ROS2 client
     rclpy.shutdown()
 
 if __name__ == '__main__':

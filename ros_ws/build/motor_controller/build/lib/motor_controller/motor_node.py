@@ -25,7 +25,7 @@ class VESCMotorController(Node):
         self.subscription = self.create_subscription(Int32, 'motor_speed_command', self.motor_speed_callback, 10)
 
         # Variable to hold the current speed command.
-        self.current_speed_command = 20000
+        self.current_speed_command = 50000
         self.set_motor_speed(self.current_speed_command)
 
         # Initialize a timer to continuously update the motor speed

@@ -17,7 +17,7 @@ This project merges sensors such as LiDAR and cameras to provide racing cars wit
 | TT-02 Type-S Chassis  | The load-bearing framework of the car |
 | HOBBYWING Sensored Brushless Motor  | Sensored motor for car, connects to VESC |
 | VESC 6 MkVI | Controls and regulates the speed of the electric motor. Customizable firmware, regenerative braking, and real-time telemetry |
-| Enrich Power 3000mah 7.2v  | Battery to power Servo/Motor and more |
+| Traxxas 4000mah 11.1v 3-Cell 25C  | Battery to power VESC |
 | Power Bank  | To power RPi when mobile - stores up to 42800mAh |
 | Pi Camera Module v2.1  | Captures images for obstacle detection, lane following, and AI |
 | 2D LiDAR  | Scans surroundings, detecting obstacles, navigation support, and path planning |

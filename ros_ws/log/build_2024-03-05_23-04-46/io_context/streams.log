@@ -1,0 +1,106 @@
+[3.226s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/io_context': CMAKE_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_ackermann:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport_plugins:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy /usr/bin/cmake /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/transport_drivers/io_context -DCMAKE_INSTALL_PREFIX=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context
+[4.012s] -- The C compiler identification is GNU 9.4.0
+[4.728s] -- The CXX compiler identification is GNU 9.4.0
+[4.812s] -- Check for working C compiler: /usr/bin/cc
+[5.831s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.845s] -- Detecting C compiler ABI info
+[6.959s] -- Detecting C compiler ABI info - done
+[7.077s] -- Detecting C compile features
+[7.098s] -- Detecting C compile features - done
+[7.127s] -- Check for working CXX compiler: /usr/bin/c++
+[8.210s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[8.234s] -- Detecting CXX compiler ABI info
+[9.434s] -- Detecting CXX compiler ABI info - done
+[9.681s] -- Detecting CXX compile features
+[9.690s] -- Detecting CXX compile features - done
+[9.735s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[10.191s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[10.195s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[27.255s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[28.083s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[34.442s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[37.277s] -- Found FastRTPS: /opt/ros/foxy/include  
+[43.290s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[51.576s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[51.685s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[51.742s] -- Looking for pthread.h
+[54.151s] -- Looking for pthread.h - found
+[54.160s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[56.683s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[56.688s] -- Looking for pthread_create in pthreads
+[58.886s] -- Looking for pthread_create in pthreads - not found
+[58.893s] -- Looking for pthread_create in pthread
+[61.741s] -- Looking for pthread_create in pthread - found
+[61.777s] -- Found Threads: TRUE  
+[68.397s] -- Found ASIO: /usr/include  
+[68.586s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[69.839s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[69.895s] -- Check if compiler accepts -pthread
+[72.229s] -- Check if compiler accepts -pthread - yes
+[72.610s] -- Added test 'copyright' to check source files copyright and LICENSE
+[72.704s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[72.717s] -- Configured cppcheck include dirs: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/transport_drivers/io_context/include
+[72.724s] -- Configured cppcheck exclude dirs and/or files: 
+[72.798s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[72.810s] -- Configured cpplint exclude dirs and/or files: 
+[72.874s] -- Added test 'lint_cmake' to check CMake code style
+[73.001s] -- Added test 'uncrustify' to check C / C++ code style
+[73.018s] -- Configured uncrustify additional arguments: 
+[73.063s] -- Added test 'xmllint' to check XML markup files
+[73.402s] -- Configuring done
+[74.079s] -- Generating done
+[74.170s] -- Build files have been written to: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/io_context
+[74.406s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/io_context' returned '0': CMAKE_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_ackermann:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport_plugins:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy /usr/bin/cmake /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/transport_drivers/io_context -DCMAKE_INSTALL_PREFIX=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context
+[74.433s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/io_context': CMAKE_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_ackermann:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport_plugins:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy /usr/bin/cmake --build /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/io_context -- -j4 -l4
+[75.787s] [35m[1mScanning dependencies of target gtest[0m
+[76.510s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[150.935s] [ 22%] [32m[1mLinking CXX static library libgtest.a[0m
+[152.158s] [ 22%] Built target gtest
+[152.351s] [35m[1mScanning dependencies of target gtest_main[0m
+[152.606s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[162.480s] [ 44%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[162.974s] [ 44%] Built target gtest_main
+[163.114s] [35m[1mScanning dependencies of target io_context[0m
+[163.511s] [ 55%] [32mBuilding CXX object CMakeFiles/io_context.dir/src/io_context.cpp.o[0m
+[183.406s] [ 66%] [32mBuilding CXX object CMakeFiles/io_context.dir/src/msg_converters/std_msgs.cpp.o[0m
+[200.355s] [ 77%] [32m[1mLinking CXX shared library libio_context.so[0m
+[202.093s] [ 77%] Built target io_context
+[202.259s] [35m[1mScanning dependencies of target test_io_context[0m
+[202.597s] [ 88%] [32mBuilding CXX object CMakeFiles/test_io_context.dir/test/test_io_context.cpp.o[0m
+[226.733s] [100%] [32m[1mLinking CXX executable test_io_context[0m
+[229.293s] [100%] Built target test_io_context
+[229.462s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/io_context' returned '0': CMAKE_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_ackermann:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport_plugins:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy /usr/bin/cmake --build /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/io_context -- -j4 -l4
+[230.165s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/io_context': CMAKE_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_ackermann:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport_plugins:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy /usr/bin/cmake --install /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/io_context
+[230.309s] -- Install configuration: ""
+[230.314s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/include
+[230.323s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/include/io_context
+[230.329s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/include/io_context/common.hpp
+[230.340s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/include/io_context/io_context.hpp
+[230.348s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/include/msg_converters
+[230.350s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/include/msg_converters/udp_msgs.hpp
+[230.363s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/include/msg_converters/std_msgs.hpp
+[230.366s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/include/msg_converters/example_interfaces.hpp
+[230.371s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/include/msg_converters/converters.hpp
+[230.389s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/share/io_context/environment/library_path.sh
+[230.392s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/share/io_context/environment/library_path.dsv
+[230.397s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/lib/libio_context.so
+[230.408s] -- Set runtime path of "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/lib/libio_context.so" to ""
+[230.411s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/share/ament_index/resource_index/package_run_dependencies/io_context
+[230.417s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/share/ament_index/resource_index/parent_prefix_path/io_context
+[230.420s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/share/io_context/environment/ament_prefix_path.sh
+[230.424s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/share/io_context/environment/ament_prefix_path.dsv
+[230.427s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/share/io_context/environment/path.sh
+[230.431s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/share/io_context/environment/path.dsv
+[230.435s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/share/io_context/local_setup.bash
+[230.437s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/share/io_context/local_setup.sh
+[230.443s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/share/io_context/local_setup.zsh
+[230.447s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/share/io_context/local_setup.dsv
+[230.451s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/share/io_context/package.dsv
+[230.455s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/share/ament_index/resource_index/packages/io_context
+[230.459s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/share/io_context/cmake/ament_cmake_export_dependencies-extras.cmake
+[230.463s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/share/io_context/cmake/ament_cmake_export_include_directories-extras.cmake
+[230.466s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/share/io_context/cmake/ament_cmake_export_libraries-extras.cmake
+[230.472s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/share/io_context/cmake/io_contextConfig.cmake
+[230.475s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/share/io_context/cmake/io_contextConfig-version.cmake
+[230.478s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/share/io_context/package.xml
+[230.497s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/io_context' returned '0': CMAKE_PREFIX_PATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_ackermann:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport_plugins:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy /usr/bin/cmake --install /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/io_context

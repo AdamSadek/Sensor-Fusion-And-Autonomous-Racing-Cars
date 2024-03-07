@@ -1,0 +1,175 @@
+[6.722s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy /usr/bin/cmake --build /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/vesc_msgs -- -j4 -l4
+[7.753s] [  1%] Built target vesc_msgs__cpp
+[7.773s] [ 12%] Built target vesc_msgs__rosidl_generator_c
+[8.585s] [ 23%] Built target vesc_msgs__rosidl_typesupport_cpp
+[8.615s] [ 34%] Built target vesc_msgs__rosidl_typesupport_introspection_cpp
+[8.771s] [ 47%] Built target vesc_msgs__rosidl_typesupport_fastrtps_cpp
+[8.773s] [ 56%] Built target vesc_msgs__rosidl_typesupport_introspection_c
+[9.289s] [ 67%] Built target vesc_msgs__rosidl_typesupport_c
+[9.457s] [ 78%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c
+[9.822s] [ 78%] Built target vesc_msgs
+[10.173s] [ 80%] Built target vesc_msgs__py
+[10.689s] [ 89%] Built target vesc_msgs__python
+[11.425s] [ 92%] Built target vesc_msgs__rosidl_typesupport_fastrtps_c__pyext
+[11.489s] [ 96%] Built target vesc_msgs__rosidl_typesupport_introspection_c__pyext
+[11.499s] [100%] Built target vesc_msgs__rosidl_typesupport_c__pyext
+[15.787s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy /usr/bin/cmake --build /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/vesc_msgs -- -j4 -l4
+[28.068s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy /usr/bin/cmake --install /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/vesc_msgs
+[30.949s] -- Install configuration: ""
+[30.950s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/ament_index/resource_index/rosidl_interfaces/vesc_msgs
+[30.952s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs
+[30.958s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg
+[30.959s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_imu.h
+[30.960s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_state_stamped.h
+[30.961s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_state.h
+[30.963s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail
+[30.964s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__type_support.h
+[30.967s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__struct.h
+[30.969s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__functions.h
+[30.970s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__functions.h
+[30.973s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__type_support.h
+[30.977s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__functions.h
+[30.979s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__struct.h
+[30.981s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__functions.c
+[30.983s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__functions.h
+[30.986s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__functions.c
+[30.988s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__functions.c
+[31.008s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__functions.c
+[31.014s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__struct.h
+[31.015s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.h
+[31.016s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__type_support.h
+[31.017s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__struct.h
+[31.019s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/rosidl_generator_c__visibility_control.h
+[31.020s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_imu_stamped.h
+[31.023s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/environment/library_path.sh
+[31.024s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/environment/library_path.dsv
+[31.026s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_generator_c.so
+[31.031s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs
+[31.035s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg
+[31.040s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[31.042s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail
+[31.050s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_fastrtps_c.h
+[31.052s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_fastrtps_c.h
+[31.053s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_fastrtps_c.h
+[31.055s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_fastrtps_c.h
+[31.056s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_c.so
+[31.058s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs
+[31.060s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg
+[31.063s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[31.065s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail
+[31.067s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/dds_fastrtps
+[31.068s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[31.071s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_fastrtps_cpp.hpp
+[31.076s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[31.090s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_fastrtps_cpp.hpp
+[31.095s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_fastrtps_cpp.so
+[31.097s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs
+[31.098s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg
+[31.099s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail
+[31.101s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_introspection_c.h
+[31.102s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__type_support.c
+[31.103s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__type_support.c
+[31.105s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.c
+[31.105s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_introspection_c.h
+[31.107s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_introspection_c.h
+[31.108s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__type_support.c
+[31.109s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_introspection_c.h
+[31.110s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[31.112s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_c.so
+[31.113s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_c.so
+[31.115s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs
+[31.116s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg
+[31.117s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_state.hpp
+[31.118s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_state_stamped.hpp
+[31.120s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail
+[31.139s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__type_support.hpp
+[31.140s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__struct.hpp
+[31.141s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__builder.hpp
+[31.143s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__builder.hpp
+[31.144s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__type_support.hpp
+[31.145s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__builder.hpp
+[31.146s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.hpp
+[31.147s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__builder.hpp
+[31.148s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__traits.hpp
+[31.149s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__traits.hpp
+[31.150s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__type_support.hpp
+[31.151s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__traits.hpp
+[31.152s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__struct.hpp
+[31.153s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__struct.hpp
+[31.154s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__traits.hpp
+[31.156s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__struct.hpp
+[31.156s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_imu_stamped.hpp
+[31.157s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[31.158s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/vesc_imu.hpp
+[31.159s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs
+[31.160s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg
+[31.161s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail
+[31.161s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__type_support.cpp
+[31.162s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__rosidl_typesupport_introspection_cpp.hpp
+[31.164s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__rosidl_typesupport_introspection_cpp.hpp
+[31.165s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu_stamped__type_support.cpp
+[31.165s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__rosidl_typesupport_introspection_cpp.hpp
+[31.166s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state_stamped__type_support.cpp
+[31.167s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_imu__rosidl_typesupport_introspection_cpp.hpp
+[31.168s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/include/vesc_msgs/msg/detail/vesc_state__type_support.cpp
+[31.169s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_introspection_cpp.so
+[31.170s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/lib/libvesc_msgs__rosidl_typesupport_cpp.so
+[31.171s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/environment/pythonpath.sh
+[31.172s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/environment/pythonpath.dsv
+[31.173s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/__init__.py
+[31.174s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg
+[31.175s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_state.py
+[31.176s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_imu_stamped_s.c
+[31.177s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_imu.py
+[31.178s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_imu_s.c
+[31.180s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_state_s.c
+[31.181s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/__init__.py
+[31.182s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_imu_stamped.py
+[31.184s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_state_stamped_s.c
+[31.185s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/msg/_vesc_state_stamped.py
+[31.187s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[31.188s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[31.189s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/lib/python3.8/site-packages/vesc_msgs/vesc_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[31.191s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/lib/libvesc_msgs__python.so
+[31.192s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/msg/VescState.idl
+[31.193s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/msg/VescStateStamped.idl
+[31.194s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImu.idl
+[31.195s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImuStamped.idl
+[31.196s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/msg/VescState.msg
+[31.196s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/msg/VescStateStamped.msg
+[31.197s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImu.msg
+[31.198s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/msg/VescImuStamped.msg
+[31.199s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/ament_index/resource_index/package_run_dependencies/vesc_msgs
+[31.200s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/ament_index/resource_index/parent_prefix_path/vesc_msgs
+[31.201s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/environment/ament_prefix_path.sh
+[31.202s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/environment/ament_prefix_path.dsv
+[31.203s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/environment/path.sh
+[31.204s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/environment/path.dsv
+[31.205s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/local_setup.bash
+[31.206s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/local_setup.sh
+[31.207s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/local_setup.zsh
+[31.207s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/local_setup.dsv
+[31.208s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/package.dsv
+[31.209s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/ament_index/resource_index/packages/vesc_msgs
+[31.210s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_generator_cExport.cmake
+[31.211s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_generator_cExport-noconfig.cmake
+[31.213s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cExport.cmake
+[31.214s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[31.215s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cExport.cmake
+[31.216s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[31.217s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_generator_cppExport.cmake
+[31.218s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[31.219s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[31.220s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cppExport.cmake
+[31.223s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[31.234s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake-extras.cmake
+[31.236s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.236s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[31.237s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[31.239s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[31.253s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[31.254s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[31.256s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgsConfig.cmake
+[31.257s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/cmake/vesc_msgsConfig-version.cmake
+[31.259s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/share/vesc_msgs/package.xml
+[31.273s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy /usr/bin/cmake --install /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/vesc_msgs

@@ -1,0 +1,109 @@
+[3.626s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy /usr/bin/cmake /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller -DCMAKE_INSTALL_PREFIX=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2
+[4.508s] -- The C compiler identification is GNU 9.4.0
+[5.347s] -- The CXX compiler identification is GNU 9.4.0
+[5.456s] -- Check for working C compiler: /usr/bin/cc
+[6.730s] -- Check for working C compiler: /usr/bin/cc -- works
+[6.743s] -- Detecting C compiler ABI info
+[7.839s] -- Detecting C compiler ABI info - done
+[8.014s] -- Detecting C compile features
+[8.021s] -- Detecting C compile features - done
+[8.074s] -- Check for working CXX compiler: /usr/bin/c++
+[9.240s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[9.253s] -- Detecting CXX compiler ABI info
+[10.412s] -- Detecting CXX compiler ABI info - done
+[10.632s] -- Detecting CXX compile features
+[10.636s] -- Detecting CXX compile features - done
+[10.683s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[11.177s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[11.179s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[15.398s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[16.722s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[16.959s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[19.227s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[20.184s] -- Found FastRTPS: /opt/ros/foxy/include  
+[22.448s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[23.532s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[23.564s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[23.577s] -- Looking for pthread.h
+[24.657s] -- Looking for pthread.h - found
+[24.675s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[25.897s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[25.901s] -- Looking for pthread_create in pthreads
+[27.039s] -- Looking for pthread_create in pthreads - not found
+[27.045s] -- Looking for pthread_create in pthread
+[28.244s] -- Looking for pthread_create in pthread - found
+[28.264s] -- Found Threads: TRUE  
+[30.766s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[32.845s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[34.422s] -- operation system is Linux-5.4.0-1103-raspi
+[34.427s] -- current platform: Linux 
+[34.483s] -- Added test 'copyright' to check source files copyright and LICENSE
+[34.740s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[34.746s] -- Configured cppcheck include dirs: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/include;/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/include
+[34.747s] -- Configured cppcheck exclude dirs and/or files: 
+[34.979s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[34.981s] -- Configured cpplint exclude dirs and/or files: 
+[35.032s] -- Added test 'flake8' to check Python code syntax and style conventions
+[35.091s] -- Added test 'lint_cmake' to check CMake code style
+[35.137s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[35.412s] -- Added test 'uncrustify' to check C / C++ code style
+[35.413s] -- Configured uncrustify additional arguments: 
+[35.454s] -- Added test 'xmllint' to check XML markup files
+[35.574s] -- Configuring done
+[35.872s] -- Generating done
+[35.919s] -- Build files have been written to: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2
+[36.025s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy /usr/bin/cmake /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller -DCMAKE_INSTALL_PREFIX=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2
+[36.079s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy /usr/bin/cmake --build /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2 -- -j4 -l4
+[37.056s] [35m[1mScanning dependencies of target ldlidar_driver[0m
+[37.526s] [  7%] [32mBuilding CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver.cpp.o[0m
+[44.069s] [ 15%] [32mBuilding CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_protocol.cpp.o[0m
+[44.696s] [ 23%] [32mBuilding CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/log_module.cpp.o[0m
+[48.422s] [ 30%] [32mBuilding CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/network_socket_interface_linux.cpp.o[0m
+[55.869s] [ 38%] [32mBuilding CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/serial_interface_linux.cpp.o[0m
+[62.588s] [ 46%] [32mBuilding CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/sl_transform.cpp.o[0m
+[68.008s] [ 53%] [32mBuilding CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/slbf.cpp.o[0m
+[75.577s] [ 61%] [32mBuilding CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/tofbf.cpp.o[0m
+[83.507s] [ 69%] [32mBuilding CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_dataprocess.cpp.o[0m
+[92.197s] [ 76%] [32mBuilding CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver_linux.cpp.o[0m
+[102.181s] [ 84%] [32m[1mLinking CXX static library libldlidar_driver.a[0m
+[103.024s] [ 84%] Built target ldlidar_driver
+[103.281s] [35m[1mScanning dependencies of target ldlidar_ros2_node[0m
+[104.215s] [ 92%] [32mBuilding CXX object CMakeFiles/ldlidar_ros2_node.dir/src/demo.cpp.o[0m
+[157.870s] [100%] [32m[1mLinking CXX executable ldlidar_ros2_node[0m
+[162.045s] [100%] Built target ldlidar_ros2_node
+[162.333s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy /usr/bin/cmake --build /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2 -- -j4 -l4
+[163.566s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy /usr/bin/cmake --install /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2
+[163.793s] -- Install configuration: ""
+[163.795s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/lib/ldlidar_ros2/ldlidar_ros2_node
+[163.826s] -- Set runtime path of "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/lib/ldlidar_ros2/ldlidar_ros2_node" to ""
+[163.828s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch
+[163.830s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/viewer_ld14p.launch.py
+[163.835s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/ld19.launch.py
+[163.843s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/ld06.launch.py
+[163.848s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/ld14.launch.py
+[163.854s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/viewer_ld06.launch.py
+[163.858s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/ld14p.launch.py
+[163.862s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/viewer_ld14.launch.py
+[163.872s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//launch/viewer_ld19.launch.py
+[163.883s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//rviz2
+[163.886s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//rviz2/ldlidar.rviz
+[163.894s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//scripts
+[163.896s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//scripts/create_udev_rules.sh
+[163.908s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//scripts/ldlidar.rules
+[163.915s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2//scripts/delete_udev_rules.sh
+[163.923s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ament_index/resource_index/package_run_dependencies/ldlidar_ros2
+[163.932s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ament_index/resource_index/parent_prefix_path/ldlidar_ros2
+[163.940s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/environment/ament_prefix_path.sh
+[163.947s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/environment/ament_prefix_path.dsv
+[163.953s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/environment/path.sh
+[163.961s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/environment/path.dsv
+[163.968s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/local_setup.bash
+[163.976s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/local_setup.sh
+[163.983s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/local_setup.zsh
+[163.991s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/local_setup.dsv
+[163.998s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/package.dsv
+[164.014s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ament_index/resource_index/packages/ldlidar_ros2
+[164.022s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/cmake/ldlidar_ros2Config.cmake
+[164.031s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/cmake/ldlidar_ros2Config-version.cmake
+[164.035s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2/share/ldlidar_ros2/package.xml
+[164.053s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy /usr/bin/cmake --install /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2

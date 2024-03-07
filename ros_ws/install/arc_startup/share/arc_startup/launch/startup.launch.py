@@ -6,29 +6,33 @@ from launch import LaunchDescription
 from ament_index_python.packages import get_package_share_directory
 from launch_ros.actions import Node
 from launch.actions import SetEnvironmentVariable
+from launch.substitutions import LaunchConfiguration
+from launch.actions import DeclareLaunchArgument
 
 def generate_launch_description():
-    camera_params_file_path = os.path.join(get_package_share_directory('v4l2_camera'), 'config', 'v4l2_camera.yaml')
+    camera_params_file_path = os.path.join(get_package_share_directory('arc_startup'), 'config', 'v4l2_camera.yaml')
     camera_params = yaml.safe_load(open(camera_params_file_path))
+
+    vesc_config = os.path.join(get_package_share_directory('vesc_driver'),'params','vesc_config.yaml')
+
     return LaunchDescription([
+        DeclareLaunchArgument(
+            name="config",
+            default_value=vesc_config,
+            description="VESC yaml configuration file.",
+            ),
+        Node(
+            package='vesc_driver',
+            executable='vesc_driver_node',
+            name='vesc_driver_node',
+            parameters=[LaunchConfiguration("config")]
+        ),
         Node(
             package='v4l2_camera',
             namespace='v4l2_camera1',
             executable='v4l2_camera_node',
             name='pi_cam',
             parameters=[camera_params]
-        ),
-        Node(
-            package='motor_controller',
-            namespace='motor_controller1',
-            executable='motor_node',
-            name='motor'
-        ),
-        Node(
-            package='servo_controller',
-            namespace='servo_controller1',
-            executable='servo_node',
-            name='servo'
         ),
         # LDROBOT LiDAR publisher node
         Node(
@@ -57,6 +61,6 @@ def generate_launch_description():
             executable='static_transform_publisher',
             name='base_link_to_base_laser_ld06',
             arguments=['0','0','0.18','0','0','0','base_link','base_laser']
-        )
+        ),
 
     ])

@@ -1,0 +1,50 @@
+[8.621s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/asio_cmake_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy /usr/bin/cmake /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/transport_drivers/asio_cmake_module -DCMAKE_INSTALL_PREFIX=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module
+[10.199s] -- The C compiler identification is GNU 9.4.0
+[11.640s] -- The CXX compiler identification is GNU 9.4.0
+[11.720s] -- Check for working C compiler: /usr/bin/cc
+[12.738s] -- Check for working C compiler: /usr/bin/cc -- works
+[12.763s] -- Detecting C compiler ABI info
+[13.841s] -- Detecting C compiler ABI info - done
+[13.984s] -- Detecting C compile features
+[13.987s] -- Detecting C compile features - done
+[14.032s] -- Check for working CXX compiler: /usr/bin/c++
+[15.203s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[15.217s] -- Detecting CXX compiler ABI info
+[16.338s] -- Detecting CXX compiler ABI info - done
+[16.492s] -- Detecting CXX compile features
+[16.505s] -- Detecting CXX compile features - done
+[16.581s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[17.016s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[17.023s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[21.222s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[22.604s] -- Added test 'copyright' to check source files copyright and LICENSE
+[22.678s] -- Added test 'lint_cmake' to check CMake code style
+[22.721s] -- Added test 'xmllint' to check XML markup files
+[22.807s] -- Configuring done
+[22.838s] -- Generating done
+[22.851s] -- Build files have been written to: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/asio_cmake_module
+[22.891s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/asio_cmake_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy /usr/bin/cmake /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/transport_drivers/asio_cmake_module -DCMAKE_INSTALL_PREFIX=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module
+[22.899s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/asio_cmake_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy /usr/bin/cmake --build /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/asio_cmake_module -- -j4 -l4
+[23.408s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/asio_cmake_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy /usr/bin/cmake --build /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/asio_cmake_module -- -j4 -l4
+[23.930s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/asio_cmake_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy /usr/bin/cmake --install /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/asio_cmake_module
+[24.053s] -- Install configuration: ""
+[24.059s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module/share/ament_index/resource_index/package_run_dependencies/asio_cmake_module
+[24.062s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module/share/ament_index/resource_index/parent_prefix_path/asio_cmake_module
+[24.068s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module/share/asio_cmake_module/environment/ament_prefix_path.sh
+[24.072s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module/share/asio_cmake_module/environment/ament_prefix_path.dsv
+[24.076s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module/share/asio_cmake_module/environment/path.sh
+[24.082s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module/share/asio_cmake_module/environment/path.dsv
+[24.084s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module/share/asio_cmake_module/local_setup.bash
+[24.089s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module/share/asio_cmake_module/local_setup.sh
+[24.093s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module/share/asio_cmake_module/local_setup.zsh
+[24.097s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module/share/asio_cmake_module/local_setup.dsv
+[24.100s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module/share/asio_cmake_module/package.dsv
+[24.105s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module/share/ament_index/resource_index/packages/asio_cmake_module
+[24.110s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module/share/asio_cmake_module/cmake/asio_cmake_module-extras.cmake
+[24.114s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module/share/asio_cmake_module/cmake/asio_cmake_moduleConfig.cmake
+[24.117s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module/share/asio_cmake_module/cmake/asio_cmake_moduleConfig-version.cmake
+[24.121s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module/share/asio_cmake_module/package.xml
+[24.124s] -- Up-to-date: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module/share/asio_cmake_module/cmake
+[24.126s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module/share/asio_cmake_module/cmake/Modules
+[24.128s] -- Installing: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module/share/asio_cmake_module/cmake/Modules/FindASIO.cmake
+[24.163s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/asio_cmake_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/opt/ros/foxy /usr/bin/cmake --install /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/asio_cmake_module

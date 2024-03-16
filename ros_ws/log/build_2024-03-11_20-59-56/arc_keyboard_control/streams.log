@@ -1,0 +1,37 @@
+[9.100s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/arc_keyboard_control': PYTHONPATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_keyboard_control/prefix_override:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_keyboard_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arc_keyboard_control build --build-base /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_keyboard_control/build install --record /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_keyboard_control/install.log --install-scripts $base/lib/arc_keyboard_control --single-version-externally-managed
+[11.132s] running egg_info
+[11.137s] creating ../../build/arc_keyboard_control/arc_keyboard_control.egg-info
+[11.141s] writing ../../build/arc_keyboard_control/arc_keyboard_control.egg-info/PKG-INFO
+[11.148s] writing dependency_links to ../../build/arc_keyboard_control/arc_keyboard_control.egg-info/dependency_links.txt
+[11.152s] writing entry points to ../../build/arc_keyboard_control/arc_keyboard_control.egg-info/entry_points.txt
+[11.156s] writing requirements to ../../build/arc_keyboard_control/arc_keyboard_control.egg-info/requires.txt
+[11.158s] writing top-level names to ../../build/arc_keyboard_control/arc_keyboard_control.egg-info/top_level.txt
+[11.170s] writing manifest file '../../build/arc_keyboard_control/arc_keyboard_control.egg-info/SOURCES.txt'
+[11.352s] reading manifest file '../../build/arc_keyboard_control/arc_keyboard_control.egg-info/SOURCES.txt'
+[11.357s] writing manifest file '../../build/arc_keyboard_control/arc_keyboard_control.egg-info/SOURCES.txt'
+[11.360s] running build
+[11.360s] running build_py
+[11.361s] creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_keyboard_control/build
+[11.362s] creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_keyboard_control/build/lib
+[11.362s] creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_keyboard_control/build/lib/arc_keyboard_control
+[11.367s] copying arc_keyboard_control/__init__.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_keyboard_control/build/lib/arc_keyboard_control
+[11.368s] copying arc_keyboard_control/keyboard_control.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_keyboard_control/build/lib/arc_keyboard_control
+[11.369s] running install
+[11.369s] running install_lib
+[11.372s] creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_keyboard_control/lib/python3.8/site-packages/arc_keyboard_control
+[11.373s] copying /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_keyboard_control/build/lib/arc_keyboard_control/__init__.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_keyboard_control/lib/python3.8/site-packages/arc_keyboard_control
+[11.373s] copying /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_keyboard_control/build/lib/arc_keyboard_control/keyboard_control.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_keyboard_control/lib/python3.8/site-packages/arc_keyboard_control
+[11.377s] byte-compiling /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_keyboard_control/lib/python3.8/site-packages/arc_keyboard_control/__init__.py to __init__.cpython-38.pyc
+[11.383s] byte-compiling /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_keyboard_control/lib/python3.8/site-packages/arc_keyboard_control/keyboard_control.py to keyboard_control.cpython-38.pyc
+[11.386s] running install_data
+[11.389s] creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_keyboard_control/share/ament_index
+[11.390s] creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_keyboard_control/share/ament_index/resource_index
+[11.391s] creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_keyboard_control/share/ament_index/resource_index/packages
+[11.392s] copying resource/arc_keyboard_control -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_keyboard_control/share/ament_index/resource_index/packages
+[11.393s] copying package.xml -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_keyboard_control/share/arc_keyboard_control
+[11.393s] running install_egg_info
+[11.402s] Copying ../../build/arc_keyboard_control/arc_keyboard_control.egg-info to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_keyboard_control/lib/python3.8/site-packages/arc_keyboard_control-0.0.0-py3.8.egg-info
+[11.414s] running install_scripts
+[11.516s] Installing keyboard_control script to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_keyboard_control/lib/arc_keyboard_control
+[11.518s] writing list of installed files to '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_keyboard_control/install.log'
+[11.678s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/arc_keyboard_control' returned '0': PYTHONPATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_keyboard_control/prefix_override:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_keyboard_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arc_keyboard_control build --build-base /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_keyboard_control/build install --record /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_keyboard_control/install.log --install-scripts $base/lib/arc_keyboard_control --single-version-externally-managed

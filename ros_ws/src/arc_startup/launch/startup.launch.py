@@ -34,14 +34,13 @@ def generate_launch_description():
             name='pi_cam',
             parameters=[camera_params]
         ),
-        # LDROBOT LiDAR publisher node
         Node(
             package='ldlidar_ros2',
             executable='ldlidar_ros2_node',
-            name='ldlidar_publisher_ld06',
+            name='ldlidar_publisher_ld19',
             output='screen',
             parameters=[
-                {'product_name': 'LDLiDAR_LD06'},
+                {'product_name': 'LDLiDAR_LD19'},
                 {'laser_scan_topic_name': 'scan'},
                 {'point_cloud_2d_topic_name': 'pointcloud2d'},
                 {'frame_id': 'base_laser'},
@@ -55,12 +54,12 @@ def generate_launch_description():
                 {'range_max': 12.0}   # unit is meter
             ]
         ),
+
         # base_link to base_laser tf node
         Node(
             package='tf2_ros',
             executable='static_transform_publisher',
-            name='base_link_to_base_laser_ld06',
+            name='base_link_to_base_laser_ld19',
             arguments=['0','0','0.18','0','0','0','base_link','base_laser']
-        ),
-
+        )
     ])

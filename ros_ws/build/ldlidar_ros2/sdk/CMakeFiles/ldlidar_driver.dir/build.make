@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller
+CMAKE_SOURCE_DIR = /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2
@@ -58,134 +58,134 @@ include sdk/CMakeFiles/ldlidar_driver.dir/progress.make
 include sdk/CMakeFiles/ldlidar_driver.dir/flags.make
 
 sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver.cpp.o: sdk/CMakeFiles/ldlidar_driver.dir/flags.make
-sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver.cpp.o: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/ldlidar_driver.cpp
+sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver.cpp.o: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/ldlidar_driver.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver.cpp.o"
-	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver.cpp.o -c /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/ldlidar_driver.cpp
+	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver.cpp.o -c /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/ldlidar_driver.cpp
 
 sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver.cpp.i"
-	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/ldlidar_driver.cpp > CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver.cpp.i
+	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/ldlidar_driver.cpp > CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver.cpp.i
 
 sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver.cpp.s"
-	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/ldlidar_driver.cpp -o CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver.cpp.s
+	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/ldlidar_driver.cpp -o CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver.cpp.s
 
 sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver_linux.cpp.o: sdk/CMakeFiles/ldlidar_driver.dir/flags.make
-sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver_linux.cpp.o: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/ldlidar_driver_linux.cpp
+sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver_linux.cpp.o: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/ldlidar_driver_linux.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver_linux.cpp.o"
-	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver_linux.cpp.o -c /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/ldlidar_driver_linux.cpp
+	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver_linux.cpp.o -c /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/ldlidar_driver_linux.cpp
 
 sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver_linux.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver_linux.cpp.i"
-	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/ldlidar_driver_linux.cpp > CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver_linux.cpp.i
+	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/ldlidar_driver_linux.cpp > CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver_linux.cpp.i
 
 sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver_linux.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver_linux.cpp.s"
-	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/ldlidar_driver_linux.cpp -o CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver_linux.cpp.s
+	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/ldlidar_driver_linux.cpp -o CMakeFiles/ldlidar_driver.dir/src/ldlidar_driver_linux.cpp.s
 
 sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_dataprocess.cpp.o: sdk/CMakeFiles/ldlidar_driver.dir/flags.make
-sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_dataprocess.cpp.o: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/ldlidar_dataprocess.cpp
+sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_dataprocess.cpp.o: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/ldlidar_dataprocess.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_dataprocess.cpp.o"
-	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ldlidar_driver.dir/src/ldlidar_dataprocess.cpp.o -c /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/ldlidar_dataprocess.cpp
+	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ldlidar_driver.dir/src/ldlidar_dataprocess.cpp.o -c /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/ldlidar_dataprocess.cpp
 
 sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_dataprocess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ldlidar_driver.dir/src/ldlidar_dataprocess.cpp.i"
-	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/ldlidar_dataprocess.cpp > CMakeFiles/ldlidar_driver.dir/src/ldlidar_dataprocess.cpp.i
+	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/ldlidar_dataprocess.cpp > CMakeFiles/ldlidar_driver.dir/src/ldlidar_dataprocess.cpp.i
 
 sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_dataprocess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ldlidar_driver.dir/src/ldlidar_dataprocess.cpp.s"
-	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/ldlidar_dataprocess.cpp -o CMakeFiles/ldlidar_driver.dir/src/ldlidar_dataprocess.cpp.s
+	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/ldlidar_dataprocess.cpp -o CMakeFiles/ldlidar_driver.dir/src/ldlidar_dataprocess.cpp.s
 
 sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_protocol.cpp.o: sdk/CMakeFiles/ldlidar_driver.dir/flags.make
-sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_protocol.cpp.o: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/ldlidar_protocol.cpp
+sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_protocol.cpp.o: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/ldlidar_protocol.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_protocol.cpp.o"
-	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ldlidar_driver.dir/src/ldlidar_protocol.cpp.o -c /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/ldlidar_protocol.cpp
+	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ldlidar_driver.dir/src/ldlidar_protocol.cpp.o -c /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/ldlidar_protocol.cpp
 
 sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_protocol.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ldlidar_driver.dir/src/ldlidar_protocol.cpp.i"
-	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/ldlidar_protocol.cpp > CMakeFiles/ldlidar_driver.dir/src/ldlidar_protocol.cpp.i
+	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/ldlidar_protocol.cpp > CMakeFiles/ldlidar_driver.dir/src/ldlidar_protocol.cpp.i
 
 sdk/CMakeFiles/ldlidar_driver.dir/src/ldlidar_protocol.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ldlidar_driver.dir/src/ldlidar_protocol.cpp.s"
-	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/ldlidar_protocol.cpp -o CMakeFiles/ldlidar_driver.dir/src/ldlidar_protocol.cpp.s
+	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/ldlidar_protocol.cpp -o CMakeFiles/ldlidar_driver.dir/src/ldlidar_protocol.cpp.s
 
 sdk/CMakeFiles/ldlidar_driver.dir/src/log_module.cpp.o: sdk/CMakeFiles/ldlidar_driver.dir/flags.make
-sdk/CMakeFiles/ldlidar_driver.dir/src/log_module.cpp.o: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/log_module.cpp
+sdk/CMakeFiles/ldlidar_driver.dir/src/log_module.cpp.o: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/log_module.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/log_module.cpp.o"
-	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ldlidar_driver.dir/src/log_module.cpp.o -c /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/log_module.cpp
+	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ldlidar_driver.dir/src/log_module.cpp.o -c /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/log_module.cpp
 
 sdk/CMakeFiles/ldlidar_driver.dir/src/log_module.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ldlidar_driver.dir/src/log_module.cpp.i"
-	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/log_module.cpp > CMakeFiles/ldlidar_driver.dir/src/log_module.cpp.i
+	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/log_module.cpp > CMakeFiles/ldlidar_driver.dir/src/log_module.cpp.i
 
 sdk/CMakeFiles/ldlidar_driver.dir/src/log_module.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ldlidar_driver.dir/src/log_module.cpp.s"
-	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/log_module.cpp -o CMakeFiles/ldlidar_driver.dir/src/log_module.cpp.s
+	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/log_module.cpp -o CMakeFiles/ldlidar_driver.dir/src/log_module.cpp.s
 
 sdk/CMakeFiles/ldlidar_driver.dir/src/network_socket_interface_linux.cpp.o: sdk/CMakeFiles/ldlidar_driver.dir/flags.make
-sdk/CMakeFiles/ldlidar_driver.dir/src/network_socket_interface_linux.cpp.o: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/network_socket_interface_linux.cpp
+sdk/CMakeFiles/ldlidar_driver.dir/src/network_socket_interface_linux.cpp.o: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/network_socket_interface_linux.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/network_socket_interface_linux.cpp.o"
-	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ldlidar_driver.dir/src/network_socket_interface_linux.cpp.o -c /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/network_socket_interface_linux.cpp
+	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ldlidar_driver.dir/src/network_socket_interface_linux.cpp.o -c /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/network_socket_interface_linux.cpp
 
 sdk/CMakeFiles/ldlidar_driver.dir/src/network_socket_interface_linux.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ldlidar_driver.dir/src/network_socket_interface_linux.cpp.i"
-	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/network_socket_interface_linux.cpp > CMakeFiles/ldlidar_driver.dir/src/network_socket_interface_linux.cpp.i
+	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/network_socket_interface_linux.cpp > CMakeFiles/ldlidar_driver.dir/src/network_socket_interface_linux.cpp.i
 
 sdk/CMakeFiles/ldlidar_driver.dir/src/network_socket_interface_linux.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ldlidar_driver.dir/src/network_socket_interface_linux.cpp.s"
-	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/network_socket_interface_linux.cpp -o CMakeFiles/ldlidar_driver.dir/src/network_socket_interface_linux.cpp.s
+	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/network_socket_interface_linux.cpp -o CMakeFiles/ldlidar_driver.dir/src/network_socket_interface_linux.cpp.s
 
 sdk/CMakeFiles/ldlidar_driver.dir/src/serial_interface_linux.cpp.o: sdk/CMakeFiles/ldlidar_driver.dir/flags.make
-sdk/CMakeFiles/ldlidar_driver.dir/src/serial_interface_linux.cpp.o: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/serial_interface_linux.cpp
+sdk/CMakeFiles/ldlidar_driver.dir/src/serial_interface_linux.cpp.o: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/serial_interface_linux.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/serial_interface_linux.cpp.o"
-	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ldlidar_driver.dir/src/serial_interface_linux.cpp.o -c /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/serial_interface_linux.cpp
+	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ldlidar_driver.dir/src/serial_interface_linux.cpp.o -c /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/serial_interface_linux.cpp
 
 sdk/CMakeFiles/ldlidar_driver.dir/src/serial_interface_linux.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ldlidar_driver.dir/src/serial_interface_linux.cpp.i"
-	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/serial_interface_linux.cpp > CMakeFiles/ldlidar_driver.dir/src/serial_interface_linux.cpp.i
+	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/serial_interface_linux.cpp > CMakeFiles/ldlidar_driver.dir/src/serial_interface_linux.cpp.i
 
 sdk/CMakeFiles/ldlidar_driver.dir/src/serial_interface_linux.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ldlidar_driver.dir/src/serial_interface_linux.cpp.s"
-	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/serial_interface_linux.cpp -o CMakeFiles/ldlidar_driver.dir/src/serial_interface_linux.cpp.s
+	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/serial_interface_linux.cpp -o CMakeFiles/ldlidar_driver.dir/src/serial_interface_linux.cpp.s
 
 sdk/CMakeFiles/ldlidar_driver.dir/src/sl_transform.cpp.o: sdk/CMakeFiles/ldlidar_driver.dir/flags.make
-sdk/CMakeFiles/ldlidar_driver.dir/src/sl_transform.cpp.o: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/sl_transform.cpp
+sdk/CMakeFiles/ldlidar_driver.dir/src/sl_transform.cpp.o: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/sl_transform.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/sl_transform.cpp.o"
-	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ldlidar_driver.dir/src/sl_transform.cpp.o -c /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/sl_transform.cpp
+	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ldlidar_driver.dir/src/sl_transform.cpp.o -c /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/sl_transform.cpp
 
 sdk/CMakeFiles/ldlidar_driver.dir/src/sl_transform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ldlidar_driver.dir/src/sl_transform.cpp.i"
-	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/sl_transform.cpp > CMakeFiles/ldlidar_driver.dir/src/sl_transform.cpp.i
+	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/sl_transform.cpp > CMakeFiles/ldlidar_driver.dir/src/sl_transform.cpp.i
 
 sdk/CMakeFiles/ldlidar_driver.dir/src/sl_transform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ldlidar_driver.dir/src/sl_transform.cpp.s"
-	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/sl_transform.cpp -o CMakeFiles/ldlidar_driver.dir/src/sl_transform.cpp.s
+	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/sl_transform.cpp -o CMakeFiles/ldlidar_driver.dir/src/sl_transform.cpp.s
 
 sdk/CMakeFiles/ldlidar_driver.dir/src/slbf.cpp.o: sdk/CMakeFiles/ldlidar_driver.dir/flags.make
-sdk/CMakeFiles/ldlidar_driver.dir/src/slbf.cpp.o: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/slbf.cpp
+sdk/CMakeFiles/ldlidar_driver.dir/src/slbf.cpp.o: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/slbf.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/slbf.cpp.o"
-	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ldlidar_driver.dir/src/slbf.cpp.o -c /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/slbf.cpp
+	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ldlidar_driver.dir/src/slbf.cpp.o -c /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/slbf.cpp
 
 sdk/CMakeFiles/ldlidar_driver.dir/src/slbf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ldlidar_driver.dir/src/slbf.cpp.i"
-	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/slbf.cpp > CMakeFiles/ldlidar_driver.dir/src/slbf.cpp.i
+	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/slbf.cpp > CMakeFiles/ldlidar_driver.dir/src/slbf.cpp.i
 
 sdk/CMakeFiles/ldlidar_driver.dir/src/slbf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ldlidar_driver.dir/src/slbf.cpp.s"
-	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/slbf.cpp -o CMakeFiles/ldlidar_driver.dir/src/slbf.cpp.s
+	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/slbf.cpp -o CMakeFiles/ldlidar_driver.dir/src/slbf.cpp.s
 
 sdk/CMakeFiles/ldlidar_driver.dir/src/tofbf.cpp.o: sdk/CMakeFiles/ldlidar_driver.dir/flags.make
-sdk/CMakeFiles/ldlidar_driver.dir/src/tofbf.cpp.o: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/tofbf.cpp
+sdk/CMakeFiles/ldlidar_driver.dir/src/tofbf.cpp.o: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/tofbf.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object sdk/CMakeFiles/ldlidar_driver.dir/src/tofbf.cpp.o"
-	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ldlidar_driver.dir/src/tofbf.cpp.o -c /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/tofbf.cpp
+	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ldlidar_driver.dir/src/tofbf.cpp.o -c /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/tofbf.cpp
 
 sdk/CMakeFiles/ldlidar_driver.dir/src/tofbf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ldlidar_driver.dir/src/tofbf.cpp.i"
-	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/tofbf.cpp > CMakeFiles/ldlidar_driver.dir/src/tofbf.cpp.i
+	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/tofbf.cpp > CMakeFiles/ldlidar_driver.dir/src/tofbf.cpp.i
 
 sdk/CMakeFiles/ldlidar_driver.dir/src/tofbf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ldlidar_driver.dir/src/tofbf.cpp.s"
-	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/src/tofbf.cpp -o CMakeFiles/ldlidar_driver.dir/src/tofbf.cpp.s
+	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/src/tofbf.cpp -o CMakeFiles/ldlidar_driver.dir/src/tofbf.cpp.s
 
 # Object files for target ldlidar_driver
 ldlidar_driver_OBJECTS = \
@@ -229,6 +229,6 @@ sdk/CMakeFiles/ldlidar_driver.dir/clean:
 .PHONY : sdk/CMakeFiles/ldlidar_driver.dir/clean
 
 sdk/CMakeFiles/ldlidar_driver.dir/depend:
-	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2 /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk/CMakeFiles/ldlidar_driver.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2 /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2 /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/sdk/CMakeFiles/ldlidar_driver.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : sdk/CMakeFiles/ldlidar_driver.dir/depend
 

@@ -1,0 +1,9 @@
+[ 10%] [32mBuilding CXX object CMakeFiles/vesc_driver_node.dir/rclcpp_components/node_main_vesc_driver_node.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_driver.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_interface.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_packet_factory.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable vesc_driver_node[0m
+[ 50%] Built target vesc_driver_node
+make[2]: *** [CMakeFiles/vesc_driver.dir/build.make:63: CMakeFiles/vesc_driver.dir/src/vesc_driver.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/vesc_driver.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

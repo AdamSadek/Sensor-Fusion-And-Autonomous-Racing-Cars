@@ -1,0 +1,36 @@
+[9.722s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/autonomous_car_control': PYTHONPATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/autonomous_car_control/prefix_override:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/autonomous_car_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/autonomous_car_control build --build-base /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/autonomous_car_control/build install --record /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/autonomous_car_control/install.log --install-scripts $base/lib/autonomous_car_control --single-version-externally-managed
+[11.622s] running egg_info
+[11.625s] creating ../../build/autonomous_car_control/autonomous_car_control.egg-info
+[11.626s] writing ../../build/autonomous_car_control/autonomous_car_control.egg-info/PKG-INFO
+[11.628s] writing dependency_links to ../../build/autonomous_car_control/autonomous_car_control.egg-info/dependency_links.txt
+[11.629s] writing entry points to ../../build/autonomous_car_control/autonomous_car_control.egg-info/entry_points.txt
+[11.630s] writing requirements to ../../build/autonomous_car_control/autonomous_car_control.egg-info/requires.txt
+[11.631s] writing top-level names to ../../build/autonomous_car_control/autonomous_car_control.egg-info/top_level.txt
+[11.638s] writing manifest file '../../build/autonomous_car_control/autonomous_car_control.egg-info/SOURCES.txt'
+[11.830s] reading manifest file '../../build/autonomous_car_control/autonomous_car_control.egg-info/SOURCES.txt'
+[11.834s] writing manifest file '../../build/autonomous_car_control/autonomous_car_control.egg-info/SOURCES.txt'
+[11.837s] running build
+[11.838s] running build_py
+[11.841s] creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/autonomous_car_control/build
+[11.843s] creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/autonomous_car_control/build/lib
+[11.845s] creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/autonomous_car_control/build/lib/autonomous_car_control
+[11.847s] copying autonomous_car_control/autonomous_control_node.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/autonomous_car_control/build/lib/autonomous_car_control
+[11.850s] copying autonomous_car_control/__init__.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/autonomous_car_control/build/lib/autonomous_car_control
+[11.861s] running install
+[11.869s] running install_lib
+[11.877s] creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/autonomous_car_control/lib/python3.8/site-packages/autonomous_car_control
+[11.878s] copying /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/autonomous_car_control/build/lib/autonomous_car_control/autonomous_control_node.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/autonomous_car_control/lib/python3.8/site-packages/autonomous_car_control
+[11.878s] copying /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/autonomous_car_control/build/lib/autonomous_car_control/__init__.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/autonomous_car_control/lib/python3.8/site-packages/autonomous_car_control
+[11.880s] byte-compiling /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/autonomous_car_control/lib/python3.8/site-packages/autonomous_car_control/autonomous_control_node.py to autonomous_control_node.cpython-38.pyc
+[11.888s] byte-compiling /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/autonomous_car_control/lib/python3.8/site-packages/autonomous_car_control/__init__.py to __init__.cpython-38.pyc
+[11.891s] running install_data
+[11.892s] creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/autonomous_car_control/share/ament_index
+[11.893s] creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/autonomous_car_control/share/ament_index/resource_index
+[11.895s] creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/autonomous_car_control/share/ament_index/resource_index/packages
+[11.896s] copying resource/autonomous_car_control -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/autonomous_car_control/share/ament_index/resource_index/packages
+[11.896s] copying package.xml -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/autonomous_car_control/share/autonomous_car_control
+[11.897s] running install_egg_info
+[11.903s] Copying ../../build/autonomous_car_control/autonomous_car_control.egg-info to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/autonomous_car_control/lib/python3.8/site-packages/autonomous_car_control-0.0.0-py3.8.egg-info
+[11.912s] running install_scripts
+[12.016s] writing list of installed files to '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/autonomous_car_control/install.log'
+[12.197s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/autonomous_car_control' returned '0': PYTHONPATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/autonomous_car_control/prefix_override:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/autonomous_car_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/autonomous_car_control build --build-base /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/autonomous_car_control/build install --record /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/autonomous_car_control/install.log --install-scripts $base/lib/autonomous_car_control --single-version-externally-managed

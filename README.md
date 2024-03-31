@@ -21,7 +21,7 @@ This project merges sensors such as LiDAR and cameras to provide racing cars wit
 | VESC 6 MkVI | Controls and regulates the speed of the electric motor. Customizable firmware, regenerative braking, and real-time telemetry |
 | Traxxas 4000mah 11.1v 3-Cell 25C  | Battery to power VESC |
 | Power Bank  | To power RPi when mobile - stores up to 42800mAh |
-| Pi Camera Module v2.1  | Captures images for obstacle detection, lane following, and AI |
+| Logitech C270  | Captures images for obstacle detection, lane following, and AI |
 | 2D LiDAR  | Scans surroundings, detecting obstacles, navigation support, and path planning |
 
 # Demos

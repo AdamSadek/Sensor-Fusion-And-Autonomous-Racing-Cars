@@ -46,10 +46,11 @@ class AutonomousRCCarNode(Node):
         self.previous_time = self.get_clock().now()
         self.safe_speed = 1.0
         self.last_steering_angle = self.servo_neutral
-        self.max_steering_rate = 0.1
+        self.max_steering_rate = 0.05
+        self.previous_track_center = self.frame_width / 2
         self.alpha = 0.2  # for steering smoothing
         self.filtered_steering_angle = self.servo_neutral
-        self.pid_controller = PIDController(kp=1.0, ki=0.00001, kd=1.0)
+        self.pid_controller = PIDController(kp=0.08, ki=0.1, kd=0.05)
 
     def image_callback(self, data):
         # process each incoming image frame
@@ -140,7 +141,7 @@ class AutonomousRCCarNode(Node):
             track_center = self.frame_width / 2  # default to center if no lines are detected
 
         return track_center
-
+ 
     def calculate_control(self, lines):
         # calculate control actions (steering and speed) based on track position
         current_time = self.get_clock().now()
@@ -177,7 +178,6 @@ class AutonomousRCCarNode(Node):
         speed = np.clip(speed, 0, self.safe_speed)
 
         return steering_angle, speed
-
 # define the main function to initialize the node and spin it
 def main(args=None):
     rclpy.init(args=args)  # initialize the ROS2 client library

@@ -1,0 +1,62 @@
+[0.000000] (-) TimerEvent: {}
+[0.001059] (-) JobUnselected: {'identifier': 'arc_keyboard_control'}
+[0.001478] (-) JobUnselected: {'identifier': 'arc_startup'}
+[0.002197] (-) JobUnselected: {'identifier': 'asio_cmake_module'}
+[0.002841] (-) JobUnselected: {'identifier': 'camera_sensor'}
+[0.003104] (-) JobUnselected: {'identifier': 'compressed_depth_image_transport'}
+[0.003216] (-) JobUnselected: {'identifier': 'compressed_image_transport'}
+[0.003318] (-) JobUnselected: {'identifier': 'image_transport_plugins'}
+[0.003400] (-) JobUnselected: {'identifier': 'io_context'}
+[0.003474] (-) JobUnselected: {'identifier': 'ldlidar_ros2'}
+[0.003546] (-) JobUnselected: {'identifier': 'motor_controller'}
+[0.003616] (-) JobUnselected: {'identifier': 'serial_driver'}
+[0.003686] (-) JobUnselected: {'identifier': 'servo_controller'}
+[0.003756] (-) JobUnselected: {'identifier': 'steering_test_pkg'}
+[0.003825] (-) JobUnselected: {'identifier': 'theora_image_transport'}
+[0.003893] (-) JobUnselected: {'identifier': 'udp_driver'}
+[0.003961] (-) JobUnselected: {'identifier': 'v4l2_camera'}
+[0.004030] (-) JobUnselected: {'identifier': 'vesc'}
+[0.004099] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.004168] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.004240] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.004318] (arc_autonomous_ctrl) JobQueued: {'identifier': 'arc_autonomous_ctrl', 'dependencies': OrderedDict()}
+[0.004403] (arc_autonomous_ctrl) JobStarted: {'identifier': 'arc_autonomous_ctrl'}
+[0.099067] (-) TimerEvent: {}
+[0.201426] (-) TimerEvent: {}
+[0.303217] (-) TimerEvent: {}
+[0.405161] (-) TimerEvent: {}
+[0.506958] (-) TimerEvent: {}
+[0.608232] (-) TimerEvent: {}
+[0.710999] (-) TimerEvent: {}
+[0.812528] (-) TimerEvent: {}
+[0.917323] (-) TimerEvent: {}
+[1.018666] (-) TimerEvent: {}
+[1.124197] (-) TimerEvent: {}
+[1.225121] (-) TimerEvent: {}
+[1.326216] (-) TimerEvent: {}
+[1.427018] (-) TimerEvent: {}
+[1.527928] (-) TimerEvent: {}
+[1.628958] (-) TimerEvent: {}
+[1.729766] (-) TimerEvent: {}
+[1.830560] (-) TimerEvent: {}
+[1.931310] (-) TimerEvent: {}
+[2.032100] (-) TimerEvent: {}
+[2.133337] (-) TimerEvent: {}
+[2.234791] (-) TimerEvent: {}
+[2.335938] (-) TimerEvent: {}
+[2.436904] (-) TimerEvent: {}
+[2.539202] (-) TimerEvent: {}
+[2.640416] (-) TimerEvent: {}
+[2.745305] (-) TimerEvent: {}
+[2.847114] (-) TimerEvent: {}
+[2.948595] (-) TimerEvent: {}
+[3.049722] (-) TimerEvent: {}
+[3.152285] (-) TimerEvent: {}
+[3.253912] (-) TimerEvent: {}
+[3.355089] (-) TimerEvent: {}
+[3.455826] (-) TimerEvent: {}
+[3.556620] (-) TimerEvent: {}
+[3.657432] (-) TimerEvent: {}
+[3.724546] (arc_autonomous_ctrl) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute\n    loop.run_until_complete(future)\n  File "/usr/lib/python3.8/asyncio/base_events.py", line 603, in run_until_complete\n    self.run_forever()\n  File "/usr/lib/python3.8/asyncio/base_events.py", line 570, in run_forever\n    self._run_once()\n  File "/usr/lib/python3.8/asyncio/base_events.py", line 1823, in _run_once\n    event_list = self._selector.select(timeout)\n  File "/usr/lib/python3.8/selectors.py", line 468, in select\n    fd_event_list = self._selector.poll(timeout, max_ev)\nKeyboardInterrupt\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build\n    return await extension.build(additional_hooks=additional_hooks)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 85, in build\n    available_commands = await self._get_available_commands(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 175, in _get_available_commands\n    output = await check_output(\n  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output\n    assert not rc, f\'Expected {args} to pass: {stderr_data}\'\nAssertionError: Expected [\'/usr/bin/python3\', \'setup.py\', \'--help-commands\'] to pass: Traceback (most recent call last):\n  File "setup.py", line 1, in <module>\n    from setuptools import setup\n  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 17, in <module>\n    import setuptools.version\n  File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>\n    import pkg_resources\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3254, in <module>\n    def _initialize_master_working_set():\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3237, in _call_aside\n    f(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3266, in _initialize_master_working_set\n    working_set = WorkingSet._build_master()\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 575, in _build_master\n    ws = cls()\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 568, in __init__\n    self.add_entry(entry)\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 624, in add_entry\n    for dist in find_distributions(entry, True):\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2066, in find_on_path\n    for dist in factory(fullpath):\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2131, in distributions_from_metadata\n    metadata = PathMetadata(root, path)\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1935, in __init__\n    def __init__(self, path, egg_info):\nKeyboardInterrupt\n\n'}
+[3.726970] (arc_autonomous_ctrl) JobEnded: {'identifier': 'arc_autonomous_ctrl', 'rc': 'SIGINT'}
+[3.736991] (-) EventReactorShutdown: {}

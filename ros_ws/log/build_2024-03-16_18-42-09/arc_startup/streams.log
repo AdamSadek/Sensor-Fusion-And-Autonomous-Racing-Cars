@@ -1,0 +1,41 @@
+[12.335s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/arc_startup': PYTHONPATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_startup/prefix_override:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arc_startup build --build-base /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_startup/build install --record /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_startup/install.log --install-scripts $base/lib/arc_startup --single-version-externally-managed
+[14.674s] running egg_info
+[14.676s] creating ../../build/arc_startup/arc_startup.egg-info
+[14.677s] writing ../../build/arc_startup/arc_startup.egg-info/PKG-INFO
+[14.679s] writing dependency_links to ../../build/arc_startup/arc_startup.egg-info/dependency_links.txt
+[14.680s] writing entry points to ../../build/arc_startup/arc_startup.egg-info/entry_points.txt
+[14.681s] writing requirements to ../../build/arc_startup/arc_startup.egg-info/requires.txt
+[14.682s] writing top-level names to ../../build/arc_startup/arc_startup.egg-info/top_level.txt
+[14.707s] writing manifest file '../../build/arc_startup/arc_startup.egg-info/SOURCES.txt'
+[15.004s] reading manifest file '../../build/arc_startup/arc_startup.egg-info/SOURCES.txt'
+[15.016s] writing manifest file '../../build/arc_startup/arc_startup.egg-info/SOURCES.txt'
+[15.036s] running build
+[15.040s] running build_py
+[15.047s] creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_startup/build
+[15.054s] creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_startup/build/lib
+[15.057s] creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_startup/build/lib/arc_startup
+[15.062s] copying arc_startup/__init__.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_startup/build/lib/arc_startup
+[15.069s] running install
+[15.077s] running install_lib
+[15.085s] creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup/lib/python3.8/site-packages/arc_startup
+[15.088s] copying /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_startup/build/lib/arc_startup/__init__.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup/lib/python3.8/site-packages/arc_startup
+[15.096s] byte-compiling /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup/lib/python3.8/site-packages/arc_startup/__init__.py to __init__.cpython-38.pyc
+[15.103s] running install_data
+[15.108s] creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup/share/ament_index
+[15.111s] creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup/share/ament_index/resource_index
+[15.114s] creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup/share/ament_index/resource_index/packages
+[15.118s] copying resource/arc_startup -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup/share/ament_index/resource_index/packages
+[15.125s] copying package.xml -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup/share/arc_startup
+[15.132s] creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup/share/arc_startup/config
+[15.135s] copying config/v4l2_camera.yaml -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup/share/arc_startup/config
+[15.145s] creating /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup/share/arc_startup/launch
+[15.150s] copying launch/picam.launch.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup/share/arc_startup/launch
+[15.156s] copying launch/ld06.launch.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup/share/arc_startup/launch
+[15.162s] copying launch/startup.launch.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup/share/arc_startup/launch
+[15.164s] copying launch/motor.launch.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup/share/arc_startup/launch
+[15.169s] copying launch/servo.launch.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup/share/arc_startup/launch
+[15.172s] running install_egg_info
+[15.191s] Copying ../../build/arc_startup/arc_startup.egg-info to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup/lib/python3.8/site-packages/arc_startup-0.0.0-py3.8.egg-info
+[15.205s] running install_scripts
+[15.327s] writing list of installed files to '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_startup/install.log'
+[15.568s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/arc_startup' returned '0': PYTHONPATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_startup/prefix_override:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arc_startup build --build-base /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_startup/build install --record /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_startup/install.log --install-scripts $base/lib/arc_startup --single-version-externally-managed

@@ -1,0 +1,24 @@
+[4.533s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/steering_test_pkg': PYTHONPATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/steering_test_pkg/prefix_override:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/steering_test_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/steering_test_pkg build --build-base /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/steering_test_pkg/build install --record /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/steering_test_pkg/install.log --install-scripts $base/lib/steering_test_pkg --single-version-externally-managed
+[5.568s] running egg_info
+[5.570s] writing ../build/steering_test_pkg/steering_test_pkg.egg-info/PKG-INFO
+[5.571s] writing dependency_links to ../build/steering_test_pkg/steering_test_pkg.egg-info/dependency_links.txt
+[5.572s] writing entry points to ../build/steering_test_pkg/steering_test_pkg.egg-info/entry_points.txt
+[5.573s] writing requirements to ../build/steering_test_pkg/steering_test_pkg.egg-info/requires.txt
+[5.574s] writing top-level names to ../build/steering_test_pkg/steering_test_pkg.egg-info/top_level.txt
+[5.706s] reading manifest file '../build/steering_test_pkg/steering_test_pkg.egg-info/SOURCES.txt'
+[5.710s] writing manifest file '../build/steering_test_pkg/steering_test_pkg.egg-info/SOURCES.txt'
+[5.711s] running build
+[5.711s] running build_py
+[5.712s] copying steering_test_pkg/test_steering.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/steering_test_pkg/build/lib/steering_test_pkg
+[5.713s] running install
+[5.717s] running install_lib
+[5.721s] copying /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/steering_test_pkg/build/lib/steering_test_pkg/test_steering.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/steering_test_pkg/lib/python3.8/site-packages/steering_test_pkg
+[5.725s] byte-compiling /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/steering_test_pkg/lib/python3.8/site-packages/steering_test_pkg/test_steering.py to test_steering.cpython-38.pyc
+[5.731s] running install_data
+[5.733s] running install_egg_info
+[5.739s] removing '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/steering_test_pkg/lib/python3.8/site-packages/steering_test_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[5.741s] Copying ../build/steering_test_pkg/steering_test_pkg.egg-info to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/steering_test_pkg/lib/python3.8/site-packages/steering_test_pkg-0.0.0-py3.8.egg-info
+[5.748s] running install_scripts
+[5.815s] Installing test_steering script to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/steering_test_pkg/lib/steering_test_pkg
+[5.816s] writing list of installed files to '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/steering_test_pkg/install.log'
+[5.917s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/steering_test_pkg' returned '0': PYTHONPATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/steering_test_pkg/prefix_override:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/steering_test_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/steering_test_pkg build --build-base /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/steering_test_pkg/build install --record /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/steering_test_pkg/install.log --install-scripts $base/lib/steering_test_pkg --single-version-externally-managed

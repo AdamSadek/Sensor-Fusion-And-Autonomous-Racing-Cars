@@ -1,0 +1,24 @@
+[4.956s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/arc_autonomous_ctrl': PYTHONPATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_autonomous_ctrl/prefix_override:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_autonomous_ctrl/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arc_autonomous_ctrl build --build-base /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_autonomous_ctrl/build install --record /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_autonomous_ctrl/install.log --install-scripts $base/lib/arc_autonomous_ctrl --single-version-externally-managed
+[6.130s] running egg_info
+[6.132s] writing ../../build/arc_autonomous_ctrl/arc_autonomous_ctrl.egg-info/PKG-INFO
+[6.133s] writing dependency_links to ../../build/arc_autonomous_ctrl/arc_autonomous_ctrl.egg-info/dependency_links.txt
+[6.134s] writing entry points to ../../build/arc_autonomous_ctrl/arc_autonomous_ctrl.egg-info/entry_points.txt
+[6.135s] writing requirements to ../../build/arc_autonomous_ctrl/arc_autonomous_ctrl.egg-info/requires.txt
+[6.135s] writing top-level names to ../../build/arc_autonomous_ctrl/arc_autonomous_ctrl.egg-info/top_level.txt
+[6.277s] reading manifest file '../../build/arc_autonomous_ctrl/arc_autonomous_ctrl.egg-info/SOURCES.txt'
+[6.282s] writing manifest file '../../build/arc_autonomous_ctrl/arc_autonomous_ctrl.egg-info/SOURCES.txt'
+[6.283s] running build
+[6.284s] running build_py
+[6.284s] copying arc_autonomous_ctrl/autonomous_ctrl.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_autonomous_ctrl/build/lib/arc_autonomous_ctrl
+[6.285s] running install
+[6.288s] running install_lib
+[6.293s] copying /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_autonomous_ctrl/build/lib/arc_autonomous_ctrl/autonomous_ctrl.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_autonomous_ctrl/lib/python3.8/site-packages/arc_autonomous_ctrl
+[6.296s] byte-compiling /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_autonomous_ctrl/lib/python3.8/site-packages/arc_autonomous_ctrl/autonomous_ctrl.py to autonomous_ctrl.cpython-38.pyc
+[6.307s] running install_data
+[6.310s] running install_egg_info
+[6.318s] removing '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_autonomous_ctrl/lib/python3.8/site-packages/arc_autonomous_ctrl-0.0.0-py3.8.egg-info' (and everything under it)
+[6.320s] Copying ../../build/arc_autonomous_ctrl/arc_autonomous_ctrl.egg-info to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_autonomous_ctrl/lib/python3.8/site-packages/arc_autonomous_ctrl-0.0.0-py3.8.egg-info
+[6.328s] running install_scripts
+[6.401s] Installing autonomous_ctrl script to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_autonomous_ctrl/lib/arc_autonomous_ctrl
+[6.403s] writing list of installed files to '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_autonomous_ctrl/install.log'
+[6.506s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/arc_autonomous_ctrl' returned '0': PYTHONPATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_autonomous_ctrl/prefix_override:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_autonomous_ctrl/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arc_autonomous_ctrl build --build-base /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_autonomous_ctrl/build install --record /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_autonomous_ctrl/install.log --install-scripts $base/lib/arc_autonomous_ctrl --single-version-externally-managed

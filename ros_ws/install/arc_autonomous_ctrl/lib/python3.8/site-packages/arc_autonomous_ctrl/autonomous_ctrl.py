@@ -1,4 +1,3 @@
-# import necessary libraries for ROS2, image processing, and numerical operations
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Image
@@ -7,7 +6,6 @@ from cv_bridge import CvBridge
 import cv2
 import numpy as np
 
-# define a PID controller class to manage steering corrections based on errors
 class PIDController:
     def __init__(self, kp, ki, kd):
         # initialize PID constants and state
@@ -26,40 +24,47 @@ class PIDController:
         self.previous_error = error
         return correction
 
-# define the main node for autonomous RC car operation
+# main node
 class AutonomousRCCarNode(Node):
     def __init__(self):
         super().__init__('autonomous_rc_car')
-        # set up subscriptions and publishers for image data and driving commands
+        # set up subscribers and publishers for image data and driving commands
         self.subscription = self.create_subscription(Image, '/image_raw', self.image_callback, 10)
         self.publisher = self.create_publisher(AckermannDriveStamped, '/ackermann_cmd', 10)
-        self.bridge = CvBridge()  # helps convert ROS images to OpenCV format
+        # helps convert ROS images to OpenCV format
+        self.bridge = CvBridge()
         self.get_logger().info('Autonomous RC Car Node has started.')
 
         # initialize parameters for car control
         self.servo_min = 0.35
         self.servo_max = 0.95
         self.servo_neutral = 0.65
-        self.speed = 1.0
+        self.speed = 2.0
         self.frame_width = 640
         self.track_width = self.frame_width // 2
         self.previous_time = self.get_clock().now()
         self.safe_speed = 1.0
         self.last_steering_angle = self.servo_neutral
         self.max_steering_rate = 0.05
-        self.previous_track_center = self.frame_width / 2
-        self.alpha = 0.2  # for steering smoothing
+        # for steering smoothing
+        self.alpha = 0.2
         self.filtered_steering_angle = self.servo_neutral
-        self.pid_controller = PIDController(kp=0.08, ki=0.1, kd=0.05)
+        # self.pid_controller = PIDController(kp=0.00095, ki=0.00003, kd=0.00015)
+        self.pid_controller = PIDController(kp=0.00095, ki=0.000035, kd=0.00010)
+
 
     def image_callback(self, data):
         # process each incoming image frame
         try:
-            current_frame = self.bridge.imgmsg_to_cv2(data, 'bgr8')  # convert ROS image to OpenCV format
-            cv2.imwrite('images/image.jpg', current_frame)  # save the current frame for debugging
+            # convert ROS image to OpenCV format
+            current_frame = self.bridge.imgmsg_to_cv2(data, 'bgr8')
+            # save the current frame for debugging
+            cv2.imwrite('images/image.jpg', current_frame)
 
-            processed_image = self.process_image(current_frame)  # process image to find the track
-            steering_angle, speed = self.calculate_control(processed_image)  # calculate control based on processed image
+            # process image to find the track
+            processed_image = self.process_image(current_frame)
+            # calculate control based on processed image
+            steering_angle, speed = self.calculate_control(processed_image)
 
             # prepare and publish driving command based on calculated control
             drive_msg = AckermannDriveStamped()
@@ -70,48 +75,67 @@ class AutonomousRCCarNode(Node):
         except Exception as e:
             self.get_logger().error('Failed to process image frame: %r' % (e,))
 
+    def adjust_hsv_ranges(self, frame):
+        # convert to HSV
+        hsv_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
+        # calculate the brightness by averaging the V channel
+        brightness = np.mean(hsv_frame[:, :, 2])
+        # adjust HSV ranges based on the brightness
+        if brightness < 50:  # low light conditions
+            lower_green = np.array([40, 100, 50])
+            upper_green = np.array([80, 255, 200])
+        elif brightness > 200:  # very bright conditions
+            lower_green = np.array([40, 40, 100])
+            upper_green = np.array([80, 255, 255])
+        else:  # normal conditions
+            lower_green = np.array([40, 40, 40])
+            upper_green = np.array([80, 255, 255])
+        return lower_green, upper_green
+
     def process_image(self, frame):
         # apply preprocessing steps to focus on relevant track parts
         height, width = frame.shape[:2]
-        # define region of interest (ROI) to reduce the area to be processed
-        roi_height_start = int(height * 0.55)
+        # region of interest (ROI) to reduce the area to be processed
+        roi_height_start = int(height * 0.58) # 0.55
         roi_height_end = height
-        roi_width_start = int(width * 0.0)
-        roi_width_end = int(width * 1.0)
+        roi_width_start = int(width * 0.05)
+        roi_width_end = int(width * 0.95)
         roi = frame[roi_height_start:roi_height_end, roi_width_start:roi_width_end]
-        cv2.imwrite('images/roi_image.jpg', roi)  # save the roi for debugging
+        cv2.imwrite('images/roi_image.jpg', roi) 
 
-        # convert the roi to HSV color space to better identify track colors
+        # convert the roi to HSV color space to identify track colors better
         hsv_roi = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
         # define range for green color (track) in HSV space
-        lower_green = np.array([40, 40, 40])
-        upper_green = np.array([80, 255, 255])
+        lower_green, upper_green = self.adjust_hsv_ranges(frame)
+
         # create a mask that isolates the green parts of the image
         mask = cv2.inRange(hsv_roi, lower_green, upper_green)
-        cv2.imwrite('images/mask_image.jpg', mask)  # save the mask for debugging
+        cv2.imwrite('images/mask_image.jpg', mask)
+        
         # apply the mask to keep only the green parts
         green_only = cv2.bitwise_and(roi, roi, mask=mask)
-        cv2.imwrite('images/green_image.jpg', green_only)  # save the green filtered image for debugging
+        cv2.imwrite('images/green_image.jpg', green_only)
 
         # convert the result to grayscale and apply a blur to smooth it
         gray_green_only = cv2.cvtColor(green_only, cv2.COLOR_BGR2GRAY)
         blur = cv2.GaussianBlur(gray_green_only, (5, 5), 0)
-        cv2.imwrite('images/blur_image.jpg', blur)  # save the blurred image for debugging
+        cv2.imwrite('images/blur_image.jpg', blur)
 
-        # apply a binary threshold to isolate the lines further
+        # apply a binary threshold to isolate the lines even more
         _, binary = cv2.threshold(blur, 50, 255, cv2.THRESH_BINARY)
         # use dilation to close gaps in detected lines
         kernel = np.ones((15, 15), np.uint8)
         dilation = cv2.dilate(binary, kernel, iterations=2)
-        cv2.imwrite('images/dilation_image.jpg', dilation)  # save the dilated image for debugging
+        cv2.imwrite('images/dilation_image.jpg', dilation)
 
         # detect edges in the dilated image using Canny edge detection
         edges = cv2.Canny(dilation, 50, 150)
-        cv2.imwrite('images/processed_image.jpg', edges)  # save the edges for debugging
+        cv2.imwrite('images/processed_image.jpg', edges)
 
         # detect lines in the edge-detected image using the Hough transform
-        lines = cv2.HoughLinesP(edges, 1, np.pi / 180, threshold=50, minLineLength=50, maxLineGap=20)
+        lines = cv2.HoughLinesP(edges, 1, np.pi / 180, threshold=50, minLineLength=50, maxLineGap=10)
         return lines
+
 
     def find_track_center(self, lines):
         # find the center of the track based on detected lines
@@ -138,21 +162,23 @@ class AutonomousRCCarNode(Node):
         elif right_x_avg is not None:
             track_center = right_x_avg - (self.track_width / 2)
         else:
-            track_center = self.frame_width / 2  # default to center if no lines are detected
+            # default to center
+            track_center = self.frame_width / 2
 
         return track_center
- 
+
     def calculate_control(self, lines):
         # calculate control actions (steering and speed) based on track position
         current_time = self.get_clock().now()
         delta_time = (current_time - self.previous_time).nanoseconds / 1e9
         self.previous_time = current_time
         if delta_time <= 0:
-            delta_time = 1e-3  # prevent division by zero
+            # prevent division by zero
+            delta_time = 1e-3
 
         if lines is None or len(lines) == 0:
             self.get_logger().info('No lines detected, reverting to last known steering angle')
-            return self.last_steering_angle, 0.0
+            return self.servo_neutral, 0.0
 
         track_center = self.find_track_center(lines)
         error = self.frame_width // 2 - track_center
@@ -174,11 +200,12 @@ class AutonomousRCCarNode(Node):
         self.last_steering_angle = steering_angle
 
         # adjust speed based on the steering angle to slow down for turns
-        speed = self.safe_speed * (1 - min(abs(steering_correction), 1))
-        speed = np.clip(speed, 0, self.safe_speed)
+        speed = self.speed * (1 - min(abs(steering_correction), 1))
+        speed = np.clip(speed, 0, 3.0)
 
         return steering_angle, speed
-# define the main function to initialize the node and spin it
+
+# the main function to initialize the node and spin it
 def main(args=None):
     rclpy.init(args=args)  # initialize the ROS2 client library
     autonomous_rc_car_node = AutonomousRCCarNode()

@@ -49,8 +49,8 @@ class AutonomousRCCarNode(Node):
         # for steering smoothing
         self.alpha = 0.2
         self.filtered_steering_angle = self.servo_neutral
-        # self.pid_controller = PIDController(kp=0.00095, ki=0.00003, kd=0.00015)
-        self.pid_controller = PIDController(kp=0.00095, ki=0.000035, kd=0.00010)
+        # self.pid_controller = PIDController(kp=0.00040, ki=0.00003, kd=0.00010)
+        self.pid_controller = PIDController(kp=0.00030, ki=0.00003, kd=0.00015)
 
 
     def image_callback(self, data):
@@ -167,43 +167,146 @@ class AutonomousRCCarNode(Node):
 
         return track_center
 
+    # def calculate_control(self, lines):
+    #     current_time = self.get_clock().now()
+    #     delta_time = (current_time - self.previous_time).nanoseconds / 1e9
+    #     self.previous_time = current_time
+
+    #     if delta_time <= 0:
+    #         delta_time = 1e-3
+
+    #     if lines is None or len(lines) == 0:
+    #         # self.get_logger().info('No lines detected, reverting to last known steering angle')
+    #         # If no lines detected, consider either maintaining current steering or performing a search maneuver.
+    #         return self.servo_neutral, 0.0
+
+    #     track_center = self.find_track_center(lines)
+    #     error = self.frame_width // 2 - track_center
+    #     steering_correction = self.pid_controller.compute_correction(error, delta_time)
+    #     # limit the steering correction to prevent abrupt changes
+    #     steering_correction = np.clip(steering_correction, -0.2, 0.2)
+
+    #     # calculate the proposed steering angle with smoothing
+    #     proposed_steering_angle = self.servo_neutral - steering_correction
+    #     adaptive_alpha = max(0.1, 1 - abs(steering_correction) / 0.2)
+    #     self.filtered_steering_angle = adaptive_alpha * proposed_steering_angle + (1 - adaptive_alpha) * self.filtered_steering_angle
+    #     steering_angle = np.clip(self.filtered_steering_angle, self.servo_min, self.servo_max)
+
+    #     # enforce a maximum rate of change to the steering angle
+    #     steering_diff = steering_angle - self.last_steering_angle
+    #     if abs(steering_diff) > self.max_steering_rate:
+    #         steering_angle = self.last_steering_angle + np.sign(steering_diff) * self.max_steering_rate
+
+    #     # Use the angle of the track (calculated elsewhere) to inform speed
+    #     # Ensure angle calculation is working properly - it should indicate when a turn is upcoming
+    #     angle = self.calculate_turn_angle(lines)
+    #     speed = self.determine_speed_based_on_angle(angle)
+
+    #     # Log steering and speed for debugging
+    #     self.get_logger().info(f'Steering angle: {steering_angle}')
+    #     self.get_logger().info(f'Speed: {speed}')
+
+    #     self.last_steering_angle = steering_angle
+
+    #     return steering_angle, speed
+
+    # def calculate_turn_angle(self, lines):
+    #     if lines is None or len(lines) < 2:
+    #         # not enough lines to calculate an angle, assume straight path or undefined turn
+    #         return 0
+
+    #     # assume the two longest lines are the track edges
+    #     lines = sorted(lines, key=lambda l: np.hypot(l[0][2] - l[0][0], l[0][3] - l[0][1]), reverse=True)
+    #     first_line = lines[0][0]
+    #     second_line = lines[1][0]
+
+    #     # compute the direction vectors of the two lines
+    #     vec1 = ((first_line[2] - first_line[0]), (first_line[3] - first_line[1]))
+    #     vec2 = ((second_line[2] - second_line[0]), (second_line[3] - second_line[1]))
+
+    #     # normalize the direction vectors
+    #     vec1 = vec1 / np.linalg.norm(vec1)
+    #     vec2 = vec2 / np.linalg.norm(vec2)
+
+    #     # use the dot product to find the cosine of the angle between the vectors
+    #     dot_product = np.dot(vec1, vec2)
+    #     angle = np.arccos(dot_product)
+
+    #     # the angle is in radians, make sure it's not NaN in case of a straight line (dot_product close to 1)
+    #     if np.isnan(angle):
+    #         return 0
+    #     return angle
+
+    # def determine_speed_based_on_angle(self, angle):
+    #     # define angle thresholds for speed adjustments
+    #     sharp_turn_angle = np.radians(60)  # 60 degrees
+    #     mild_turn_angle = np.radians(40)  # 40 degrees
+
+    #     # adjust speed based on the angle
+    #     self.get_logger().info(f'ANGLE: {angle}')
+    #     self.get_logger().info(f'sharp_turn_angle: {sharp_turn_angle}')
+    #     self.get_logger().info(f'mild_turn_angle: {mild_turn_angle}')
+    #     if angle > sharp_turn_angle:
+    #         self.pid_controller.kp = 0.00085  # Increase proportional gain
+    #         self.pid_controller.kd = 0.00035  # Adjust derivative gain
+    #         return 0.5  # slow down for sharp turns
+    #     elif angle > mild_turn_angle and angle < sharp_turn_angle:
+    #         self.pid_controller.kp = 0.00055  # Increase proportional gain
+    #         self.pid_controller.kd = 0.00025  # Adjust derivative gain
+    #         return 0.75  # moderate speed for mild turns
+    #     else:
+    #         self.pid_controller.kp = 0.00030  # Increase proportional gain
+    #         self.pid_controller.kd = 0.00015  # Adjust derivative gain
+    #         return 2.0  # full speed on straight paths
     def calculate_control(self, lines):
-        # calculate control actions (steering and speed) based on track position
         current_time = self.get_clock().now()
         delta_time = (current_time - self.previous_time).nanoseconds / 1e9
         self.previous_time = current_time
+
         if delta_time <= 0:
-            # prevent division by zero
             delta_time = 1e-3
 
         if lines is None or len(lines) == 0:
-            self.get_logger().info('No lines detected, reverting to last known steering angle')
+            # No lines detected, consider either maintaining current steering or performing a search maneuver.
             return self.servo_neutral, 0.0
 
         track_center = self.find_track_center(lines)
         error = self.frame_width // 2 - track_center
         steering_correction = self.pid_controller.compute_correction(error, delta_time)
-        # limit the steering correction to prevent abrupt changes
+        # Limit the steering correction to prevent abrupt changes
         steering_correction = np.clip(steering_correction, -0.2, 0.2)
 
-        # calculate the proposed steering angle with smoothing
+        # Calculate the proposed steering angle with smoothing
         proposed_steering_angle = self.servo_neutral - steering_correction
         adaptive_alpha = max(0.1, 1 - abs(steering_correction) / 0.2)
         self.filtered_steering_angle = adaptive_alpha * proposed_steering_angle + (1 - adaptive_alpha) * self.filtered_steering_angle
         steering_angle = np.clip(self.filtered_steering_angle, self.servo_min, self.servo_max)
 
-        # enforce a maximum rate of change to the steering angle
+        # Enforce a maximum rate of change to the steering angle
         steering_diff = steering_angle - self.last_steering_angle
         if abs(steering_diff) > self.max_steering_rate:
             steering_angle = self.last_steering_angle + np.sign(steering_diff) * self.max_steering_rate
 
+        # Adjust the speed based on the steering angle deviation
+        speed = self.adjust_speed_based_on_steering(steering_angle)
+
         self.last_steering_angle = steering_angle
 
-        # adjust speed based on the steering angle to slow down for turns
-        speed = self.speed * (1 - min(abs(steering_correction), 1))
-        speed = np.clip(speed, 0, 3.0)
-
         return steering_angle, speed
+
+    def adjust_speed_based_on_steering(self, steering_angle):
+        # Determine speed based on the deviation of the steering angle from neutral
+        deviation = abs(steering_angle - self.servo_neutral)
+        max_deviation = self.servo_max - self.servo_neutral
+        # Normalize the deviation
+        normalized_deviation = deviation / max_deviation
+        # Adjust the speed inversely based on the deviation
+        if normalized_deviation > 0.5:  # Significant turn
+            return max(0.5, self.speed * (1 - normalized_deviation))  # Slow down
+        else:
+            return self.speed  # Maintain or increase to max speed on straight paths
+
+
 
 # the main function to initialize the node and spin it
 def main(args=None):

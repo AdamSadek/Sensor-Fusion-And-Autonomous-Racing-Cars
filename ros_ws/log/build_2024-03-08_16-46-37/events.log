@@ -1,0 +1,54 @@
+[0.000000] (-) TimerEvent: {}
+[0.001020] (-) JobUnselected: {'identifier': 'arc_startup'}
+[0.001329] (-) JobUnselected: {'identifier': 'asio_cmake_module'}
+[0.002066] (-) JobUnselected: {'identifier': 'autonomous_car_control'}
+[0.002651] (-) JobUnselected: {'identifier': 'camera_sensor'}
+[0.002911] (-) JobUnselected: {'identifier': 'compressed_depth_image_transport'}
+[0.003044] (-) JobUnselected: {'identifier': 'compressed_image_transport'}
+[0.003137] (-) JobUnselected: {'identifier': 'image_transport_plugins'}
+[0.003213] (-) JobUnselected: {'identifier': 'io_context'}
+[0.003286] (-) JobUnselected: {'identifier': 'ldlidar_ros2'}
+[0.003358] (-) JobUnselected: {'identifier': 'motor_controller'}
+[0.003431] (-) JobUnselected: {'identifier': 'serial_driver'}
+[0.003502] (-) JobUnselected: {'identifier': 'servo_controller'}
+[0.003574] (-) JobUnselected: {'identifier': 'theora_image_transport'}
+[0.003644] (-) JobUnselected: {'identifier': 'udp_driver'}
+[0.003715] (-) JobUnselected: {'identifier': 'v4l2_camera'}
+[0.003785] (-) JobUnselected: {'identifier': 'vesc'}
+[0.003856] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.003926] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.003996] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.004079] (arc_keyboard_control) JobQueued: {'identifier': 'arc_keyboard_control', 'dependencies': OrderedDict()}
+[0.004163] (arc_keyboard_control) JobStarted: {'identifier': 'arc_keyboard_control'}
+[0.099133] (-) TimerEvent: {}
+[0.200626] (-) TimerEvent: {}
+[0.301381] (-) TimerEvent: {}
+[0.402755] (-) TimerEvent: {}
+[0.503785] (-) TimerEvent: {}
+[0.606850] (-) TimerEvent: {}
+[0.710035] (-) TimerEvent: {}
+[0.813172] (-) TimerEvent: {}
+[0.913870] (-) TimerEvent: {}
+[1.016456] (-) TimerEvent: {}
+[1.118478] (-) TimerEvent: {}
+[1.219318] (-) TimerEvent: {}
+[1.320002] (-) TimerEvent: {}
+[1.420728] (-) TimerEvent: {}
+[1.521397] (-) TimerEvent: {}
+[1.622090] (-) TimerEvent: {}
+[1.722745] (-) TimerEvent: {}
+[1.823483] (-) TimerEvent: {}
+[1.924243] (-) TimerEvent: {}
+[2.025071] (-) TimerEvent: {}
+[2.125797] (-) TimerEvent: {}
+[2.226491] (-) TimerEvent: {}
+[2.328652] (-) TimerEvent: {}
+[2.430319] (-) TimerEvent: {}
+[2.532009] (-) TimerEvent: {}
+[2.633866] (-) TimerEvent: {}
+[2.735442] (-) TimerEvent: {}
+[2.837632] (-) TimerEvent: {}
+[2.940909] (-) TimerEvent: {}
+[2.954981] (arc_keyboard_control) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute\n    loop.run_until_complete(future)\n  File "/usr/lib/python3.8/asyncio/base_events.py", line 603, in run_until_complete\n    self.run_forever()\n  File "/usr/lib/python3.8/asyncio/base_events.py", line 570, in run_forever\n    self._run_once()\n  File "/usr/lib/python3.8/asyncio/base_events.py", line 1823, in _run_once\n    event_list = self._selector.select(timeout)\n  File "/usr/lib/python3.8/selectors.py", line 468, in select\n    fd_event_list = self._selector.poll(timeout, max_ev)\nKeyboardInterrupt\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build\n    return await extension.build(additional_hooks=additional_hooks)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 85, in build\n    available_commands = await self._get_available_commands(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 175, in _get_available_commands\n    output = await check_output(\n  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output\n    assert not rc, f\'Expected {args} to pass: {stderr_data}\'\nAssertionError: Expected [\'/usr/bin/python3\', \'setup.py\', \'--help-commands\'] to pass: Fatal Python error: init_sys_streams: can\'t initialize sys standard streams\nPython runtime state: core initialized\nTraceback (most recent call last):\n  File "<frozen importlib._bootstrap>", line 991, in _find_and_load\n  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked\n  File "<frozen importlib._bootstrap>", line 657, in _load_unlocked\n  File "<frozen importlib._bootstrap>", line 553, in module_from_spec\nKeyboardInterrupt\n\n'}
+[2.957590] (arc_keyboard_control) JobEnded: {'identifier': 'arc_keyboard_control', 'rc': 'SIGINT'}
+[2.967256] (-) EventReactorShutdown: {}

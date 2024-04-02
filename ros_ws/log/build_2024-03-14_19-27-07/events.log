@@ -1,0 +1,118 @@
+[0.000000] (-) TimerEvent: {}
+[0.018005] (-) JobUnselected: {'identifier': 'arc_autonomous_ctrl'}
+[0.018276] (-) JobUnselected: {'identifier': 'arc_startup'}
+[0.018456] (-) JobUnselected: {'identifier': 'asio_cmake_module'}
+[0.018623] (-) JobUnselected: {'identifier': 'camera_sensor'}
+[0.018783] (-) JobUnselected: {'identifier': 'compressed_depth_image_transport'}
+[0.018943] (-) JobUnselected: {'identifier': 'compressed_image_transport'}
+[0.019099] (-) JobUnselected: {'identifier': 'image_transport_plugins'}
+[0.019259] (-) JobUnselected: {'identifier': 'io_context'}
+[0.019507] (-) JobUnselected: {'identifier': 'ldlidar_ros2'}
+[0.020627] (-) JobUnselected: {'identifier': 'motor_controller'}
+[0.021271] (-) JobUnselected: {'identifier': 'serial_driver'}
+[0.021534] (-) JobUnselected: {'identifier': 'servo_controller'}
+[0.021725] (-) JobUnselected: {'identifier': 'theora_image_transport'}
+[0.021907] (-) JobUnselected: {'identifier': 'udp_driver'}
+[0.022089] (-) JobUnselected: {'identifier': 'v4l2_camera'}
+[0.022288] (-) JobUnselected: {'identifier': 'vesc'}
+[0.022465] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.022582] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.022705] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.022840] (arc_keyboard_control) JobQueued: {'identifier': 'arc_keyboard_control', 'dependencies': OrderedDict()}
+[0.022966] (arc_keyboard_control) JobStarted: {'identifier': 'arc_keyboard_control'}
+[0.098707] (-) TimerEvent: {}
+[0.201334] (-) TimerEvent: {}
+[0.302798] (-) TimerEvent: {}
+[0.404878] (-) TimerEvent: {}
+[0.506476] (-) TimerEvent: {}
+[0.608506] (-) TimerEvent: {}
+[0.710096] (-) TimerEvent: {}
+[0.810719] (-) TimerEvent: {}
+[0.912333] (-) TimerEvent: {}
+[1.014772] (-) TimerEvent: {}
+[1.118316] (-) TimerEvent: {}
+[1.219289] (-) TimerEvent: {}
+[1.320039] (-) TimerEvent: {}
+[1.420839] (-) TimerEvent: {}
+[1.521505] (-) TimerEvent: {}
+[1.622172] (-) TimerEvent: {}
+[1.722838] (-) TimerEvent: {}
+[1.823461] (-) TimerEvent: {}
+[1.924104] (-) TimerEvent: {}
+[2.024755] (-) TimerEvent: {}
+[2.125682] (-) TimerEvent: {}
+[2.226941] (-) TimerEvent: {}
+[2.328648] (-) TimerEvent: {}
+[2.429458] (-) TimerEvent: {}
+[2.531051] (-) TimerEvent: {}
+[2.632702] (-) TimerEvent: {}
+[2.734689] (-) TimerEvent: {}
+[2.836275] (-) TimerEvent: {}
+[2.936957] (-) TimerEvent: {}
+[3.038549] (-) TimerEvent: {}
+[3.139418] (-) TimerEvent: {}
+[3.240146] (-) TimerEvent: {}
+[3.340867] (-) TimerEvent: {}
+[3.441558] (-) TimerEvent: {}
+[3.542350] (-) TimerEvent: {}
+[3.643040] (-) TimerEvent: {}
+[3.743723] (-) TimerEvent: {}
+[3.844586] (-) TimerEvent: {}
+[3.945494] (-) TimerEvent: {}
+[4.046895] (-) TimerEvent: {}
+[4.147616] (-) TimerEvent: {}
+[4.248341] (-) TimerEvent: {}
+[4.349210] (-) TimerEvent: {}
+[4.449998] (-) TimerEvent: {}
+[4.550896] (-) TimerEvent: {}
+[4.651792] (-) TimerEvent: {}
+[4.752623] (-) TimerEvent: {}
+[4.853357] (-) TimerEvent: {}
+[4.954272] (-) TimerEvent: {}
+[5.026979] (arc_keyboard_control) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/arc_keyboard_control', 'build', '--build-base', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_keyboard_control/build', 'install', '--record', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_keyboard_control/install.log', '--install-scripts', '$base/lib/arc_keyboard_control', '--single-version-externally-managed'], 'cwd': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/arc_keyboard_control', 'env': {'VIRTUALENVWRAPPER_WORKON_CD': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'WORKON_HOME': '/home/adam/.virtualenvs', 'USER': 'adam', 'SSH_CLIENT': '192.168.0.150 54255 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/adam/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_driver/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_ackermann/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/adam/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/adam', 'VIRTUALENVWRAPPER_PYTHON': '/usr/bin/python3', 'OLDPWD': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars', 'TERM_PROGRAM_VERSION': '1.87.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-f27d2da8-e3ae-48cb-9043-3fd9194a40b8.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/adam/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/adam/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'adam', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/adam/.vscode-server/bin/1e790d77f81672c49be070e04474901747115651/bin/remote-cli:/home/adam/.local/bin:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d1c4ea1152.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_ackermann:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport_plugins:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_keyboard_control:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_autonomous_ctrl:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUALENVWRAPPER_PROJECT_FILENAME': '.project', 'VIRTUALENVWRAPPER_HOOK_DIR': '/home/adam/.virtualenvs', 'VIRTUALENVWRAPPER_SCRIPT': '/usr/share/virtualenvwrapper/virtualenvwrapper.sh', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_keyboard_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.150 54255 192.168.0.174 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_keyboard_control/prefix_override:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_keyboard_control/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_keyboard_control/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_autonomous_ctrl/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_ackermann:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport_plugins:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module'}, 'shell': False}
+[5.054462] (-) TimerEvent: {}
+[5.155459] (-) TimerEvent: {}
+[5.256200] (-) TimerEvent: {}
+[5.356954] (-) TimerEvent: {}
+[5.457666] (-) TimerEvent: {}
+[5.558398] (-) TimerEvent: {}
+[5.659107] (-) TimerEvent: {}
+[5.759795] (-) TimerEvent: {}
+[5.860485] (-) TimerEvent: {}
+[5.961214] (-) TimerEvent: {}
+[6.061901] (-) TimerEvent: {}
+[6.117650] (arc_keyboard_control) StdoutLine: {'line': b'running egg_info\n'}
+[6.120253] (arc_keyboard_control) StdoutLine: {'line': b'writing ../../build/arc_keyboard_control/arc_keyboard_control.egg-info/PKG-INFO\n'}
+[6.121376] (arc_keyboard_control) StdoutLine: {'line': b'writing dependency_links to ../../build/arc_keyboard_control/arc_keyboard_control.egg-info/dependency_links.txt\n'}
+[6.122274] (arc_keyboard_control) StdoutLine: {'line': b'writing entry points to ../../build/arc_keyboard_control/arc_keyboard_control.egg-info/entry_points.txt\n'}
+[6.123068] (arc_keyboard_control) StdoutLine: {'line': b'writing requirements to ../../build/arc_keyboard_control/arc_keyboard_control.egg-info/requires.txt\n'}
+[6.123797] (arc_keyboard_control) StdoutLine: {'line': b'writing top-level names to ../../build/arc_keyboard_control/arc_keyboard_control.egg-info/top_level.txt\n'}
+[6.162063] (-) TimerEvent: {}
+[6.262805] (-) TimerEvent: {}
+[6.268058] (arc_keyboard_control) StdoutLine: {'line': b"reading manifest file '../../build/arc_keyboard_control/arc_keyboard_control.egg-info/SOURCES.txt'\n"}
+[6.272388] (arc_keyboard_control) StdoutLine: {'line': b"writing manifest file '../../build/arc_keyboard_control/arc_keyboard_control.egg-info/SOURCES.txt'\n"}
+[6.274076] (arc_keyboard_control) StdoutLine: {'line': b'running build\n'}
+[6.274609] (arc_keyboard_control) StdoutLine: {'line': b'running build_py\n'}
+[6.275051] (arc_keyboard_control) StdoutLine: {'line': b'copying arc_keyboard_control/keyboard_control.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_keyboard_control/build/lib/arc_keyboard_control\n'}
+[6.277866] (arc_keyboard_control) StdoutLine: {'line': b'running install\n'}
+[6.278587] (arc_keyboard_control) StdoutLine: {'line': b'running install_lib\n'}
+[6.282596] (arc_keyboard_control) StdoutLine: {'line': b'copying /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_keyboard_control/build/lib/arc_keyboard_control/keyboard_control.py -> /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_keyboard_control/lib/python3.8/site-packages/arc_keyboard_control\n'}
+[6.285606] (arc_keyboard_control) StdoutLine: {'line': b'byte-compiling /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_keyboard_control/lib/python3.8/site-packages/arc_keyboard_control/keyboard_control.py to keyboard_control.cpython-38.pyc\n'}
+[6.292384] (arc_keyboard_control) StdoutLine: {'line': b'running install_data\n'}
+[6.294068] (arc_keyboard_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.300300] (arc_keyboard_control) StdoutLine: {'line': b"removing '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_keyboard_control/lib/python3.8/site-packages/arc_keyboard_control-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[6.302737] (arc_keyboard_control) StdoutLine: {'line': b'Copying ../../build/arc_keyboard_control/arc_keyboard_control.egg-info to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_keyboard_control/lib/python3.8/site-packages/arc_keyboard_control-0.0.0-py3.8.egg-info\n'}
+[6.311892] (arc_keyboard_control) StdoutLine: {'line': b'running install_scripts\n'}
+[6.362967] (-) TimerEvent: {}
+[6.377463] (arc_keyboard_control) StdoutLine: {'line': b'Installing keyboard_control script to /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_keyboard_control/lib/arc_keyboard_control\n'}
+[6.379109] (arc_keyboard_control) StdoutLine: {'line': b"writing list of installed files to '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_keyboard_control/install.log'\n"}
+[6.463268] (-) TimerEvent: {}
+[6.474321] (arc_keyboard_control) CommandEnded: {'returncode': 0}
+[6.563559] (-) TimerEvent: {}
+[6.686265] (-) TimerEvent: {}
+[6.788583] (-) TimerEvent: {}
+[6.890577] (-) TimerEvent: {}
+[6.991969] (-) TimerEvent: {}
+[7.093666] (-) TimerEvent: {}
+[7.188239] (arc_keyboard_control) JobEnded: {'identifier': 'arc_keyboard_control', 'rc': 0}
+[7.191873] (-) EventReactorShutdown: {}

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/src/demo.cpp" "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/CMakeFiles/ldlidar_ros2_node.dir/src/demo.cpp.o"
+  "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/src/demo.cpp" "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/CMakeFiles/ldlidar_ros2_node.dir/src/demo.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,8 +17,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/include"
-  "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/sdk/include"
+  "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/include"
+  "/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/sdk/include"
   "/opt/ros/foxy/include"
   )
 

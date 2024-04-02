@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller
+CMAKE_SOURCE_DIR = /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2
@@ -58,17 +58,17 @@ include CMakeFiles/ldlidar_ros2_node.dir/progress.make
 include CMakeFiles/ldlidar_ros2_node.dir/flags.make
 
 CMakeFiles/ldlidar_ros2_node.dir/src/demo.cpp.o: CMakeFiles/ldlidar_ros2_node.dir/flags.make
-CMakeFiles/ldlidar_ros2_node.dir/src/demo.cpp.o: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/src/demo.cpp
+CMakeFiles/ldlidar_ros2_node.dir/src/demo.cpp.o: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/src/demo.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ldlidar_ros2_node.dir/src/demo.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ldlidar_ros2_node.dir/src/demo.cpp.o -c /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/src/demo.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ldlidar_ros2_node.dir/src/demo.cpp.o -c /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/src/demo.cpp
 
 CMakeFiles/ldlidar_ros2_node.dir/src/demo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ldlidar_ros2_node.dir/src/demo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/src/demo.cpp > CMakeFiles/ldlidar_ros2_node.dir/src/demo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/src/demo.cpp > CMakeFiles/ldlidar_ros2_node.dir/src/demo.cpp.i
 
 CMakeFiles/ldlidar_ros2_node.dir/src/demo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ldlidar_ros2_node.dir/src/demo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller/src/demo.cpp -o CMakeFiles/ldlidar_ros2_node.dir/src/demo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2/src/demo.cpp -o CMakeFiles/ldlidar_ros2_node.dir/src/demo.cpp.s
 
 # Object files for target ldlidar_ros2_node
 ldlidar_ros2_node_OBJECTS = \
@@ -151,6 +151,6 @@ CMakeFiles/ldlidar_ros2_node.dir/clean:
 .PHONY : CMakeFiles/ldlidar_ros2_node.dir/clean
 
 CMakeFiles/ldlidar_ros2_node.dir/depend:
-	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/lidar_controller /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2 /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2 /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/CMakeFiles/ldlidar_ros2_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2 /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/ldlidar_ros2 /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2 /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2 /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/ldlidar_ros2/CMakeFiles/ldlidar_ros2_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ldlidar_ros2_node.dir/depend
 

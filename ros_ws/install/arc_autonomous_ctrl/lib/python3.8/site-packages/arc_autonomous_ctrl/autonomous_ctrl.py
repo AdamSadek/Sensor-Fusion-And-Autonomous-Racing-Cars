@@ -46,11 +46,12 @@ class AutonomousRCCarNode(Node):
         self.safe_speed = 1.0
         self.last_steering_angle = self.servo_neutral
         self.max_steering_rate = 0.05
+        self.forward_focus_distance = 0.75  # Percentage of the frame height to focus on for curve detection
         # for steering smoothing
-        self.alpha = 0.2
+        self.alpha = 0.20
         self.filtered_steering_angle = self.servo_neutral
         # self.pid_controller = PIDController(kp=0.00040, ki=0.00003, kd=0.00010)
-        self.pid_controller = PIDController(kp=0.00030, ki=0.00003, kd=0.00015)
+        self.pid_controller = PIDController(kp=0.00040, ki=0.00001, kd=0.00015)
 
 
     def image_callback(self, data):
@@ -81,6 +82,7 @@ class AutonomousRCCarNode(Node):
         # calculate the brightness by averaging the V channel
         brightness = np.mean(hsv_frame[:, :, 2])
         # adjust HSV ranges based on the brightness
+        self.get_logger().info(f'brightness={brightness}')
         if brightness < 50:  # low light conditions
             lower_green = np.array([40, 100, 50])
             upper_green = np.array([80, 255, 200])
@@ -92,50 +94,85 @@ class AutonomousRCCarNode(Node):
             upper_green = np.array([80, 255, 255])
         return lower_green, upper_green
 
+    # def process_image(self, frame):
+    #     # apply preprocessing steps to focus on relevant track parts
+    #     height, width = frame.shape[:2]
+    #     # region of interest (ROI) to reduce the area to be processed
+    #     roi_height_start = int(height * 0.59) # 0.55 and 0.62
+    #     roi_height_end = height
+    #     roi_width_start = int(width * 0.1) # 0.05
+    #     roi_width_end = int(width * 0.90) # 0.95
+    #     roi = frame[roi_height_start:roi_height_end, roi_width_start:roi_width_end]
+    #     cv2.imwrite('images/roi_image.jpg', roi) 
+
+    #     # convert the roi to HSV color space to identify track colors better
+    #     hsv_roi = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
+    #     # define range for green color (track) in HSV space
+    #     lower_green, upper_green = self.adjust_hsv_ranges(frame)
+
+    #     # create a mask that isolates the green parts of the image
+    #     mask = cv2.inRange(hsv_roi, lower_green, upper_green)
+    #     cv2.imwrite('images/mask_image.jpg', mask)
+        
+    #     # apply the mask to keep only the green parts
+    #     green_only = cv2.bitwise_and(roi, roi, mask=mask)
+    #     cv2.imwrite('images/green_image.jpg', green_only)
+
+    #     # convert the result to grayscale and apply a blur to smooth it
+    #     gray_green_only = cv2.cvtColor(green_only, cv2.COLOR_BGR2GRAY)
+    #     blur = cv2.GaussianBlur(gray_green_only, (5, 5), 0)
+    #     cv2.imwrite('images/blur_image.jpg', blur)
+
+    #     # apply a binary threshold to isolate the lines even more
+    #     _, binary = cv2.threshold(blur, 50, 255, cv2.THRESH_BINARY)
+    #     # use dilation to close gaps in detected lines
+    #     kernel = np.ones((15, 15), np.uint8)
+    #     dilation = cv2.dilate(binary, kernel, iterations=2)
+    #     cv2.imwrite('images/dilation_image.jpg', dilation)
+
+    #     # detect edges in the dilated image using Canny edge detection
+    #     edges = cv2.Canny(dilation, 50, 150)
+    #     cv2.imwrite('images/processed_image.jpg', edges)
+
+    #     # detect lines in the edge-detected image using the Hough transform
+    #     lines = cv2.HoughLinesP(edges, 1, np.pi / 180, threshold=50, minLineLength=50, maxLineGap=10)
+    #     return lines
+
     def process_image(self, frame):
         # apply preprocessing steps to focus on relevant track parts
         height, width = frame.shape[:2]
-        # region of interest (ROI) to reduce the area to be processed
-        roi_height_start = int(height * 0.58) # 0.55
+        roi_height_start = int(height * 0.595)  # adjust ROI to focus on the lower part of the image where the track is
         roi_height_end = height
-        roi_width_start = int(width * 0.05)
+        roi_width_start = int(width * 0.1)
         roi_width_end = int(width * 0.95)
         roi = frame[roi_height_start:roi_height_end, roi_width_start:roi_width_end]
-        cv2.imwrite('images/roi_image.jpg', roi) 
+        cv2.imwrite('images/roi_image.jpg', roi)
 
         # convert the roi to HSV color space to identify track colors better
         hsv_roi = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
-        # define range for green color (track) in HSV space
+        # define a more precise range for green color (track) in HSV space
         lower_green, upper_green = self.adjust_hsv_ranges(frame)
 
         # create a mask that isolates the green parts of the image
         mask = cv2.inRange(hsv_roi, lower_green, upper_green)
         cv2.imwrite('images/mask_image.jpg', mask)
-        
-        # apply the mask to keep only the green parts
-        green_only = cv2.bitwise_and(roi, roi, mask=mask)
-        cv2.imwrite('images/green_image.jpg', green_only)
 
-        # convert the result to grayscale and apply a blur to smooth it
-        gray_green_only = cv2.cvtColor(green_only, cv2.COLOR_BGR2GRAY)
-        blur = cv2.GaussianBlur(gray_green_only, (5, 5), 0)
-        cv2.imwrite('images/blur_image.jpg', blur)
+        # Additional morphological opening to remove small objects (noise)
+        kernel = np.ones((5, 5), np.uint8)
+        mask_opened = cv2.morphologyEx(mask, cv2.MORPH_OPEN, kernel)
+        cv2.imwrite('images/mask_opened.jpg', mask_opened)
 
-        # apply a binary threshold to isolate the lines even more
-        _, binary = cv2.threshold(blur, 50, 255, cv2.THRESH_BINARY)
-        # use dilation to close gaps in detected lines
-        kernel = np.ones((15, 15), np.uint8)
-        dilation = cv2.dilate(binary, kernel, iterations=2)
-        cv2.imwrite('images/dilation_image.jpg', dilation)
+        # Additional morphological closing to close small holes inside the foreground
+        mask_closed = cv2.morphologyEx(mask_opened, cv2.MORPH_CLOSE, kernel)
+        cv2.imwrite('images/mask_closed.jpg', mask_closed)
 
-        # detect edges in the dilated image using Canny edge detection
-        edges = cv2.Canny(dilation, 50, 150)
+        # detect edges in the processed mask using Canny edge detection
+        edges = cv2.Canny(mask_closed, 50, 150)
         cv2.imwrite('images/processed_image.jpg', edges)
 
         # detect lines in the edge-detected image using the Hough transform
-        lines = cv2.HoughLinesP(edges, 1, np.pi / 180, threshold=50, minLineLength=50, maxLineGap=10)
+        lines = cv2.HoughLinesP(edges, 1, np.pi / 180, threshold=50, minLineLength=50, maxLineGap=20)
         return lines
-
 
     def find_track_center(self, lines):
         # find the center of the track based on detected lines
@@ -167,6 +204,47 @@ class AutonomousRCCarNode(Node):
 
         return track_center
 
+    # def calculate_control(self, lines):
+    #     current_time = self.get_clock().now()
+    #     delta_time = (current_time - self.previous_time).nanoseconds / 1e9
+    #     self.previous_time = current_time
+
+    #     if delta_time <= 0:
+    #         delta_time = 1e-3
+
+    #     if lines is None or len(lines) == 0:
+    #         # self.get_logger().info('No lines detected, reverting to last known steering angle')
+    #         # if no lines detected, stop the car at a neutral position and stop the motor
+    #         return self.servo_neutral, 0.0
+
+    #     track_center = self.find_track_center(lines)
+    #     error = self.frame_width // 2 - track_center
+    #     steering_correction = self.pid_controller.compute_correction(error, delta_time)
+    #     # limit the steering correction to prevent abrupt changes
+    #     steering_correction = np.clip(steering_correction, -0.2, 0.2)
+
+    #     # calculate the proposed steering angle with smoothing
+    #     proposed_steering_angle = self.servo_neutral - steering_correction
+    #     adaptive_alpha = max(0.1, 1 - abs(steering_correction) / 0.2)
+    #     self.filtered_steering_angle = adaptive_alpha * proposed_steering_angle + (1 - adaptive_alpha) * self.filtered_steering_angle
+    #     steering_angle = np.clip(self.filtered_steering_angle, self.servo_min, self.servo_max)
+
+    #     # enforce a maximum rate of change to the steering angle
+    #     steering_diff = steering_angle - self.last_steering_angle
+    #     if abs(steering_diff) > self.max_steering_rate:
+    #         steering_angle = self.last_steering_angle + np.sign(steering_diff) * self.max_steering_rate
+
+    #     # use the angle of the track (calculated elsewhere) to inform speed
+    #     angle = self.calculate_turn_angle(lines)
+    #     speed = self.determine_speed_based_on_angle(angle)
+
+    #     # Log steering and speed for debugging
+    #     self.get_logger().info(f'Steering angle: {steering_angle}')
+    #     self.get_logger().info(f'Speed: {speed}')
+
+    #     self.last_steering_angle = steering_angle
+
+    #     return steering_angle, speed
     def calculate_control(self, lines):
         current_time = self.get_clock().now()
         delta_time = (current_time - self.previous_time).nanoseconds / 1e9
@@ -181,53 +259,81 @@ class AutonomousRCCarNode(Node):
         track_center = self.find_track_center(lines)
         error = self.frame_width // 2 - track_center
         steering_correction = self.pid_controller.compute_correction(error, delta_time)
-        steering_correction = np.clip(steering_correction, -0.2, 0.2)
+        # limit the steering correction to prevent abrupt changes
+        steering_correction = np.clip(steering_correction, -0.3, 0.3)
 
+        # calculate the proposed steering angle with smoothing
         proposed_steering_angle = self.servo_neutral - steering_correction
-        adaptive_alpha = max(0.1, 1 - abs(steering_correction) / 0.2)
+        adaptive_alpha = max(0.1, 1 - abs(steering_correction) / 0.3)
         self.filtered_steering_angle = adaptive_alpha * proposed_steering_angle + (1 - adaptive_alpha) * self.filtered_steering_angle
         steering_angle = np.clip(self.filtered_steering_angle, self.servo_min, self.servo_max)
 
+        # enforce a maximum rate of change to the steering angle
         steering_diff = steering_angle - self.last_steering_angle
         if abs(steering_diff) > self.max_steering_rate:
             steering_angle = self.last_steering_angle + np.sign(steering_diff) * self.max_steering_rate
 
-        # Directly use the curvature calculated from detected lines for speed adjustment
-        curvature = self.calculate_curvature(lines)
-        speed = self.adjust_speed_based_on_steering_and_curvature(steering_angle, curvature)
+        angle = self.calculate_turn_angle(lines)
+        speed = self.determine_speed_based_on_angle(angle)
 
         self.last_steering_angle = steering_angle
 
         return steering_angle, speed
 
-    def calculate_curvature(self, lines):
-        if lines is None or len(lines) == 0:
-            return 0  # No curvature detected
+    def calculate_turn_angle(self, lines):
+        if lines is None or len(lines) < 2:
+            # not enough lines to calculate an angle, assume straight path or undefined turn
+            return 0
 
-        total_angle = 0
-        for line in lines:
-            for x1, y1, x2, y2 in line:
-                angle = np.arctan2(y2 - y1, x2 - x1)  # Calculate angle of the line
-                normalized_angle = np.pi / 2 - np.abs(angle)  # Angle deviation from vertical
-                total_angle += np.abs(normalized_angle)  # Sum up absolute deviations
+        # assume the two longest lines are the track edges
+        lines = sorted(lines, key=lambda l: np.hypot(l[0][2] - l[0][0], l[0][3] - l[0][1]), reverse=True)
+        first_line = lines[0][0]
+        second_line = lines[1][0]
 
-        average_angle_deviation = total_angle / len(lines)  # Calculate average deviation
-        # Convert angle deviation to a curvature value; this is a simplification
-        curvature = average_angle_deviation / (np.pi / 2)  # Normalize based on 90 degrees being the max deviation
-        return curvature
+        # compute the direction vectors of the two lines
+        vec1 = ((first_line[2] - first_line[0]), (first_line[3] - first_line[1]))
+        vec2 = ((second_line[2] - second_line[0]), (second_line[3] - second_line[1]))
 
-    def adjust_speed_based_on_steering_and_curvature(self, steering_angle, curvature):
-        # Base speed adjustment on steering angle deviation
-        steering_deviation = abs(steering_angle - self.servo_neutral) / (self.servo_max - self.servo_neutral)
-        # Incorporate curvature into speed decision; higher curvature means sharper corner
-        if curvature > 0.2:  # Arbitrary threshold for significant curvature
-            return max(0.5, self.speed * (1 - steering_deviation))  # Slow down more on sharper turns
-        elif steering_deviation > 0.5:
-            return max(0.5, self.speed * (1 - steering_deviation))
+        # normalize the direction vectors
+        vec1 = vec1 / np.linalg.norm(vec1)
+        vec2 = vec2 / np.linalg.norm(vec2)
+
+        # use the dot product to find the cosine of the angle between the vectors
+        dot_product = np.dot(vec1, vec2)
+        angle = np.arccos(dot_product)
+
+        # the angle is in radians, make sure it's not NaN in case of a straight line (dot_product close to 1)
+        if np.isnan(angle):
+            return 0
+        return angle    
+
+
+    def determine_speed_based_on_angle(self, angle):
+        # define angle thresholds for speed adjustments
+        sharp_turn_angle = np.radians(40)  # 40 degrees
+        mild_turn_angle = np.radians(35)  # 20 degrees
+
+        # adjust speed based on the angle
+        
+        self.get_logger().info(f'\nANGLE: {angle}')
+        self.get_logger().info(f'sharp_turn: {sharp_turn_angle}')
+        self.get_logger().info(f'\nmild_turn: {mild_turn_angle}')
+        if angle > 0.5 and angle < 0.7:
+            self.get_logger().info("\nSHARP!!")
+
+            self.pid_controller.kp = 0.00100
+            self.pid_controller.kd = 0.00082
+            return 0.5  # slow down for sharp turns
+        if angle >= 0.3 and angle < 0.5:
+            self.get_logger().info("\nMILD!!")
+
+            self.pid_controller.kp = 0.00900
+            self.pid_controller.kd = 0.00070
+            return 0.75  # moderate speed for mild turns
         else:
-            return self.speed  # Maintain or increase to max speed on straight paths
-
-
+            self.pid_controller.kp = 0.00010
+            self.pid_controller.kd = 0.00028
+            return 1.0  # full speed on straight paths
 # the main function to initialize the node and spin it
 def main(args=None):
     rclpy.init(args=args)  # initialize the ROS2 client library

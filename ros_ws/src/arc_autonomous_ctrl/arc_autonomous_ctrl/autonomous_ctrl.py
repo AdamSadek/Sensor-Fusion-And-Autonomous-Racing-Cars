@@ -39,18 +39,18 @@ class AutonomousRCCarNode(Node):
         self.servo_min = 0.35
         self.servo_max = 0.95
         self.servo_neutral = 0.65
-        self.speed = 2.0
+        self.speed = 0.75
         self.frame_width = 640
+        self.frame_height = 480
         self.track_width = self.frame_width // 2
         self.previous_time = self.get_clock().now()
-        self.safe_speed = 1.0
         self.last_steering_angle = self.servo_neutral
         self.max_steering_rate = 0.05
         # for steering smoothing
         self.alpha = 0.2
         self.filtered_steering_angle = self.servo_neutral
         # self.pid_controller = PIDController(kp=0.00095, ki=0.00003, kd=0.00015)
-        self.pid_controller = PIDController(kp=0.00095, ki=0.000035, kd=0.00010)
+        self.pid_controller = PIDController(kp=0.00095, ki=0.00005, kd=0.001)
 
 
     def image_callback(self, data):
@@ -95,76 +95,52 @@ class AutonomousRCCarNode(Node):
     def process_image(self, frame):
         # apply preprocessing steps to focus on relevant track parts
         height, width = frame.shape[:2]
-        # region of interest (ROI) to reduce the area to be processed
-        roi_height_start = int(height * 0.58) # 0.55
+        roi_height_start = int(height * 0.55)  # adjust ROI to focus on the lower part of the image where the track is
         roi_height_end = height
-        roi_width_start = int(width * 0.05)
-        roi_width_end = int(width * 0.95)
+        roi_width_start = int(width * 0.3)
+        roi_width_end = int(width * 0.7)
         roi = frame[roi_height_start:roi_height_end, roi_width_start:roi_width_end]
-        cv2.imwrite('images/roi_image.jpg', roi) 
+        cv2.imwrite('images/roi_image.jpg', roi)
 
         # convert the roi to HSV color space to identify track colors better
         hsv_roi = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
-        # define range for green color (track) in HSV space
+        # define a more precise range for green color (track) in HSV space
         lower_green, upper_green = self.adjust_hsv_ranges(frame)
 
         # create a mask that isolates the green parts of the image
         mask = cv2.inRange(hsv_roi, lower_green, upper_green)
         cv2.imwrite('images/mask_image.jpg', mask)
-        
-        # apply the mask to keep only the green parts
-        green_only = cv2.bitwise_and(roi, roi, mask=mask)
-        cv2.imwrite('images/green_image.jpg', green_only)
 
-        # convert the result to grayscale and apply a blur to smooth it
-        gray_green_only = cv2.cvtColor(green_only, cv2.COLOR_BGR2GRAY)
-        blur = cv2.GaussianBlur(gray_green_only, (5, 5), 0)
-        cv2.imwrite('images/blur_image.jpg', blur)
+        # Additional morphological opening to remove small objects (noise)
+        kernel = np.ones((5, 5), np.uint8)
+        mask_opened = cv2.morphologyEx(mask, cv2.MORPH_OPEN, kernel)
+        cv2.imwrite('images/mask_opened.jpg', mask_opened)
 
-        # apply a binary threshold to isolate the lines even more
-        _, binary = cv2.threshold(blur, 50, 255, cv2.THRESH_BINARY)
-        # use dilation to close gaps in detected lines
-        kernel = np.ones((15, 15), np.uint8)
-        dilation = cv2.dilate(binary, kernel, iterations=2)
-        cv2.imwrite('images/dilation_image.jpg', dilation)
+        # Additional morphological closing to close small holes inside the foreground
+        mask_closed = cv2.morphologyEx(mask_opened, cv2.MORPH_CLOSE, kernel)
+        cv2.imwrite('images/mask_closed.jpg', mask_closed)
 
-        # detect edges in the dilated image using Canny edge detection
-        edges = cv2.Canny(dilation, 50, 150)
+        # detect edges in the processed mask using Canny edge detection
+        edges = cv2.Canny(mask_closed, 50, 150)
         cv2.imwrite('images/processed_image.jpg', edges)
 
-        # detect lines in the edge-detected image using the Hough transform
-        lines = cv2.HoughLinesP(edges, 1, np.pi / 180, threshold=50, minLineLength=50, maxLineGap=10)
+        # detect the single most prominent line using the Hough transform
+        lines = cv2.HoughLinesP(edges, 1, np.pi / 180, threshold=50, minLineLength=50, maxLineGap=20)
         return lines
-
 
     def find_track_center(self, lines):
         # find the center of the track based on detected lines
-        left_line_x = []
-        right_line_x = []
+        if lines is None:
+            return self.frame_width / 2  # default to center if no lines detected
+
+        # We assume the most prominent line detected is the track line
+        line_x_positions = []
         for line in lines:
             for x1, y1, x2, y2 in line:
-                slope = (y2 - y1) / (x2 - x1) if x2 != x1 else float('inf')
-                # categorize lines as left or right based on their slope
-                if slope < 0:
-                    left_line_x.extend([x1, x2])
-                else:
-                    right_line_x.extend([x1, x2])
+                line_x_positions.extend([x1, x2])
 
-        # calculate average positions for left and right lines
-        left_x_avg = np.mean(left_line_x) if left_line_x else None
-        right_x_avg = np.mean(right_line_x) if right_line_x else None
-
-        # calculate track center based on the averages
-        if left_x_avg is not None and right_x_avg is not None:
-            track_center = (left_x_avg + right_x_avg) / 2
-        elif left_x_avg is not None:
-            track_center = left_x_avg + (self.track_width / 2)
-        elif right_x_avg is not None:
-            track_center = right_x_avg - (self.track_width / 2)
-        else:
-            # default to center
-            track_center = self.frame_width / 2
-
+        # calculate the average position of the line as the center
+        track_center = np.mean(line_x_positions) if line_x_positions else self.frame_width / 2
         return track_center
 
     def calculate_control(self, lines):
@@ -188,7 +164,7 @@ class AutonomousRCCarNode(Node):
 
         # calculate the proposed steering angle with smoothing
         proposed_steering_angle = self.servo_neutral - steering_correction
-        adaptive_alpha = max(0.1, 1 - abs(steering_correction) / 0.2)
+        adaptive_alpha = max(0.1, 1 - abs(steering_correction) / 0.3)
         self.filtered_steering_angle = adaptive_alpha * proposed_steering_angle + (1 - adaptive_alpha) * self.filtered_steering_angle
         steering_angle = np.clip(self.filtered_steering_angle, self.servo_min, self.servo_max)
 
@@ -200,8 +176,8 @@ class AutonomousRCCarNode(Node):
         self.last_steering_angle = steering_angle
 
         # adjust speed based on the steering angle to slow down for turns
-        speed = self.safe_speed * (1 - min(abs(steering_correction), 1))
-        speed = np.clip(speed, 0, self.safe_speed)
+        speed = self.speed * (1 - min(abs(steering_correction), 1))
+        speed = np.clip(speed, 0, self.speed)
 
         return steering_angle, speed
 

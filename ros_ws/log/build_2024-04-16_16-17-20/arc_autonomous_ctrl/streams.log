@@ -1,0 +1,31 @@
+[5.071s] Invoking command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/arc_autonomous_ctrl': PYTHONPATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_autonomous_ctrl/prefix_override:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_autonomous_ctrl/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arc_autonomous_ctrl build --build-base /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_autonomous_ctrl/build install --record /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_autonomous_ctrl/install.log --install-scripts $base/lib/arc_autonomous_ctrl --single-version-externally-managed
+[6.166s] Traceback (most recent call last):
+[6.167s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2859, in get_entry_map
+[6.167s]     ep_map = self._ep_map
+[6.168s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2817, in __getattr__
+[6.169s]     raise AttributeError(attr)
+[6.170s] AttributeError: _ep_map
+[6.170s] 
+[6.172s] During handling of the above exception, another exception occurred:
+[6.174s] 
+[6.175s] Traceback (most recent call last):
+[6.175s]   File "setup.py", line 5, in <module>
+[6.175s]     setup(
+[6.176s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 143, in setup
+[6.176s]     _install_setup_requires(attrs)
+[6.178s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 131, in _install_setup_requires
+[6.179s]     dist = distutils.core.Distribution(dict(
+[6.182s]   File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 445, in __init__
+[6.184s]     for ep in pkg_resources.iter_entry_points('distutils.setup_keywords'):
+[6.185s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 657, in <genexpr>
+[6.187s]     for entry in dist.get_entry_map(group).values()
+[6.188s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2861, in get_entry_map
+[6.189s]     ep_map = self._ep_map = EntryPoint.parse_map(
+[6.191s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2537, in parse_map
+[6.192s]     maps[group] = cls.parse_group(group, lines, dist)
+[6.193s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2515, in parse_group
+[6.195s]     ep = cls.parse(line, dist)
+[6.198s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2495, in parse
+[6.199s]     extras = cls._parse_extras(res['extras'])
+[6.200s] KeyboardInterrupt
+[6.254s] Invoked command in '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/arc_autonomous_ctrl' returned '-2': PYTHONPATH=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_autonomous_ctrl/prefix_override:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_autonomous_ctrl/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/arc_autonomous_ctrl build --build-base /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_autonomous_ctrl/build install --record /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/arc_autonomous_ctrl/install.log --install-scripts $base/lib/arc_autonomous_ctrl --single-version-externally-managed

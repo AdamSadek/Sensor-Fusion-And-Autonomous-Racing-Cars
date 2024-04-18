@@ -10,9 +10,9 @@ class AckermannSteeringPublisher(Node):
 
     def initiate_steering_sequence(self):
         # Define servo range according to vesc_driver parameters
-        self.servo_min = 0.30  # Leftmost position
-        self.servo_max = 0.85  # Rightmost position
-        self.servo_neutral = 0.60  # Neutral position
+        self.servo_min = 0.25  # Leftmost position
+        self.servo_max = 0.90  # Rightmost position
+        self.servo_neutral = 0.66  # Neutral position
 
         # Start the sequence by steering to the leftmost position
         self.publish_steering_angle(self.servo_min)

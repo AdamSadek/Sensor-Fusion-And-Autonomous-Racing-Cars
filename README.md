@@ -3,6 +3,7 @@
 
 # Table of Contents
 - [About](#about)
+  - [ARC-1.0 Archetecture](#ARC-1.0Archetecture)
 - [Software](#software)
 - [Hardware](#demos)
 - [Test Track](#track)
@@ -16,6 +17,7 @@ Based on the perceived deviation from the track center, a PID controller determi
 ## ARC-1.0 Archetecture 
 ![ARC_ROS2_Architecture drawio (1) (1) drawio](https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/4f6400e6-4d23-487b-a9e1-0305d7c0a588)
 
+The ARC-1.0 system, intended for an autonomous vehicle with ROS2 Foxy integration, is shown in this architecture diagram. It describes a layered strategy where actions are carried out by the Hardware Layer and control inputs are processed by the System Layer. The system has an algorithmic component that allows autonomous operations. Motor drivers execute commands for steering and vehicle speed, which are controlled by the Ackermann Steering Controller. Interestingly, the system uses vesc for motor control and `/ackermann_cmd` for steering commands. This configuration enables adaptable control schemes appropriate for a range of robotic uses.
 
 # Software
 | Software  | Purpose |

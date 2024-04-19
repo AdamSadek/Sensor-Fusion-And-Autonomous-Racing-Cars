@@ -128,7 +128,7 @@ libcompressed_depth_image_transport.so: /opt/ros/foxy/lib/libsensor_msgs__rosidl
 libcompressed_depth_image_transport.so: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_c.so
 libcompressed_depth_image_transport.so: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
 libcompressed_depth_image_transport.so: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_cpp.so
-libcompressed_depth_image_transport.so: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/lib/libimage_transport.so
+libcompressed_depth_image_transport.so: /opt/ros/foxy/lib/libimage_transport.so
 libcompressed_depth_image_transport.so: /opt/ros/foxy/lib/libmessage_filters.so
 libcompressed_depth_image_transport.so: /opt/ros/foxy/lib/librclcpp.so
 libcompressed_depth_image_transport.so: /opt/ros/foxy/lib/librosgraph_msgs__rosidl_generator_c.so

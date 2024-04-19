@@ -1,0 +1,328 @@
+[0.000000] (-) TimerEvent: {}
+[0.001263] (-) JobUnselected: {'identifier': 'arc_keyboard_control'}
+[0.001633] (-) JobUnselected: {'identifier': 'arc_startup'}
+[0.002512] (-) JobUnselected: {'identifier': 'asio_cmake_module'}
+[0.003238] (-) JobUnselected: {'identifier': 'autonomous_car_control'}
+[0.003661] (-) JobUnselected: {'identifier': 'camera_sensor'}
+[0.003809] (-) JobUnselected: {'identifier': 'compressed_depth_image_transport'}
+[0.003889] (-) JobUnselected: {'identifier': 'compressed_image_transport'}
+[0.003964] (-) JobUnselected: {'identifier': 'image_transport_plugins'}
+[0.004040] (-) JobUnselected: {'identifier': 'io_context'}
+[0.004111] (-) JobUnselected: {'identifier': 'ldlidar_ros2'}
+[0.004182] (-) JobUnselected: {'identifier': 'motor_controller'}
+[0.004251] (-) JobUnselected: {'identifier': 'serial_driver'}
+[0.004322] (-) JobUnselected: {'identifier': 'servo_controller'}
+[0.004397] (-) JobUnselected: {'identifier': 'theora_image_transport'}
+[0.004467] (-) JobUnselected: {'identifier': 'udp_driver'}
+[0.004540] (-) JobUnselected: {'identifier': 'v4l2_camera'}
+[0.004610] (-) JobUnselected: {'identifier': 'vesc'}
+[0.004681] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.004754] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.004841] (vesc_driver) JobQueued: {'identifier': 'vesc_driver', 'dependencies': OrderedDict([('vesc_msgs', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/install/vesc_msgs'), ('io_context', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/install/io_context'), ('serial_driver', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/install/serial_driver')])}
+[0.004966] (vesc_driver) JobStarted: {'identifier': 'vesc_driver'}
+[0.099208] (-) TimerEvent: {}
+[0.200889] (-) TimerEvent: {}
+[0.303571] (-) TimerEvent: {}
+[0.404485] (-) TimerEvent: {}
+[0.507670] (-) TimerEvent: {}
+[0.612152] (-) TimerEvent: {}
+[0.713115] (-) TimerEvent: {}
+[0.817145] (-) TimerEvent: {}
+[0.918963] (-) TimerEvent: {}
+[1.020864] (-) TimerEvent: {}
+[1.063424] (vesc_driver) JobProgress: {'identifier': 'vesc_driver', 'progress': 'cmake'}
+[1.064522] (vesc_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/vesc_driver/vesc_driver', '-DCMAKE_INSTALL_PREFIX=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/install/vesc_driver'], 'cwd': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/build/vesc_driver', 'env': OrderedDict([('VIRTUALENVWRAPPER_WORKON_CD', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('WORKON_HOME', '/home/adam/.virtualenvs'), ('USER', 'adam'), ('SSH_CLIENT', '192.168.0.150 61940 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/adam/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_driver/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_ackermann/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/adam/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/adam'), ('VIRTUALENVWRAPPER_PYTHON', '/usr/bin/python3'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-87edd1e6-e23d-456e-ba2d-f8ac5a7a036a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/adam/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/adam/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adam'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/adam/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/remote-cli:/home/adam/.local/bin:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5b186651e1.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_ackermann:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport_plugins:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/autonomous_car_control:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_keyboard_control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VIRTUALENVWRAPPER_PROJECT_FILENAME', '.project'), ('VIRTUALENVWRAPPER_HOOK_DIR', '/home/adam/.virtualenvs'), ('VIRTUALENVWRAPPER_SCRIPT', '/usr/share/virtualenvwrapper/virtualenvwrapper.sh'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/build/vesc_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.150 61940 192.168.0.174 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/autonomous_car_control/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_keyboard_control/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_ackermann:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport_plugins:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/autonomous_car_control:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_keyboard_control:/opt/ros/foxy')]), 'shell': False}
+[1.121267] (-) TimerEvent: {}
+[1.222397] (-) TimerEvent: {}
+[1.323370] (-) TimerEvent: {}
+[1.424319] (-) TimerEvent: {}
+[1.525370] (-) TimerEvent: {}
+[1.626476] (-) TimerEvent: {}
+[1.727514] (-) TimerEvent: {}
+[1.828738] (-) TimerEvent: {}
+[1.929698] (-) TimerEvent: {}
+[2.030572] (-) TimerEvent: {}
+[2.131415] (-) TimerEvent: {}
+[2.232188] (-) TimerEvent: {}
+[2.266799] (vesc_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[2.332361] (-) TimerEvent: {}
+[2.433187] (-) TimerEvent: {}
+[2.534145] (-) TimerEvent: {}
+[2.635135] (-) TimerEvent: {}
+[2.736208] (-) TimerEvent: {}
+[2.837080] (-) TimerEvent: {}
+[2.937834] (-) TimerEvent: {}
+[3.038625] (-) TimerEvent: {}
+[3.085512] (vesc_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[3.120281] (vesc_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.138795] (-) TimerEvent: {}
+[3.239563] (-) TimerEvent: {}
+[3.340307] (-) TimerEvent: {}
+[3.441093] (-) TimerEvent: {}
+[3.507312] (vesc_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[3.514443] (vesc_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.541299] (-) TimerEvent: {}
+[3.642097] (-) TimerEvent: {}
+[3.743016] (-) TimerEvent: {}
+[3.843938] (-) TimerEvent: {}
+[3.882542] (vesc_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.922722] (vesc_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.924408] (vesc_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.935332] (vesc_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.944073] (-) TimerEvent: {}
+[4.044769] (-) TimerEvent: {}
+[4.145531] (-) TimerEvent: {}
+[4.246443] (-) TimerEvent: {}
+[4.333680] (vesc_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[4.338623] (vesc_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.346764] (-) TimerEvent: {}
+[4.447788] (-) TimerEvent: {}
+[4.548484] (-) TimerEvent: {}
+[4.649277] (-) TimerEvent: {}
+[4.741665] (vesc_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.749460] (-) TimerEvent: {}
+[4.783514] (vesc_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.785107] (vesc_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.820929] (vesc_driver) StdoutLine: {'line': b'-- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)\n'}
+[4.849621] (-) TimerEvent: {}
+[4.950345] (-) TimerEvent: {}
+[5.051192] (-) TimerEvent: {}
+[5.055728] (vesc_driver) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[5.056339] (vesc_driver) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.151327] (-) TimerEvent: {}
+[5.251971] (-) TimerEvent: {}
+[5.352705] (-) TimerEvent: {}
+[5.453825] (-) TimerEvent: {}
+[5.554511] (-) TimerEvent: {}
+[5.655133] (-) TimerEvent: {}
+[5.755736] (-) TimerEvent: {}
+[5.856365] (-) TimerEvent: {}
+[5.957096] (-) TimerEvent: {}
+[6.058187] (-) TimerEvent: {}
+[6.158966] (-) TimerEvent: {}
+[6.259675] (-) TimerEvent: {}
+[6.360413] (-) TimerEvent: {}
+[6.461135] (-) TimerEvent: {}
+[6.561788] (-) TimerEvent: {}
+[6.662603] (-) TimerEvent: {}
+[6.763588] (-) TimerEvent: {}
+[6.864298] (-) TimerEvent: {}
+[6.964959] (-) TimerEvent: {}
+[7.065661] (-) TimerEvent: {}
+[7.166413] (-) TimerEvent: {}
+[7.254947] (vesc_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.266522] (-) TimerEvent: {}
+[7.366187] (vesc_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[7.366734] (-) TimerEvent: {}
+[7.467279] (-) TimerEvent: {}
+[7.568074] (-) TimerEvent: {}
+[7.668736] (-) TimerEvent: {}
+[7.769451] (-) TimerEvent: {}
+[7.870177] (-) TimerEvent: {}
+[7.971122] (-) TimerEvent: {}
+[8.071835] (-) TimerEvent: {}
+[8.172523] (-) TimerEvent: {}
+[8.228786] (vesc_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[8.272695] (-) TimerEvent: {}
+[8.373694] (-) TimerEvent: {}
+[8.474360] (-) TimerEvent: {}
+[8.504637] (vesc_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[8.574536] (-) TimerEvent: {}
+[8.675258] (-) TimerEvent: {}
+[8.776016] (-) TimerEvent: {}
+[8.876862] (-) TimerEvent: {}
+[8.977621] (-) TimerEvent: {}
+[9.078344] (-) TimerEvent: {}
+[9.179063] (-) TimerEvent: {}
+[9.225218] (vesc_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.279236] (-) TimerEvent: {}
+[9.379977] (-) TimerEvent: {}
+[9.480729] (-) TimerEvent: {}
+[9.581425] (-) TimerEvent: {}
+[9.654741] (vesc_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[9.666430] (vesc_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.672878] (vesc_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[9.681598] (-) TimerEvent: {}
+[9.782450] (-) TimerEvent: {}
+[9.883428] (-) TimerEvent: {}
+[9.984725] (-) TimerEvent: {}
+[10.085588] (-) TimerEvent: {}
+[10.090895] (vesc_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.092814] (vesc_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.185823] (-) TimerEvent: {}
+[10.286758] (-) TimerEvent: {}
+[10.388488] (-) TimerEvent: {}
+[10.489942] (-) TimerEvent: {}
+[10.517039] (vesc_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[10.518045] (vesc_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[10.590174] (-) TimerEvent: {}
+[10.690992] (-) TimerEvent: {}
+[10.791787] (-) TimerEvent: {}
+[10.878194] (vesc_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[10.879100] (vesc_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[10.891973] (-) TimerEvent: {}
+[10.992687] (-) TimerEvent: {}
+[11.093456] (-) TimerEvent: {}
+[11.194358] (-) TimerEvent: {}
+[11.262424] (vesc_driver) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[11.266704] (vesc_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[11.294533] (-) TimerEvent: {}
+[11.395206] (-) TimerEvent: {}
+[11.495939] (-) TimerEvent: {}
+[11.596627] (-) TimerEvent: {}
+[11.697337] (-) TimerEvent: {}
+[11.798217] (-) TimerEvent: {}
+[11.899020] (-) TimerEvent: {}
+[11.999858] (-) TimerEvent: {}
+[12.100557] (-) TimerEvent: {}
+[12.201283] (-) TimerEvent: {}
+[12.302232] (-) TimerEvent: {}
+[12.402977] (-) TimerEvent: {}
+[12.503741] (-) TimerEvent: {}
+[12.604447] (-) TimerEvent: {}
+[12.705140] (-) TimerEvent: {}
+[12.805860] (-) TimerEvent: {}
+[12.906606] (-) TimerEvent: {}
+[13.007281] (-) TimerEvent: {}
+[13.108001] (-) TimerEvent: {}
+[13.208673] (-) TimerEvent: {}
+[13.309348] (-) TimerEvent: {}
+[13.410080] (-) TimerEvent: {}
+[13.510737] (-) TimerEvent: {}
+[13.611452] (-) TimerEvent: {}
+[13.712170] (-) TimerEvent: {}
+[13.812850] (-) TimerEvent: {}
+[13.913538] (-) TimerEvent: {}
+[14.014221] (-) TimerEvent: {}
+[14.114959] (-) TimerEvent: {}
+[14.215729] (-) TimerEvent: {}
+[14.316409] (-) TimerEvent: {}
+[14.417122] (-) TimerEvent: {}
+[14.517852] (-) TimerEvent: {}
+[14.618546] (-) TimerEvent: {}
+[14.719240] (-) TimerEvent: {}
+[14.789434] (vesc_driver) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[14.819428] (-) TimerEvent: {}
+[14.920110] (-) TimerEvent: {}
+[15.020828] (-) TimerEvent: {}
+[15.121513] (-) TimerEvent: {}
+[15.164640] (vesc_driver) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[15.182798] (vesc_driver) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[15.184049] (vesc_driver) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/vesc_driver/vesc_driver/include\n'}
+[15.184632] (vesc_driver) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[15.201509] (vesc_driver) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[15.202087] (vesc_driver) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[15.207612] (vesc_driver) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[15.215066] (vesc_driver) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[15.221366] (vesc_driver) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[15.221906] (-) TimerEvent: {}
+[15.238896] (vesc_driver) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[15.239455] (vesc_driver) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[15.245117] (vesc_driver) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.295078] (vesc_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.322110] (-) TimerEvent: {}
+[15.422884] (-) TimerEvent: {}
+[15.524114] (-) TimerEvent: {}
+[15.581110] (vesc_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[15.589490] (vesc_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/build/vesc_driver\n'}
+[15.624420] (-) TimerEvent: {}
+[15.629956] (vesc_driver) CommandEnded: {'returncode': 0}
+[15.632777] (vesc_driver) JobProgress: {'identifier': 'vesc_driver', 'progress': 'build'}
+[15.635602] (vesc_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/build/vesc_driver', '--', '-j4', '-l4'], 'cwd': '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/build/vesc_driver', 'env': OrderedDict([('VIRTUALENVWRAPPER_WORKON_CD', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('WORKON_HOME', '/home/adam/.virtualenvs'), ('USER', 'adam'), ('SSH_CLIENT', '192.168.0.150 61940 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/adam/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_driver/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_ackermann/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport/lib:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/adam/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/adam'), ('VIRTUALENVWRAPPER_PYTHON', '/usr/bin/python3'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-87edd1e6-e23d-456e-ba2d-f8ac5a7a036a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/adam/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/adam/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'adam'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/adam/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/remote-cli:/home/adam/.local/bin:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-5b186651e1.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_ackermann:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport_plugins:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/autonomous_car_control:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_keyboard_control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VIRTUALENVWRAPPER_PROJECT_FILENAME', '.project'), ('VIRTUALENVWRAPPER_HOOK_DIR', '/home/adam/.virtualenvs'), ('VIRTUALENVWRAPPER_SCRIPT', '/usr/share/virtualenvwrapper/virtualenvwrapper.sh'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/build/vesc_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.150 61940 192.168.0.174 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/autonomous_car_control/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup/lib/python3.8/site-packages:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_keyboard_control/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_ackermann:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/vesc_msgs:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/v4l2_camera:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/udp_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport_plugins:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/theora_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/serial_driver:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/ldlidar_ros2:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/io_context:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/compressed_depth_image_transport:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/asio_cmake_module:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/servo_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/motor_controller:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_sensor:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/autonomous_car_control:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_startup:/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/arc_keyboard_control:/opt/ros/foxy')]), 'shell': False}
+[15.724626] (-) TimerEvent: {}
+[15.825403] (-) TimerEvent: {}
+[15.883078] (vesc_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vesc_driver\x1b[0m\n'}
+[15.893480] (vesc_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target vesc_driver_node\x1b[0m\n'}
+[15.925585] (-) TimerEvent: {}
+[16.026287] (-) TimerEvent: {}
+[16.126992] (-) TimerEvent: {}
+[16.227733] (-) TimerEvent: {}
+[16.321886] (vesc_driver) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/vesc_driver_node.dir/rclcpp_components/node_main_vesc_driver_node.cpp.o\x1b[0m\n'}
+[16.327913] (-) TimerEvent: {}
+[16.428724] (-) TimerEvent: {}
+[16.454917] (vesc_driver) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_driver.cpp.o\x1b[0m\n'}
+[16.461552] (vesc_driver) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_packet.cpp.o\x1b[0m\n'}
+[16.464784] (vesc_driver) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_interface.cpp.o\x1b[0m\n'}
+[16.528900] (-) TimerEvent: {}
+[16.629658] (-) TimerEvent: {}
+[16.730465] (-) TimerEvent: {}
+[16.831581] (-) TimerEvent: {}
+[16.932426] (-) TimerEvent: {}
+[17.033203] (-) TimerEvent: {}
+[17.134056] (-) TimerEvent: {}
+[17.234920] (-) TimerEvent: {}
+[17.335953] (-) TimerEvent: {}
+[17.436964] (-) TimerEvent: {}
+[17.537975] (-) TimerEvent: {}
+[17.639036] (-) TimerEvent: {}
+[17.740219] (-) TimerEvent: {}
+[17.841192] (-) TimerEvent: {}
+[17.942257] (-) TimerEvent: {}
+[18.043278] (-) TimerEvent: {}
+[18.144490] (-) TimerEvent: {}
+[18.245541] (-) TimerEvent: {}
+[18.346531] (-) TimerEvent: {}
+[18.447644] (-) TimerEvent: {}
+[18.548646] (-) TimerEvent: {}
+[18.649630] (-) TimerEvent: {}
+[18.750631] (-) TimerEvent: {}
+[18.851614] (-) TimerEvent: {}
+[18.952632] (-) TimerEvent: {}
+[19.053712] (-) TimerEvent: {}
+[19.154649] (-) TimerEvent: {}
+[19.255881] (-) TimerEvent: {}
+[19.357074] (-) TimerEvent: {}
+[19.458166] (-) TimerEvent: {}
+[19.559285] (-) TimerEvent: {}
+[19.660475] (-) TimerEvent: {}
+[19.761634] (-) TimerEvent: {}
+[19.862964] (-) TimerEvent: {}
+[19.965027] (-) TimerEvent: {}
+[20.066946] (-) TimerEvent: {}
+[20.168049] (-) TimerEvent: {}
+[20.269015] (-) TimerEvent: {}
+[20.369882] (-) TimerEvent: {}
+[20.471207] (-) TimerEvent: {}
+[20.572293] (-) TimerEvent: {}
+[20.673416] (-) TimerEvent: {}
+[20.774445] (-) TimerEvent: {}
+[20.875643] (-) TimerEvent: {}
+[20.976738] (-) TimerEvent: {}
+[21.077881] (-) TimerEvent: {}
+[21.178989] (-) TimerEvent: {}
+[21.280088] (-) TimerEvent: {}
+[21.381204] (-) TimerEvent: {}
+[21.482273] (-) TimerEvent: {}
+[21.583302] (-) TimerEvent: {}
+[21.609589] (vesc_driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_packet_factory.cpp.o\x1b[0m\n'}
+[21.683594] (-) TimerEvent: {}
+[21.784573] (-) TimerEvent: {}
+[21.885513] (-) TimerEvent: {}
+[21.986618] (-) TimerEvent: {}
+[22.087612] (-) TimerEvent: {}
+[22.189616] (-) TimerEvent: {}
+[22.290657] (-) TimerEvent: {}
+[22.391747] (-) TimerEvent: {}
+[22.492849] (-) TimerEvent: {}
+[22.596690] (-) TimerEvent: {}
+[22.601865] (vesc_driver) StderrLine: {'line': b'make[2]: *** [CMakeFiles/vesc_driver.dir/build.make:63: CMakeFiles/vesc_driver.dir/src/vesc_driver.cpp.o] Interrupt\n'}
+[22.602855] (vesc_driver) StderrLine: {'line': b'make[2]: *** [CMakeFiles/vesc_driver.dir/build.make:76: CMakeFiles/vesc_driver.dir/src/vesc_interface.cpp.o] Interrupt\n'}
+[22.603587] (vesc_driver) StderrLine: {'line': b'make[2]: *** [CMakeFiles/vesc_driver_node.dir/build.make:63: CMakeFiles/vesc_driver_node.dir/rclcpp_components/node_main_vesc_driver_node.cpp.o] Interrupt\n'}
+[22.617705] (vesc_driver) StderrLine: {'line': b'make[2]: *** wait: No child processes.  Stop.\n'}
+[22.620587] (vesc_driver) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[22.621292] (vesc_driver) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/vesc_driver_node.dir/all] Interrupt\n'}
+[22.622378] (vesc_driver) StderrLine: {'line': b'make[2]: *** wait: No child processes.  Stop.\n'}
+[22.623703] (vesc_driver) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/vesc_driver.dir/all] Error 2\n'}
+[22.625071] (vesc_driver) StderrLine: {'line': b'make: *** [Makefile:141: all] Interrupt\n'}
+[22.634347] (vesc_driver) CommandEnded: {'returncode': -2}
+[22.696903] (-) TimerEvent: {}
+[22.797740] (-) TimerEvent: {}
+[22.898430] (-) TimerEvent: {}
+[23.000020] (-) TimerEvent: {}
+[23.101248] (-) TimerEvent: {}
+[23.204194] (-) TimerEvent: {}
+[23.307959] (-) TimerEvent: {}
+[23.409387] (-) TimerEvent: {}
+[23.510315] (-) TimerEvent: {}
+[23.559780] (vesc_driver) JobEnded: {'identifier': 'vesc_driver', 'rc': 'SIGINT'}
+[23.562997] (-) EventReactorShutdown: {}

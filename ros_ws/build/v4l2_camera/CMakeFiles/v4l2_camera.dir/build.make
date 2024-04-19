@@ -95,7 +95,7 @@ libv4l2_camera.so: CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o
 libv4l2_camera.so: CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o
 libv4l2_camera.so: CMakeFiles/v4l2_camera.dir/build.make
 libv4l2_camera.so: /opt/ros/foxy/lib/libcomponent_manager.so
-libv4l2_camera.so: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/lib/libimage_transport.so
+libv4l2_camera.so: /opt/ros/foxy/lib/libimage_transport.so
 libv4l2_camera.so: /opt/ros/foxy/lib/libmessage_filters.so
 libv4l2_camera.so: /opt/ros/foxy/lib/librclcpp.so
 libv4l2_camera.so: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so
@@ -124,7 +124,7 @@ libv4l2_camera.so: /opt/ros/foxy/lib/libament_index_cpp.so
 libv4l2_camera.so: /opt/ros/foxy/lib/libclass_loader.so
 libv4l2_camera.so: /usr/lib/aarch64-linux-gnu/libtinyxml2.so
 libv4l2_camera.so: /opt/ros/foxy/lib/libament_index_cpp.so
-libv4l2_camera.so: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/lib/libcamera_calibration_parsers.so
+libv4l2_camera.so: /opt/ros/foxy/lib/libcamera_calibration_parsers.so
 libv4l2_camera.so: /opt/ros/foxy/opt/yaml_cpp_vendor/lib/libyaml-cpp.so.0.6.2
 libv4l2_camera.so: /opt/ros/foxy/lib/librclcpp.so
 libv4l2_camera.so: /opt/ros/foxy/lib/liblibstatistics_collector.so
@@ -154,7 +154,7 @@ libv4l2_camera.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_intros
 libv4l2_camera.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so
 libv4l2_camera.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
 libv4l2_camera.so: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
-libv4l2_camera.so: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/lib/libcamera_info_manager.so
+libv4l2_camera.so: /opt/ros/foxy/lib/libcamera_info_manager.so
 libv4l2_camera.so: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so
 libv4l2_camera.so: /opt/ros/foxy/lib/librmw_implementation.so
 libv4l2_camera.so: /opt/ros/foxy/lib/librmw.so

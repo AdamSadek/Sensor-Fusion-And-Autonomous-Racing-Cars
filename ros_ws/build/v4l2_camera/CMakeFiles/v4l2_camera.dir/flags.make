@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC   -Wall -Wextra -Wpedantic -Werror -std=gnu++14
 
 CXX_DEFINES = -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"v4l2_camera\" -DSPDLOG_COMPILED_LIB -DV4L2_CAMERA_BUILDING_LIBRARY -Dv4l2_camera_EXPORTS
 
-CXX_INCLUDES = -I/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/v4l2_camera/include -I/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/include -I/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/include -I/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/include -I/opt/ros/foxy/opt/yaml_cpp_vendor/include -isystem /opt/ros/foxy/include 
+CXX_INCLUDES = -I/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/src/v4l2_camera/include -I/opt/ros/foxy/opt/yaml_cpp_vendor/include -isystem /opt/ros/foxy/include 
 

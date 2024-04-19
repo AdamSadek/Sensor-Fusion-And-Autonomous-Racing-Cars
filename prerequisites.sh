@@ -15,7 +15,6 @@ It will also clone all the necessary repos
 # From the ROS2 foxy documentation, and some tweaks of my own.
 # https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html
 
-# clone my project
 echo "Installing ROS2 Foxy..."
 locale  # check for UTF-8
 
@@ -43,10 +42,9 @@ sudo apt install ros-dev-tools -y
 # Replace ".bash" with your shell if you're not using bash
 # Possible values are: setup.bash, setup.sh, setup.zsh
 source /opt/ros/foxy/setup.bash
-
+echo "ROS2 Installation complete!"
 
 echo "Installing dependencies..."
-
 # install pip if not installed
 echo "Installing pip if it's not already installed..."
 sudo apt-get install python3-pip -y
@@ -62,20 +60,10 @@ pip3 install opencv-python==4.8.1
 echo "Installing cv_bridge for ROS2 Foxy..."
 sudo apt-get install ros-foxy-cv-bridge -y
 
-echo "Installation complete!"
-
-echo "Creating ROS2 workspace and calling it 'ros2_ws'..."
-# going to the root of the repo
-cd ..
-# creating the ros workspace dir with src. this dir will contain the ros packages
-mkdir -p ros_ws/src
-cd ros_ws
-
-# using colcon to build the empty workspace. the extra flag uses symlink rather than copying.
-colcon build --symlink-install
+echo "Dependencies Installation complete!"
 
 echo "Cloning important repos..."
-cd src
+cd ros_ws/src
 git clone https://github.com/AdamSadek/ldlidar_ros2 lidar_controller
 git clone --branch foxy https://gitlab.com/boldhearts/ros2_v4l2_camera.git v4l2_camera
 git clone --branch foxy https://github.com/AdamSadek/vision_opencv

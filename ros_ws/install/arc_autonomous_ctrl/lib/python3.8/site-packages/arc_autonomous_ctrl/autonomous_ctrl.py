@@ -29,10 +29,10 @@ class AutonomousRCCarNode(Node):
         self.publisher = self.create_publisher(AckermannDriveStamped, '/ackermann_cmd', 10)
         self.bridge = CvBridge()
         self.get_logger().info('Autonomous RC Car Node has started.')
-        self.servo_min = 0.30
+        self.servo_min = 0.35
         self.servo_max = 0.90
-        self.servo_neutral = 0.65
-        self.speed = 0.75  # Base speed
+        self.servo_neutral = 0.665
+        self.speed = 0.75  # base speed
         self.frame_width = 640
         self.frame_length = 0.6288
         self.track_width = self.frame_width // 2
@@ -41,6 +41,7 @@ class AutonomousRCCarNode(Node):
         self.alpha = 0.2  # smoothing factor
         self.filtered_steering_angle = self.servo_neutral
         self.pid_controller = PIDController(kp=0.00095, ki=0.00001, kd=0.00095)
+
 
     def image_callback(self, data):
         try:
@@ -81,16 +82,20 @@ class AutonomousRCCarNode(Node):
         cv2.imwrite('images/roi_image.jpg', roi) # saving image locally to debug
         # convert the roi to hsv color space, it's better for color detection
         hsv_roi = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
+        cv2.imwrite('images/hsv_roi.jpg', hsv_roi) 
         #  find the right hsv range for the green color, it varies with the brightness
         lower_green, upper_green = self.adjust_hsv_ranges(frame)
         # create a mask that only includes the green colors
         mask = cv2.inRange(hsv_roi, lower_green, upper_green)
+        cv2.imwrite('images/mask.jpg', mask) 
         # make a square kernel for morphological operations, it's like a little window
         kernel = np.ones((5, 5), np.uint8)
         # clean up the mask, removing noise and small blobs
         mask_cleaned = cv2.morphologyEx(mask, cv2.MORPH_OPEN, kernel)
+        cv2.imwrite('images/mask_cleaned.jpg', mask_cleaned) 
         # find the edges in the cleaned-up mask, it's where the green color changes sharply
-        edges = cv2.Canny(mask_cleaned, 50, 150) 
+        edges = cv2.Canny(mask_cleaned, 50, 150)
+        cv2.imwrite('images/edges.jpg', edges) 
         # detect lines from those edges, this is where the math happens
         lines = cv2.HoughLinesP(edges, 1, np.pi / 180, 50, minLineLength=50, maxLineGap=10)  # detect lines from those edges, this is where the math happens
         cv2.imwrite('images/processed_image.jpg', edges) # for debugging
@@ -231,23 +236,25 @@ class AutonomousRCCarNode(Node):
         return curvature, curve_direction  
 
     def fit_circle(self, points):
+        # need at least three points to define a circle
         if len(points) < 3:
             return None
         
-        # convert points to numpy array
+        # let's get those points into a numpy array to make math easier
         points = np.array(points)
-        x = points[:, 0]
-        y = points[:, 1]
+        x = points[:, 0]  # all the x-coordinates
+        y = points[:, 1]  # and all the y-coordinates
 
-        # calculate the center of the circle
+        # we're looking for the average point, which will be our circle's center
         x_avg = np.mean(x)
         y_avg = np.mean(y)
-        center = (x_avg, y_avg)
+        center = (x_avg, y_avg)  # here's the center
 
-        # calculate the radius of the circle
+        # for the radius, we'll find the average distance of all points from the center
         radius = np.mean(np.sqrt((x - x_avg) ** 2 + (y - y_avg) ** 2))
 
-        return (x_avg, y_avg, radius)
+        return (x_avg, y_avg, radius)  # and this is our circle: center and radius
+
         
 def main(args=None):
     rclpy.init(args=args)

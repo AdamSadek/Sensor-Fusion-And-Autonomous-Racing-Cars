@@ -52,7 +52,6 @@ For swift and smooth car management, the PID controller is essential.
 	<img src="https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/717bcd42-4850-45d2-87c2-079949f5853f" alt="Straight Track" width="500"/><img src="https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/ed239adf-a2d6-43ba-b033-068ef991949e" alt="Curved Track" width="500"/>
 </div>
 
-
 The car's ability to navigate autonomously relies largely on the _`process_image`_ function. The region of interest _(ROI)_, which is the track ahead, is first divided into sections at the bottom of the frame. This subset, taken by the car's camera, is critical since it contains the lines that control the steering logic.
 
 After that, the ROI is changed to the HSV color space, which is preferable to the usual BGR color system used in photos for color recognition in an array of lighting conditions. The transformation is shown by two sample images above, one shows a straight path, while the other shows a curve in the track.
@@ -97,7 +96,7 @@ The absence of LiDAR and a complete Navigation2 stack, which are usually seen in
 | TT-02 Type-S Chassis  | The load-bearing framework of the car |
 | HOBBYWING Sensored Brushless Motor  | Sensored motor for car, connects to VESC |
 | VESC 6 MkVI | Controls and regulates the speed of the electric motor. Customizable firmware, regenerative braking, and real-time telemetry |
-| Traxxas 4000mah 11.1v 3-Cell 25C  | Battery to power VESC |
+| Traxxas 4000mAh 11.1v 3-Cell 25C  | Battery to power VESC |
 | Power Bank  | To power RPi when mobile - stores up to 42800mAh |
 | Logitech C270  | Captures images for obstacle detection, lane following, and AI |
 | 2D LiDAR (not using)  | Scans surroundings, detecting obstacles, navigation support, and path planning |

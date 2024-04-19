@@ -58,11 +58,11 @@ The ARC-1.0 system is an architecture designed specifically for autonomous rc 
 
 Control inputs at the System Layer can come from an autonomous algorithm that chooses the vehicle's route and maneuvers, or they can come from manually publishing commands. The Ackermann Steering Controller receives these inputs and interprets them into directives. It then uses these directives to calculate the proper wheel speeds and steering angles.
 
-The /ackermann_cmd topic receives steering signals in a standardized message format that is specified by ROS2. Data like the intended speed, steering angle, and acceleration are included in this message. The Ackermann Steering Controller node receives these messages as they are published, analyzes the commands, and determines the required output signals to accomplish the motion that is wanted.
+The `/ackermann_cmd` topic receives steering signals in a standardized message format that is specified by ROS2. Data like the intended speed, steering angle, and acceleration are included in this message. The Ackermann Steering Controller node receives these messages as they are published, analyzes the commands, and determines the required output signals to accomplish the motion that is wanted.
 
 The real physical control of the car happens at the Hardware Layer. It is made up of motor drivers that communicate with the actuators of the car. One essential element that manages the brushless motors and controls their speed based on commands from the System Layer is the vesc driver.
 
-The servo motor driver adjusts the steering mechanism to the proper angle once the vesc driver receives a steering instruction from the /ackermann_cmd topic. These electrical signals govern the wheel speed. The car is able to precisely follow the intended trajectory because to its steering and speed control.
+The servo motor driver adjusts the steering mechanism to the proper angle once the vesc driver receives a steering instruction from the `/ackermann_cmd` topic. These electrical signals govern the wheel speed. The car is able to precisely follow the intended trajectory because to its steering and speed control.
 
 The absence of LiDAR and a complete Navigation2 stack, which are frequently seen in autonomous cars for navigation and obstacle avoidance, significantly simplifies the system. Actually, the architecture is made to work with other sensors or in controlled circumstances where complicated navigational tools like these are not needed.
 

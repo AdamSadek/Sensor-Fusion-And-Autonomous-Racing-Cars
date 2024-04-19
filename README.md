@@ -3,7 +3,7 @@
 
 # Table of Contents
 - [About](#about)
-  - [ARC-1.0 Archetecture](#ARC-1.0Archetecture)
+  - [ARC-1.0 Architecture](#architecture)
 - [Software](#software)
 - [Hardware](#demos)
 - [Test Track](#track)
@@ -14,10 +14,21 @@ In this project, PID control and image processing methods are used to create an 
 
 Based on the perceived deviation from the track center, a PID controller determines the required steering changes, combining error integration and distinction for responsive and smooth vehicle control. In order to dynamically modify the car's speed for the best possible racing performance, the system also computes the track's curvature based on lines that are identified.
 
-## ARC-1.0 Archetecture 
+
+## Architecture 
 ![ARC_ROS2_Architecture drawio (1) (1) drawio](https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/4f6400e6-4d23-487b-a9e1-0305d7c0a588)
 
-The ARC-1.0 system, intended for an autonomous vehicle with ROS2 Foxy integration, is shown in this architecture diagram. It describes a layered strategy where actions are carried out by the Hardware Layer and control inputs are processed by the System Layer. The system has an algorithmic component that allows autonomous operations. Motor drivers execute commands for steering and vehicle speed, which are controlled by the Ackermann Steering Controller. Interestingly, the system uses vesc for motor control and `/ackermann_cmd` for steering commands. This configuration enables adaptable control schemes appropriate for a range of robotic uses.
+The ARC-1.0 system is an architecture designed specifically for autonomous rc cars that makes use of ROS2 Foxy for communication and control. There are two main levels in this design: the Hardware Layer, which works directly with the physical components to initiate actions, and the System Layer, which handles control inputs and coordinates the navigation logic of the car.
+
+Control inputs at the System Layer can come from an autonomous algorithm that chooses the vehicle's route and maneuvers, or they can come from manually publishing commands. The Ackermann Steering Controller receives these inputs and interprets them into directives. It then uses these directives to calculate the proper wheel speeds and steering angles.
+
+The /ackermann_cmd topic receives steering signals in a standardized message format that is specified by ROS2. Data like the intended speed, steering angle, and acceleration are included in this message. The Ackermann Steering Controller node receives these messages as they are published, analyzes the commands, and determines the required output signals to accomplish the motion that is wanted.
+
+The real physical control of the car happens at the Hardware Layer. It is made up of motor drivers that communicate with the actuators of the car. One essential element that manages the brushless motors and controls their speed based on commands from the System Layer is the vesc driver.
+
+The servo motor driver adjusts the steering mechanism to the proper angle once the vesc driver receives a steering instruction from the /ackermann_cmd topic. These electrical signals govern the wheel speed. The car is able to precisely follow the intended trajectory because to its steering and speed control.
+
+The absence of LiDAR and a complete Navigation2 stack, which are frequently seen in autonomous cars for navigation and obstacle avoidance, significantly simplifies the system. Actually, the architecture is made to work with other sensors or in controlled circumstances where complicated navigational tools like these are not needed.
 
 # Software
 | Software  | Purpose |
@@ -25,7 +36,10 @@ The ARC-1.0 system, intended for an autonomous vehicle with ROS2 Foxy integrati
 | Ubuntu 20.04  | Operating System for both the on-board (RPi) and off-board(laptop) machines  |
 | ROS2 Foxy  |  Acts as middleware for communication and development |
 | Gazebo (not implemented yet) |  Realistic environment for testing and simulating sensors used in the racing cars. Also tests racing strategies, decision-making, and algorithms |
-| OpenCV (Open Source Computer Vision Library) | Open-source computer vision and machine learning software library |
+| OpenCV | Open-source computer vision and machine learning software library |
+| NumPy  | Library for scientific computing with Python. Support for large, multi-dimensional arrays and matrices |
+| SciPy  | Built on top of NumPy, functionalities include optimization, regression, interpolation, etc. |
+| cv_bridge | ROS library that provides an interface between ROS and OpenCV |
 
 # Hardware
 | Hardware  | Purpose |

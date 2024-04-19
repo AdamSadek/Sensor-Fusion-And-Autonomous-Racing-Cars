@@ -49,7 +49,7 @@ For swift and smooth car management, the PID controller is essential.
 
 ## Enhancements in Image Processing
 <div align="center">
-	<img src="https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/717bcd42-4850-45d2-87c2-079949f5853f" alt="Straight Track" width="500"/><img src="https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/ed239adf-a2d6-43ba-b033-068ef991949e" alt="Curved Track" width="500"/>
+	<img src="https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/717bcd42-4850-45d2-87c2-079949f5853f" alt="Straight Track" width="450"/><img src="https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/ed239adf-a2d6-43ba-b033-068ef991949e" alt="Curved Track" width="450"/>
 </div>
 
 The car's ability to navigate autonomously relies largely on the _`process_image`_ function. The region of interest _(ROI)_, which is the track ahead, is first divided into sections at the bottom of the frame. This subset, taken by the car's camera, is critical since it contains the lines that control the steering logic.

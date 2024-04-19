@@ -33,7 +33,7 @@ Determining the curvature of the track properly is essential for efficient navig
 Where _`(a,b)`_ represents the center of the circle and _`r`_ its radius. The curvature _`k`_ is then calculated as _`k = 1/r`_. The calculated curvature directly informs the steering adjustments needed.
 There will be some false positives.
 ## Recovery Mechanism
-I've set up a recovery mechanism in case the car loses sight of the lane lines in order to guarantee more consistency.
+I've set up a recovery mechanism in case the car loses sight of the lane lines in order to guarantee more consistency. One of the main reasons for the car leaving the track are the camera angle, field of view (FOV), and poor camera quality. (this will be fixed in a future release)
 - _Loss of Line Detection_, The car will reverse and shift into neutral steering to reposition itself for improved line vision if it does not identify any lines for more than thirty seconds.
 - _Extended Detection Failure_, If lines are not detected for an extended period of time, the vehicle will continue to operate in reverse and in neutral, which will stop it from deviating until lines are detected once more.
 <div align="center">
@@ -43,9 +43,9 @@ I've set up a recovery mechanism in case the car loses sight of the lane lines i
 ## PID Control
 For swift and smooth car management, the PID controller is essential.
 
-- _Proportional (P)_, It modifies the steering angle in accordance with the track center deviation.
-- _Integral (I)_, This part corrects systematic errors and biases by slowly building up the mistake over time.
-- _Derivative (D)_, It helps to minimize overshooting and provide a stable driving by moderating the steering response by taking the rate of error change into account.
+- _Proportional **(P)**_, It modifies the steering angle in accordance with the track center deviation.
+- _Integral **(I)**_, This part corrects systematic errors and biases by slowly building up the mistake over time.
+- _Derivative **(D)**_, It helps to minimize overshooting and provide a stable driving by moderating the steering response by taking the rate of error change into account.
 
 ## Enhancements in Image Processing
 _HSV Range Adjustment_, I dynamically modify the HSV color ranges to provide consistent track detection in a variety of lighting conditions.
@@ -64,7 +64,7 @@ The real physical control of the car happens at the Hardware Layer. It is made u
 
 The servo motor driver adjusts the steering mechanism to the proper angle once the vesc driver receives a steering instruction from the `/ackermann_cmd` topic. These electrical signals govern the wheel speed. The car is able to precisely follow the intended trajectory because to its steering and speed control.
 
-The absence of LiDAR and a complete Navigation2 stack, which are frequently seen in autonomous cars for navigation and obstacle avoidance, significantly simplifies the system. Actually, the architecture is made to work with other sensors or in controlled circumstances where complicated navigational tools like these are not needed.
+The absence of LiDAR and a complete Navigation2 stack, which are usually seen in autonomous cars for navigation and obstacle avoidance, significantly simplifies the system. Actually, the architecture is made to work with other sensors or in controlled circumstances where complicated navigational tools like these are not needed.
 
 # Software
 | Software  | Purpose |

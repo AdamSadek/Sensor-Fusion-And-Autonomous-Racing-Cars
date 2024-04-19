@@ -6,6 +6,11 @@
   - [ARC-1.0 Architecture](#architecture)
 - [Software](#software)
 - [Hardware](#demos)
+- [Detailed Overview](#detailed-overview-of-technical-implementations)
+  - [Curvature Calculation](#curvature-calculation)
+  - [Recovery Mechanism](#recovery-mechanism)
+  - [PID Control](#pid-control)
+  - [Enhancements in Image Processing](#enhancements-in-image-processing)
 - [Test Track](#track)
   - [Testing](#testing)
   
@@ -14,7 +19,38 @@ In this project, PID control and image processing methods are used to create an 
 
 Based on the perceived deviation from the track center, a PID controller determines the required steering changes, combining error integration and distinction for responsive and smooth vehicle control. In order to dynamically modify the car's speed for the best possible racing performance, the system also computes the track's curvature based on lines that are identified.
 
+# Detailed Overview of Technical Implementations
+## Curvature Calculation
+Determining the curvature of the track properly is essential for efficient navigation. My methodology includes:
+- _Line Detection,_ I start by looking for edges using the Canny edge detector, then I use the Hough Transform to look for lines that indicate the track's borders.
+- _Line Grouping,_ Based on their slopes, these identified lines are further divided into left and right bounds.
+- _Circle Fitting,_ To estimate the curvature of the track, I use a least-squares circle-fitting method to these groups. Here, minimizing the subsequent objective function is the goal:
 
+<div align="center">
+	<img src="https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/c4aeb8f3-b2c5-4aff-a8c5-0f3fe73aad47">
+</div>
+
+Where _`(a,b)`_ represents the center of the circle and _`r`_ its radius. The curvature _`k`_ is then calculated as _`k = 1/r`_. The calculated curvature directly informs the steering adjustments needed.
+There will be some false positives.
+## Recovery Mechanism
+I've set up a recovery mechanism in case the car loses sight of the lane lines in order to guarantee more consistency.
+- _Loss of Line Detection_, The car will reverse and shift into neutral steering to reposition itself for improved line vision if it does not identify any lines for more than thirty seconds.
+- _Extended Detection Failure_, If lines are not detected for an extended period of time, the vehicle will continue to operate in reverse and in neutral, which will stop it from deviating until lines are detected once more.
+<div align="center">
+	<img src="https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/09c03251-6df0-4d02-bb0c-398dc59903de">
+</div>
+
+## PID Control
+For swift and smooth car management, the PID controller is essential.
+
+- _Proportional (P)_, It modifies the steering angle in accordance with the track center deviation.
+- _Integral (I)_, This part corrects systematic errors and biases by slowly building up the mistake over time.
+- _Derivative (D)_, It helps to minimize overshooting and provide a stable driving by moderating the steering response by taking the rate of error change into account.
+
+## Enhancements in Image Processing
+_HSV Range Adjustment_, I dynamically modify the HSV color ranges to provide consistent track detection in a variety of lighting conditions.
+
+_Morphological Operations_, I use morphological operations to clean up the image, lowering noise and enhancing the visibility of the identified lines, after isolating the track using a color mask.
 ## Architecture 
 ![ARC_ROS2_Architecture drawio (1) (1) drawio](https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/4f6400e6-4d23-487b-a9e1-0305d7c0a588)
 
@@ -68,5 +104,6 @@ The absence of LiDAR and a complete Navigation2 stack, which are frequently seen
 A realistic verification test was conducted to make sure the movement commands given to the car were executed accurately. In order to verify the car's speed, a two-meter strip of tape was placed on the ground. The car was seen to cross the two-meter distance by posting data to the `/ackermann_cmd` topic, indicating that the speed commands were correctly transmitted as the car stopped the motor at the two-meter mark. Also, the degree to which the vehicle steers its trajectory in response to commands was also used to assess the effectiveness of the steering system. This careful testing approach guarantees that the vehicle's control system translates the command signals into the appropriate physical actions.
 
 ![carmovingnexttotape-ezgif com-crop](https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/ae3d1d1e-b1ae-41e7-8536-679b17d441df)
+
 
 

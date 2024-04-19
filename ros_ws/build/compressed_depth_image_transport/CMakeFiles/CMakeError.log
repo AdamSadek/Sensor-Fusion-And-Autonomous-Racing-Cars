@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/compressed_depth_image_transport/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_310d4/fast && /usr/bin/make -f CMakeFiles/cmTC_310d4.dir/build.make CMakeFiles/cmTC_310d4.dir/build
+Run Build Command(s):/usr/bin/make cmTC_09ca4/fast && /usr/bin/make -f CMakeFiles/cmTC_09ca4.dir/build.make CMakeFiles/cmTC_09ca4.dir/build
 make[1]: Entering directory '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/compressed_depth_image_transport/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_310d4.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_310d4.dir/src.c.o   -c /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/compressed_depth_image_transport/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_310d4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_310d4.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_310d4.dir/src.c.o  -o cmTC_310d4 
-/usr/bin/ld: CMakeFiles/cmTC_310d4.dir/src.c.o: in function `main':
+Building C object CMakeFiles/cmTC_09ca4.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_09ca4.dir/src.c.o   -c /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/compressed_depth_image_transport/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_09ca4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09ca4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_09ca4.dir/src.c.o  -o cmTC_09ca4 
+/usr/bin/ld: CMakeFiles/cmTC_09ca4.dir/src.c.o: in function `main':
 src.c:(.text+0x48): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x50): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x5c): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_310d4.dir/build.make:87: cmTC_310d4] Error 1
+make[1]: *** [CMakeFiles/cmTC_09ca4.dir/build.make:87: cmTC_09ca4] Error 1
 make[1]: Leaving directory '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/compressed_depth_image_transport/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_310d4/fast] Error 2
+make: *** [Makefile:121: cmTC_09ca4/fast] Error 2
 
 
 Source file was:
@@ -41,18 +41,18 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/compressed_depth_image_transport/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_1579d/fast && /usr/bin/make -f CMakeFiles/cmTC_1579d.dir/build.make CMakeFiles/cmTC_1579d.dir/build
+Run Build Command(s):/usr/bin/make cmTC_f829f/fast && /usr/bin/make -f CMakeFiles/cmTC_f829f.dir/build.make CMakeFiles/cmTC_f829f.dir/build
 make[1]: Entering directory '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/compressed_depth_image_transport/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1579d.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1579d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_1579d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1579d.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_1579d.dir/CheckFunctionExists.c.o  -o cmTC_1579d  -lpthreads 
+Building C object CMakeFiles/cmTC_f829f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f829f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f829f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f829f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_f829f.dir/CheckFunctionExists.c.o  -o cmTC_f829f  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_1579d.dir/build.make:87: cmTC_1579d] Error 1
+make[1]: *** [CMakeFiles/cmTC_f829f.dir/build.make:87: cmTC_f829f] Error 1
 make[1]: Leaving directory '/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/compressed_depth_image_transport/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_1579d/fast] Error 2
+make: *** [Makefile:121: cmTC_f829f/fast] Error 2
 
 
 

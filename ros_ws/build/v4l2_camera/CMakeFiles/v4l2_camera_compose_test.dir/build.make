@@ -87,7 +87,7 @@ v4l2_camera_compose_test: /opt/ros/foxy/lib/libcomposition_interfaces__rosidl_ge
 v4l2_camera_compose_test: /opt/ros/foxy/lib/libcomposition_interfaces__rosidl_typesupport_c.so
 v4l2_camera_compose_test: /opt/ros/foxy/lib/libcomposition_interfaces__rosidl_typesupport_introspection_cpp.so
 v4l2_camera_compose_test: /opt/ros/foxy/lib/libcomposition_interfaces__rosidl_typesupport_cpp.so
-v4l2_camera_compose_test: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/image_transport/lib/libimage_transport.so
+v4l2_camera_compose_test: /opt/ros/foxy/lib/libimage_transport.so
 v4l2_camera_compose_test: /opt/ros/foxy/lib/libmessage_filters.so
 v4l2_camera_compose_test: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so
 v4l2_camera_compose_test: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
@@ -116,7 +116,7 @@ v4l2_camera_compose_test: /opt/ros/foxy/lib/libclass_loader.so
 v4l2_camera_compose_test: /opt/ros/foxy/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0
 v4l2_camera_compose_test: /usr/lib/aarch64-linux-gnu/libtinyxml2.so
 v4l2_camera_compose_test: /opt/ros/foxy/lib/libament_index_cpp.so
-v4l2_camera_compose_test: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_calibration_parsers/lib/libcamera_calibration_parsers.so
+v4l2_camera_compose_test: /opt/ros/foxy/lib/libcamera_calibration_parsers.so
 v4l2_camera_compose_test: /opt/ros/foxy/opt/yaml_cpp_vendor/lib/libyaml-cpp.so.0.6.2
 v4l2_camera_compose_test: /opt/ros/foxy/lib/librclcpp.so
 v4l2_camera_compose_test: /opt/ros/foxy/lib/liblibstatistics_collector.so
@@ -177,7 +177,7 @@ v4l2_camera_compose_test: /opt/ros/foxy/lib/librosidl_typesupport_c.so
 v4l2_camera_compose_test: /opt/ros/foxy/lib/librcpputils.so
 v4l2_camera_compose_test: /opt/ros/foxy/lib/librosidl_runtime_c.so
 v4l2_camera_compose_test: /opt/ros/foxy/lib/librcutils.so
-v4l2_camera_compose_test: /home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/install/camera_info_manager/lib/libcamera_info_manager.so
+v4l2_camera_compose_test: /opt/ros/foxy/lib/libcamera_info_manager.so
 v4l2_camera_compose_test: CMakeFiles/v4l2_camera_compose_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adam/Sensor-Fusion-And-Autonomous-Racing-Cars/ros_ws/build/v4l2_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable v4l2_camera_compose_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/v4l2_camera_compose_test.dir/link.txt --verbose=$(VERBOSE)

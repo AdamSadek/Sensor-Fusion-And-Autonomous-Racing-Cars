@@ -1,0 +1,69 @@
+[0.000000] (-) TimerEvent: {}
+[0.001103] (-) JobUnselected: {'identifier': 'arc_keyboard_control'}
+[0.001425] (-) JobUnselected: {'identifier': 'arc_startup'}
+[0.002183] (-) JobUnselected: {'identifier': 'asio_cmake_module'}
+[0.002803] (-) JobUnselected: {'identifier': 'camera_calibration_parsers'}
+[0.003069] (-) JobUnselected: {'identifier': 'camera_info_manager'}
+[0.003182] (-) JobUnselected: {'identifier': 'camera_sensor'}
+[0.003260] (-) JobUnselected: {'identifier': 'compressed_depth_image_transport'}
+[0.003336] (-) JobUnselected: {'identifier': 'compressed_image_transport'}
+[0.003407] (-) JobUnselected: {'identifier': 'image_common'}
+[0.003480] (-) JobUnselected: {'identifier': 'image_transport'}
+[0.003551] (-) JobUnselected: {'identifier': 'image_transport_plugins'}
+[0.003622] (-) JobUnselected: {'identifier': 'io_context'}
+[0.003693] (-) JobUnselected: {'identifier': 'ldlidar_ros2'}
+[0.003763] (-) JobUnselected: {'identifier': 'motor_controller'}
+[0.003833] (-) JobUnselected: {'identifier': 'serial_driver'}
+[0.003902] (-) JobUnselected: {'identifier': 'servo_controller'}
+[0.003974] (-) JobUnselected: {'identifier': 'steering_test_pkg'}
+[0.004049] (-) JobUnselected: {'identifier': 'theora_image_transport'}
+[0.004127] (-) JobUnselected: {'identifier': 'udp_driver'}
+[0.004210] (-) JobUnselected: {'identifier': 'v4l2_camera'}
+[0.004293] (-) JobUnselected: {'identifier': 'vesc'}
+[0.004378] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.004459] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.004586] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.004683] (arc_autonomous_ctrl) JobQueued: {'identifier': 'arc_autonomous_ctrl', 'dependencies': OrderedDict()}
+[0.004816] (arc_autonomous_ctrl) JobStarted: {'identifier': 'arc_autonomous_ctrl'}
+[0.099692] (-) TimerEvent: {}
+[0.201893] (-) TimerEvent: {}
+[0.303780] (-) TimerEvent: {}
+[0.437532] (-) TimerEvent: {}
+[0.539285] (-) TimerEvent: {}
+[0.640758] (-) TimerEvent: {}
+[0.742544] (-) TimerEvent: {}
+[0.844348] (-) TimerEvent: {}
+[0.947318] (-) TimerEvent: {}
+[1.049667] (-) TimerEvent: {}
+[1.152867] (-) TimerEvent: {}
+[1.255342] (-) TimerEvent: {}
+[1.356744] (-) TimerEvent: {}
+[1.457653] (-) TimerEvent: {}
+[1.558477] (-) TimerEvent: {}
+[1.659281] (-) TimerEvent: {}
+[1.760060] (-) TimerEvent: {}
+[1.860832] (-) TimerEvent: {}
+[1.961496] (-) TimerEvent: {}
+[2.062197] (-) TimerEvent: {}
+[2.162965] (-) TimerEvent: {}
+[2.263938] (-) TimerEvent: {}
+[2.365525] (-) TimerEvent: {}
+[2.468493] (-) TimerEvent: {}
+[2.571001] (-) TimerEvent: {}
+[2.674109] (-) TimerEvent: {}
+[2.775322] (-) TimerEvent: {}
+[2.876149] (-) TimerEvent: {}
+[2.977332] (-) TimerEvent: {}
+[3.078143] (-) TimerEvent: {}
+[3.180823] (-) TimerEvent: {}
+[3.282227] (-) TimerEvent: {}
+[3.383282] (-) TimerEvent: {}
+[3.484057] (-) TimerEvent: {}
+[3.585305] (-) TimerEvent: {}
+[3.685990] (-) TimerEvent: {}
+[3.786720] (-) TimerEvent: {}
+[3.887873] (-) TimerEvent: {}
+[3.989001] (-) TimerEvent: {}
+[4.030211] (arc_autonomous_ctrl) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute\n    loop.run_until_complete(future)\n  File "/usr/lib/python3.8/asyncio/base_events.py", line 603, in run_until_complete\n    self.run_forever()\n  File "/usr/lib/python3.8/asyncio/base_events.py", line 570, in run_forever\n    self._run_once()\n  File "/usr/lib/python3.8/asyncio/base_events.py", line 1823, in _run_once\n    event_list = self._selector.select(timeout)\n  File "/usr/lib/python3.8/selectors.py", line 468, in select\n    fd_event_list = self._selector.poll(timeout, max_ev)\nKeyboardInterrupt\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build\n    return await extension.build(additional_hooks=additional_hooks)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 85, in build\n    available_commands = await self._get_available_commands(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 175, in _get_available_commands\n    output = await check_output(\n  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output\n    assert not rc, f\'Expected {args} to pass: {stderr_data}\'\nAssertionError: Expected [\'/usr/bin/python3\', \'setup.py\', \'--help-commands\'] to pass: Traceback (most recent call last):\n  File "setup.py", line 1, in <module>\n    from setuptools import setup\n  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 17, in <module>\n    import setuptools.version\n  File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>\n    import pkg_resources\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3254, in <module>\n    def _initialize_master_working_set():\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3237, in _call_aside\n    f(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set\n    tuple(\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3280, in <genexpr>\n    dist.activate(replace=False)\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2785, in activate\n    for pkg in self._get_metadata(\'namespace_packages.txt\'):\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2767, in _get_metadata\n    def _get_metadata(self, name):\nKeyboardInterrupt\n\n'}
+[4.033076] (arc_autonomous_ctrl) JobEnded: {'identifier': 'arc_autonomous_ctrl', 'rc': 'SIGINT'}
+[4.042840] (-) EventReactorShutdown: {}

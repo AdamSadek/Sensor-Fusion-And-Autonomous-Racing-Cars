@@ -48,9 +48,21 @@ For swift and smooth car management, the PID controller is essential.
 - _Derivative **(D)**_, It helps to minimize overshooting and provide a stable driving by moderating the steering response by taking the rate of error change into account.
 
 ## Enhancements in Image Processing
-_HSV Range Adjustment_, I dynamically modify the HSV color ranges to provide consistent track detection in a variety of lighting conditions.
+<div align="center">
+	<img src="https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/717bcd42-4850-45d2-87c2-079949f5853f" alt="Straight Track" width="500"/><img src="https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/ed239adf-a2d6-43ba-b033-068ef991949e" alt="Curved Track" width="500"/>
+</div>
 
-_Morphological Operations_, I use morphological operations to clean up the image, lowering noise and enhancing the visibility of the identified lines, after isolating the track using a color mask.
+
+The car's ability to navigate autonomously relies largely on the _`process_image`_ function. The region of interest _(ROI)_, which is the track ahead, is first divided into sections at the bottom of the frame. This subset, taken by the car's camera, is critical since it contains the lines that control the steering logic.
+
+After that, the ROI is changed to the HSV color space, which is preferable to the usual BGR color system used in photos for color recognition in an array of lighting conditions. The transformation is shown by two sample images above, one shows a straight path, while the other shows a curve in the track.
+
+Once the HSV conversion is finished, the track lines color, typically green, is separated using a color mask. To suit changing lighting settings, the precise range of green is dynamically modified based on the overall brightness of the image. For debugging reasons, the generated binary mask clearly separates the track lines, as shown in the 'mask.jpg'.
+
+The mask is tested with _morphological processes_ in order to eliminate small noise and refine the picture, ensuring that the edge detection process that follows will only target important features. 'edges.jpg' is the outcome of applying the Canny edge detection method on this cleaned mask. It shows the sharp transitions from the track line to the surrounding area.
+
+Ultimately, these edges are converted into line segments by using the _HoughLinesP_ algorithm. The linear patterns in the edge-detected image can be easily found by this mathematical approach, which can then convert the patterns into a set of line coordinates. The car's steering logic depends on these positions in order to understand the path's structure and modify the steering as needed. The photos that have been analyzed and lines that have been identified are stored for future validation and debugging.
+
 ## Architecture 
 ![ARC_ROS2_Architecture drawio (1) (1) drawio](https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/4f6400e6-4d23-487b-a9e1-0305d7c0a588)
 

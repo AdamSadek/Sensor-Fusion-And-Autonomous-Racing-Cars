@@ -83,6 +83,7 @@ The absence of LiDAR and a complete Navigation2 stack, which are usually seen in
 | Ubuntu 20.04  | Operating System for both the on-board (RPi) and off-board(laptop) machines  |
 | ROS2 Foxy  |  Acts as middleware for communication and development |
 | Gazebo (not implemented yet) |  Realistic environment for testing and simulating sensors used in the racing cars. Also tests racing strategies, decision-making, and algorithms |
+| Python3 | Programming language used in this project |
 | OpenCV | Open-source computer vision and machine learning software library |
 | NumPy  | Library for scientific computing with Python. Support for large, multi-dimensional arrays and matrices |
 | SciPy  | Built on top of NumPy, functionalities include optimization, regression, interpolation, etc. |

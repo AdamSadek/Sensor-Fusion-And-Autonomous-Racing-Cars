@@ -47,6 +47,12 @@ For swift and smooth car management, the PID controller is essential.
 - _Integral **(I)**_, This part corrects systematic errors and biases by slowly building up the mistake over time.
 - _Derivative **(D)**_, It helps to minimize overshooting and provide a stable driving by moderating the steering response by taking the rate of error change into account.
 
+### Computing Correction
+This happens based on the current error and delta time. Applying the PID formula for the correction value.
+<div align="center">
+	<img src="https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/bc752c33-8363-431a-8868-b5e84ab40ca2">
+</div>
+
 ## Enhancements in Image Processing
 <div align="center">
 	<img src="https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/717bcd42-4850-45d2-87c2-079949f5853f" alt="Straight Track" width="450"/><img src="https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/ed239adf-a2d6-43ba-b033-068ef991949e" alt="Curved Track" width="450"/>

@@ -8,7 +8,7 @@ import numpy as np
 from scipy.optimize import least_squares
 
 class PIDController:
-   def __init__(self, kp, ki, kd):
+    def __init__(self, kp, ki, kd):
         self.kp = kp  # proportional gain
         self.ki = ki  # integral gain
         self.kd = kd  # derivative gain

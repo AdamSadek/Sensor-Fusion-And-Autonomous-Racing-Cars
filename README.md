@@ -104,7 +104,7 @@ The absence of LiDAR and a complete Navigation2 stack, which are usually seen in
 | Python3 | Programming language used in this project |
 | OpenCV | Open-source computer vision and machine learning software library |
 | NumPy  | Library for scientific computing with Python. Support for large, multi-dimensional arrays and matrices |
-| SciPy  | Built on top of NumPy, functionalities include optimization, regression, interpolation, etc. |
+| SciPy (not using) | Built on top of NumPy, functionalities include optimization, regression, interpolation, etc. |
 | cv_bridge | ROS library that provides an interface between ROS and OpenCV |
 
 # Hardware

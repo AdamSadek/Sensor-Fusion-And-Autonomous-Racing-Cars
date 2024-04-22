@@ -22,12 +22,17 @@ Based on the perceived deviation from the track center, a PID controller determi
 # Detailed Overview of Technical Implementations
 ## Curvature Calculation
 Determining the curvature of the track properly is essential for efficient navigation. My methodology includes:
+<div align="center">
+	<h4>Curvature Calculation</h4>
+	<img src="https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/42a7c943-3b54-40eb-9d7f-09bc1d7fb9a1">
+</div>
+
 - _Line Detection,_ I start by looking for edges using the Canny edge detector, then I use the Hough Transform to look for lines that indicate the track's borders.
 - _Line Grouping,_ Based on their slopes, these identified lines are further divided into left and right bounds.
 - _Circle Fitting,_ To estimate the curvature of the track, I use a least-squares circle-fitting method to these groups. Here, minimizing the subsequent objective function is the goal:
-
 <div align="center">
-	<img src="https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/c4aeb8f3-b2c5-4aff-a8c5-0f3fe73aad47">
+    <h4>Calculating Radius with Euclidean Distance</h4>
+    <img src="https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/9067bf0d-4114-4c30-8e73-2ff80e5790d8">
 </div>
 
 Where _`(a,b)`_ represents the center of the circle and _`r`_ its radius. The curvature _`k`_ is then calculated as _`k = 1/r`_. The calculated curvature directly informs the steering adjustments needed.
@@ -37,6 +42,7 @@ I've set up a recovery mechanism in case the car loses sight of the lane lines i
 - _Loss of Line Detection_, The car will reverse and shift into neutral steering to reposition itself for improved line vision if it does not identify any lines for more than thirty seconds.
 - _Extended Detection Failure_, If lines are not detected for an extended period of time, the vehicle will continue to operate in reverse and in neutral, which will stop it from deviating until lines are detected once more.
 <div align="center">
+	<h4>Recovery Mechanism</h4>
 	<img src="https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/09c03251-6df0-4d02-bb0c-398dc59903de">
 </div>
 
@@ -50,12 +56,14 @@ For swift and smooth car management, the PID controller is essential.
 ### Computing Correction
 This happens based on the current error and delta time. Applying the PID formula for the correction value.
 <div align="center">
+	<h4>Correction Calculation</h4>
 	<img src="https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/bc752c33-8363-431a-8868-b5e84ab40ca2">
 </div>
 
 ## Enhancements in Image Processing
 <div align="center">
-	<img src="https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/717bcd42-4850-45d2-87c2-079949f5853f" alt="Straight Track" width="400"/><img src="https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/ed239adf-a2d6-43ba-b033-068ef991949e" alt="Curved Track" width="400"/>
+	<h4>Image Processing Pipeline</h4>
+	<img src="https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/e6f69f41-873c-4fc1-aeaa-af8c98430363" alt="Pipeline" width="1080"/>
 </div>
 
 The car's ability to navigate autonomously relies largely on the _`process_image`_ function. The region of interest _(ROI)_, which is the track ahead, is first divided into sections at the bottom of the frame. This subset, taken by the car's camera, is critical since it contains the lines that control the steering logic.
@@ -69,6 +77,10 @@ The mask is tested with _morphological processes_ in order to eliminate small no
 Ultimately, these edges are converted into line segments by using the _HoughLinesP_ algorithm. The linear patterns in the edge-detected image can be easily found by this mathematical approach, which can then convert the patterns into a set of line coordinates. The car's steering logic depends on these positions in order to understand the path's structure and modify the steering as needed. The photos that have been analyzed and lines that have been identified are stored for future validation and debugging.
 
 ## Architecture 
+<div align="center">
+	<h4>ARC-1.0 Design</h4>
+</div>
+
 ![ARC_ROS2_Architecture drawio (1) (1) drawio](https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/4f6400e6-4d23-487b-a9e1-0305d7c0a588)
 
 The ARC-1.0 system is an architecture designed specifically for autonomous rc cars that makes use of ROS2 Foxy for communication and control. There are two main levels in this design: the Hardware Layer, which works directly with the physical components to initiate actions, and the System Layer, which handles control inputs and coordinates the navigation logic of the car.

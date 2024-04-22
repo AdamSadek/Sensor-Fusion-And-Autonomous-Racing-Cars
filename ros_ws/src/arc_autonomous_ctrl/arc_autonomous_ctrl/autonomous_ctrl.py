@@ -5,7 +5,6 @@ from ackermann_msgs.msg import AckermannDriveStamped
 from cv_bridge import CvBridge
 import cv2
 import numpy as np
-from scipy.optimize import least_squares
 
 class PIDController:
     def __init__(self, kp, ki, kd):

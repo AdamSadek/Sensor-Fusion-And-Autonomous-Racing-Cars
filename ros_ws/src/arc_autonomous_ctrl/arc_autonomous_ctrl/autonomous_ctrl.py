@@ -106,7 +106,7 @@ class AutonomousRCCarNode(Node):
         # convert the roi to hsv color space, it's better for color detection
         hsv_roi = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
         cv2.imwrite('images/hsv_roi.jpg', hsv_roi) 
-        #  find the right hsv range for the green color, it varies with the brightness
+        # find the right hsv range for the green color, it varies with the brightness
         lower_green, upper_green = self.adjust_hsv_ranges(frame)
         # create a mask that only includes the green colors
         mask = cv2.inRange(hsv_roi, lower_green, upper_green)

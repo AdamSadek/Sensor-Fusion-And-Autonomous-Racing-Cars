@@ -99,7 +99,7 @@ class AutonomousRCCarNode(Node):
         height, width = frame.shape[:2]
         """
         length is 0.6288. Please note that it depends on you camera/frame
-        roi get the region of interest from the frame, just the bottom part where the track is
+        getting region of interest from the frame, just the bottom part where we're interested
         """
         roi = frame[int(height * self.frame_length):height]
         cv2.imwrite('images/roi_image.jpg', roi) # saving image locally to debug
@@ -197,7 +197,7 @@ class AutonomousRCCarNode(Node):
         self.get_logger().info(f'Curvature: {curvature}')
         speed_factor = 1.0
         if hasattr(self, 'curve_detected_time') and (current_time - self.curve_detected_time).nanoseconds / 1e9 < 10.0:
-            #  already in a curve, keep it slow
+            # already in a curve, keep it slow
             self.get_logger().info('still in that curve...')
             speed_factor = 0.75
         elif curvature >= 0.017:

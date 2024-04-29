@@ -9,48 +9,71 @@ from scipy.optimize import least_squares
 
 class PIDController:
     def __init__(self, kp, ki, kd):
-        self.kp = kp
-        self.ki = ki
-        self.kd = kd
-        self.previous_error = 0
-        self.integral = 0
+        self.kp = kp  # proportional gain
+        self.ki = ki  # integral gain
+        self.kd = kd  # derivative gain
+        self.previous_error = 0  # to store error from the previous step
+        self.integral = 0  # to accumulate the error over time
 
+    # calculates the control correction based on the current error and delta time
     def compute_correction(self, error, delta_time):
+        # keep adding up the error over time
         self.integral += error * delta_time
+        # the rate of error change, avoiding division by zero
         derivative = (error - self.previous_error) / delta_time if delta_time > 0 else 0
+        # apply PID formula for the correction value
         correction = self.kp * error + self.ki * self.integral + self.kd * derivative
+        # save current error for the next cycle
         self.previous_error = error
+        # send back the correction value
         return correction
 
 class AutonomousRCCarNode(Node):
     def __init__(self):
         super().__init__('autonomous_rc_car')
+        # subscribing to the camera image topic, to obtain the data
         self.subscription = self.create_subscription(Image, '/image_raw', self.image_callback, 10)
+        # setting up a publisher to send out steering and speed commands
         self.publisher = self.create_publisher(AckermannDriveStamped, '/ackermann_cmd', 10)
+        # using CvBridge to convert ROS image messages to OpenCV format
         self.bridge = CvBridge()
-        self.get_logger().info('Autonomous RC Car Node has started.')
-        self.servo_min = 0.35
-        self.servo_max = 0.90
-        self.servo_neutral = 0.665
-        self.speed = 0.75  # base speed
+
+        self.get_logger().info('ARC-1.0 Node has started.')
+
+        # initialize servo control parameters
+        self.servo_min = 0.35  # min steering angle
+        self.servo_max = 0.90  # max steering angle
+        self.servo_neutral = 0.665  # neutral steering position
+        self.speed = 0.75  # default speed
         self.frame_width = 640
-        self.frame_length = 0.6288
-        self.track_width = self.frame_width // 2
+        self.roi_frame_length = 0.6288  # height proportion of the ROI
+        self.track_width = self.frame_width // 2  # starting estimate for track width
+
+        # get the current time for time-related calculations
         self.previous_time = self.get_clock().now()
+        # last steering angle to keep track of changes
         self.last_steering_angle = self.servo_neutral
-        self.alpha = 0.2  # smoothing factor
+        # smoothing factor for steering adjustments
+        self.alpha = 0.2
+        # to apply smoothing to the steering angle
         self.filtered_steering_angle = self.servo_neutral
+        # initialize the PID controller with specific gains
         self.pid_controller = PIDController(kp=0.00095, ki=0.00001, kd=0.00095)
 
 
     def image_callback(self, data):
         try:
+            # convert the ROS image message to OpenCV format
             current_frame = self.bridge.imgmsg_to_cv2(data, 'bgr8')
+            # process the image to find the lines
             processed_image = self.process_image(current_frame)
-            steering_angle, speed = self.calculate_control(processed_image,current_frame)
+            # calculate the steering angle and speed based on the processed image
+            steering_angle, speed = self.calculate_control(processed_image, current_frame)
+            # create a new message for steering and speed control
             drive_msg = AckermannDriveStamped()
             drive_msg.drive.steering_angle = steering_angle
             drive_msg.drive.speed = speed
+            # publish the control command for the car to move
             self.publisher.publish(drive_msg)
         except Exception as e:
             self.get_logger().error('Failed to process image frame: %r' % (e,))
@@ -76,14 +99,14 @@ class AutonomousRCCarNode(Node):
         height, width = frame.shape[:2]
         """
         length is 0.6288. Please note that it depends on you camera/frame
-        roi get the region of interest from the frame, just the bottom part where the track is
+        getting region of interest from the frame, just the bottom part where we're interested
         """
         roi = frame[int(height * self.frame_length):height]
         cv2.imwrite('images/roi_image.jpg', roi) # saving image locally to debug
         # convert the roi to hsv color space, it's better for color detection
         hsv_roi = cv2.cvtColor(roi, cv2.COLOR_BGR2HSV)
         cv2.imwrite('images/hsv_roi.jpg', hsv_roi) 
-        #  find the right hsv range for the green color, it varies with the brightness
+        # find the right hsv range for the green color, it varies with the brightness
         lower_green, upper_green = self.adjust_hsv_ranges(frame)
         # create a mask that only includes the green colors
         mask = cv2.inRange(hsv_roi, lower_green, upper_green)
@@ -174,7 +197,7 @@ class AutonomousRCCarNode(Node):
         self.get_logger().info(f'Curvature: {curvature}')
         speed_factor = 1.0
         if hasattr(self, 'curve_detected_time') and (current_time - self.curve_detected_time).nanoseconds / 1e9 < 10.0:
-            #  already in a curve, keep it slow
+            # already in a curve, keep it slow
             self.get_logger().info('still in that curve...')
             speed_factor = 0.75
         elif curvature >= 0.017:

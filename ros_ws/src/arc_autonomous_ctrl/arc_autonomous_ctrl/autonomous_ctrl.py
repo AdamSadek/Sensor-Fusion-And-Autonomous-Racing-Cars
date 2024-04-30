@@ -271,7 +271,7 @@ class AutonomousRCCarNode(Node):
         if len(points) < 3:
             return None
         
-        # let's get those points into a numpy array to make math easier
+        # get those points into a numpy array to make math easier
         points = np.array(points)
         x = points[:, 0]  # all the x-coordinates
         y = points[:, 1]  # and all the y-coordinates

@@ -1,3 +1,11 @@
+"""
+File: autonomous_ctrl.py
+Author: Adam Sadek - w1738889
+
+Description: This script produces an autonomous driving system for a 1:10 model RC car using ROS2, OpenCV, and PID control. 
+It receives camera image data, analyzes it to determine track boundaries, and calculates steering angles and speeds. Using a PID controller, 
+the system adjusts for changing lighting conditions while maintaining the track centerline.
+"""
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Image

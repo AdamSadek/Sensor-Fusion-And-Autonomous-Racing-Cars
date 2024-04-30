@@ -13,7 +13,7 @@
   - [Enhancements in Image Processing](#enhancements-in-image-processing)
 - [Test Track](#track)
   - [Testing](#testing)
-  
+- [How to Run](#how-to-run)  
 # About
 In this project, PID control and image processing methods are used to create an autonomous racing vehicle control system. The system reads real-time video inputs to identify track boundaries and dynamically compute steering adjustments, all while utilizing the ROS 2 Foxy framework. Key responsibilities include using morphological processes to improve picture quality for line recognition and adjusting HSV color (green) ranges to different light levels for reliable track detection.
 

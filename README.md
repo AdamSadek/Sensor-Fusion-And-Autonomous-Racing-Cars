@@ -136,7 +136,7 @@ A realistic verification test was conducted to make sure the movement commands g
 ![carmovingnexttotape-ezgif com-crop](https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/ae3d1d1e-b1ae-41e7-8536-679b17d441df)
 
 ## How to Run
-After ensuring that all components are set up and all prerequisites have been installed, follow these steps to run the system:
+After ensuring that all components are set up and all prerequisites have been installed, follow these steps to run the system (All on seprate terminals):
 1. Launch the arc_startup file containing the startups for the camera and vesc_driver package.
 	- Command: _`ros2 launch arc_startup startup.launch.py`_
 2. Launch the vesc_ackermann package for command translation.

@@ -35,8 +35,8 @@ Determining the curvature of the track properly is essential for efficient navig
     <img src="https://github.com/AdamSadek/Sensor-Fusion-And-Autonomous-Racing-Cars/assets/33073174/9067bf0d-4114-4c30-8e73-2ff80e5790d8">
 </div>
 
-Where _`(a,b)`_ represents the center of the circle and _`r`_ its radius. The curvature _`k`_ is then calculated as _`k = 1/r`_. The calculated curvature directly informs the steering adjustments needed.
-There will be some false positives.
+ 
+_`n`_ represents the total number of waypoints. _`xi`_ and _`yi`_ are the coordinates of each waypoint. _`xavg`_ and _`yavg`_ are the average coordinates of all waypoints, pretty much the centroid. The formula calculates the average distance of each waypoint from this centroid, which will help in determining path curvature for steering adjustments in the car. There will be some false positives as spotted in testing.
 ## Recovery Mechanism
 I've set up a recovery mechanism in case the car loses sight of the lane lines in order to guarantee more consistency. One of the main reasons for the car leaving the track are the camera angle, field of view (FOV), and poor camera quality. (this will be fixed in a future release)
 - _Loss of Line Detection_, The car will reverse and shift into neutral steering to reposition itself for improved line vision if it does not identify any lines for more than thirty seconds.
